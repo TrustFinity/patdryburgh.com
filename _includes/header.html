@@ -1,8 +1,11 @@
-<header class="site-header">
+<header class="masthead">
 
   <div class="wrapper">
 
-    <a class="site-title" href="{{ site.baseurl }}/">{{ site.title }}</a>
+    <h1 class="site-title">
+      <a class="site-title--link" href="{{ site.baseurl }}/">
+      {{ site.title }}</a> is a design director at <a href="http://brewhouse.io">Brewhouse Software</a>.
+    </h1>
 
     <nav class="site-nav">
       <a href="#" class="menu-icon">
@@ -13,13 +16,15 @@
         </svg>
       </a>
 
-      <div class="trigger">
+      <ul class="site-nav--links list-unstyled">
         {% for page in site.pages %}
           {% if page.title %}
-          <a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
+            <li>
+              <a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
+            </li>
           {% endif %}
         {% endfor %}
-      </div>
+      </ul>
     </nav>
 
   </div>

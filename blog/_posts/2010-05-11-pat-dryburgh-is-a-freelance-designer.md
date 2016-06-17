@@ -27,7 +27,7 @@ What I do remember most, however, was that my dad was able to [design his own li
 
 I don't have kids, but I can appreciate the freedom my dad had. Even though it wasn't total freedom (he still had to work, had to pay rent on his shop, pay an employee or two, etc), my dad was able to do what he wanted to do. I admired that a lot.
 
-And so, about 6 months or so ago I started seriously considering going freelance. I was [debt free](http://patdryburgh.com/post/205848198/my-greatest-accomplishment-ever), free of responsibilities, had started developing some clients of my own, and could imagine pursuing my own business. I realized that I would never be fully content until I had at least had the chance to prove myself in the open market, to buckle down and tackle my own work. I needed the opportunity to challenge myself.
+And so, about 6 months or so ago I started seriously considering going freelance. I was [debt free](http://patdryburgh.com/blog/my-greatest-accomplishment-ever/), free of responsibilities, had started developing some clients of my own, and could imagine pursuing my own business. I realized that I would never be fully content until I had at least had the chance to prove myself in the open market, to buckle down and tackle my own work. I needed the opportunity to challenge myself.
 
 And so, on Thursday, I gave my two weeks notice. The response from friends on Twitter and [Dribbble](http://dribbble.com/shots/19414-I-Resign) was overwhelming to say the least. It was a bit nerve-wracking leading up to finally telling my boss, but once I did I knew I had made the right decision. The kind words and encouragement from friends all over the world only helped to bolster my resolve: I am going freelance.
 

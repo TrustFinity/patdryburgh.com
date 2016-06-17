@@ -15,6 +15,6 @@ A while ago I noticed a few people who were using their iPhones to take and edit
 
 The same could be done with the WordPress app, however the process isn't nearly as seamless. With the Tumblr app, I take a picture, save it, click to post a photo, enter a description, and Tumblr takes care of the rest. I have even seen it post photos quicker to Tumblr than the Facebook app takes to post a simple status update (I've had it take over a minute… brutal).
 
-That this whole Tumblr system is so seamless, so well thought out, really makes it hard to argue against using a hosted solution for blogging. Aside from some minor potential security issues (which really are likely dealt with more thoroughly than on a self-hosted blog), there really seem to be now downsides that I've experienced as a Tumblr user.
+That this whole Tumblr system is so seamless, so well thought out, really makes it hard to argue against using a hosted solution for blogging. Aside from some minor potential security issues (which really are likely dealt with more thoroughly than on a self-hosted blog), there really seem to be few downsides that I've experienced as a Tumblr user.
 
 Aside from full-fledged client websites, I can't see myself going back to a self-hosted solution anytime soon.

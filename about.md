@@ -2,10 +2,9 @@
 layout: page
 title: About
 permalink: /about/
+hide_title: true
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
+I play guitar and design digital products in Vancouver, British Columbia. I found my love for design back in the age of table-based designs and spacer GIFs. I've published [my writing][1] on the internet on-and-off for the past decade.
 
-You can find the source code for the Jekyll new theme at: [github.com/jglovier/jekyll-new](https://github.com/jglovier/jekyll-new)
-
-You can find the source code for Jekyll at [github.com/jekyll/jekyll](https://github.com/jekyll/jekyll)
+[1]: /blog

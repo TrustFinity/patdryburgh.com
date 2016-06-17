@@ -7,6 +7,10 @@ url: "http://patdryburgh.com" # the base hostname & protocol for your site
 twitter_username: patdryburgh
 github_username:  patdryburgh
 
+# Pagination Settings
+paginate: 12
+# paginate_path: "/blog/page:num/"
+
 # Build settings
 permalink: /:categories/:title/
 markdown: kramdown
@@ -20,6 +24,10 @@ kramdown:
   smart_quotes:   lsquo,rsquo,ldquo,rdquo
   enable_coderay: false
 
-# Pagination
-paginate: 5
-paginate_path: "/blog/page-:num/"
+# Flickr
+
+flickr:
+  api_key: 9672d2a4458dfb7049545b6a93a0818a
+
+gems: [jekyll-coffeescript]
+gems: [jekyll-paginate]

@@ -15,7 +15,7 @@ A few people have said that this whole situation is my fault, because I didn't u
 
 [Tim Dawson](http://feed.reconfine.com/post/23924540104/buying-adobe-photoshop-cs6-pat-dryburgh): 
 
->As many times as i’ve griped about Adobe in the past, i’m going to say they’ve done a stellar job on CS6 this time around - the experience detailed in this post is simply from the mis-understanding *[sic]* that the ‘creative cloud’ membership requires a serial number (as per previous releases) however simply logging in with your purchasing adobe id in the application will make it ‘just work’.
+>As many times as i’ve griped about Adobe in the past, i’m going to say they’ve done a stellar job on CS6 this time around - the experience detailed in this post is simply from the misunderstanding that the ‘creative cloud’ membership requires a serial number (as per previous releases) however simply logging in with your purchasing adobe id in the application will make it ‘just work’.
 
 I spoke to four Adobe customer service reps through this experience, and not one brought this to my attention.
 

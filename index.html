@@ -2,23 +2,37 @@
 layout: default
 ---
 
-<div class="home">
-
-  <h1 class="page-heading">Posts</h1>
-
-  <ul class="post-list">
-    {% for post in site.posts limit:8 %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-
-      </li>
+<main class="home">
+  
+  <ul class="post-list list-unstyled">
+    {% for post in site.posts limit:12 %}
+      {% unless post.draft %}
+        {% if post.photo %}
+          <li>
+            <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">
+              <div class="post-header">
+                <div class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</div>
+                <h2 class="post-title">
+                  {{ post.title }}
+                </h2>
+              </div>
+              <img src="{{ post.photo }}" alt="{{ post.title }}">
+            </a>
+          </li>
+        {% else %}
+          <li>
+            <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">
+              <div class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</div>
+              <h2 class="post-title">{{ post.title }}</h2>
+            </a>
+          </li>
+        {% endif %}
+      {% endunless %}
     {% endfor %}
   </ul>
 
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+  <div class="wrapper m-top">
+      <a href="/blog/" class="btn">Full Archive</a>
+  </div>
 
-</div>
+</main>

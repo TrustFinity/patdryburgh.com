@@ -1,0 +1,10 @@
+desc 'Publishing patdryburgh.com via rsync'
+task :deploy do
+  puts 'Publishing patdryburgh.com...'
+  user = 'patdryburgh.com'
+  server = 's44375.gridserver.com'
+  path = 'domains/patdryburgh.com/html'
+  sh "jekyll build"
+  sh "rsync -rtzh --delete _site/ #{user}@#{server}:#{path}"
+  puts 'The site has been updated!'
+end

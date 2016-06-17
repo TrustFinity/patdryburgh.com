@@ -19,7 +19,7 @@ Frequent trips to San Francisco has helped. Working on weekends from a coffee sh
 
 But, no coffee shop could replace the incredible feeling of community I've felt over the last few days.
 
-This past week, Macworld | iWorld was in town, and with it brought countless Mac and iOS geeks from all over the country. Included in the flood were some of the very people I've felt such strong community with through our various social connections online. People like [Shawn Blanc][1], who I have known for almost four years now, and [Ben Brooks][2], who I've known about a year and have worked with on various projects over that time.
+This past week, Macworld &#124; iWorld was in town, and with it brought countless Mac and iOS geeks from all over the country. Included in the flood were some of the very people I've felt such strong community with through our various social connections online. People like [Shawn Blanc][1], who I have known for almost four years now, and [Ben Brooks][2], who I've known about a year and have worked with on various projects over that time.
 
 I got to meet the intelligent and inked [Brett Kelly][3], hear the southern drawl of [Stephen Hackett][4], enjoy a salmon sandwich by the pier with [Thomas Brand][5], share a pint or two with [Matthew Panzarino][6] (still have your room key, bro!) and [Matt Alexander][7] (thanks for the biggest margarita  of my life!), and celebrate the beautiful socialism of Canada with [Mike Vardy](http://vardy.me/).
 

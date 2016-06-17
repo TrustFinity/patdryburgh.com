@@ -9,7 +9,7 @@ old_entry_id: 39
 
 ---
 
-![Grooveshark Icon](http://misc.patdryburgh.com/images/3228937082_85095e6319_o.jpg)
+![Grooveshark Icon](/images/uploads/3228937082_85095e6319_o.jpg)
 
 Over the past few weeks I have become increasingly interested in user interface design, and even more specifically icon design. I have never had the opportunity to create an icon, and wanted to give it a shot.
 
@@ -19,4 +19,4 @@ Using the amazing Grooveshark logo developed by the incredible [David Pache](htt
 
 Special thanks to [John Ashenden](http://johnwithanh.com/) for his advice and encouragement.
 
-To use the icon for your own Grooveshark app, [download the .zip file](http://misc.patdryburgh.com/downloads/gs-icon.zip) and follow the included instructions.
+To use the icon for your own Grooveshark app, [download the .zip file](/downloads/gs-icon.zip) and follow the included instructions.

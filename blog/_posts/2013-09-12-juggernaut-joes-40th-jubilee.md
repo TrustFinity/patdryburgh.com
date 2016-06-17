@@ -5,7 +5,7 @@ title: Juggernaut Joe&#8217;s 40th Jubilee
 url_title: juggernaut-joes-40th-jubilee
 date: 2013-09-12
 old_entry_id: 598
-
+cover: /images/uploads/juggernautjoes.jpg
 
 ---
 
