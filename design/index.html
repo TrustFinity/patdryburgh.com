@@ -6,18 +6,12 @@ subtitle: I help companies solve big problems with creative thinking and [design
 
 <main class="work">
 
-  <div class="wrapper">
+  <ul class="post-list list-unstyled">
     {% for post in site.categories.design %}
       {% unless post.draft %}
-        {% if forloop.first == true %}
-          For instance, I {% include case_study.html %};
-        {% elsif forloop.last == false %}
-          {% include case_study.html %};
-        {% else %}
-          and {% include case_study.html %}.
-        {% endif %}
+        {% include post_link.html %}
       {% endunless %}
     {% endfor %}
-  </div>
+  </ul>
 
 </main>

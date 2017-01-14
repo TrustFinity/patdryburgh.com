@@ -69,35 +69,6 @@
 //   }
 // }
 
-.site-title {
-  max-width: 25em;
-  a {
-    font-weight: 700;
-  }
-  .current {
-    text-decoration: underline
-  }
-}
-
-.menu-icon {
-  display: none;
-  float: right;
-  width: 36px;
-  height: 26px;
-  line-height: 0;
-  padding-top: 10px;
-  text-align: center;
-
-  > svg {
-    width: 18px;
-    height: 15px;
-
-    path {
-      fill: $grey-color-dark;
-    }
-  }
-}
-
 // Footer
 
 .site-footer {
@@ -130,7 +101,8 @@
     margin-right: .5em;
   }
   .post .post-content .wrapper blockquote p:first-child::first-letter,
-  .post .post-content .wrapper li p:first-child::first-letter {
+  .post .post-content .wrapper li p:first-child::first-letter,
+  .post .post-content .wrapper > .no-il p:first-child::first-letter {
     -webkit-initial-letter: normal;
     initial-letter: normal;
     color: inherit;
@@ -160,9 +132,9 @@
   transform: translateZ(0);
   -moz-osx-font-smoothing: grayscale;
   position: relative;
-  -webkit-transition: all 0.2s ease-in-out;
-  -moz-transition: all 0.2s ease-in-out;
-  transition: all 0.2s ease-in-out;
+  -webkit-transition: color 0.2s ease-in-out;
+  -moz-transition: color 0.2s ease-in-out;
+  transition: color 0.2s ease-in-out;
   &:before {
     content: "";
     position: absolute;

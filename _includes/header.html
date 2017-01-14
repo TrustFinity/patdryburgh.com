@@ -1,56 +1,28 @@
 <header class="wrapper masthead{% if page.categories contains 'design' %} masthead-project{% endif %}">
 
-  <div class="site-title">
+  <h1 class="site-title">
+    <a href="/">Pat Dryburgh</a>
+  </h1>
 
-    <style scoped>
-      @media screen and (min-width: 48em) {
-        {% for post in site.categories.design %}
-          {% unless post.draft %}
-            #{{ post.url_title }} { background-image: url('{{ post.photo | replace: 'hero', 'underlay' }}'); }
-          {% endunless %}
-        {% endfor %}
-      }
-    </style>
+  <nav class="site-menu">
+    <ul>
+      <li>
+        <a href="/blog">Writing</a>
+      </li>
+      <li>
+        <a href="/design">Design</a>
+      </li>
+      <li>
+        <a href="/about">About</a>
+      </li>
+      <li>
+        <a href="/contact">Contact</a>
+      </li>
+    </ul>
+  </nav>
 
-    <p>
-      Hi, I'm <a class="site-title--link" href="{{ site.baseurl }}/">Pat</a>{% if page.home == true %}
-        and I lead teams that help companies design and build products people love in Vancouver, BC. 
-        Most recently, I designed and developed a new online store for <a href="http://rye51.com">Rye 51</a>, purveyor of refined clothing, footwear, and accessories for the modern gentleman.
-    </p>
-    <div id="me" class="underlay" style="background-image: url('/images/site/pd-underlay.jpg')"></div>
-    <p>
-      Before that, I served as design director at <a href="http://brewhouse.io" rel="external">Brewhouse</a> &mdash; a product design and development studio based in Vancouver, BC &mdash; where I led product design and facilitated <a href="/design-sprints">design sprints</a>;
-      {% for post in site.categories.design %}
-        {% unless post.draft %}
-          {% if forloop.last == false %}
-            {% include case_study.html %};
-          {% else %}
-            and {% include case_study.html %}.
-          {% endif %}
-        {% endunless %}
-      {% endfor %}
-
-      {% elsif page.categories contains 'design' %}
-
-        and I {{ page.it }} <strong>{{ page.title }}</strong>.
-
-      {% elsif page.categories contains 'photo' %}
-        
-        and I took this photo.
-
-      {% elsif page.subtitle %}
-      
-        and {{ page.subtitle | markdownify | remove: '<p>' | remove: '</p>' }}
-
-      {% else %}.{% endif %}
-
-    </p>
-
-    {% if page.home == true %}
-      <p>I also <a href="/blog">write</a>.</p>
-      <p>Learn more <a href="/about/">about me</a> or <a href="/contact/">hire me</a> to help you and your team solve big problems.</p>
-    {% endif %}
-
-  </div>
+  {% if page.categories contains 'design' %}
+    <p>In {{ page.date | date: "%Y" }}, I {{ page.it }} <strong>{{ page.title }}</strong>.</p>
+  {% endif %}
 
 </header>
