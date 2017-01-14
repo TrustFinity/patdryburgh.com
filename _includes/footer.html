@@ -2,20 +2,11 @@
 
   <div class="wrapper">
 
-    <form method="get" id="search" action="http://duckduckgo.com/">
-      <input type="hidden" name="sites" value="patdryburgh.com"/>
-      <input type="hidden" name="k8" value="#444444"/>
-      <input type="hidden" name="k9" value="#D51920"/>
-      <input type="hidden" name="kt" value="h"/>
-      <input type="text" name="q" maxlength="255" placeholder="Search&hellip;"/>
-      <input type="submit" value="DuckDuckGo Search" style="visibility: hidden;" />
-    </form>
-
-    <p>
-      If you like what you're reading, I highly encourage you to <a href="{{ "/feed/index.xml" | prepend: site.baseurl }}">Subscribe</a>. 
+    <p class="small">
+      If you like what you're reading, I highly encourage you to <a href="{{ "/feed/index.xml" | prepend: site.baseurl }}">subscribe</a>. 
       {% if site.twitter_username %}
-        <br>You should also follow me on <a href="http://twitter.com/patdryburgh">Twitter</a>.
-      {% endif %} Of course, feel free to <a href="/about/">get to know me</a> a bit better first.
+        <br>You should also <a href="http://twitter.com/patdryburgh">follow me on Twitter</a>.
+      {% endif %} Or feel free to <a href="/about/">get to know me</a> a bit better first.
     </p>
 
   </div>

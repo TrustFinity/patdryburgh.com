@@ -15,7 +15,7 @@ One of the arguments that has sparked much debate amongst those in the tech worl
 
 There is one issue, though, that I personally have not seen mentioned in other posts. And if Apple does not have a solution for it, it could cause a lot of heartache and frustration once people really start using their iPads.
 
-##Trash Talk
+## Trash Talk
 
 In 1982, when Apple created the Apple Lisa user interface, they implemented what they called the [Trash can](http://en.wikipedia.org/wiki/Trash_(computing)). The trash can is essentially purgatory for files a user no longer wants. Once sent to the trash, the user has the option of restoring the file back to its original place, or annihilating it completely from the computer's hard drive. Unless there is a backup of a user's system from before the file was sent to the trash, there is essentially no way of restoring that file once the trash has been emptied.<sup><a href="#76982" id="fn1" title="see footnote 1">1</a></sup>
 
@@ -23,7 +23,7 @@ This metaphor was carried over to [Windows 95](http://en.wikipedia.org/wiki/Wind
 
 There is safety in the Trash Can metaphor. I know that in order to really delete a file from my system, either on Windows or on Mac OS X, I really have to work at it. Yes, there are times when files are accidentally deleted, but for the most part if I realize my mistake before I empty my Trash, I know the file is safe.
 
-##No More Safety Net
+## No More Safety Net
 
 This all changes with the iPad. The iPad (and, perhaps, the iPhone before it) completely changes [how we think about computing](http://stevenf.tumblr.com/post/359224392/i-need-to-talk-to-you-about-computers-ive-been).
 

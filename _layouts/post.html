@@ -4,27 +4,55 @@ layout: default
 
 <article class="post">
 
-  <header class="post-header">
-    <div class="wrapper">
-      <span class="post-meta">
-        {{ page.date | date: "%b %-d, %Y" }}
-        {% if page.meta %} &middot; {{ page.meta }}{% endif %}
-      </span>
-      <h1 class="post-title">{{ page.title }}</h1>
+  {% if page.categories contains 'blog' %}
+    <header class="post-header">
+      <div class="wrapper">
+        <a class="post-meta" href="{{ post.url | prepend: site.baseurl }}">
+          {% if page.date %}
+            {{ page.date | date: "%b %-d, %Y" }}
+          {% endif %}
+          {% if page.date and page.meta %}
+            &middot; 
+          {% endif %}
+          {% if page.meta %}
+            {{ page.meta }}
+          {% endif %}
+        </a>
+        <h1 class="post-title">{{ page.title }}</h1>
+      </div>
+    </header>
+  {% endif %}
+
+  {% if page.photo %}
+    <div class="photo">
+      <img src="{{ page.photo }}" alt="{{ page.title }}">
     </div>
-  </header>
+  {% endif %}
   
   <main class="post-content">
-  
-    {% if page.photo %}
-      <div class="photo">
-        <img src="{{ page.photo }}" alt="{{ page.title }}">
-      </div>
-    {% endif %}
 	
     <div class="wrapper">
       {{ content | markdownify }}
     </div>
+
+    <aside class="wrapper m-top">
+      <div class="call-to-action">
+        {% if page.categories contains 'design' %}
+          <h2>
+            Thanks for reading about my work with {{ page.title }}.
+          </h2> 
+          <p>
+            If you like what you've read, you should <a href="/contact">contact me</a> or view more of <a href="/design/">my work</a>.
+          </p>
+        {% elsif page.categories contains 'photography' %}
+          <a href="/photography" class="btn">Photos &rarr;</a>
+        {% else %}
+          <h2>
+            Like what you've read? <a href="/blog">Keep reading</a> or <a href="/feed/index.xml">subscribe now</a>.
+          </h2>
+        {% endif %}
+      </div>
+    </aside>
 
   </main>
 

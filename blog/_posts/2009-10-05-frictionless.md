@@ -28,7 +28,7 @@ As my blogging adventures continued, I began to follow blogs such as [Shawn Blan
 
 I first gave Tumblr a shot a few months ago, however with my WordPress blog still running, I was struggling to determine which posts to send where. As my WordPress blog was gaining a stronger readership, I made the decision to focus solely on it. However, my method of posting different types of posts quickly became as convoluted as my old Xanga blog, and my frustration began to increase.
 
-###Frictionless
+### Frictionless
 
 What I absolutely love is that, for the most part, Tumblr is frictionless. My Tumblr blog is hosted by Tumblr. Tumblr has assigned several different post types, each of which can be displayed differently using simple CSS and Tumblr's very simple theming engine. Posting is a click or keyboard shortcut away using either Tumblr's keyboard shortcut or [MarsEdit's](http://www.red-sweater.com/marsedit/) recent inclusion of Tumblr support.
 
@@ -36,7 +36,7 @@ Not only is Tumblr frictionless as far as posting goes, but the ability to join 
 
 The only feature I wish Tumblr featured was an import option, because with this new desire to pursue this new direction comes a hard decision.
 
-###Letting Go
+### Letting Go
 
 Over the next few weeks, I'll be making the shift from running my main blog with a self-hosted installation of WordPress to Tumblr. This isn't an easy move to make, as I am proud of the traffic my old blog has been getting. However, I am not one to hang on to the past if it infringes on my future, and so it is time to make the tough decision to let go.
 

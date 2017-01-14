@@ -1,8 +1,8 @@
 ---
 layout: post
 author: patdryburgh
-title: Touch Decisions
-url_title: touch-decisions
+title: Tough Decisions
+url_title: tough-decisions
 date: 2009-02-05
 old_entry_id: 266
 

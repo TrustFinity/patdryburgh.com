@@ -1,31 +1,55 @@
-<header class="masthead">
+<header class="wrapper masthead{% if page.categories contains 'design' %} masthead-project{% endif %}">
 
-  <div class="wrapper">
+  <div class="site-title">
 
-    <h1 class="site-title">
-      <a class="site-title--link" href="{{ site.baseurl }}/">
-      {{ site.title }}</a> is a design director at <a href="http://brewhouse.io">Brewhouse Software</a>.
-    </h1>
-
-    <nav class="site-nav">
-      <a href="#" class="menu-icon">
-        <svg viewBox="0 0 18 15">
-          <path fill="#424242" d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.031C17.335,0,18,0.665,18,1.484L18,1.484z"/>
-          <path fill="#424242" d="M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0c0-0.82,0.665-1.484,1.484-1.484 h15.031C17.335,6.031,18,6.696,18,7.516L18,7.516z"/>
-          <path fill="#424242" d="M18,13.516C18,14.335,17.335,15,16.516,15H1.484C0.665,15,0,14.335,0,13.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.031C17.335,12.031,18,12.696,18,13.516L18,13.516z"/>
-        </svg>
-      </a>
-
-      <ul class="site-nav--links list-unstyled">
-        {% for page in site.pages %}
-          {% if page.title %}
-            <li>
-              <a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
-            </li>
-          {% endif %}
+    <style scoped>
+      @media screen and (min-width: 48em) {
+        {% for post in site.categories.design %}
+          {% unless post.draft %}
+            #{{ post.url_title }} { background-image: url('{{ post.photo | replace: 'hero', 'underlay' }}'); }
+          {% endunless %}
         {% endfor %}
-      </ul>
-    </nav>
+      }
+    </style>
+
+    <p>
+      Hi, I'm <a class="site-title--link" href="{{ site.baseurl }}/">Pat</a>{% if page.home == true %}
+        and I lead teams that help companies design and build products people love in Vancouver, BC. 
+        Most recently, I designed and developed a new online store for <a href="http://rye51.com">Rye 51</a>, purveyor of refined clothing, footwear, and accessories for the modern gentleman.
+    </p>
+    <div id="me" class="underlay" style="background-image: url('/images/site/pd-underlay.jpg')"></div>
+    <p>
+      Before that, I served as design director at <a href="http://brewhouse.io" rel="external">Brewhouse</a> &mdash; a product design and development studio based in Vancouver, BC &mdash; where I led product design and facilitated <a href="/design-sprints">design sprints</a>;
+      {% for post in site.categories.design %}
+        {% unless post.draft %}
+          {% if forloop.last == false %}
+            {% include case_study.html %};
+          {% else %}
+            and {% include case_study.html %}.
+          {% endif %}
+        {% endunless %}
+      {% endfor %}
+
+      {% elsif page.categories contains 'design' %}
+
+        and I {{ page.it }} <strong>{{ page.title }}</strong>.
+
+      {% elsif page.categories contains 'photo' %}
+        
+        and I took this photo.
+
+      {% elsif page.subtitle %}
+      
+        and {{ page.subtitle | markdownify | remove: '<p>' | remove: '</p>' }}
+
+      {% else %}.{% endif %}
+
+    </p>
+
+    {% if page.home == true %}
+      <p>I also <a href="/blog">write</a>.</p>
+      <p>Learn more <a href="/about/">about me</a> or <a href="/contact/">hire me</a> to help you and your team solve big problems.</p>
+    {% endif %}
 
   </div>
 

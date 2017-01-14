@@ -1,0 +1,16 @@
+@media print {
+  .btn-print,
+  .site-footer {
+    display: none;
+  }
+  #agreement {
+    page-break-before: always;
+  }
+  table {
+    page-break-inside: avoid;
+  }
+  thead {
+    page-break-before: always;
+    page-break-inside: avoid;
+  }
+}

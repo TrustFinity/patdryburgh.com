@@ -19,7 +19,7 @@ There were a few places I had in mind where just the right amount of personalize
 
 In this article I'm going to share how I used thoughtful copy to communicate personality to those interacting with my site.
 
-##A Personal Biography
+## A Personal Biography
 
 I was nervous about the [biography](http://patdryburgh.com/about/) I wrote for myself when I first launched the site. Nervous because it was long and it was personal. A mix of professional and personal information is included in the About section, including info about my family, my reasons for getting into design, information about my music career, etc.
 
@@ -27,7 +27,7 @@ I made the decision to include personal information because I want potential cli
 
 The same goes for those interested in my blog. When I read a blog that interests me I want to find out who the author behind the writing is. Who they are influences what they write, and I want to be able to make that connection.
 
-##Urging You to Comment
+## Urging You to Comment
 
 When I [made the decision to add comments](http://patdryburgh.com/blog/redesign-highlights/) to my site, I knew it could be an opportunity to add some personalization to a common user interaction.
 
@@ -63,7 +63,7 @@ Next I determine how many comments there are and based on that information, I se
 
 The key to this is the invitation to continue the conversation. Using directives like "get the ball rolling," "leave another," and "why not add one more?" engages users in the conversation. Starting a conversation is always difficult. Being prompted into a conversation is much easier. These directives are my way of asking the user "so, what do you think?"
 
-##Thanking You For Connecting
+## Thanking You For Connecting
 
 One of my proudest examples of adding a personal touch to user interaction is on the Contact page. Everyone has seen a page like this before: a big, scary form that may or may not end up in the recipient's inbox. I've had too many conversations with people who feel uncomfortable when the only feedback they get from submitting a contact form is a "Message Sent" warning to not take this interaction seriously.
 
@@ -77,15 +77,15 @@ There are several reasons why I've divided the nature of a user's inquiry into o
 
 Here are the three feedback statements I give, based on the nature of the user's inquiry: 
 
-###Request for a Quote
+### Request for a Quote
 
 >Thank you very much for your request for a quote, <strong>&#123;name}</strong>! I will be taking a look at the information you provided regarding the <strong>&#123;project_type}</strong> project you have requested a quote for, and I will be in touch in the next 48 hours. Have a great day!
 
-###Request for Information
+### Request for Information
 
 >Thank you very much for your request, <strong>&#123;name}</strong>! I will try to get back to you with the requested information in the next 48 hours. Have a great day!
 
-###Say Hi!
+### Say Hi!
 
 >Thank you very much for getting in touch, <strong>&#123;name}</strong>! It is very kind of you to say hello. I will do my best to be in touch within the next 48 hours. Have a great day!
 

@@ -8,21 +8,28 @@ layout: default
     <header class="post-header">
       <div class="wrapper">
         <span class="post-meta">
-          {{ page.date | date: "%b %-d, %Y" }}
-          {% if page.meta %} &middot; {{ page.meta }}{% endif %}
+          {% if page.date %}
+            {{ page.date | date: "%b %-d, %Y" }}
+          {% endif %}
+          {% if page.date and page.meta %}
+            &middot; 
+          {% endif %}
+          {% if page.meta %}
+            {{ page.meta }}
+          {% endif %}
         </span>
         <h1 class="post-title">{{ page.title }}</h1>
       </div>
     </header>
   {% endunless %}
+
+  {% if page.photo %}
+    <div class="photo">
+      <img src="{{ page.photo }}" alt="{{ page.title }}">
+    </div>
+  {% endif %}
   
   <main class="post-content">
-  
-    {% if page.photo %}
-      <div class="photo">
-        <img src="{{ page.photo }}" alt="{{ page.title }}">
-      </div>
-    {% endif %}
   
     <div class="wrapper">
       {{ content | markdownify }}

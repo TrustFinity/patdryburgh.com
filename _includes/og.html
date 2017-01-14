@@ -1,0 +1,23 @@
+<meta property="og:title" content="{% if page.title %}{{ page.title }} &mdash; {% endif %}{{ site.title }}" />
+<meta property="og:url" content="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}" />
+<meta property="og:description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}" />
+
+{% if page.home %}
+  <meta property="og:type" content="website" />
+{% elsif page.categories contains 'photo' %}
+  <meta property="og:type" content="article" />
+{% elsif page.categories contains 'design' %}
+  <meta property="og:type" content="article" />
+  <meta property="article:author" content="https://www.facebook.com/patrick.dryburgh" />
+  <meta property="og:site_name" content="{{ site.title }}" />
+{% elsif page.categories contains 'blog' %}
+  <meta property="og:type" content="article" />
+  <meta property="article:author" content="https://www.facebook.com/patrick.dryburgh" />
+  <meta property="og:site_name" content="{{ site.title }}" />
+{% endif %}
+
+{% if page.photo %}
+  <meta property="og:image" content="{{ page.photo | prepend: site.baseurl | prepend: site.url }}" />
+{% else %}
+  <meta property="og:image" content="{{ site.url }}/images/site/patdryburgh.jpg" />
+{% endif %}

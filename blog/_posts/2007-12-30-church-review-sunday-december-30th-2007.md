@@ -15,7 +15,7 @@ Today I attended a church in Barrie, ON. I attended the <strong>12:00pm</strong>
 
 In this review, I want to tackle three main issues: first impressions, the worship set, the hosting/community involvement, and the communicating.
 
-##First Impressions
+## First Impressions
 
 I came into this experience with a little bit of knowledge about the church. I had heard they were a church of approximately 1200 people (one of the largest churches in our area) and that they were contemporary in their style of worship. I drove into the church parking lot, not having any idea where I should park or where I should enter the building. Once I found my way in, I had to squeeze my way through the “lobby” (read: incredibly tight hallway with people stopped gathering coats and engaging in conversation). I walked past a coffee table setup (I already had my tea misto from <a href="http://itsredagain.com/" title="Starbucks">Starbucks</a>) that was not accessible due to the clutter in the hallway. I also saw a table set up with resources, but no one there to explain what they were for or how I could access them.
 
@@ -25,7 +25,7 @@ I found my way to a seat in the back, close to the aisle (even though I would ne
 
 **Overall first impressions:** I really wasn’t sure what to expect when I arrived, and really didn’t find any comfort in the lack of welcoming. I still don’t know the name of who led worship, who was hosting the service, or who the communicator was.
 
-##Worship Set
+## Worship Set
 
 I was pretty excited about hearing what this church had to offer in terms of their music environment. I attended <a href="http://www.harvestbarrie.ca/" title="Harvest Barrie">Harvest Bible Chapel Barrie</a> back in July, and had really enjoyed the music that the church of about 600 could produce. It looked like it was going to be a full team, with drums, bass, keys, electric guitar, acoustic, and 3 backup vocalists.
 
@@ -39,12 +39,12 @@ On a positive note, the team did play well together. Only once did there seem to
 
 <em>Side Note:</em> During the last song, someone from the crowd (who I knew to be one of the pastors, only because my Connexus friends knew him) got up and started talking about God delivering us and helping us through hard times. He made a very big blanket statement that all of us were dealing with something we couldn’t get through. <em>Even if this is the case</em>, I have a big problem with people that do not know me telling me how things are going in my life.
 
-##The Hosting/Community Involvement
+## The Hosting/Community Involvement
 
 This is the one aspect of every church service that I am constantly critiquing. 9 times out of 10 this part of the service is so insider focused, it leaves those who are not part of the community out in the cold (this even includes our own announcements at Connexus, which we are working to make more engaging and outsider friendly). This morning there were very few announcements. I heard something about a skateboard ministry (Jesus loves skateboards).
 I also experienced something that my parents described to me once as the <strong>most uncomfortable experience ever</strong> at a church (though, to a less degree than they went through). During the announcements the host had those who were attending for the first time <strong>raise their hand</strong>. Once they did, they were given a book about 2 inches thick. I can tell you if I were an outsider, my first though would be “great… I went to church and all I got was homework.”
 
-##The Communicating
+## The Communicating
 
 The very first thing the communicator did this morning was lead the congregation through a chorus. The chorus had something to do with God being more than enough. Aside from the very southern accent applied to the name “El-Shaddai,” the song was even more outdated than those in the worship set. If I was uncomfortable during the worship set, I was <strong>really uncomfortable</strong> while the communicator played through this song.
 
@@ -55,11 +55,11 @@ So, somehow the message went from being about reading our bibles, to having loav
 
 Overall Communicating: From some of the stories the communicator shared, it seems that he was a missionary of some sort. I am not saying this is true of all missionaries, but for many missionaries, being a missionary does not mean they have the gift of teaching/communicating. Again, I am not a professional, or an expert, but I did not sense this gift with the communicator this morning. He was interesting to listen to, and had a ton of energy that I am sure if poured into an avenue that best suits his gifting, could really make a huge impact on our world.
 
-##Overall
+## Overall
 
 As my disclaimer disclaimed, this is not a critique of this particular church as a whole. There are so many other aspects to church life that my 1 h 10 min in a Sunday morning service does not reveal. However, for most people, Sunday mornings are the first steps into church life. My experience this morning overall was not engaging or irresistible.
 
-##My Takeaway
+## My Takeaway
 
 There are so many things I learned from my experience at this church. First is the importance of <strong>first impressions</strong>. A big reason why I wasn’t engaged during the worship or the message was because I did not feel like they <strong>wanted me there</strong>. I did not feel as though it made any difference to them if I was there or not. It made me wonder if those who walk through the doors of Connexus for the first time know that everything we do is for them, and that we would <strong>not exist</strong> if it weren’t for them.
 

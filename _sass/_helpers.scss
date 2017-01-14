@@ -1,0 +1,69 @@
+.text-center {
+  text-align: center !important
+}
+.text-left {
+  text-align: left !important
+}
+.text-right {
+  text-align: right !important
+}
+.hide {
+  display: none !important
+}
+
+@media screen and (min-width: 48em) {
+  .text-sm-center {
+    text-align: center !important
+  }
+  .text-sm-left {
+    text-align: left !important
+  }
+  .text-sm-right {
+    text-align: right !important
+  }
+  .hide-sm {
+    display: none !important
+  }
+  .show-sm {
+    display: block !important
+  }
+  .show-sm-inline-block {
+    display: inline-block !important
+  }
+}
+
+@media screen and (min-width: 64em) {
+  .text-md-center {
+    text-align: center !important
+  }
+  .text-md-left {
+    text-align: left !important
+  }
+  .text-md-right {
+    text-align: right !important
+  }
+  .hide-md {
+    display: none !important
+  }
+  .show-md {
+    display: block !important
+  }
+}
+
+@media screen and (min-width: 75em) {
+  .text-lg-center {
+    text-align: center !important
+  }
+  .text-lg-left {
+    text-align: left !important
+  }
+  .text-lg-right {
+    text-align: right !important
+  }
+  .hide-lg {
+    display: none !important
+  }
+  .show-lg {
+    display: inline-block !important
+  }
+}

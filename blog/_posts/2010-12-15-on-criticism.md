@@ -19,7 +19,7 @@ Since leaving the studio this past May to go out on my own, I have had to find a
 
 The key element in any of these relationships is trust. I trust each of these people to be honest with me. I respect who they are as professionals and as people.
 
-##Criticism in Product Development
+## Criticism in Product Development
 
 Criticism is an important element of design. In order to effectively define a strategy, solve a problem, or build a product, one has to be able to criticize decisions made at various stages of the project. As John Siracusa wrote a year ago, the real talent that Steve Jobs has is that [of a critic](http://arstechnica.com/staff/fatbits/2009/05/hypercritical.ars).
 
@@ -27,13 +27,13 @@ Criticism is an important element of design. In order to effectively define a st
 
 The reason Jobs can act as the head curator of what Apple produces? He's in charge, yes, but most importantly he has a track record of producing great products. There is no way the engineers and designers of Apple would subject themselves to Jobs's scrutiny if it weren't for their profound trust in his ability to criticize effectively.
 
-##A Sour Attitude
+## A Sour Attitude
 
 Which brings me to several incidents that have taken place in the design industry over the past year or so.<sup><a href="#37675" id="fn1" title="see footnote 1">1</a></sup> Starting with Dustin Curtis's [redesign of the homepage of American Airlines' website](http://dustincurtis.com/dear_american_airlines.html), then progressing to the [redesign of the Zappos homepage by Metalab Design](http://www.metalabdesign.com/zappos/), and most recently [a redesign of the Instagram iPhone app by Tapmates](http://tapmates.com/blog/instagram), the trend of publicly criticizing the design work of others seems to have taken a nasty turn. What these designers have done is taken the work of an organization and, completely ignoring the research, strategy, or thought that went into the original designs, maligned not only the design itself but the people behind each individual design.
 
 The issue here isn't that the targets of these attacks aren't deserving of criticism. Even beacons of good design such as Apple, Braun, or BMW are not guarded from public scrutiny. The issue with the aforementioned situations is the attitude that each of the antagonists took in their criticisms: "we are smarter/hipper/cooler than you, therefore what you know is of little to no value."
 
-##On The Other Hand
+## On The Other Hand
 
 In comparison, [Andy Rutledge](http://andyrutledge.com) has, on numerous occasions, brought to light the design problems of other websites. He has called out giants like Amazon, eBay, Google, and even the White House. He [compared the colour palette](http://www.andyrutledge.com/wall-street-journal-redux.php) of the Wall Street Journal's website to that of a "third grade art project."
 
@@ -41,7 +41,7 @@ The difference in Andy's approach to that of those designers mentioned above is 
 
 The biggest difference, though, is that Andy approaches these criticisms with respect and humility. As far as I can tell, he does not malign the companies he has offered criticism to. His intention is educate, not humiliate.
 
-##A Redux of Design Criticism
+## A Redux of Design Criticism
 
 I don't for a second believe that we should stop criticizing the work of others. Holding up our own and each other's work to a higher standard is important to the further development of our craft. What I don't believe needs to be a part the process, however, is an attitude of superiority. We should seek to lift one another up, not drag one another down.
 

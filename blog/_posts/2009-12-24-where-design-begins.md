@@ -19,7 +19,7 @@ Meagan Fisher recently made a strong argument for [beginning a site mockup in th
 
 I appreciate each of these views, and have tried starting different projects with each of these methods. I will continue to use each method at different stages of future projects. However, starting with this new project and with all projects to come, my starting point will be a pen, my Moleskine, and a concept somewhat new to me: Content Strategy.
 
-##The Chicken or the Omelette?
+## The Chicken or the Omelette?
 
 I taught myself web design through reading blog articles and following tutorials. I learned how to code in HTML and CSS, how to work with rounded corners in Photoshop, how to use multiple textures to create depth and a more realistic aesthetic. I have been learning about typography and how to properly use a grid system.
 

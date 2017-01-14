@@ -1,0 +1,14 @@
+AuthName "iQmetrix"
+AuthType Basic
+AuthUserFile /home/44375/domains/patdryburgh.com/_users/.htpasswd
+require valid-user
+
+AuthName "Rye 51"
+AuthType Basic
+AuthUserFile /home/44375/domains/patdryburgh.com/_users/.htpasswd
+require valid-user
+
+AuthName "Stantec"
+AuthType Basic
+AuthUserFile /home/44375/domains/patdryburgh.com/_users/.htpasswd
+require valid-user

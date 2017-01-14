@@ -1,3 +1,4 @@
+// lazy-load images
 echo.init({
   offset: 1000,
   unload: true,

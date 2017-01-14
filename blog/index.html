@@ -1,37 +1,25 @@
 ---
 layout: default
 title: Blog
+subtitle: I write about design, music, and life.
 ---
 
 <main class="blog">
 
-  <ul class="post-list list-unstyled">
-    {% for post in site.posts %}
-      {% unless post.draft %}
-        {% if post.photo %}
-          <li>
-            <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">
-              <div class="post-header">
-                <div class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</div>
-                <h2 class="post-title">
-                  {{ post.title }}
-                </h2>
-              </div>
-              <img src=data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw== data-echo="{{ post.photo }}" alt="{{ post.title }}">
-            </a>
-          </li>
-        {% else %}
-          <li>
-            <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">
-              <div class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</div>
-              <h2 class="post-title">
-                {{ post.title }}
-              </h2>
-            </a>
-          </li>
-        {% endif %}
-      {% endunless %}
-    {% endfor %}
-  </ul>
+  {% for post in site.categories.blog %}
+    {% unless post.draft %}
+      {% assign currentdate = post.date | date: "%Y" %}
+      {% if post.date and currentdate != date %}
+        {% unless forloop.first %}</ul>{% endunless %}
+        <div class="wrapper m-top">
+          <h2 class="year-heading" id="y{{post.date | date: "%Y"}}">{{ currentdate }}</h2>
+        </div>
+        <ul class="post-list list-unstyled">
+        {% assign date = currentdate %}
+      {% endif %}
+      {% include post_link.html %}
+      {% if forloop.last %}</ul>{% endif %}
+    {% endunless %}
+  {% endfor %}
 
 </main>

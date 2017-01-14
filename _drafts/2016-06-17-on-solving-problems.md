@@ -1,7 +1,7 @@
 ---
 layout: post
 author: patdryburgh
-title: "On solving problems"
+title: "The importance of Why"
 url_title: on-solving-problems
 date: 2016-06-17
 ---
@@ -30,21 +30,19 @@ And so, in the time since that fateful evening I have been volunteering as a men
 
 Of all of the conversations we’ve had thus far, the most meaningful have focused on defining and understanding the problem the students are trying to solve.
 
-One such conversation took place my very first evening. Having introduced myself and learned why each student was taking the course and what they hoped to achieve in the design industry, I asked what problems they were working on. The first group to speak up was working on a deeply personal and noteworthy problem:
+One such conversation took place my very first evening. Having introduced myself and learned why each student was taking the course and what they hoped to achieve in the design industry, I asked what problems they were working on. The first group to speak presented their sketched wireframes and asked:
 
 >How should we design these filters?
 
-Ok, so not very personal or noteworthy. I dug in deeper. The data they were filtering was real-time behavioural and medical data collected through a monitoring device worn by a child with a disability.
+The wireframes showed all sorts of ways users could filter data. As I dug deeper, the students explained that the data to be filtered was real-time behavioural and medical data collected through a monitoring device worn by a child with a disability. Parents, teachers, and support workers then use this data to understand the environmental and physiological factors that impact their child’s ability to live a happy, fulfilled life. They need a fast and intuitive method of capturing experiences throughout the day and the means to combine that qualitative information with the quantitative data collected through the monitor to make informed decisions for how to optimally support the child’s development.
 
-OK, now we’re getting fucking personal.
+I asked:
 
-I moved the students from the kitchen table to the whiteboard to dig into who would be using the app and why. They explained that parents, teachers, and support workers all had a need to understand the environmental and physiological factors that impacted their child’s ability to live a happy, fulfilled life. These caregivers needed to have a fast and intuitive method of capturing experiences throughout the day and the means to combine that information with the data collected through the monitor to make informed decisions for how to optimally support the child’s development.
+>So, who the fuck wants filters?
 
-So, I asked:
+The students glanced at one another, dumbstruck by my &mdash; admittedly &mdash; vulgar inquiry. They had done their research and knew that this data was the key to solving a real-life problem for many people. 
 
->Who the fuck needs filters?
-
-The students glanced at one another, dumbstruck by my &mdash; admittedly &mdash; vulgar inquiry. They realized what I was getting at. The problem they were trying to solve wasn’t how to filter reams of data. The problem they were trying to solve was how to make the life of a disabled child demonstrably better.
+They realized what I was getting at. The problem they were trying to solve wasn’t how to filter reams of data. The problem they were trying to solve was how to make the life of a disabled child demonstrably better.
 
 We didn’t get into solutions that night. I packed up my bag and walked home over the Burrard St bridge and dreamt of ways this product could help dear friends of mine, friends raising children who need constant support at home and at school, friends who wake up every day knowing that if they can just help their sons and daughters live a happy and fulfilled life and develop into thriving members of society, they’ve lived a good day.
 

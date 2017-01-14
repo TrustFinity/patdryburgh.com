@@ -9,7 +9,7 @@ old_entry_id: 346
 
 ---
 
-##To get you up to date
+## To get you up to date
 
 About a year ago, my mom was diagnosed with [mesothelioma](http://en.wikipedia.org/wiki/Mesothelioma), a rare form of cancer caused by exposure to asbestos. At the time, her back was in a lot of pain (which we later found was caused by the cancerous tumours). They started chemotherapy treatment soon thereafter, eventually going through 8 treatments total.
 
@@ -19,7 +19,7 @@ As I [wrote a few weeks ago](http://burnlikefabulous.com/post/4971333353/an-upda
 
 After a couple more weeks of waiting, the surgery was rescheduled for yesterday.
 
-##Yesterday
+## Yesterday
 
 Yesterday, my mom went to the hospital for her rescheduled surgery to have her right lung removed. The epidural went in well, which was a great sign. After several hours I had not heard anything, which I took to mean things were going as planned. However, at around 3:30 my dad returned home with bad news:
 

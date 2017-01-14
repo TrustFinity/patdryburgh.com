@@ -15,15 +15,15 @@ If you [stop by](http://patdryburgh.com), you'll see that it's entirely differen
 
 By way of showing you around the new digs, here are some highlights:
 
-##The Work
+## The Work
 
 My main goal in launching the new site was to begin marketing my services as a designer. The front page now focuses entirely on communicating what I do. The new [Work](http://patdryburgh.com/work/) section highlights some of my recent work. I've decided to use brief descriptions of what the goals of each project were, followed by a large screenshot of the design. The new work section also comes with its own [RSS feed](http://feeds.feedburner.com/patdryburghworkfeed). More details on that to follow. 
 
-##The Blog
+## The Blog
 
 I love to write and I love to share. For a while now, my blog has consisted of both original content, as well as links to what other people are creating. [The blog](http://patdryburgh.com/blog/), then, is still a major part of the site. I've created a clean, light layout for my writing, while also allowing for big, bold [photographic posts](http://patdryburgh.com/blog/archive/category/photography/) as well. I also want to experiment with a more art-directed approach with some of the posts I write, but I first want to let myself settle into my new surroundings.
 
-###The Feeds
+### The Feeds
 
 With the move to [ExpressionEngine](http://www.expressionengine.com/index.php?affiliate=patdryburgh), I made the decision to introduce a new RSS feed structure. The main feed &mdash; the one you're subscribed to now &mdash; will behave as it always has, as a combination of my writing and the things I share.
 
@@ -35,11 +35,11 @@ When either Shawn or John posts a link to another site, the title that appears i
 
 As I was working on my own feed structure, I started to wonder whether this approach should be reversed; original content should look and behave like original content from other sites' feeds, while links to other pages should be differentiated in some manner. With this thought in mind I made the decision to include an infinity symbol &#8734; with the link posts, to differentiate them from posts that have normal behaviour.
 
-##The Switch
+## The Switch
 
 As I wrote [last week](http://patdryburgh.com/blog/what-im-about-to-do/), there has been a major change under the hood of the site. Previous versions have run on WordPress or Tumblr. This new site runs on [ExpressionEngine](http://www.expressionengine.com/index.php?affiliate=patdryburgh). While I still plan to use the other systems I have learned, I have fallen in love with ExpressionEngine and wish to do more with it.
 
-##Every Good Launch Needs a Cause
+## Every Good Launch Needs a Cause
 
 It is amazing that I have the opportunity to communicate to you over a shared network connection, to share what I have created and what I'm thinking. However, for a billion people in this world, the main question on their mind is not "I wonder what's happening on Twitter today," but "where will I get my next drink of water?"
 
@@ -56,6 +56,6 @@ Everyone who commits to giving and tweets their intentions will be added to the 
 
 The goal is to raise $500, which will provide clean drinking water for 25 people.
 
-##Thank You
+## Thank You
 
 Thank you so much for joining me on this journey. I'm so proud of the new site, and excited for the opportunities that are coming my way. I'm looking forward to sharing them with you all.

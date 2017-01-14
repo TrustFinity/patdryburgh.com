@@ -13,15 +13,21 @@ I've been putting this off for a while now, waiting for my site to finally feel 
 
 I'm going to start with a couple of terrible, incomplete, but necessary screenshots. These were when I was first trying out the Athlete brand. Looking back, I'm almost embarrassed to say I designed these, however design is not just about the end product but about the process by which we get there.
 
-<p class="wide"><a href="http://farm2.static.flickr.com/1426/4601396614_d3a7cfb239_o.jpg" title="View 'layout_1' on Flickr.com"><img alt="layout_1"src="http://farm2.static.flickr.com/1426/4601396614_d3a7cfb239_o.jpg" /></a></p>
+<figure class="extra-wide">
+  <img alt="layout_1" src="http://farm2.static.flickr.com/1426/4601396614_d3a7cfb239_o.jpg" />
+</figure>
 
-<p class="wide"><a href="http://farm5.static.flickr.com/4026/4600780163_9f7da9622c_o.jpg" title="View 'layout_2' on Flickr.com"><img alt="layout_2"src="http://farm5.static.flickr.com/4026/4600780163_9f7da9622c_o.jpg" /></a></p>
+<figure class="extra-wide">
+  <img alt="layout_2" src="http://farm5.static.flickr.com/4026/4600780163_9f7da9622c_o.jpg" />
+</figure>
 
 Sometimes I design things like this just to get a feel of how certain elements work together, such as the browser frame jutting out from the top of the content section to give the design some depth. It also gives me a chance to work out the type of grid I want to use to build my content in.
 
 Once I had gotten these out of my system, it was time to buckle down and really think about what I wanted to communicate. I was just getting into photography, and was thinking about ways to showcase some of the higher quality work I was producing. I also wanted to play with some big, bold type and Helvetica Neue, a personal favourite, was an obvious choice.
 
-<p class="wide"><a href="http://farm5.static.flickr.com/4069/4601397162_8998390404_b.jpg" title="View 'layout_3' on Flickr.com"><img alt="layout_3" src="http://farm5.static.flickr.com/4069/4601397162_cddf2bb897_o.jpg"/></a></p>
+<figure class="extra-wide">
+  <img alt="layout_3" src="http://farm5.static.flickr.com/4069/4601397162_cddf2bb897_o.jpg"/>
+</figure>
 
 I actually completely finished this site, and was so close to pushing it live when it was done. I had some amazing help from friends like [Jonathan Christopher](http://mondaybynoon.com) and [Phil Coffman](http://philcoffman.com), who really helped me hone in on how to get this site to function and look its best.
 
@@ -44,11 +50,15 @@ About a year ago I wrote a blog post about [taking pride in your craft](http://p
 
 With all of this in mind, I struck out in a new direction. I made some modifications to the amazing [960 grid system](http://960.gs) by [Nathan Smith](http://sonspring.com/) to extend it to 1008 pixels wide by increasing the margins to 12px. This gave the typography a bit more room to breathe, as well as allowing the screenshots and photography to display a bit wider than normal.
 
-<p class="wide"><a href="http://farm2.static.flickr.com/1250/4601397024_6d6716a9a0_o.jpg" title="View 'layout_4' on Flickr.com"><img alt="layout_4"src="http://farm2.static.flickr.com/1250/4601397024_6d6716a9a0_o.jpg" /></a></p>
+<figure class="extra-wide">
+  <img alt="layout_4" src="http://farm2.static.flickr.com/1250/4601397024_6d6716a9a0_o.jpg" />
+</figure>
 
 This design really followed the same general layout of the previous shot, with type on the left of the screenshot. What this meant was that the screenshots weren't quite as wide as I would like. This site also really felt incomplete. All it could really do was display projects, not communicate what I could offer. And so, back to the drawing board again.
 
-<p class="wide"><a href="http://farm2.static.flickr.com/1274/4601396814_f7f9a4c3d7_o.jpg" title="View 'layout-6' on Flickr.com"><img alt="layout-6"src="http://farm2.static.flickr.com/1274/4601396814_f7f9a4c3d7_o.jpg" /></a></p>
+<figure class="extra-wide">
+  <img alt="layout-6" src="http://farm2.static.flickr.com/1274/4601396814_f7f9a4c3d7_o.jpg" />
+</figure>
 
 There are few things I am as proud of as this design. I felt it had beautiful typography, clear communication of what I offered, a beautiful wide display, and clean lines everywhere. The browser chrome, which is also featured on [Sam Brown](http://sam.brown.tc/)'s new [Massive Blue](http://massiveblue.com/) design, was generously supplied by my friend [Rogie King](http://komodomedia.com).
 
@@ -60,15 +70,23 @@ In so many ways I felt this design was the right way to go, however I still need
 
 After several retries, several designs and a bit of fighting with WordPress, I finally felt I had come up with something I would be happy with for a long time.
 
-<p class="wide"><a href="http://farm5.static.flickr.com/4043/4601524302_b9d5673811_o.jpg" title="View 'Made-by-Athlete' on Flickr.com"><img alt="Made-by-Athlete"src="http://farm5.static.flickr.com/4043/4601524302_b9d5673811_o.jpg" /></a></p>
+<figure class="extra-wide">
+  <img alt="Made-by-Athlete" src="http://farm5.static.flickr.com/4043/4601524302_b9d5673811_o.jpg" />
+</figure>
 
 This site was full of win for me. From the logo on the front page that revealed a sliver of the screenshot beneath (idea courtesy of Rogie King), to the inclusion of a "recent work" section, to a more balanced look throughout, I really felt this site was a strong design.
 
-<p class="wide"><a href="http://farm5.static.flickr.com/4061/4600941935_758b50bc5a_o.jpg" title="View 'Work-_-Athlete' on Flickr.com"><img alt="Work-_-Athlete"src="http://farm5.static.flickr.com/4061/4600941935_758b50bc5a_o.jpg" /></a></p>
+<figure class="extra-wide">
+  <img alt="Work-_-Athlete" src="http://farm5.static.flickr.com/4061/4600941935_758b50bc5a_o.jpg" />
+</figure>
 
-<p class="wide"><a href="http://farm5.static.flickr.com/4067/4600942145_f44ba55550_o.jpg" title="View 'Band-Themer-_-Athlete' on Flickr.com"><img alt="Band-Themer-_-Athlete"src="http://farm5.static.flickr.com/4067/4600942145_f44ba55550_o.jpg" /></a></p>
+<figure class="extra-wide">
+  <img alt="Band-Themer-_-Athlete" src="http://farm5.static.flickr.com/4067/4600942145_f44ba55550_o.jpg" />
+</figure>
 
-<p class="wide"><a href="http://farm5.static.flickr.com/4051/4601557102_0b8812c0c7_o.jpg" title="View 'About-_-Made-by-Athlete' on Flickr.com"><img alt="About-_-Made-by-Athlete"src="http://farm5.static.flickr.com/4051/4601557102_0b8812c0c7_o.jpg" /></a></p>
+<figure class="extra-wide">
+  <img alt="About-_-Made-by-Athlete" src="http://farm5.static.flickr.com/4051/4601557102_0b8812c0c7_o.jpg" />
+</figure>
 
 What this site did lack, however, was personality. Looking back, it feels a bit like a template taken from somewhere on the web. The masthead image is plain, the navigation is plain, the overall look is, well, plain.
 
@@ -76,21 +94,25 @@ After launching the site, I submitted it to several design galleries. I do this 
 
 So, back to the drawing board yet again. This time, I was starting to question whether the Made by Athlete brand was appropriate for me (which, as I [announced yesterday](http://patdryburgh.com/post/589774103/pat-dryburgh-is-a-freelance-designer), wasn't) so I began working on a new design with my own personal branding.
 
-<p class="wide">
-<img alt="Pat Dryburgh"src="http://farm4.static.flickr.com/3562/4601400034_8ac4429ebc_o.png" />
-</p>
+<figure class="extra-wide">
+  <img alt="Pat Dryburgh" src="http://farm4.static.flickr.com/3562/4601400034_8ac4429ebc_o.png" />
+</figure>
 
 Using the same 1008px grid I used on the Made by Athlete design, I constructed this site that really portrayed personality while still communicating what I do. I really liked how [Paravel](http://paravelinc.com/) let their screenshots break out of the box, and I wanted to do something similar to my site. Looking back, I think the implementation is a little too close to what they have done, but I was still a ways away from launching this.
 
 I really loved the diagonal lines on the side of the site, that stretched to the right as far as your browser window would allow. I also liked that I reintroduced the overlapping effect with the main display image, giving the site some depth.
 
-<p class="wide"><a href="http://farm2.static.flickr.com/1145/4601597000_b4f4559ba0_o.jpg" title="View 'Portfolio | Pat Dryburgh' on Flickr.com"><img alt="Portfolio | Pat Dryburgh"src="http://farm2.static.flickr.com/1145/4601597000_b4f4559ba0_o.jpg" /></a></p>
+<figure class="extra-wide">
+  <img alt="Portfolio | Pat Dryburgh" src="http://farm2.static.flickr.com/1145/4601597000_b4f4559ba0_o.jpg" />
+</figure>
 
-<p class="wide">
-<img alt="Hello-Kelly-MySpace-_-Portfolio-_-Pat-Dryburgh"src="http://farm5.static.flickr.com/4070/4601037929_e9dcb28ac6_o.jpg" />
-</p>
+<figure class="extra-wide">
+  <img alt="Hello-Kelly-MySpace-_-Portfolio-_-Pat-Dryburgh" src="http://farm5.static.flickr.com/4070/4601037929_e9dcb28ac6_o.jpg" />
+</figure>
 
-<p class="wide"><a href="http://farm4.static.flickr.com/3324/4600982179_a08e3b34cf_o.jpg" title="View 'About | Pat Dryburgh' on Flickr.com"><img alt="About | Pat Dryburgh"src="http://farm4.static.flickr.com/3324/4600982179_a08e3b34cf_o.jpg" /></a></p>
+<figure class="extra-wide">
+  <img alt="About | Pat Dryburgh" src="http://farm4.static.flickr.com/3324/4600982179_a08e3b34cf_o.jpg" />
+</figure>
 
 A few other things I really liked about this design:
 
@@ -110,11 +132,9 @@ While I enjoyed working on ExpressionEngine, for my purposes a combination of Tu
 
 Which leads me to my most recent design. I was constrained a little bit due to having the site already setup on Tumblr, which meant my home page would be a blog and not an introductory page like my ExpressionEngine site. There are pros and cons to this reality. On the pro side, I won't be losing the audience I have developed over the last few years blogging here at PatDryburgh.com. The con is that it becomes a bit harder to communicate what exactly I do. And so, I decided the best way to circumvent this issue was to just be really clear in my site header.
 
-<img src="http://dribbble.com/system/screenshots/20025/shot_1273591738.png?1273591738" alt="Pat Dryburgh is a freelance designer" />
-
 The other element I wanted to make sure I highlighted in this design was my photography. While working on the Made by Athlete designs, I was just getting into photography and wasn't certain it was something I wanted to pursue in a serious manner. Now, after just 4 months I have now worked on my first serious photo shoot and have been learning a lot. It's definitely something I want to push in my site, so I wanted to make sure the layout of the photo posts was bold and attractive:
 
-<a href="http://farm2.static.flickr.com/1359/4601081685_c337b3eced.jpg" title="View 'Screen shot 2010-05-12 at 11.41.40 AM' on Flickr.com"><img alt="Screen shot 2010-05-12 at 11.41.40 AM"src="http://farm2.static.flickr.com/1359/4601081685_c337b3eced.jpg" /></a>
+<img alt="Screen shot 2010-05-12 at 11.41.40 AM" src="http://farm2.static.flickr.com/1359/4601081685_c337b3eced.jpg" />
 
 I wanted the photography to display across the full width of the post (as the screenshots in this post do as well), giving them prominence and letting the reader see the shot without having to click to see a high resolution version.
 

@@ -1,0 +1,29 @@
+---
+layout: default
+title: Photo
+subtitle: and I took these photos.
+---
+
+<main class="blog">
+
+  {% for post in site.categories.photo %}
+    {% unless post.draft %}
+      {% assign currentdate = post.date | date: "%Y" %}
+      {% if post.date and currentdate != date %}
+        {% unless forloop.first %}</ul>{% endunless %}
+        <div class="wrapper">
+          <h2 class="year-heading" id="y{{post.date | date: "%Y"}}">{{ currentdate }}</h2>
+        </div>
+        <ul class="photo-list list-unstyled">
+        {% assign date = currentdate %}
+      {% endif %}
+      <li>
+        <a href="{{ post.url }}">
+          <img src="{{ post.photo | replace: '_b.jpg', '_c.jpg' }}" alt="{{ post.title }}">
+        </a>
+      </li>
+      {% if forloop.last %}</ul>{% endif %}
+    {% endunless %}
+  {% endfor %}
+
+</main>

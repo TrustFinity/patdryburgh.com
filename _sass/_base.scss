@@ -10,24 +10,16 @@ dl, dd, ol, ul, figure {
 
 /* Basic styling */
 
-html {
-  @media (min-width: $on-laptop) {
-    font-size: 1.125em;
+body {
+  background-color: $background-color;
+  font: 400 $base-font-size $base-font-family;
+  line-height: $base-line-height;
+  color: $text-color;
+  -webkit-font-smoothing: antialiased;
+  @media screen and (min-width: $on-tablet) {
+    font-size: 1.425em;
   }
 }
-
-body {
-  font-family: $base-font-family;
-  font-size: $base-font-size;
-  line-height: $base-line-height;
-  font-weight: 400;
-  color: $text-color;
-  background-color: $background-color;
-  -webkit-text-size-adjust: 100%;
-}
-
-
-/* Set `margin-bottom` to maintain vertical rhythm */
 
 h1, h2, h3, h4, h5, h6,
 p, blockquote, pre,
@@ -36,6 +28,50 @@ ul, ol, dl, figure,
   margin: $spacing-unit 0;
 }
 
+h1, h2, h3, h4, h5, h6 {
+  line-height: 1;
+}
+
+@media (min-width: $on-tablet) {
+  h1:first-child {
+    font-size: 2em;
+    margin-bottom: .5em;
+  }
+}
+
+h2, h3, h4, h5, h6 {
+  margin-top: 2em;
+  margin-bottom: .5em;
+}
+
+h2 {
+  font-size: 2em;
+  margin-top: 1em;
+}
+
+p {
+  margin: 1em 0;
+}
+
+h2 + p {
+  margin-top: 0;
+}
+
+.year-heading {
+  color: $grey-color;
+  font-family: $secondary-font-family;
+  font-size: .75em;
+  margin-bottom: 0;
+  margin-top: 1em;
+  font-variant-numeric: lining-nums;
+  -moz-font-feature-settings: "lnum";
+  -webkit-font-feature-settings: "lnum";
+  font-feature-settings: "lnum";
+}
+
+.small {
+  font-size: .75em
+}
 
 /* Images */
 
@@ -45,39 +81,10 @@ img {
 }
 
 
-/* Figures */
-
-.post-content figure {
-  position: relative;
-}
-
-figure > img {
-  display: block;
-  margin-bottom: 1rem;
-}
-
-figcaption {
-  font-size: .625em;
-  font-style: italic;
-}
-
-.post-content figcaption {
-  @media (min-width: 58rem) {
-    border-top: 1px solid #eee;
-    left: 100%;
-    margin-left: 2rem;
-    padding-top: 2em;
-    position: absolute;
-    top: 0;
-    width: 8rem;
-  }
-}
-
-
 /* Lists */
 
 ul, ol {
-  margin-left: $spacing-unit;
+  margin-left: $spacing-unit * 1.5;
 }
 
 li {
@@ -108,17 +115,18 @@ a {
 /* Buttons */
 
 .btn {
-  border: 1px solid $brand-color;
-  border-radius: 3em;
+  background: none;
+  border: 0;
+  color: $brand-color;
   font-family: $secondary-font-family;
   font-size: .625em;
-  padding: .5em 1.5em;
+  font-weight: 700;
   letter-spacing: .125em;
+  padding: .25em 0;
   text-transform: uppercase;
   &:hover,
   &:focus {
-    background: $brand-color;
-    color: #fff;
+    color: darken($brand-color, 15%);
     text-decoration: none;
   }
 }
@@ -129,7 +137,7 @@ blockquote {
   border-left: .25rem solid $brand-color;
   color: $grey-color;
   padding-left: $spacing-unit;
-  font: italic 400 1em/1.325 $secondary-font-family;
+  font: italic 400 1em/1.425 $secondary-font-family;
   font-style: italic;
   position: relative;
 
@@ -145,10 +153,15 @@ blockquote {
   > :last-child {
     margin-bottom: 0;
   }
-
   @media (min-width: $on-laptop) {
-    margin-left: -1.25rem;
+    margin-left: -1.25em;
   }
+}
+
+cite .title {
+  display: block;
+  line-height: 1;
+  margin-left: 1.5em;
 }
 
 
@@ -157,24 +170,25 @@ blockquote {
 pre,
 code {
   font-size: 15px;
-  border: 1px solid $grey-color-light;
   border-radius: 3px;
-  background-color: #eef;
 }
 
 code {
-    padding: 1px 5px;
+  background: lighten($brand-color, 40%);
+  color: darken($brand-color, 20%);
+  padding: 1px 5px;
 }
 
 pre {
-    padding: 8px 12px;
-    overflow-x: scroll;
+  background: none !important;
+  padding: 8px 12px;
 
-    > code {
-        border: 0;
-        padding-right: 0;
-        padding-left: 0;
-    }
+  > code {
+    border: 0;
+    white-space: pre-line;
+    padding-right: 0;
+    padding-left: 0;
+  }
 }
 
 /* Sub and super-script */
@@ -227,4 +241,43 @@ hr {
       fill: $grey-color;
     }
   }
+}
+
+/* Tables */
+
+table {
+  min-width: 100%;
+  font-family: $secondary-font-family;
+  font-variant-numeric: lining-nums;
+  -moz-font-feature-settings: "lnum";
+  -webkit-font-feature-settings: "lnum";
+  font-feature-settings: "lnum";
+}
+
+table td {
+  padding-bottom: .5em;
+  padding-left: 1em;
+  vertical-align: top;
+}
+
+table td:first-child {
+  padding-left: 0;
+}
+
+.signatures th {
+  padding-bottom: 2em;
+}
+
+.signatures td {
+  border-top: 1px solid $text-color;
+  font-family: $secondary-font-family;
+  font-size: .625em;
+  padding-bottom: 3em;
+  width: 40%;
+  text-transform: uppercase;
+}
+
+.signatures .divide {
+  border-top: 0;
+  width: 10%;
 }

@@ -17,7 +17,7 @@ While the look of the site now is pretty different from the previous version, wh
 
 I want to highlight some of the changes, and explain why those changes were necessary. 
 
-##Simplified Homepage
+## Simplified Homepage
 
 <img src="/images/uploads/homepage.jpg" alt="Simplified Homepage" />
 
@@ -29,7 +29,7 @@ Not a major change, but one that I believe adds much needed clarity. When visito
 
 As we all know, when presented with too many options to choose from people generally choose not to choose at all.  By limiting the calls to action to three (featured project, two calls in the copy) I am making that decision decidedly easier for visitors.
 
-##Better Project Navigation
+## Better Project Navigation
 
 When a visitor was finished viewing a project, they were presented with a simple "Previous/Next" navigation scheme. There was no indication about what type of project they would be seeing next, or how many projects were left to go through.
 
@@ -37,7 +37,7 @@ With the new design, I've opted for clarity over simplicity. Under each project 
 
 <img src="/images/uploads/worknavigation.jpg" alt="Work Navigation" />
 
-##Better Blog Layout
+## Better Blog Layout
 
 As I mentioned above, the blog saw the greatest changes in layout, semantics, and aesthetics. As well as updating the look and layout of the blog, I also added proper commenting support on the site. 
 
@@ -47,7 +47,7 @@ Just above the comment section I have updated the post navigation. Reading more 
 
 <img src="/images/uploads/blognavigation.jpg" alt="Blog Navigation" />
 
-##Better Contact Form
+## Better Contact Form
 
 When I launched the new site last month, my friend [Chris Wallace](http://chris-wallace.com) made the comment that my contact form was, well, boring. At first I defended the form, as it was simple and clear and minimal. But as the site has been launched for a month now I have seen how right Chris was.
 

@@ -15,7 +15,7 @@ To give you some perspective on that number, my Feedburner account tells me that
 
 So, what did you have to say? Well, let's find out, starting with you.
 
-##How are you feeling today?
+## How are you feeling today?
 
 I asked this question for two reasons: 
 
@@ -26,7 +26,7 @@ To the second point, it appears as though your outlook that day didn't colour yo
 
 Only one of you responded that you felt awful. Whoever you are, please let me by you a drink or a coffee or whatever will make you feel better. The **vast majority** rated your day as a **4 out of 5**.
 
-##How long have you been reading my site?
+## How long have you been reading my site?
 
 I started blogging at patdryburgh.com back in 2007, when I was working as a music director at a church. Its purpose was to track what I was learning about leadership, music, and life in the church. The focus of my life and my blog shifted a year later when my time at the church came to an end and my career in design began.
 
@@ -34,7 +34,7 @@ Though I don't have the numbers saved anywhere, I remember a distinct drop-off i
 
 The responses to this question really reflect this shift. **78%** of you started reading this site **in the past two years**. I can count the number of readers who have been reading this site for more than 2 years on one hand and a hot dog.
 
-##How do you read my site?
+## How do you read my site?
 
 I wrote this question as a multiple-choice question so you could give more than one answer. Your answers were very informative, but there was actually only one answer I was truly interested in: “In a ‘read it later‘ type app.”
 
@@ -42,7 +42,7 @@ The reason is simple: is my content interesting enough for people to want to tak
 
 Turns out, not many of you read my site in an app like this. I believe this result speaks to the lack of long-form articles I've posted to the site over the past two years. I plan to rectify this in the coming new year.
 
-##Post Frequency and Link Posts
+## Post Frequency and Link Posts
 
 I asked about my post frequency because I knew what my next question would be. A lot of what I publish here are link posts, which are my way of sharing what I find on the web. I rarely post links on Twitter—I save that space for dick jokes and complaining about Apple products. I care a *lot* about the link posts, because I truly value the work other people produce and share. If I could make a living sharing with you the work others have created, I would gladly take that opportunity.
 
@@ -51,15 +51,15 @@ It seems as though most of you at least like the link posts. If you don't, pleas
 1. I will rarely, if ever, post something that everyone else is linking to, and
 2. I will only publish something I'm really, really excited about or interested in. 
 
-##Which of the following topics would you like to see more of? / Which of the following topics would you like to see less of? / Have you learned anything valuable from my site?
+## Which of the following topics would you like to see more of? / Which of the following topics would you like to see less of? / Have you learned anything valuable from my site?
 
 I asked these questions because I wanted to get a sense of why people were reading this site. Turns out, a lot of you read it for multiple reasons, both professional and personal. That actually means a lot, because it tells me you read this site not only for your personal gain—though I certainly hope you do benefit from what I write—but also because you care about me. As a human being in the 21st century, that means a lot.
 
-##Further Input
+## Further Input
 
 A lot of you were really nice in your additional comments (especially when it came to complimenting my beard). What I don't think I've communicated nearly enough is that I really, really care about you. I want to hear what you think (in any medium other than a blog comment), how you feel, what's going on in your life. If you've written something you think I'd be into, please let me know. If you'd like to grab a coffee or a drink and get to know one another better, let's set a date. If you have a question or a problem you think I can help with, feel free to ask. I'll do my best.
 
-##In Conclusion
+## In Conclusion
 
 This site is about me (see: the domain name, the about page, the silly cartoon face), but it's also about you. I believe this, because I believe that we as humans are inextricably connected to one another. We grow together, we learn together, we laugh together, we cry together. I read your site or follow you on Twitter or like your Instagram photos because I care about you. It feels great to know that's probably why you're reading my site, too.
 

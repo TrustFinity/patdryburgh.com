@@ -19,7 +19,7 @@ Also over the past two years, I have been teaching myself a lot more about [web 
 
 I have also had the opportunity to work on some other cool projects, including a [WordPress theme](http://work.patdryburgh.com/patdryburgh#163804/Band-Themer-Theme) for my friends at [Band Themer](http://bandthemer.com), a couple [personal](http://johnandpat.net/) [projects](http://londonguitarlessons.ca/), and some other work I have coming [down](http://dribbble.com/shots/18987-Heavybad) [the](http://dribbble.com/shots/16749-John-Las) [pipe](http://dribbble.com/shots/15490-Design-Squish-Test). All of this led me to my [announcement](http://patdryburgh.com/post/577009414/well-ive-resigned-from-my-full-time-job-and) on Thursday.
 
-##Going Freelance
+## Going Freelance
 
 My father, for 9 years of my teenage and adult life, as well as many years before I was born, owned his own business. I watched him wake up early in the morning and come home late on occasion to take care of things at work. We didn't go on many vacations, though that's not to say we didn't go on any at all.
 
@@ -31,7 +31,7 @@ And so, about 6 months or so ago I started seriously considering going freelance
 
 And so, on Thursday, I gave my two weeks notice. The response from friends on Twitter and [Dribbble](http://dribbble.com/shots/19414-I-Resign) was overwhelming to say the least. It was a bit nerve-wracking leading up to finally telling my boss, but once I did I knew I had made the right decision. The kind words and encouragement from friends all over the world only helped to bolster my resolve: I am going freelance.
 
-##Made by Who?
+## Made by Who?
 
 Many of you will remember that not long ago, I launched a site for the freelance design work I was doing at the time called [Made by Athlete](http://patdryburgh.com/post/487179297/open-for-business). I had spent 4 or 5 months trying to determine a strategy for my freelance business, and thought I had come up with a great brand (I still believe I had). However, after a lot of thought and discussion, culminating in a conversation with some friends on Twitter, I decided to forgo the Made by Athlete brand.
 
@@ -43,7 +43,7 @@ I've been on [Twitter](http://twitter.com/patdryburgh.com) now for over two year
 
 Adding a second layer to this in the form of a separate brand name only adds unnecessary confusion. If I had employees, that's a different story, but right now it is just me. I am the business, I am the brand. And so, for the foreseeable future I will be working under my own name.
 
-##New Digs
+## New Digs
 
 As you can see, this post coincides with a new design for my site. Between the launch of the Made by Athlete site and this one, I have worked on at least two or three other designs for this site, going back and forth about what I wanted to accomplish with it. Having observed some incredible discussions around design and business lately, I've decided that I really want to work more at making this site a place of ideas. I want to share what I'm learning and get your feedback as well.
 
@@ -51,6 +51,6 @@ For a while now, I have been a proponent of not having comments on my site. Insp
 
 That said, this site is still powered by [Tumblr](http://tumblr.com), which does not include a comment system. I am also not a fan of the plugin comment systems available. However, what Tumblr does have is a notes system, where if someone responds to a post of mine using the reblog feature, their response shows up in my stream, where I can find it and respond in turn. There is also always Twitter, where some amazing conversations have happened over the years. And if you would like to keep the conversation private as many people have, my email is just a [click away](mailto:hello@patdryburgh.com).
 
-##Accepting Work
+## Accepting Work
 
 I have two projects currently on the go, one that should be wrapping up in a week or two and another that will take me until the end of May. After that, I am open to accepting projects. If you or someone you know would like to discuss how I could help with your design needs, please don't hesitate to <a href="http://patdryburgh.com/connect/">connect with me</a>.

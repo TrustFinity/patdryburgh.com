@@ -1,7 +1,7 @@
 ---
 layout: post
 author: patdryburgh
-title: Where I Admit That I Was Wrong and Merlin Mann Was Right
+title: Where I admit that I was wrong and Merlin Mann was right
 url_title: where-i-admit-that-i-was-wrong-and-merlin-mann-was-right
 date: 2011-06-03
 old_entry_id: 151
@@ -19,7 +19,7 @@ A couple of days ago Merlin Mann [made a comment that](https://twitter.com/hotdo
 
 A very good question, which I answered by comparing Twitter to a passing face-to-face conversation: you don't have a record of every conversation you've had, but that does not mean those conversations are invaluable. A single conversation can lift my spirits for an entire week; some have changed my entire life.
 
-##A Different Perspective 
+## A Different Perspective 
 
 Earlier today I read Craig Mod's recent piece on [his experience with Twitter during the earthquakes in Japan](http://craigmod.com/satellite/twitter_archives/), which gave me a new perspective on the topic. Mod, a designer who has lived in Japan and maintains a very intimate connection with the country, happened to land in there just hours after the earthquakes hit.
 

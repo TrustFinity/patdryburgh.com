@@ -17,7 +17,7 @@ During this discussion, I made a statement that I would now like to retract:
 
 What an ignorant thing to say! What kind of delusional, out-of-touch person says something like this? How did I get away with saying that with none of the 50 or so in attendance running up and slapping me in the head?
 
-##Rich
+## Rich
 
 I've thought a lot about that statement since I made it, and I believe I need to clarify. In the context of the discussion &mdash; how to apply social media to grow your business &mdash; I still believe it's a true statement. Social media cannot make anyone rich. You need to have substance, something of value, to share through social media. If all you have is a Twitter account and hope to make a living you better start reevaluating your business plan.
 
@@ -25,7 +25,7 @@ I believe social media can enhance your business. It can create and expand brand
 
 However where you really get rich, where social media begins to really have an exponential impact on your life, is when you begin to open yourself up to relationships. When you begin to interact with those you find through social media, whether through Twitter or your blog or Tumblr or whatever social media application you're using, and you allow those people into your life, you will find richness beyond anything you thought possible could exist on the other side of those glowing pixels in front of you.
 
-##Value
+## Value
 
 The biggest influences I had when making the decision to go full-time freelance were the people I had met through social media. These were people in all types of industries, in all different stages of their career and life.
 

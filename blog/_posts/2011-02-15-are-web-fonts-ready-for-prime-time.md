@@ -27,7 +27,7 @@ This experience has caused me to wonder, are today's web fonts ready for prime t
 
 Or maybe there are web fonts that I'm not seeing that are specifically designed for the screen like Georgia and Verdana were. What fonts are you using on your personal projects and client work?
 
-##Addendum
+## Addendum
 
 Well, it appears as though there is in fact more to this story. After I published this article I was able to get my hands on my parents' Windows PC and test my site out on Google Chrome. As [Derek experienced](https://twitter.com/dereksilva/status/37693342624137216), the type was almost completely illegible.
 
