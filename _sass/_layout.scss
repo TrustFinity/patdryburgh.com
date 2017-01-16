@@ -85,9 +85,6 @@
 
 .post-content {
   position: relative;
-  @media screen and (min-width: 840px) {
-    // font-size: 1em;
-  }
 }
 
 @supports (initial-letter: 4) or (-webkit-initial-letter: 4) {
@@ -215,15 +212,20 @@ h3.post-title {
 
 .call-to-action h2 {
   background: $background-color;
+  font-size: 1em;
   display: inline-block;
-  margin: 0 -.25em 0;
-  padding: 0 .25em;
+  margin: 0 -.5em 0;
+  padding: 0 .5em;
   position: relative;
-  top: -.625em;
+  top: -.825em;
 }
 
 .call-to-action h2 + p {
   margin-top: -.5em;
+}
+
+.call-to-action form {
+  margin-bottom: 1em;
 }
 
 /* Figures & Images */

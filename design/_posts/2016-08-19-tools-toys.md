@@ -5,7 +5,7 @@ title: Tools &amp; Toys
 url_title: tools-toys
 date: 2016-08-19 15:30:00
 photo: /images/work/hero-tools-toys.jpg
-it: designed and built a new responsive website that saw 3x growth year-over-year in pageviews, unique visitors, and revenue with
+it: In 2014, I designed and built a new responsive website that saw 3x growth year-over-year in pageviews, unique visitors, and revenue with
 ---
 
 <div class="pull-out">

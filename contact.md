@@ -6,6 +6,10 @@ hide_title: true
 permalink: /contact/
 ---
 
+<div class="no-il">
+  <p>I would love to help you solve problems and design products people love. Please complete the project inquiry form below and I will get back to you as quickly as I can.</p>
+</div>
+
 <form action="https://formspree.io/hello@patdryburgh.com" method="POST">
     <div class="floating-input">
       <input type="text" name="name" placeholder="First &amp; Last" value="" onkeyup="this.setAttribute('value', this.value);" required>
