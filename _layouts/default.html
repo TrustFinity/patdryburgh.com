@@ -5,11 +5,15 @@
 
   <body class="clearfix">
 
-    {% include header.html %}
+    {% unless page.hide_chrome %}
+      {% include header.html %}
+    {% endunless %}
 
     {{ content }}
 
-    {% include footer.html %}
+    {% unless page.hide_chrome %}
+      {% include footer.html %}
+    {% endunless %}
 
     {% include scripts.html %}
 
