@@ -1,0 +1,7 @@
+<section class="project-list">
+  {% for post in site.categories.design %}
+    {% unless post.draft %}
+      {% include case_study.html %}
+    {% endunless %}
+  {% endfor %}
+</section>

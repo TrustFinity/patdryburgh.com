@@ -1,7 +1,6 @@
 ---
 layout: page
 title: Contact
-subtitle: I would love to use creative thinking to help you solve problems and design products people love. Please complete the project inquiry form below and I will take take a look at the details of your project as soon as I can.
 hide_title: true
 permalink: /contact/
 ---

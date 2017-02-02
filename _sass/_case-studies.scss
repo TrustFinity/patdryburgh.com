@@ -1,0 +1,48 @@
+.project-list {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 2em;
+}
+
+.project {
+  display: block;
+  overflow: hidden;
+  padding-bottom: 32.5%;
+  position: relative;
+  margin: 2.5%;
+  text-decoration: none;
+  -moz-transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  -webkit-backface-visibility: hidden;
+  box-shadow: 0 2px 8px rgba(0,0,0,.01);
+  @media (min-width: $on-tablet) {
+    width: 40%;
+  }
+}
+
+.project:hover {
+  -moz-transform: scale(1.05);
+  -webkit-transform: scale(1.05);
+  transform: scale(1.05);
+  box-shadow: 0 2px 24px rgba(0,0,0,.04);
+}
+
+.project-title {
+  position: absolute;
+  bottom: 1em;
+  left: 1em;
+  color: #fff;
+  font-size: 1.5em;
+}
+
+.project-image {
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: .25em;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}

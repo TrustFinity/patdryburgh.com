@@ -1,9 +1,4 @@
-<span id="{{ post.url_title }}" class="underlay"></span>
-{{ post.it }}
-<a 
-  href="{{ post.url | prepend: site.baseurl }}"
-  class="js-project-link"
-  data-underlay="{{ post.url_title }}"
-  mouseover="showPhotoUnderlay(this.getAttribute('data-underlay'))"
-  mouseleave="hidePhotoUnderlay()"
->{{ post.title }}</a>
+<a href="{{ post.url | prepend: site.baseurl }}" class="project">
+  <div class="project-image" style="background-image: url({{ post.photo | prepend: site.baseurl }})" alt="{{ post.title }}"></div>
+  <h2 class="project-title">{{ post.title }}</h2>
+</a>

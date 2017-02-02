@@ -72,8 +72,6 @@ textarea {
 .floating-input label,
 .range-slider label {
   font: 400 1em $secondary-font-family;
-  top: 0;
-  left: 0;
   padding: .5em .5em;
   border: 1px solid transparent;
   position: absolute;
@@ -87,23 +85,23 @@ textarea {
   font-size: .5em;
   text-transform: uppercase;
   left: .625em;
-  top: -1.25em;
+  top: 2.75em;
   z-index: 5;
 }
 
-.floating-input input:focus + label,
-.floating-input input:valid + label,
-.floating-input input:not([value=""]):not(:focus):invalid + label,
-.floating-input textarea:focus + label,
-.floating-input textarea:valid + label,
-.floating-input textarea:not([value=""]):not(:focus):invalid + label,
-.range-slider input + label {
-  background: $background-color;
-  font-size: .5em;
-  left: .625em;
-  top: -1.25em;
-  z-index: 5;
-}
+// .floating-input input:focus + label,
+// .floating-input input:valid + label,
+// .floating-input input:not([value=""]):not(:focus):invalid + label,
+// .floating-input textarea:focus + label,
+// .floating-input textarea:valid + label,
+// .floating-input textarea:not([value=""]):not(:focus):invalid + label,
+// .range-slider input + label {
+//   background: $background-color;
+//   font-size: .5em;
+//   left: .625em;
+//   top: -1.25em;
+//   z-index: 5;
+// }
 
 .range-slider input + label {
   top: -1.325em;
