@@ -38,18 +38,22 @@ layout: default
     <aside class="wrapper m-top">
       <div class="call-to-action">
         {% if page.categories contains 'design' %}
-          <h2>
-            Thanks for reading about my work with {{ page.title }}.
-          </h2> 
+          <div class="call-to-action-header">
+            <h2>
+              Thanks for reading about my work with {{ page.title }}.
+            </h2>
+          </div>
           <p>
             If you like what you've read, you should <a href="/contact">contact me</a> or view more of <a href="/design/">my work</a>.
           </p>
         {% elsif page.categories contains 'photography' %}
           <a href="/photography" class="btn">Photos &rarr;</a>
         {% else %}
-          <h2>
-            Like what you've read? <a href="/blog">Keep reading</a> or <a href="/feed/index.xml">subscribe now</a>.
-          </h2>
+          <div class="call-to-action-header">
+            <h2>
+              Like what you've read? <a href="/blog">Keep reading</a>, or <a href="/feed/index.xml">subscribe via RSS</a>, or <a href="http://twitter.com/patdryburgh">follow me on Twitter</a>.
+            </h2>
+          </div>
         {% endif %}
       </div>
     </aside>

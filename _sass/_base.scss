@@ -247,12 +247,14 @@ table {
   font-feature-settings: "lnum";
 }
 
+table th,
 table td {
   padding-bottom: .5em;
   padding-left: 1em;
   vertical-align: top;
 }
 
+table th:first-child,
 table td:first-child {
   padding-left: 0;
 }

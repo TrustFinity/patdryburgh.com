@@ -210,14 +210,18 @@ h3.post-title {
   }
 }
 
-.call-to-action h2 {
-  background: $background-color;
-  font-size: 1em;
-  display: inline-block;
+.call-to-action-header {
   margin: 0 -.5em 0;
-  padding: 0 .5em;
+  padding: 0 1em 0 .5em;
   position: relative;
   top: -.825em;
+}
+
+.call-to-action h2 {
+  background-color: $background-color;
+  box-shadow: .5em 0 0px 0px $background-color, -.5em 0 0px 0px $background-color;
+  font-size: 1em;
+  display: inline;
 }
 
 .call-to-action h2 + p {
