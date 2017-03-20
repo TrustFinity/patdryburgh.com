@@ -1,7 +1,7 @@
 ---
 layout: post
 author: patdryburgh
-title: Designing in Uganda
+title: What am I doing in Uganda?
 url_title: designing-in-uganda
 date: 2017-03-19
 ---
@@ -42,7 +42,7 @@ As a product designer, it is my job to uncover the [jobs][jtbd] for which a cust
 
 Now two days into my time here in Kampala, I realize none of that familiarity applies.
 
-And so, it will be my job to figure it out. My hope is that the processes and methodologies I've learned over the last decade will help. User research, design sprints, job stories, prototyping, and user testing are the tools I intend to use to discover how to design a product for the Ugandan people. I'm sure I'll have some missteps. Perhaps I will find it difficult to translate processes and skills I cultivated in North America to an African context. My goal is to write and share the lessons I learn along the way for those who will surely follow in my footsteps.
+And so, it will be my job to figure out how to apply best practices of product design to the problems Ensibuuko aims to solve. My hope is that the processes and methodologies I've learned over the last decade will help. User research, design sprints, job stories, prototyping, and user testing are the tools I intend to use to discover how to design a product for the Ugandan people. I'm sure I'll have some missteps. Perhaps I will find it difficult to translate processes and skills I cultivated in North America to an African context. My goal is to write and share the lessons I learn along the way for those who will surely follow in my footsteps.
 
 [^1]: Of course there are reasons, I've simply yet to discover them.
 [^2]: When I graduated from elementary school, we were asked what about our career aspirations which were to be announced during the ceremony. My choice was “Major League Umpire”.

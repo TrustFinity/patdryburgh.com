@@ -4,7 +4,7 @@ task :deploy do
   user = 'patdryburgh.com'
   server = 's44375.gridserver.com'
   path = 'domains/patdryburgh.com/html'
-  sh "jekyll build"
+  sh "bundle exec jekyll build"
   sh "rsync -rtzh --delete _site/ #{user}@#{server}:#{path}"
   puts 'The site has been updated!'
 end
