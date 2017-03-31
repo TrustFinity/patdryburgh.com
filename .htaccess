@@ -1,0 +1,6 @@
+# Feed URL redirects
+Options +FollowSymLinks
+RewriteEngine On
+RedirectMatch 301 ^/feed/ http://patdryburgh.com/feed/index.xml
+RedirectMatch 301 ^/rss/ http://patdryburgh.com/feed/index.xml
+RedirectMatch 301 ^/feed/blog/ http://patdryburgh.com/feed/index.xml

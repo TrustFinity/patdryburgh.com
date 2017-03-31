@@ -30,7 +30,7 @@ All of this is simply to point out one simple truth: Uganda is unlike any countr
 
 A couple of months ago, my friend and colleague [Boris Mann][boris] introduced me to Ed Levinson. Ed is an angel investor who has has been traveling to Uganda every January since 2011 to run umpiring training camps for Kampala's little league teams.[^2]
 
-Through this experience, [Ed][ed] “[became] interested in the educational and entrepreneurial aspects of international development” which led to a relationship with Ugandan founders David & Otim. Their startup, [Ensibuuko][ensibuuko], provides cloud-based banking software solutions to microfinance institutions.
+Through this experience, [Ed][ed] “[became] interested in the educational and entrepreneurial aspects of international development” which led to a relationship with Ugandan founders David & Gerald. Their startup, [Ensibuuko][ensibuuko], provides cloud-based banking software solutions to microfinance institutions.
 
 These institutions — [Savings and Credit Cooperatives][saccos] and [Village Savings and Loans Associations][vsla] — serve sub-Saharan Africa's 500 million unbanked individuals. Unlike a bank, which in Africa provides its services at rates unaffordable by many people, these microfinance institutions aim to provide people the ability to save and borrow money when doing so with a bank is cost prohibitive.
 
@@ -38,7 +38,7 @@ Like many other aspects of Ugandan life, these institutions lack the infrastruct
 
 ---
 
-As a product designer, it is my job to uncover the [jobs][jtbd] for which a customer will “hire” a product. Through a discovery process that involves user interviews and discussions around business models and strategy, I try to help founders and product managers understand what their customers need and design solutions to bring that value to the customer. Perhaps I am a bit naive, but I believe a significant portion of this understanding comes from a familiarity with North American culture — people, for the most part, work roughly 40 hours a week and are looking for ways to save time and get more done, faster.
+As a product designer, it is my job to uncover the [jobs][jtbd] for which a customer will “hire” a product. Through a discovery process that involves user interviews and discussions around business models and strategy, I try to help founders and product managers understand what their customers need and design solutions to bring that value to the customer. Perhaps I am a bit naive, but I believe a significant portion of our collective understanding comes from a familiarity with North American culture — people, for the most part, work roughly 40 hours a week and are looking for ways to save time and get more done, faster.
 
 Now two days into my time here in Kampala, I realize none of that familiarity applies.
 
