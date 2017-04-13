@@ -8,7 +8,7 @@ date: 2017-03-19
 
 It's been just over a week since Andrea and I landed in Uganda. My mind is still processing the innumerable observations I've made and thoughts I've had since arriving in our new temporary home. At this rate, I expect it will take a lifetime to fully comprehend everything I've witnessed just one week in.
 
-During an unexpected layover in Brussels, Belgium, we visited Grand Place and enjoyed some fine Belgian chocolate (sadly, no waffles). The next day, we finally found ourselves flying over the Mediterranean Sea and the Northern countries of Africa. Upon landing, a sea of signs &mdash; set in Arial &mdash; directed us to the customs counters. A few minutes later, we were officially on Ugandan soil.
+During an unexpected layover in Brussels, Belgium, we visited Grand Place and enjoyed some fine Belgian chocolate (sadly, no waffles). The next day, we finally found ourselves flying over the Mediterranean Sea and the Northern countries of Africa. Upon landing, a sea of signs&mdash;set in Arial&mdash;directed us to the customs counters. A few minutes later, we were officially on Ugandan soil.
 
 Standing amongst a throng of other drivers was Tonny, holding a sign with “Pat” scrawled in blue pen over his head. Tonny drove us from the airport in Entebbe to our apartment in the Kololo district of Kampala, stopping at the local KFC for our first meal in Uganda. Not exactly authentic African cuisine, but it was just what our hungry bellies needed.
 
@@ -18,7 +18,7 @@ We brought the food home and cooked our first somewhat-authentic meal: posho and
 
 On Sunday, Tonny brought his girlfriend to our place to show Andrea how to cook [matooke][matooke]. The four of us shared dinner and stories. Later, Tonny's girlfriend offered us a tray of eggs. They were also very delicious.
 
-Monday was my first day at the [Ensibuuko][en] office. Before heading in to meet the team, [Corey][corey] and Jamal &mdash; two Canadian developers who arrived a couple of months before me &mdash; took me out for breakfast to update me on the status of the project and to give me a lay of the land. The team, though junior in experience, are full of vigour and drive and are starting to gain some momentum on the [rewrite of the product][rw].
+Monday was my first day at the [Ensibuuko][en] office. Before heading in to meet the team, [Corey][corey] and Jamal&mdash;two Canadian developers who arrived a couple of months before me&mdash;took me out for breakfast to update me on the status of the project and to give me a lay of the land. The team, though junior in experience, are full of vigour and drive and are starting to gain some momentum on the [rewrite of the product][rw].
 
 On Wednesday, I joined several members of the team to celebrate the birthday of one of our developers, Fredrick. We had a great time sharing drinks and laughs as Fredrick wore the ceremonial sombrero (yes, it was a Mexican restaurant).
 
