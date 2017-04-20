@@ -36,9 +36,9 @@ To create a product shortcode, I started by creating a file in the `snippets` fo
 
 To pass the `name` attribute to your shortcode snippet, we'll need to capture it near the beginning of the `shortcode-product.liquid` file: 
 
-    `{% capture productHandle %}
+    {% capture productHandle %}
         {% include 'shortcode-render' render:'name' %}
-    {% endcapture %}`
+    {% endcapture %}
 
 Now, I can use `{{ productHandle }}` in my snippet to pull in the shortcode's `name` attribute and use it to assign `product`:
 
