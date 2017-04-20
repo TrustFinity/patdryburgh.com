@@ -44,7 +44,7 @@ One of the downsides to not testing with my Mac is the lack of a native Windows 
 
 Lookback suggests using their Chrome extension and self-test links to record tests on a PC. While this is a reasonable approach, the videos *must* be uploaded immediately. Otherwise, you'll lose them. I learned this the hard way.
 
-In Uganda, Internet connections are generally unreliable. So much so that [Ensibuuko][en] has established a relationship with [Airtel][at] allowing them to provide customers with an APN (Access Point Name). The APN connects the client device directly to the Ensibuuko server at Airtel. While this provides a more reliable connection, it also limits the connection to the single server. This means the client device can't connect to other servers such as Lookback's.
+In Uganda, Internet connections are generally unreliable. So much so that [Ensibuuko][en] has established a relationship with [Airtel][at] allowing them to provide customers with a dedicated [APN][apn] (Access Point Name). The APN connects the customer's computer directly to the Ensibuuko server at Airtel. While this provides a more reliable connection, it also limits the connection to the single server. This means the client device can't connect to other servers such as Lookback's.
 
 Our solution to this was to tether our client's device to my iPhone which has a 4G connection through MTN. While this allowed us to perform the test, the connection was still far too slow for the upload to finish in a reasonable time. The instructions provided by Lookback state that uploads will resume if a connection is lost. Evidently, this does not include lost connections caused by putting the device to sleep.
 
@@ -62,3 +62,4 @@ All of this has caused me to remember the motto I learned as a young Boy Scout: 
 [en]: http://ensibuuko.com
 [at]: http://www.africa.airtel.com/uganda/
 [rt]: https://betanews.com/2015/07/19/windows-10-secret-screen-recording-tool/
+[apn]: http://airtelbusiness.com.ng/business-apn/
