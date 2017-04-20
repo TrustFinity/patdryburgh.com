@@ -3,9 +3,9 @@ title: Creating product shortcodes for Shopify
 date: 2016-11-22 00:00:00 Z
 categories:
 - blog
-layout: post
 author: patdryburgh
 url_title: shopify-shortcodes
+layout: post
 ---
 
 {% raw %}
@@ -36,7 +36,9 @@ To create a product shortcode, I started by creating a file in the `snippets` fo
 
 To pass the `name` attribute to your shortcode snippet, we'll need to capture it near the beginning of the `shortcode-product.liquid` file: 
 
-`{% capture productHandle %}{% include 'shortcode-render' render:'name' %}{% endcapture %}`
+    `{% capture productHandle %}
+        {% include 'shortcode-render' render:'name' %}
+    {% endcapture %}`
 
 Now, I can use `{{ productHandle }}` in my snippet to pull in the shortcode's `name` attribute and use it to assign `product`:
 
@@ -44,16 +46,16 @@ Now, I can use `{{ productHandle }}` in my snippet to pull in the shortcode's `n
 
 From here, it's just a matter of using the attributes available through Shopify's `product` [object][5] to display the product's title, image, and URL.
 
-    <h1 class="title">
-      {{ product.title }}
+    '<h1 class="title">
+        {{ product.title }}
     </h1>
     <a href="{{ product.url }}">
-      <img src="{{ product.featured_image.src | product_img_url: '1024x1024' }}" alt="{{ image.alt | escape }}" />
-    </a>
+        <img src="{{ product.featured_image.src | product_img_url: '1024x1024' }}" alt="{{ image.alt | escape }}" />
+    </a>'
 
 You can add other attributes, such as a `float` to allow the product to appear on either side of the text or to add more content. I've used this same method to create image galleries and fancy block quotes, as well.
 
-Shortcodes are a simple way to give your clients' the power to create even more engaging experiences for their customers.
+Shortcodes are a simple way to give your clients the power to create even more engaging experiences for their customers.
 {% endraw %}
 
 [1]: http://rye51.com
