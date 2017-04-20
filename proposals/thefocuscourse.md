@@ -1,9 +1,8 @@
 ---
-layout: page
 title: The Focus Course Blog Proposal - v1.0
+layout: page
 subtitle: I can't wait to start working with you.
 ---
-
 
 ## Introduction
 

@@ -1,10 +1,9 @@
 ---
-layout: page
 title: Nimble
+layout: page
 meta: Proposal
 subtitle: I can't wait to start working with you.
 ---
-
 
 ## Introduction
 

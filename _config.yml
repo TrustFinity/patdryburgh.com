@@ -1,29 +1,30 @@
-# Site settings
+---
 title: Pat Dryburgh
+timezone: UTC
+collections:
+  posts:
+    title: Posts
+    output: true
+  uploads:
+    title: Uploads
+    output: true
 email: hello@patdryburgh.com
 description: Pat Dryburgh is a design director based in Vancouver, BC.
-baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://patdryburgh.com" # the base hostname & protocol for your site
+baseurl: ''
+url: http://patdryburgh.com
 twitter_username: patdryburgh
-github_username:  patdryburgh
-
-# Build settings
-permalink: /:categories/:title/
+github_username: patdryburgh
+permalink: "/:categories/:title/"
 markdown: kramdown
-markdown_ext: "markdown,mkdown,mkdn,mkd,md"
-
+markdown_ext: markdown,mkdown,mkdn,mkd,md
 kramdown:
-  auto_ids:       true
-  footnote_nr:    1
-  entity_output:  as_char
-  toc_levels:     1..6
-  smart_quotes:   lsquo,rsquo,ldquo,rdquo
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  smart_quotes: lsquo,rsquo,ldquo,rdquo
   enable_coderay: false
-
-# Flickr
-
 flickr:
   api_key: 9672d2a4458dfb7049545b6a93a0818a
-
-gems: [jekyll-coffeescript]
-gems: [jekyll-paginate]
+gems:
+- jekyll-paginate

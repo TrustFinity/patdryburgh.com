@@ -1,10 +1,10 @@
 ---
-layout: page
 title: About
+permalink: "/about/"
+layout: page
 subtitle: I play guitar and design digital products in Vancouver, British Columbia.
-permalink: /about/
 hide_title: true
-photo: /images/site/patdryburgh.jpg
+photo: "/images/site/patdryburgh.jpg"
 ---
 
 I found my love for [design](/design) back in the age of table-based layouts, font tags, and spacer GIFs. I've published [my writing](/blog) on the internet on-and-off for the past decade. My work has been featured in Beautiful Pixels, TechCrunch, Gigaom, VentureBeat, and the iOS App Store.

@@ -1,10 +1,11 @@
 ---
-layout: page
 title: Design Sprints
-subtitle: I lead teams who want to quickly validate ideas, solve big problems, and radically reduce the risk of building the wrong thing using **Design Sprints**.
+permalink: "/design-sprints/"
+layout: page
+subtitle: I lead teams who want to quickly validate ideas, solve big problems, and
+  radically reduce the risk of building the wrong thing using **Design Sprints**.
 hide_title: true
-permalink: /design-sprints/
-photo: /images/sprints/design-sprints.jpg
+photo: "/images/sprints/design-sprints.jpg"
 full_bleed: true
 ---
 

@@ -1,10 +1,9 @@
 ---
-layout: page
 title: Rye 51
+layout: page
 meta: Proposal v1.0
 subtitle: I can't wait to start working with you.
 ---
-
 
 ## Introduction
 
