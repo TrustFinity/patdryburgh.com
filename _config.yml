@@ -10,7 +10,7 @@ collections:
     output: true
 email: hello@patdryburgh.com
 description: Pat Dryburgh is a design director based in Vancouver, BC.
-baseurl: ''
+baseurl: 
 url: http://patdryburgh.com
 twitter_username: patdryburgh
 github_username: patdryburgh
