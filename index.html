@@ -1,12 +1,24 @@
 ---
-layout: page
+layout: default
 home: true
 ---
 
-<div class="no-il">
-  <p>Hi, I'm <a class="site-title--link" href="{{ site.baseurl }}/about">Pat</a> and I lead teams that help companies design and build products in Vancouver, BC. <a href="/now/">Currently</a>, I am <a href="/blog/designing-in-uganda">leading product and service design</a> for microfinancing startup <a href="http://ensibuuko.com">Ensibuuko</a> in Kampala, Uganda.</p>
-</div>
+<main class="blog">
 
-<figure class="extra-wide">
-  <img src="/images/site/patdryburgh.jpg" alt="Pat Dryburgh">
-</figure>
+  {% for post in site.categories.blog %}
+    {% unless post.draft %}
+      {% assign currentdate = post.date | date: "%Y" %}
+      {% if post.date and currentdate != date %}
+        {% unless forloop.first %}</ul>{% endunless %}
+        <div class="wrapper m-top">
+          <h2 class="year-heading" id="y{{post.date | date: "%Y"}}">{{ currentdate }}</h2>
+        </div>
+        <ul class="post-list list-unstyled">
+        {% assign date = currentdate %}
+      {% endif %}
+      {% include post_link.html %}
+      {% if forloop.last %}</ul>{% endif %}
+    {% endunless %}
+  {% endfor %}
+
+</main>

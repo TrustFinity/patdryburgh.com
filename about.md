@@ -9,7 +9,9 @@ photo: /images/site/patdryburgh.jpg
 
 I found my love for [design](/design) back in the age of table-based layouts, font tags, and spacer GIFs. I've published [my writing](/blog) on the internet on-and-off for the past decade. My work has been featured in Beautiful Pixels, TechCrunch, Gigaom, VentureBeat, and the iOS App Store.
 
-In my free time I write and record music, take photos, and explore the beautiful province of British Columbia.
+<a href="/now/">Currently</a>, I am <a href="/blog/designing-in-uganda">leading product and service design</a> for microfinancing startup <a href="http://ensibuuko.com">Ensibuuko</a> in Kampala, Uganda.
+
+In my free time I write and record music, [take photos](http://instagram.com/patdryburgh), and explore the beautiful province of British Columbia.
 
 ## Colophon
 
@@ -17,4 +19,4 @@ This site is built with [Jekyll](https://jekyllrb.com) and hosted on [Media Temp
 
 ---
 
-<small>The photo on this page and the homepage was taken by [David Redding](http://www.davidreddingphoto.com).</small>
+<small>The photo on this page was taken by [David Redding](http://www.davidreddingphoto.com).</small>
