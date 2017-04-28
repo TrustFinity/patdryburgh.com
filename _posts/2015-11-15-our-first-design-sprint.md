@@ -3,9 +3,9 @@ title: Our first design sprint
 date: 2015-11-15 00:00:00 Z
 categories:
 - blog
-layout: post
 author: patdryburgh
 url_title: our-first-design-sprint
+layout: post
 ---
 
 This past week, the design team at Brewhouse experimented with a process new to the three of us called a [Design Sprint][DS]. Developed and popularized by the [design team at Google Ventures][GV], the design sprint takes a product's stakeholders and those intending to design and build it through a 5-day design process encompassing 5 phases: understanding, diverging, converging, prototyping, and testing. Each of these phases ebb and flow through any product design process, but the 5-day design sprint allows designers and product owners to quickly and efficiently prototype and test a design solution.
@@ -24,27 +24,27 @@ In the spirit of transparent collaboration, I want to share what went right and 
 
 ## First, the good
 
-Up until May of this year, Brewhouse had primarily marketed itself as a Ruby on Rails development shop. With my hiring in the early days of summer, we set out on a path to build up a design business within Brewhouse. Initially, it was thought that we'd make do with just me handling all of the design work, until just a few months in when it was clear the design business was growing much faster than anticipated. In September, we hired Lee to help with the design work we were doing, but it wasn't until this week that we had a real opportunity to collaborate together on a project.
+Up until May of this year, Brewhouse had marketed itself as a Ruby on Rails development shop. When [I was hired][pat], the company began to build up the design side of the business. It was thought that we'd make do with just me handling all of the design work until just a few months in when it was clear the design business was growing faster than anticipated. In September, we [hired Lee][lee] to help with design, but it wasn't until this week that he and I had a real opportunity to collaborate on a project.
 
-On top of collaborating with Lee for the first time, this was also my first full week working on Goodbits. While I have been involved in discussions and have made small contributions to Goodbits since I started at Brewhouse back in May, I had not yet had the chance to dedicate an entire week to our own product. I also loved the opportunity to work with our product manager Mark on our own product rather than a client project, primarily because of his dedication and passion for the product and its users.
+As well as collaborating with Lee for the first time, this was also my first full week working on Goodbits. While I had been involved in discussions and have made small contributions to Goodbits, I had not yet had the chance to dedicate an entire week to our own product. I also relished the opportunity to work with our product manager, Mark, on our own product rather than a client project.
 
 ### Practice makes perfect
 
-Reading through explanations of the activities involved in the design sprint prior to it beginning, I was struck how they felt both familiar and alien at the same time. I have years of experience researching, sketching out different user interface ideas, prototyping and building products of various sizes and levels of complexity, however I would tend to stick to pen and paper only until my creative juices started flowing allowing me to move to wireframing in either Keynote or Photoshop as quickly as possible.
+Reading through the details of the Design Sprint exercises, I was struck how they felt both familiar and alien at the same time. I have years of experience researching, sketching out different user interface ideas, prototyping and building products of various sizes and levels of complexity, however I would tend to start generating ideas with pen and paper and move rather quickly to wireframing in either Keynote or Photoshop as quickly as possible.
 
-In the design sprint process, sketching ideas by hand is a primary means of coming up with multiple possible solutions in a short period of time. Using practices such as Mind Mapping and Crazy Eights, each of us attempted to get to the heart of the problem and propose as many solutions as possible.
+In the design sprint process, sketching ideas by hand is the primary means of coming up with multiple possible solutions in a short period of time. Exercises such as Mind Mapping and Crazy Eights are intended to help us get to the heart of the problem and propose as many solutions as possible.
 
-It was great seeing the various options that each of us came up with. However, what we failed to realize until we had completed a few rounds of this process was that we had missed the Storyboarding activity to refine the ideas we were brainstorming.
+It was great seeing the various options that each of us came up with. However, it wasn't until we had completed a few rounds of this process that we realized we had missed the Storyboarding exercise to refine the ideas we were brainstorming.
 
-During this phase of the sprint, I found my own ability to sketch ideas quickly and effectively paled in comparison to both Lee and Mark. I also noted that my frustration with my limited output caused anxiety that I was unable to contain. Not my proudest moments during the week, but my hope is that by acknowledging them I will be able to improve my output for our next sprint.
+During this phase of the sprint, I found my own ability to sketch ideas paled in comparison to both Lee and Mark. I also noted that my frustration with my limited output caused anxiety that I was unable to contain. Not my proudest moment during the week, but I hope by acknowledging them I will be able to improve my output for our next sprint.
 
-By practicing the activities that make up a design sprint, we were able to gain a better understanding of the purpose of each activity as well as improve our ability to critique and collaborate on our ideas. I'm confident that the next time we attempt a design sprint, we'll be far more comfortable with each activity and will be much more efficient at moving through each phase of the process.
+By practicing the activities that make up a design sprint, we were able to gain a better understanding of the purpose of each activity as well as improve our ability to critique and collaborate on our ideas. By the next time we attempt a design sprint, we should be more comfortable with each activity and more efficient moving through each phase of the process.
 
 ### The importance of documentation
 
-Though it was not one of the goals we had stipulated at the outset of the project, we did use the sprint as an opportunity to test a new tool, Paper by Dropbox. We used Paper as a means of documenting the ideas and decisions we made throughout the process, and overall it was an excellent experience.
+Though it was not one of the goals we had stipulated at the outset of the project, we did use the sprint as an opportunity to test a new tool, [Paper by Dropbox][paper]. We used Paper as to document our ideas and decisions throughout the process. Overall, it was an excellent experience.
 
-Personally, I found that having a space where we could document the output of our process was beneficial to both our immediate needs for information during the sprint as well as our needs moving forward with the project. Having the assumptions and solutions derived from the sprint available to us as we embark on building out our ideas insures that we won't be scratching our heads when a we need to explain a particular decision to the developer responsible for implementation.
+Having our assumptions and solutions derived from the sprint available to us as we embark on building out our ideas insures that we won't be scratching our heads when a we need to explain a particular decision to the developer responsible for implementation.
 
 ***
 
@@ -52,25 +52,27 @@ As stipulated in the goals we established before the sprint, we were able to gai
 
 ## Then, the bad
 
-There were two fundamental flaws in our approach to this week's design sprint. 
+There were two fundamental flaws in our approach to our first design sprint. 
 
 ### Scheduling
 
-First, scheduling our first sprint into a 4-day schedule was a mistake. Our team had never completed a design sprint together, and thus spent more time than we had planned understanding each activity and its role in the process. I believe as we gain a deeper understanding of each activity, we will develop the ability to move from activity to activity far more fluidly.
+Scheduling our first sprint into a 4-day schedule was a mistake. Our team had never completed a design sprint together, and thus spent considerable time understanding each activity and its role in the process. I believe as we gain a deeper understanding of each activity, we will develop the ability to move from activity to activity far more fluidly.
 
-By scheduling the 5 phases of the design sprint over a 5-day week, each phase experiences a natural beginning and end. You can show up to the office, begin the day's phase, and be more relaxed knowing that you won't have to switch mental contexts until the day is done. The cognitive expenditure of switching from phase to the next in the middle of a day proved to be rather taxing on us. This is likely exasperated by the fact that the process was new to us, but I'm not sure that's entirely to blame.
+By scheduling the 5 phases of the design sprint over a 5-day week, each phase experiences a natural beginning and end. You can show up to the office, begin the day's phase, and be more relaxed knowing that you won't have to switch mental contexts until the day is done.
 
-As each phase of the process builds upon its antecedent, it is important that as a team you are able to carry each phase through to its natural completion. There should be no lingering doubt that the goals established for each phase were successfully accomplished. By scheduling each phase down to the minute, I felt not enough time was left to reflect as activities were being completed, causing us to rush through decisions just to keep moving forward with the process. Because of this, many activities were merely half-completed or worse, ignored altogether.
+The cognitive expenditure of switching from phase to the next in the middle of a day proved to be rather taxing on us. This is likely exasperated by the fact that the process was new to us, but I'm not sure that's entirely to blame.
 
-Second, the time scheduled for the design sprint was not kept sacred. Though we had scheduled our activities down to the minute, interruptions throughout the week caused our forward momentum to become inert. I bare much of the responsibility for this — I accepted requests for meetings at times when I knew I was meant to be focused on the sprint. Back when I was a freelancer, these interruptions could be mitigated by the fact that I was working alone more often than not. When two other people are waiting for you to wrap up a podcast that was rescheduled to a time you were all meant to be prototyping, it can be tragically debilitating to progress.
+As each phase of the process builds upon its antecedent, it is important to carry each phase through to its natural completion. There should be no lingering doubt that the goals established for each phase were successfully accomplished. By scheduling each phase down to the minute, not enough time was left to reflect as activities were being completed, causing us to rush through decisions just to keep moving forward with the process. Many activities were only half finished or worse, ignored altogether.
 
-A design sprint, by its very nature, is a communal activity. Larger teams like Google Ventures and Thoughtbot are able to apply far more resources to a design sprint than a team of Brewhouse's size, so with just the three of us participating in this week's design sprint, losing one member for any length of time causes a 33% loss of available resources and an even higher drop-off of productivity. There were several times I felt I was being brought back up to speed with what I had missed being discussed. Perhaps this would be mitigated by better documentation, but that too requires either further resources to be assigned to the sprint or a slow down in productivity on the part of those participating.
+Though we had scheduled our activities down to the minute, interruptions throughout the week caused our forward momentum to become inert. I bare much of the responsibility for this — I accepted requests for meetings at times when I knew I was meant to be focused on the sprint. Back when I was a freelancer, these interruptions could be mitigated by the fact that I was working alone more often than not. When two other people are waiting for you to wrap up a podcast that was rescheduled to a time you were all meant to be prototyping, it can be tragically debilitating to progress.
 
-### The elephant is the room
+There were several times I felt I was being brought back up to speed on discussions I had missed. Perhaps this could have been mitigated by better documentation, but that too requires either further resources to be assigned to the sprint or a slow down in productivity on the part of those participating.
 
-Though I would hesitate to argue that this last criticism deserves as much indictment as the issues discussed above, I would be remiss not to mention it. The room where we engaged in this week's sprint was our board room. Brewhouse's works in a loft apartment which has been converted into an office, and our board room is a dark, narrow room with windows looking out at the brick wall two feet away, and a sliding door which acts as a somewhat ineffective white board.
+### The elephant _is_ the room
 
-But worst of all are the chairs. Because of Brewhouse's general disdain for meetings, a decision was made early on to purchase chairs which would act as a deterrent from spending too much time in the board room. However, if collaboration is a value that we care about at Brewhouse, we should care about designing a space that best supports our collaborative efforts. There were many times I simply wished not to be in that room, even though the actual work we were performing was both challenging and engaging.
+The room where we engaged in this week's sprint was our company board room. Brewhouse works in a loft apartment which has been converted into an office. Our board room is a dark, narrow room with windows looking out at a brick wall two feet away and a sliding door which acts as a somewhat ineffective white board.
+
+But worst of all are the chairs. Due to Brewhouse's disdain for meetings, a decision was made early on to purchase chairs which would act as a deterrent from spending too much time in the board room. However, if collaboration is a value that we care about at Brewhouse, we should care about designing a space that best supports our collaborative efforts. There were many times we simply wished not to be in that room, even though the actual work we were doing was both challenging and engaging.
 
 ## What's next?
 
@@ -80,3 +82,6 @@ This week I plan to schedule a retrospective on our initial design sprint, so we
 [GV]: https://www.gv.com/design/
 [GB]: https://goodbits.io
 [TB]: http://thoughtbot.com
+[pat]: http://brewhouse.io/blog/2015/06/12/brewhouse-hires-a-creative-beard.html
+[lee]: http://brewhouse.io/2015/09/21/welcome-lee-post.html
+[paper]: http://paper.dropbox.com/
