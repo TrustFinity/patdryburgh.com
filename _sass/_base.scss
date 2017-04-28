@@ -29,36 +29,38 @@ ul, ol, dl, figure,
 }
 
 h1, h2, h3, h4, h5, h6 {
+  font-family: $secondary-font-family;
   line-height: 1;
 }
 
 h2, h3, h4, h5, h6 {
-  margin-top: 2em;
+  margin-top: 1em;
   margin-bottom: .5em;
 }
 
 h2 {
-  font-size: 1.75em;
-  margin-top: 1em;
-  @media (min-width: $on-tablet) {
-    font-size: 2em;
-  }
-}
-
-h3 {
   font-size: 1.5em;
 }
 
-h4 {
-  font-size: 1.25em;
-}
-
-h5 {
+h3 {
   font-size: 1em;
 }
 
-h6 {
+h4 {
   font-size: .825em;
+  text-transform: uppercase;
+}
+
+h5 {
+  font-size: .825em;
+  font-weight: normal;
+  text-transform: uppercase;
+}
+
+h6 {
+  font-size: .75em;
+  font-weight: normal;
+  text-transform: uppercase;
 }
 
 p {
