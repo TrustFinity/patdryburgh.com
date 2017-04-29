@@ -36,7 +36,7 @@ In the design sprint process, sketching ideas by hand is the primary means of co
 
 It was great seeing the various options that each of us came up with. However, it wasn't until we had completed a few rounds of this process that we realized we had missed the Storyboarding exercise to refine the ideas we were brainstorming.
 
-During this phase of the sprint, I found my own ability to sketch ideas paled in comparison to both Lee and Mark. I also noted that my frustration with my limited output caused anxiety that I was unable to contain. Not my proudest moment during the week, but I hope by acknowledging them I will be able to improve my output for our next sprint.
+During this phase of the sprint, I found my own ability to sketch ideas paled in comparison to both Lee and Mark. I also noted that my frustration with my limited output caused anxiety that I was unable to contain. Not my proudest moment during the week, but I hope by acknowledging it I will be able to improve my output for our next sprint.
 
 By practicing the activities that make up a design sprint, we were able to gain a better understanding of the purpose of each activity as well as improve our ability to critique and collaborate on our ideas. By the next time we attempt a design sprint, we should be more comfortable with each activity and more efficient moving through each phase of the process.
 
