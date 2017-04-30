@@ -14,7 +14,7 @@ In my free time I write and record music, [take photos](http://instagram.com/pat
 
 ## Colophon
 
-This site is built with [Jekyll](https://jekyllrb.com), managed by [Siteleaf](http://siteleaf.com), and hosted on [Media Temple](http://bit.ly/2ilfvQD). Freight Text and Sans are served by [Typekit](http://typekit.com).
+This site is built with [Jekyll](https://jekyllrb.com), managed by [Siteleaf](http://siteleaf.com), and hosted on [Github](https://pages.github.com). Freight Text and Sans are served by [Typekit](http://typekit.com).
 
 ---
 
