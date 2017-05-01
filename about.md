@@ -18,4 +18,4 @@ This site is built with [Jekyll](https://jekyllrb.com), managed by [Siteleaf](ht
 
 ---
 
-<small>The illustration in the header was drawn by [Courtney Yake](https://twitter.com/courtneymake).</small>
+The illustration in the header was drawn by [Courtney Yake](https://twitter.com/courtneymake).
