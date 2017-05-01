@@ -4,7 +4,7 @@ textarea {
   background: none;
   border: 0;
   border-bottom: 1px solid #eee;
-  font: 400 .75em $secondary-font-family;
+  font: 400 .75em $base-font-family;
   margin: 1em 0;
   padding: .5em .5em .625em;
   max-width: 12em;
@@ -34,7 +34,7 @@ textarea {
   background: none;
   border: 0;
   border: 1px solid #eee;
-  font: 400 1em $secondary-font-family;
+  font: 400 1em $base-font-family;
   margin: 2em 0 0;
   padding: .5em .5em .625em;
   max-width: 100%;
@@ -71,7 +71,7 @@ textarea {
 
 .floating-input label,
 .range-slider label {
-  font: 400 1em $secondary-font-family;
+  font: 400 1em $base-font-family;
   top: 0;
   left: 0;
   padding: .5em .5em;
@@ -184,7 +184,7 @@ textarea {
   line-height: 3.125em;
   border: 0;
   border-left: 1px solid #eee;
-  font-family: $secondary-font-family;
+  font-family: $base-font-family;
 }
 
 input[type="range"] {

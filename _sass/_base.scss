@@ -29,7 +29,7 @@ ul, ol, dl, figure,
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: $secondary-font-family;
+  font-family: $base-font-family;
   line-height: 1;
 }
 
@@ -73,9 +73,9 @@ h2 + p {
 
 .year-heading {
   color: $grey-color;
-  font-family: $secondary-font-family;
+  font-family: $base-font-family;
   font-size: .75em;
-  margin-bottom: 0;
+  margin-bottom: .75em;
   margin-top: 1em;
   font-variant-numeric: lining-nums;
   -moz-font-feature-settings: "lnum";
@@ -132,7 +132,7 @@ a {
   background: none;
   border: 0;
   color: $brand-color;
-  font-family: $secondary-font-family;
+  font-family: $base-font-family;
   font-size: .625em;
   font-weight: 700;
   letter-spacing: .125em;
@@ -151,7 +151,7 @@ blockquote {
   border-left: .25rem solid $brand-color;
   color: $grey-color;
   padding-left: $spacing-unit;
-  font: italic 400 1em/1.425 $secondary-font-family;
+  font: italic 400 1em/1.425 $base-font-family;
   font-style: italic;
   position: relative;
 
@@ -261,7 +261,7 @@ hr {
 
 table {
   min-width: 100%;
-  font-family: $secondary-font-family;
+  font-family: $base-font-family;
   font-variant-numeric: lining-nums;
   -moz-font-feature-settings: "lnum";
   -webkit-font-feature-settings: "lnum";
@@ -286,7 +286,7 @@ table td:first-child {
 
 .signatures td {
   border-top: 1px solid $text-color;
-  font-family: $secondary-font-family;
+  font-family: $base-font-family;
   font-size: .625em;
   padding-bottom: 3em;
   width: 40%;
