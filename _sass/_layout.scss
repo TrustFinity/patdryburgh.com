@@ -347,7 +347,7 @@ figcaption {
 // Misc
 
 .pull-out {
-  @media screen and (min-width: $on-laptop + 6em) {
+  @media screen and (min-width: $on-desktop) {
     font-size: .75em;
     position: absolute;
     left: 100%;
