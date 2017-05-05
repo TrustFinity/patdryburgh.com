@@ -14,7 +14,7 @@ I started looking up resources and suggestions for [running user tests in Uganda
 
 After a bit more searching, I came across an organization called [Design Without Borders][dwb] which appeared to operate exclusively in Uganda. Reading through their [case studies][dcs], I was floored by the work they were doing. I sent an email in the hopes of connecting with someone there and when I received a response, was pleasantly surprised to be invited to the grand opening of their new office in a new co-working space called [Design Hub Kampala][dhk].
 
-The following Saturday, my partner, a colleague, and I found ourselves wondering through a beautifully renovated warehouse which now houses eight design-focused companies. The space was filled with glass walls, modern wooden desks, and presentations of work from each tenant.
+The following Saturday, my partner, a colleague, and I found ourselves wandering through a beautifully renovated warehouse which now houses eight design-focused companies. The space was filled with glass walls, modern wooden desks, and presentations of work from each tenant.
 
 <figure class="extra-wide">
   <img src="/images/uploads/design-hub-kampala.jpg" alt="Design Hub Kampala" />
