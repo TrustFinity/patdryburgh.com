@@ -247,21 +247,22 @@ figcaption {
   margin-left: -1em;
   margin-right: -1em;
   text-align: center;
-  @media screen and (min-width: $on-tablet) {
+  @media (min-width: $on-tablet) {
     margin-left: -3em;
     margin-right: -3em;
   }
-  @media screen and (min-width: $on-laptop) {
+  @media (min-width: $on-desktop) {
     display: flex;
     width: 100vw;
-    margin-left: -6em;
+    margin-top: 2em;
     margin-right: 0;
+    margin-left: -6em;
   }
 }
 
 .extra-wide img {
   max-width: 100%;
-  @media screen and (min-width: $on-laptop) {
+  @media screen and (min-width: $on-desktop) {
     width: -webkit-calc(100% - 15.25em);
     width: calc(100% - 15.25em);
     max-width: 41.75em;
@@ -272,10 +273,10 @@ figcaption {
 
 .extra-wide figcaption {
   margin: 0 1em;
-  @media screen and (min-width: $on-laptop) {
+  @media (min-width: $on-desktop) {
     border-top: 4px solid $brand-color;
     margin-left: 3em;
-    padding-top: 2em;
+    padding-top: 1em;
     text-align: left;
     top: 0;
     width: 10em;
@@ -284,7 +285,7 @@ figcaption {
 
 .photo {
   margin: 1em 0 2em;
-  @media screen and (min-width: $on-tablet) {
+  @media (min-width: $on-tablet) {
     margin: 1em 4em 2em;
   }
   img {
@@ -311,7 +312,7 @@ figcaption {
   background-position: center;
   background-repeat: no-repeat;
   transition: all .25s ease-in-out;
-  @media screen and (min-width: $on-laptop) {
+  @media (min-width: $on-laptop) {
     display: block;
   }
 }
