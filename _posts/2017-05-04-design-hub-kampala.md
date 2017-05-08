@@ -21,7 +21,7 @@ The following Saturday, my partner, a colleague, and I found ourselves wandering
   <figcaption>I have to admit, I'm jealous of this space</figcaption>
 </figure>
 
-I spoke briefly with one of Design Without Borders' design trainees who shared her story of joining the organization with a background in interior design and learning about human-centred design through a one year program with [Ideo][ideo]. To learn of an organization in Kampala so focused on training a new generation of local designers was inspiring.
+I spoke briefly with one of Design Without Borders' design trainees who shared her story of joining the organization with a background in interior design and being trained in human-centred design. To learn of an organization in Kampala so focused on training a new generation of local designers was inspiring.
 
 <figure class="extra-wide">
   <img src="/images/uploads/design-without-borders.jpg" alt="Design Without Borders" />
@@ -35,4 +35,3 @@ Design Hub Kampala appears to be an amazing addition to the community of Kampala
 [dwb]: http://designwithoutborders.com
 [dcs]: http://www.designwithoutborders.com/projects/
 [dhk]: http://designhubkampala.com
-[ideo]: https://www.ideou.org/
