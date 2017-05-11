@@ -156,8 +156,7 @@
   z-index: 1;
 }
 
-.post-meta,
-.post-meta:visited {
+.post-meta {
   color: $grey-color;
   font-family: $base-font-family;
   font-size: .75em;
@@ -166,6 +165,9 @@
   -moz-font-feature-settings: "lnum";
   -webkit-font-feature-settings: "lnum";
   font-feature-settings: "lnum";
+  a {
+    color: inherit;
+  }
 }
 
 .post-title {

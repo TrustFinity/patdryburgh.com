@@ -7,17 +7,18 @@ layout: default
   {% if page.categories contains 'blog' %}
     <header class="post-header">
       <div class="wrapper">
-        <a class="post-meta" href="{{ post.url | prepend: site.baseurl }}">
+        <span class="post-meta">
           {% if page.date %}
-            {{ page.date | date: "%b %-d, %Y" }}
+            <a href="{{ post.url | prepend: site.baseurl }}">{{ page.date | date: "%b %-d, %Y" }}</a>
           {% endif %}
+          {% include read_time.html %}
           {% if page.date and page.meta %}
             &middot; 
           {% endif %}
           {% if page.meta %}
             {{ page.meta }}
           {% endif %}
-        </a>
+        </span>
         <h1 class="post-title">{{ page.title }}</h1>
       </div>
     </header>
