@@ -10,6 +10,13 @@ dl, dd, ol, ul, figure {
 
 /* Basic styling */
 
+::-moz-selection { background: lighten($brand-color, 30%); }
+::selection { background: lighten($brand-color, 30%); }
+
+html {
+  background: $brand-color;
+}
+
 body {
   background-color: $background-color;
   font: 400 $base-font-size $base-font-family;
