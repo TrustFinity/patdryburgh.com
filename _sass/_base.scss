@@ -15,13 +15,15 @@ dl, dd, ol, ul, figure {
 
 html {
   background: $brand-color;
+  height: 100%;
 }
 
 body {
   background-color: $background-color;
+  color: $text-color;
   font: 400 $base-font-size $base-font-family;
   line-height: $base-line-height;
-  color: $text-color;
+  min-height: 100%;
   -webkit-font-smoothing: antialiased;
   @media screen and (min-width: $on-tablet) {
     font-size: 1.425em;
