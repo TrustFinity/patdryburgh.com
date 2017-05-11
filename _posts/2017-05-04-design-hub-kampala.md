@@ -1,32 +1,37 @@
 ---
-title: Join me on May 24 to learn how user testing can improve your product
-date: 2017-05-11 13:15:00
+title: Design Hub Kampala
+date: 2017-05-04 12:35:00
 categories:
 - blog
 layout: post
 author: patdryburgh
-url_title: improve-your-product
+url_title: design-hub-kampala
 ---
 
-A few months ago, my friend [Kenny][kg] and I started chatting about how we can take the lessons we've learned building products over the years and share them with people in developing countries. Kenny had recently made the move to Indonesia where his company, [Viral Foundry][vf], has built a small team of designers and developers to work with startup founders, existing businesses, private equity funds, VCs and local government agencies to build new companies. I — [of course][oc] — have been working with the team at [Ensibuuko][en] building a platform for micro-financing institutions in sub-Saharan Africa.
+Since arriving in Kampala, I've been looking to connect with others in the region who are using design to solve complex problems. For a while, the only evidence I'd found of such a community existing was a Facebook page for a group whose last post was announcing an event back in January. Not very promising.
 
-One of Kenny's ideas was to host a livestream event for people interested in learning how to design products. After emailing ideas back and forth for a few weeks, we finally settled on the topic of how [user testing][ut] can improve a product. It's a process I've found to be absolutely critical to the product design and development cycle and I've been eager to share what I've been learning about it with designers who may yet to include it in their own toolkits.
+I started looking up resources and suggestions for [running user tests in Uganda][utu] and found an article by Jacqui Watson of [Praekelt.org][pko] sharing the [lessons she learned performing user tests in Kabale, Uganda][put]. Praekelt.org doesn't have an office in Uganda so there's no opportunity to meet with them, but it was encouraging to see other teams practicing human-centred design in Uganda.
 
-On [Wednesday, May 24][fb] at 4pm EAT (UTC +3)/8pm WIB (UTC +7) I will be giving a presentation on how user testing can help you design better products. I'll go over various options for performing user tests, how user tests can help you pitch your work to stakeholders, and how user tests can help your team move from shipping anything to shipping the right things.
+After a bit more searching, I came across an organization called [Design Without Borders][dwb] which appeared to operate exclusively in Uganda. Reading through their [case studies][dcs], I was floored by the work they were doing. I sent an email in the hopes of connecting with someone there and when I received a response, was pleasantly surprised to be invited to the grand opening of their new office in a new co-working space called [Design Hub Kampala][dhk].
 
-I'll be joined by Indonesian UX designer and illustrator [Dany Rizky][dr] who will share how to bring your product to life through the use of illustration.
+The following Saturday, my partner, a colleague, and I found ourselves wandering through a beautifully renovated warehouse which now houses eight design-focused companies. The space was filled with glass walls, modern wooden desks, and presentations of work from each tenant.
 
 <figure class="extra-wide">
-  <img src="/images/uploads/product-design-indonesia.jpg" alt="Product Design Indonesia" />
-  <figcaption>The photo of me in this promotional piece does not accurately reflect my current beard length.</figcaption>
+  <img src="/images/uploads/design-hub-kampala.jpg" alt="Design Hub Kampala" />
+  <figcaption>I have to admit, I'm jealous of this space</figcaption>
 </figure>
 
-The livestream will be free for anyone to join and will (hopefully) include a Q&A session. Check out the [Facebook event page][fb] for further details and to find the link to the livestream on the day of the event.
+I spoke briefly with one of Design Without Borders' design trainees who shared her story of joining the organization with a background in interior design and being trained in human-centred design. To learn of an organization in Kampala so focused on training a new generation of local designers was inspiring.
 
-[kg]: http://kenny.is/
-[vf]: http://viralfoundry.com
-[oc]: http://patdryburgh.com/blog/designing-in-uganda/
-[en]: http://ensibuuko.com
-[ut]: http://patdryburgh.com/blog/user-testing-in-uganda/
-[dr]: https://dribbble.com/dubidam
-[fb]: https://facebook.com/events/320760311691158/
+<figure class="extra-wide">
+  <img src="/images/uploads/design-without-borders.jpg" alt="Design Without Borders" />
+</figure>
+
+Design Hub Kampala appears to be an amazing addition to the community of Kampala. My hope is that in the short time I have left in Uganda I can make some connections with people in the space and begin the process of growing Ensibuuko's design team.
+
+[utu]: http://patdryburgh.com/blog/user-testing-in-uganda/
+[pko]: http://praekelt.org
+[put]: https://medium.com/@praekeltorg/4-lessons-on-mobile-user-testing-in-africa-stories-from-the-top-of-a-hill-79734e93ce1b
+[dwb]: http://designwithoutborders.com
+[dcs]: http://www.designwithoutborders.com/projects/
+[dhk]: http://designhubkampala.com
