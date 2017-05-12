@@ -1,25 +1,25 @@
 // Font Loading
 
-.wf-loading {
-  opacity: 0;
-  visibility: hidden;
-}
+// .wf-loading {
+//   opacity: 0;
+//   visibility: hidden;
+// }
  
-.ie.wf-loading {
-  visibility: hidden;
-}
+// .ie.wf-loading {
+//   visibility: hidden;
+// }
 
-.ie.wf-active {
-  visibility: visible;
-}
+// .ie.wf-active {
+//   visibility: visible;
+// }
  
-.wf-active {
-  visibility: visible;
-  opacity: 1;
-  -webkit-transition: opacity .625s ease-in-out;
-  -moz-transition: opacity .625s ease-in-out;
-  transition: opacity .625s ease-in-out;
-}
+// .wf-active {
+//   visibility: visible;
+//   opacity: 1;
+//   -webkit-transition: opacity .625s ease-in-out;
+//   -moz-transition: opacity .625s ease-in-out;
+//   transition: opacity .625s ease-in-out;
+// }
 
 // Wrapper
 
