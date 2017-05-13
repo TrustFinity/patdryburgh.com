@@ -25,6 +25,8 @@ When writer Shawn Blanc quit his job to pursue writing full-time, part of his st
 
 Edited by Shawn and [Stephen Hackett][4] and written by a growing number of freelance writers, Tools &amp; Toys had started publishing richer content and wanted to present it in a more immersive responsive design. The team also wanted to rethink the publication's branding and increase the revenue generated through affiliate links for the products they share.
 
+{% include image.html src="/images/work/tools-toys-masthead.png" alt="Tools &amp; Toys Masthead" %}
+
 ## The Logo &amp; Masthead
 
 <div class="pull-out">
@@ -41,34 +43,17 @@ Tools &amp; Toys' audience is smart, creative, and adventurous. They are as comf
 
 In contrast with the logo's flowing nature, the site's navigation was designed to be sturdy and structural. It allows users to quickly navigate between categories on the site, search for content, and engage further with the publication.
 
-<figure class="extra-wide">
-  <img src="/images/work/tools-toys-masthead.png" alt="Tools &amp; Toys Masthead" />
-  <figcaption>
-    The new logo and masthead for Tools &amp; Toys
-  </figcaption>
-</figure>
-
 ## Featured Content
 
 The long-form reviews and product guides had built a tremendous reputation amongst Tools &amp; Toys' readership, but the team wasn't proud of how their work was being presented. They also wanted to put a heavier emphasis on the amazing photography that accompanies each piece.
 
-<figure class="extra-wide">
-  <img src="/images/work/tools-toys-featured-content.png" alt="Tools &amp; Toys Featured Content" />
-  <figcaption>
-    Featured articles are designed to present the site's beautiful photography
-  </figcaption>
-</figure>
+{% include image.html src="/images/work/tools-toys-featured-content.png" alt="Tools &amp; Toys Featured Content" caption="Featured articles are designed to present the site's beautiful photography" %}
 
 ## Featured Products
 
 Tools &amp; Toys was founded on sharing beautiful and useful products for geeky outdoor enthusiasts. The design of the product pages on the site now feature larger photos and clean typography, as well as the ability to browse related products and articles featured on the site. The site's writers now have an easy way to include affiliate links that drive the site's revenue.
 
-<figure class="extra-wide">
-  <img src="/images/work/tools-toys-product-page.png" alt="Tools &amp; Toys Product Page" />
-  <figcaption>
-    The new product page design features bold, beautiful photography and clean typography
-  </figcaption>
-</figure>
+{% include image.html src="/images/work/tools-toys-product-page.png" alt="Tools &amp; Toys Product Page" caption="The new product page design features bold, beautiful photography and clean typography" %}
 
 Shawn and his team have continued to produce great work since the redesign. I was proud to provide photos for a [review of the Goruck GR1][2] written by my good friend [Ben Brooks][3].
 

@@ -18,12 +18,7 @@ My in-suite washing machine had been broken for a few weeks, and I was running o
 
 I put it on, and immediately felt the warmth of self confidence emanating from my chest.
 
-<figure>
-<img src="/images/uploads/juggernautjoes.jpg" alt="Jaugernaut Joe's 40th Jubilee" />
-<figcaption>
-My moobs are shrinking!
-</figcaption>
-</figure>
+{% include image.html src="/images/uploads/juggernautjoes.jpg" alt="Jaugernaut Joe's 40th Jubilee" caption="My moobs are shrinking!" %}
 
 It's the moustache that does it for me.
 

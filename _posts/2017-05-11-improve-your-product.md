@@ -17,7 +17,7 @@ On [Wednesday, May 24][fb] at 4pm EAT (UTC +3)/8pm WIB (UTC +7) I will be giving
 I'll be joined by Indonesian UX designer and illustrator [Dany Rizky][dr] who will share how to bring your product to life through the use of illustration.
 
 <figure class="extra-wide">
-  <img src="/images/uploads/product-design-indonesia.jpg" alt="Product Design Indonesia" />
+  <img src="{{ site.url }}/images/uploads/product-design-indonesia.jpg" alt="Product Design Indonesia" />
   <figcaption>The photo of me in this promotional piece does not accurately reflect my current beard length.</figcaption>
 </figure>
 

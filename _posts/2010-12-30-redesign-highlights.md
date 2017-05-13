@@ -19,7 +19,7 @@ I want to highlight some of the changes, and explain why those changes were nece
 
 ## Simplified Homepage
 
-<img src="/images/uploads/homepage.jpg" alt="Simplified Homepage" />
+<img src="{{ site.url }}/images/uploads/homepage.jpg" alt="Simplified Homepage" />
 
 Not a major change, but one that I believe adds much needed clarity. When visitors arrive to the site, I want them to see what I do. Before, there were 7 possible options to accomplish this: 
 
@@ -35,7 +35,7 @@ When a visitor was finished viewing a project, they were presented with a simple
 
 With the new design, I've opted for clarity over simplicity. Under each project study is a list of all of the possible projects that can be viewed, including the name of the project and the type of work that was done. Now visitors who are only interested in my web work won't need to sift through any print or other work, or vice versa.
 
-<img src="/images/uploads/worknavigation.jpg" alt="Work Navigation" />
+<img src="{{ site.url }}/images/uploads/worknavigation.jpg" alt="Work Navigation" />
 
 ## Better Blog Layout
 
@@ -45,7 +45,7 @@ For those who have been following me for a while, you know I got rid of comments
 
 Just above the comment section I have updated the post navigation. Reading more about web usability, I realized that a simple "previous/next" link structure isn't sufficient enough for users. With the new navigation, visitors can see the title of the post they will be going to, and make an informed decision of wether it's worth their time to investigate. 
 
-<img src="/images/uploads/blognavigation.jpg" alt="Blog Navigation" />
+<img src="{{ site.url }}/images/uploads/blognavigation.jpg" alt="Blog Navigation" />
 
 ## Better Contact Form
 
@@ -57,7 +57,7 @@ While the original form had normal web form-like elements, it lacked any sense o
 
 With the new design, I made sure to create a form design that clearly identified the form's purpose, as well as brought a little bit of fun to the design. The new form looks like an envelope—an identifiable element that communicates "contact— and includes a button that looks ready to be pushed once the form is filled out.
 
-<img src="/images/uploads/Screen_shot_2010-12-30_at_3.25.01_PM.png" alt="Contact Form" />
+<img src="{{ site.url }}/images/uploads/Screen_shot_2010-12-30_at_3.25.01_PM.png" alt="Contact Form" />
 
 Overall, I'm really happy with this iteration of my site. I believe it builds on the strategy and though that went into the first version, and improves on some of the areas that weren't quite right the first time around.
 

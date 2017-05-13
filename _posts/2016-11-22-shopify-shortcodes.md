@@ -8,18 +8,15 @@ url_title: shopify-shortcodes
 layout: post
 ---
 
-{% raw %}
 This past month I had the wonderful opportunity to design and develop a Shopify theme for my friends at [Rye 51][1]. While a case study will be forthcoming, I wanted to share one aspect of the site's development that really got my gears turning.
 
 One of our goals for this project was to allow [Matt][6] and his team the ability to publish [weekly collections][7] featuring interviews and other editorial content. Out of the box, Shopify allows you to display collections of products with a collection name and description followed by a list of products. While this is perfectly suitable for common category collections, for custom collections we wanted to include images of and links to products throughout the long-form editorial content.
 
-<figure class="extra-wide">
-  <img src="/images/uploads/inline-product.jpg" alt="Inline Product" />
-  <figcaption>Rye 51 can add products directly to a collection description by adding a simple shortcode</figcaption>
-</figure>
+{% include image.html src="/images/uploads/inline-product.jpg" alt="Inline Product" caption="Rye 51 can add products directly to a collection description by adding a simple shortcode" %}
 
 To accomplish this, I employed the help of Culture Kings' [Shopify Shortcodes][2] library to create a product shortcode. Using Shopify Shortcodes is pretty simple:
 
+{% raw %}
 1. Install the Shopify Shortcodes library.
 2. Create a shortcode using the naming convention `shortcode-NAME.liquid` in your `snippets` folder.
 3. Replace tags such as `{{ collection.description }}` with `{% include 'shortcode' load: collection.description %}` in your `collections.liquid` file.
@@ -56,6 +53,7 @@ From here, it's just a matter of using the attributes available through Shopify'
 You can add other attributes, such as a `float` to allow the product to appear on either side of the text or to add more content. I've used this same method to create image galleries and fancy block quotes, as well.
 
 Shortcodes are a simple way to give your clients the power to create even more engaging experiences for their customers.
+
 {% endraw %}
 
 [1]: http://rye51.com

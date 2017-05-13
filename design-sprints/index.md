@@ -24,7 +24,7 @@ These 5 phases &mdash; [Understand](#understand), [Diverge](#diverge), [Converge
 ## Understand
 
 <figure class="extra-wide">
-  <img src="/images/sprints/critical-path.jpg" alt="Critical Path" />
+  <img src="{{ site.url }}/images/sprints/critical-path.jpg" alt="Critical Path" />
   <figcaption>
     A critical path for email newsletter curation
   </figcaption>
@@ -35,7 +35,7 @@ We begin the sprint by sharing knowledge, understanding the problem, mapping our
 ## Diverge
 
 <figure class="extra-wide">
-  <img src="/images/sprints/diverge.jpg" alt="Critical Path" />
+  <img src="{{ site.url }}/images/sprints/diverge.jpg" alt="Critical Path" />
   <figcaption>
     Early storyboard created during the diverge phase
   </figcaption>
@@ -54,7 +54,7 @@ By adopting a philosophy of &ldquo;fake it 'til you make it&rdquo;, the team wil
 ## Test
 
 <figure class="extra-wide">
-  <img src="/images/uploads/testing-with-lookback.png" alt="Testing with Lookback" />
+  <img src="{{ site.url }}/images/uploads/testing-with-lookback.png" alt="Testing with Lookback" />
   <figcaption>
     <a href="/blog/observe-and-capture-user-tests/">Capturing a prototype test</a> with Lookback
   </figcaption>

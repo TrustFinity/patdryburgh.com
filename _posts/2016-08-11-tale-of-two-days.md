@@ -47,7 +47,7 @@ Last night I sat down, told my [partner][9], and once again felt the pain of res
 That was on August 10, 2016 and it was the last cigarette I smoked.
 
 <figure>
-  <img src="/images/uploads/tale-of-two-days.png" alt="A tale of two days" />
+  <img src="{{ site.url }}/images/uploads/tale-of-two-days.png" alt="A tale of two days" />
   <figcaption>On the bright side, I didn't pay for what I smoked yesterday, so I'm still up $1,034 ;)</figcaption>
 </figure>
 

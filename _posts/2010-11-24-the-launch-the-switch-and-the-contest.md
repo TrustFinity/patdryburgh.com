@@ -45,7 +45,7 @@ It is amazing that I have the opportunity to communicate to you over a shared ne
 
 With that in mind, I have launched a Charity:Water campaign called "[Every Good Launch Needs a Cause.](http://mycharitywater.org/patdryburgh)" The goal is to raise $500 to help bring clean water to those in need.
 
-<img src="/images/uploads/everygoodlaunch-blog.jpg" alt="Every Good Launch Needs a Cause" />
+<img src="{{ site.url }}/images/uploads/everygoodlaunch-blog.jpg" alt="Every Good Launch Needs a Cause" />
 
 To raise awareness, I'm giving away 3 photograph prints from my friend [Jorge Quinteros](http://jorgeq.com). Here's how to enter the contest: 
 

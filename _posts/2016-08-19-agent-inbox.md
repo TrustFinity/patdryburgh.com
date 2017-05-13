@@ -16,7 +16,7 @@ In 2013, entrepreneurs [Tyler Gordon][1] and Elliot Koolik set out to build [Age
 Tyler and Elliot had a definite vision for improving communications around real estate transactions through a customer-focused, easy-to-access, mobile-first designed application. Working closely together, I took their detailed mind map and vision of the entire user flow and began designing the app layout first using digital wireframes.
 
 <figure class="extra-wide">
-  <img src="/images/work/agent-inbox-wireframes.jpg" alt="Wireframes" />
+  <img src="{{ site.url }}/images/work/agent-inbox-wireframes.jpg" alt="Wireframes" />
   <figcaption>
     Starting with simple wireframes allowed us to build a prototype to test the user flow in Invision
   </figcaption>
@@ -27,7 +27,7 @@ As soon as wireframes started to take shape, they were uploaded to [Invision][2]
 With the UX taking shape, I began working on the interface's visual aesthetic. Due to the way we structured the Invision project, we were able to carry this visual design work through using the same files for each view, while Invision maintained a visual history of each and every iteration, allowing us to easily compare how each iteration differed from its predecessor.
 
 <figure class="extra-wide">
-  <img src="/images/work/agent-inbox-showings.jpg" alt="Showings" />
+  <img src="{{ site.url }}/images/work/agent-inbox-showings.jpg" alt="Showings" />
   <figcaption>
     Using Invision allowed us to iteratively design each view in the app
   </figcaption>

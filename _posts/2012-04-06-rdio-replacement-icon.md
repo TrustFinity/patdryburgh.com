@@ -17,6 +17,6 @@ When Rdio came out with a new Mac app that didn't require Flash, I was really ex
 
 So, I dusted off the old icon I had made for the site-specific browser, and replaced that boring old square. I've had it there a few weeks now, and have been really happy with it. Then today I thought, maybe others might like the same thing?
 
-<a href="http://cl.ly/FcSX"><img src="/images/uploads/rdioadbig.jpg" alt="Rdio Icon" /></a>
+<a href="http://cl.ly/FcSX"><img src="{{ site.url }}/images/uploads/rdioadbig.jpg" alt="Rdio Icon" /></a>
 
 So, here it is, available for you to [download](http://cl.ly/FcSX). I hope you enjoy!

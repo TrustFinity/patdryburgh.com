@@ -11,7 +11,7 @@ old_entry_id: 155
 
 In July of 2009 I designed my first [Fusion](http://fusionads.net) ad. I had 13,000 pixels to catch the attention of hundreds of thousands of tech and design geeks across the world. It was a real challenge. That first ad (which turned into 3 variations for testing purposes) was the beginning of my nearly-two year run as a designer for Fusion. In that time I've designed nearly 80 ads for Fusion and I have to say, I think I'm starting to get the hang of it.
 
-<img src="/images/uploads/fusionads.jpg" alt="Fusion Ads" class="iwide" />
+<img src="{{ site.url }}/images/uploads/fusionads.jpg" alt="Fusion Ads" class="iwide" />
 
 ## Constraint
 

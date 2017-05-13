@@ -23,7 +23,7 @@ And so, it is my hope that even though the mainstream media has moved on to more
 
 I need to apologize for the wait. To those who pre-ordered posters and to those who had waited for the design to be completed before ordering, I am sorry. It's late, I know, but I believe it's beautiful:
 
-<img src="/images/uploads/Love_For_Japan_Poster.jpeg" alt="Love for Japan - The Poster" width="583" height="759"  />
+<img src="{{ site.url }}/images/uploads/Love_For_Japan_Poster.jpeg" alt="Love for Japan - The Poster" width="583" height="759"  />
 
 I want to especially thank [Mike Precious](http://mikeprecious.com), who designed the Love for Japan site. It is truly beautiful, and I couldn’t have asked for a more amazing partner in this project. He has been incredibly patient and gracious.
 

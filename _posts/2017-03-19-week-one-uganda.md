@@ -25,7 +25,7 @@ Monday was my first day at the [Ensibuuko][en] office. Before heading in to meet
 On Wednesday, I joined several members of the team to celebrate the birthday of one of our developers, Fredrick. We had a great time sharing drinks and laughs as Fredrick wore the ceremonial sombrero (yes, it was a Mexican restaurant).
 
 <figure class="extra-wide">
-  <img src="/images/uploads/fredrick-corey.jpg" alt="Fredrick &amp; Corey" />
+  <img src="{{ site.url }}/images/uploads/fredrick-corey.jpg" alt="Fredrick &amp; Corey" />
   <figcaption>Fredrick and Corey</figcaption>
 </figure>
 

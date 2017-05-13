@@ -32,7 +32,7 @@ Suffice to say, I'm pretty fuckin' stoked!
 If you're into bands like Sublime, The Mighty Mighty Bosstones, Rancid, Ill Scarlett, Black Belt Jones, or Weezer, or if you just like fun, energetic party rock, Boss Rebel might be your kind of thing. If it is, definitely check out *Heavybad* on [iTunes][1] or [Rdio][2].
 
 <figure>
-  <img src="/images/uploads/heavybadrdio.jpg" alt="Heavybad on Rdio" />
+  <img src="{{ site.url }}/images/uploads/heavybadrdio.jpg" alt="Heavybad on Rdio" />
   <figcaption>
     Check out *Heavybad* by Boss Rebel on <a href="https://itunes.apple.com/album/heavybad/id389368089">iTunes</a> or <a href="http://rd.io/x/QL6oPmoyVQ/">Rdio</a>
   </figcaption>

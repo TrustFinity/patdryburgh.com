@@ -17,15 +17,15 @@ I thought I&#8217;d give a bit of a preview of what these apps can do, based on 
 
 Original Shot:
 
-<img src="/images/uploads/219350263_1.jpg" alt="Pepsi Can" />
+<img src="{{ site.url }}/images/uploads/219350263_1.jpg" alt="Pepsi Can" />
 
 TiltShift Generator:
 
-<img src="/images/uploads/219350263_2.jpg" alt="Pepsi Can" />
+<img src="{{ site.url }}/images/uploads/219350263_2.jpg" alt="Pepsi Can" />
 
 Mill Colour:
 
-<img src="/images/uploads/219350263_3.jpg" alt="Pepsi Can" />
+<img src="{{ site.url }}/images/uploads/219350263_3.jpg" alt="Pepsi Can" />
 
 Of all the photo manipulation apps I&#8217;ve tried on the iPhone, TiltShift Generator impresses me the most. It&#8217;s fast, it&#8217;s simple, and yet it has a ton of power hidden in its feature set. It doesn&#8217;t present every feature in a hodge-podge of icons and menus, but instead lets you explore a very simple navigation set to find its hidden potential. As <a href="http://shawnblanc.net/2009/10/tweetie-20/">Shawn Blanc wrote</a> this week about iPhone apps:
 

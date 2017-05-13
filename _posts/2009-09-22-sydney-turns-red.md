@@ -17,8 +17,8 @@ This morning, dust cloaked the city of Sydney, Austraila, causing an unprecedent
 
 Daniel took some photographs of the city. These photographs are not edited in any way. The colour is&nbsp;real.
 
-<img src="/images/uploads/7531_132332898518_500753518_2552338_4742862_n.jpg" alt="Sydney Turns Red" />
+{% include image.html src="/images/uploads/7531_132332898518_500753518_2552338_4742862_n.jpg" alt="Sydney Turns Red" %}
 
-<img src="/images/uploads/7531_132332833518_500753518_2552330_7327912_n.jpg" alt="Sydney Turns Red" />
+{% include image.html src="/images/uploads/7531_132332833518_500753518_2552330_7327912_n.jpg" alt="Sydney Turns Red" %}
 
-<img src="/images/uploads/7531_132332843518_500753518_2552332_7064143_n.jpg" alt="Sydney Turns Red" />
+{% include image.html src="/images/uploads/7531_132332843518_500753518_2552332_7064143_n.jpg" alt="Sydney Turns Red" %}

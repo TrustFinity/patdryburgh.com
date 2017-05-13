@@ -17,7 +17,7 @@ I've been using Typekit on my personal site for a year now, and have always been
 
 I assumed that using type served by these services were at least readable on operating systems and browsers. However, [this screenshot](https://twitter.com/dereksilva/status/37694994030534657) from Derek Silva shows I was terribly mistaken: 
 
-<img src="/images/uploads/swtzk2.jpg" alt="Screenshot of PatDryburgh.com on Windows 7 running Chrome" />
+<img src="{{ site.url }}/images/uploads/swtzk2.jpg" alt="Screenshot of PatDryburgh.com on Windows 7 running Chrome" />
 
 It turns out that on Derek's Windows 7 machine running Chrome, the text is beyond jaggy; it's almost entirely unreadable. If a potential client were to visit my site from a Windows machine, they would think I'm completely unprofessional.
 
@@ -37,6 +37,6 @@ I did a bit of digging, and remembered a bit of CSS code I had [picked up from T
 
 At one point when I was using Helvetica on my site, I had used this bit of code to smooth out the look of the type on Webkit browsers. However it turns out that when you use this code on a font that's already hinted for the screen&mdash;like FF Meta Serif Web is&mdash;the font is in effect over-aliased to the point of being unreadable. Once I went back into my CSS code and removed that declaration, the type on the Windows machine was as clear as any other font on a Windows machine. For a before and after comparison: 
 
-<img src="/images/uploads/font-smoothing.jpg" alt="Font Smoothing Comparison" />
+<img src="{{ site.url }}/images/uploads/font-smoothing.jpg" alt="Font Smoothing Comparison" />
 
 While I would still argue that we need to be mindful of the fonts we choose to use in our web design work, I am glad to know that there are in fact web fonts which are designed for the screen which are available to use today.

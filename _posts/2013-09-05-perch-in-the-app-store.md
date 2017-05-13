@@ -21,6 +21,6 @@ Of course, I'm not a very good sales guy, so I'll leave you with [someone who is
 <iframe src="//player.vimeo.com/video/71929407" width="500" height="281" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 </figure>
 
-<a href="http://download.perch.co/patdryburgh"><img src="http://perch.co/wp-content/uploads/2013/08/downloadappstore.svg" alt="Download Perch for free on the App Store" /></a>
+<a href="http://download.perch.co/patdryburgh">Download Perch for free on the App Store</a>
 
 [1]: http://sandwichvideo.com

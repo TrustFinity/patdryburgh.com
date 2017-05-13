@@ -18,6 +18,6 @@ I don't do well at events like this, because I'm intimately involved and want to
 Overall, the wedding was fantastic. I'm so proud of you, Rob. And Holli-Ann, remember my advice from my speech: let him win once in a while.
 
 <figure class="extra-wide">
-  <img src="/images/uploads/20120702-IMG_5252.jpg" alt="Rob & Holli-Ann" />
+  <img src="{{ site.url }}/images/uploads/20120702-IMG_5252.jpg" alt="Rob & Holli-Ann" />
   <figcaption>An engagement photo I took of the lovely couple last summer. Unfortunately, I was running around too much on the big day to shoot anything at the wedding.</figcaption>
 </figure>

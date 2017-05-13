@@ -33,7 +33,7 @@ If testing a mobile prototype or app, connect your device to your Mac via USB an
 Open Lookback on your Mac and the app or prototype you wish to test. You should see a video stream of the user and either the desktop app or site or the stream of the mobile app.
 
 <figure class="extra-wide">
-  <img src="/images/uploads/testing-with-lookback.png" alt="Testing with Lookback">
+  <img src="{{ site.url }}/images/uploads/testing-with-lookback.png" alt="Testing with Lookback">
 </figure>
 
 Then, turn on AirPlay on your Mac and select the Apple TV located in the office from which your colleagues will observe the test.
