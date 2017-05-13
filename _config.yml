@@ -9,9 +9,11 @@ collections:
     title: Uploads
     output: true
 email: hello@patdryburgh.com
-description: Pat Dryburgh is a design director based in Vancouver, BC.
+description: Pat Dryburgh is a product designer based in Vancouver, BC.
 baseurl: 
 url: http://patdryburgh.com
+feed: http://feedpress.me/patdryburgh
+twitter: http://twitter.com/patdryburgh
 twitter_username: patdryburgh
 github_username: patdryburgh
 permalink: "/:categories/:title/"
