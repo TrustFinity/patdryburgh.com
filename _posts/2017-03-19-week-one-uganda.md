@@ -12,9 +12,9 @@ It's been just over a week since Andrea and I landed in Uganda. My mind is still
 
 During an unexpected layover in Brussels, Belgium, we visited Grand Place and enjoyed some fine Belgian chocolate (sadly, no waffles). The next day, we finally found ourselves flying over the Mediterranean Sea and the Northern countries of Africa. Upon landing, a sea of signs&mdash;set in Arial&mdash;directed us to the customs counters. A few minutes later, we were officially on Ugandan soil.
 
-Standing amongst a throng of other drivers was Tonny, holding a sign with “Pat” scrawled in blue pen over his head. Tonny drove us from the airport in Entebbe to our apartment in the Kololo district of Kampala, stopping at the local KFC for our first meal in Uganda. Not exactly authentic African cuisine, but it was just what our hungry bellies needed.
+Standing amongst a throng of drivers was Tonny, holding a sign with “Pat” scrawled in blue pen over his head. Tonny drove us from the airport in Entebbe to our apartment in the Kololo district of Kampala, stopping at the local KFC for our first meal in Uganda. Not exactly authentic African cuisine, but it was just what our hungry bellies needed.
 
-The next day, Tonny brought me and Andrea to a public market lined with small shops offering local produce and groceries like matooke, posho, beans, and more. We passed on the meat this time around (though the men manning the meat shops did trick me into giving them an inappropriate hand signal), but explore behind the main row of shops where, under dim lights and sketchy scaffolding, we purchased some of the best produce I've ever eaten.
+The next day, Tonny brought me and Andrea to Kamwokya Market, a strip of small shops offering local produce and groceries like matooke, posho, beans, and more. We passed on the meat this time around (though the men manning the meat shops did trick me into giving them an inappropriate hand signal), but explored behind the main row of shops where, under dim lights and sketchy scaffolding, we purchased some of the best produce I've ever eaten.
 
 We brought the food home and cooked our first somewhat-authentic meal: posho and beans. [Posho][posho] is a porridge-like substance that becomes somewhat firm and is eaten by hand along with a “sauce” made up of either beans or meat and veggies. It was absolutely delicious.
 
