@@ -8,7 +8,7 @@ permalink: /feed/index.json
     "home_page_url": "{{ "/" | absolute_url }}",
     "feed_url": "{{ "/feed.json" | absolute_url }}",
     "description": {{ site.description | jsonify }},
-    "icon": "{{ "/apple-touch-icon.png" | absolute_url }}",
+    "icon": "{{ "/favicon/favicon-228.png" | absolute_url }}",
     "favicon": "{{ "/favicon.ico" | absolute_url }}",
     "expired": false,
     "items": [
