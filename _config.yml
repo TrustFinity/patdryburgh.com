@@ -12,7 +12,8 @@ email: hello@patdryburgh.com
 description: Pat Dryburgh is a product designer based in Vancouver, BC.
 baseurl: 
 url: http://patdryburgh.com
-feed: http://feedpress.me/patdryburgh
+rss: http://feedpress.me/patdryburgh
+json: http://patdryburgh.com/feed/index.json
 twitter: http://twitter.com/patdryburgh
 twitter_username: patdryburgh
 github_username: patdryburgh

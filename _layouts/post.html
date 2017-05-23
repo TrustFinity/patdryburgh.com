@@ -36,31 +36,20 @@ layout: default
       {{ content | markdownify }}
     </div>
 
-    <aside class="wrapper m-top">
-      <div class="call-to-action">
-        {% if page.categories contains 'design' %}
-          <div class="call-to-action-header">
-            <h2>
-              Thanks for reading about my work with {{ page.title }}.
-            </h2>
-          </div>
-          <p>
-            If you like what you've read, you should <a href="mailto:{{ site.email }}">get in touch</a> or view more of <a href="{{ site.url }}/design/">my work</a>.
-          </p>
-        {% elsif page.categories contains 'photography' %}
-          <a href="/photography" class="btn">Photos &rarr;</a>
-        {% else %}
-          <div class="call-to-action-header">
-            <h2>
-              Like what you've read? 
-            </h2>
-          </div>
-          <p>
-            <a href="{{ site.url }}">Keep reading</a>, <a href="{{ site.feed }}">subscribe via RSS</a>, or <a href="{{ site.twitter }}">follow me on Twitter</a>.
-          </p>
-        {% endif %}
-      </div>
-    </aside>
+    {% if page.categories contains 'design' %}
+      <aside class="wrapper m-top">
+        <div class="call-to-action">
+            <div class="call-to-action-header">
+              <h2>
+                Thanks for reading about <a href="{{ '/design/' | absolute_url }}">my work</a> with {{ page.title }}.
+              </h2>
+            </div>
+            <p>
+              Interested in working together? You should <a href="mailto:{{ site.email }}">get in touch</a>.
+            </p>
+        </div>
+      </aside>
+    {% endif %}
 
   </main>
 

@@ -20,6 +20,19 @@
   margin-bottom: 1em;
   margin-left: -.5em;
   padding: 0;
+  position: relative;
+  -webkit-transition: all .25s ease-in-out;
+  -moz-transition: all .25s ease-in-out;
+  transition: all .25s ease-in-out;
+  &:hover,
+  &:focus {
+    -webkit-transform: rotate(-3deg);
+    -moz-transform: rotate(-3deg);
+    transform: rotate(-3deg);
+  }
+  &:active {
+    top: 2px;
+  }
   img {
     width: 69px;
     height: 88px;
