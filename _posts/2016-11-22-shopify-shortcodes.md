@@ -50,11 +50,11 @@ From here, it's just a matter of using the attributes available through Shopify'
         <img src="{{ product.featured_image.src | product_img_url: '1024x1024' }}" alt="{{ image.alt | escape }}" />
     </a>'
 
+{% endraw %}
+
 You can add other attributes, such as a `float` to allow the product to appear on either side of the text or to add more content. I've used this same method to create image galleries and fancy block quotes, as well.
 
 Shortcodes are a simple way to give your clients the power to create even more engaging experiences for their customers.
-
-{% endraw %}
 
 [1]: http://rye51.com
 [2]: https://github.com/culturekings/shopify-shortcodes

@@ -5,20 +5,50 @@ home: true
 
 <main class="blog">
 
-  {% for post in site.categories.blog %}
-    {% unless post.draft %}
-      {% assign currentdate = post.date | date: "%Y" %}
-      {% if post.date and currentdate != date %}
-        {% unless forloop.first %}</ul>{% endunless %}
-        <div class="wrapper m-top">
-          <h2 class="year-heading" id="y{{post.date | date: "%Y"}}">{{ currentdate }}</h2>
-        </div>
-        <ul class="post-list list-unstyled">
-        {% assign date = currentdate %}
-      {% endif %}
-      {% include post_link.html %}
-      {% if forloop.last %}</ul>{% endif %}
+  {% for post in site.categories.blog limit: 6 %}
+    {% assign page = post %}
+    {% assign content = post.content %}
+    {% unless page.draft %}
+      <article class="post m-bottom">
+
+        <header class="post-header">
+          <div class="wrapper">
+            <span class="post-meta">
+              {% if page.date %}
+                <a href="{{ page.url | prepend: site.baseurl }}">{{ page.date | date: "%b %-d, %Y" }}</a>
+              {% endif %}
+              {% include read_time.html %}
+              {% if page.date and page.meta %}
+                &middot; 
+              {% endif %}
+              {% if page.meta %}
+                {{ page.meta }}
+              {% endif %}
+            </span>
+            <h1 class="post-title">
+              <a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
+            </h1>
+          </div>
+        </header>
+
+        {% if page.photo %}
+          <div class="photo">
+            <img src="{{ site.url }}/{{ page.photo }}" alt="{{ page.title }}">
+          </div>
+        {% endif %}
+
+        <main class="post-content">  
+          <div class="wrapper">
+            {{ content | markdownify }}
+          </div>
+        </main>
+
+      </article>
     {% endunless %}
   {% endfor %}
+
+  <div class="wrapper">
+    <a href="{{ '/blog/' | absolute_url }}" class="btn">Full Archive &rarr;</a>
+  </div>
 
 </main>
