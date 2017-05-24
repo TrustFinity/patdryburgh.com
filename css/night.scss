@@ -48,3 +48,12 @@ $on-desktop:       75em;
     opacity: 1;
   }
 }
+
+code,
+.highlight .err {
+  background: #333;
+}
+
+.highlight .err {
+  color: lighten(#a61717, 15%);
+}
