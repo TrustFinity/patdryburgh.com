@@ -24,10 +24,7 @@ Monday was my first day at the [Ensibuuko][en] office. Before heading in to meet
 
 On Wednesday, I joined several members of the team to celebrate the birthday of one of our developers, Fredrick. We had a great time sharing drinks and laughs as Fredrick wore the ceremonial sombrero (yes, it was a Mexican restaurant).
 
-<figure class="extra-wide">
-  <img src="{{ site.url }}/images/uploads/fredrick-corey.jpg" alt="Fredrick &amp; Corey" />
-  <figcaption>Fredrick and Corey</figcaption>
-</figure>
+{% include image.html src="/images/uploads/fredrick-corey.jpg" alt="Fredrick &amp; Corey" caption="Fredrick &amp; Corey" %}
 
 The rest of the week was spent familiarizing myself with the product, getting the dev environment set up on my computer, and introducing the team to product briefs. Harriet, a computer science grad hired as a documenter prior to my arrival, has been unofficially promoted to Product Manager in Training and has been doing a fantastic job.
 

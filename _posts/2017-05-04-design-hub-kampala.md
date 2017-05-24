@@ -16,16 +16,11 @@ After a bit more searching, I came across an organization called [Design Without
 
 The following Saturday, my partner, a colleague, and I found ourselves wandering through a beautifully renovated warehouse which now houses eight design-focused companies. The space was filled with glass walls, modern wooden desks, and presentations of work from each tenant.
 
-<figure class="extra-wide">
-  <img src="{{ site.url }}/images/uploads/design-hub-kampala.jpg" alt="Design Hub Kampala" />
-  <figcaption>I have to admit, I'm jealous of this space</figcaption>
-</figure>
+{% include image.html src="/images/uploads/design-hub-kampala.jpg" alt="Design Hub Kampala" caption="I have to admit, I'm jealous of this space" %}
 
 I spoke briefly with one of Design Without Borders' design trainees who shared her story of joining the organization with a background in interior design and being trained in human-centred design. To learn of an organization in Kampala so focused on training a new generation of local designers was inspiring.
 
-<figure class="extra-wide">
-  <img src="{{ site.url }}/images/uploads/design-without-borders.jpg" alt="Design Without Borders" />
-</figure>
+{% include image.html src="/images/uploads/design-without-borders.jpg" alt="Design Without Borders" %}
 
 Design Hub Kampala appears to be an amazing addition to the community of Kampala. My hope is that in the short time I have left in Uganda I can make some connections with people in the space and begin the process of growing Ensibuuko's design team.
 

@@ -1,7 +1,7 @@
 {% unless include.extra_wide == "false" %}
 <figure class="extra-wide">
 {% endunless %}
-<img src="{{ site.url }}{{ include.src }}" {% if include.alt %} alt="{{ include.alt }}" {% endif %}/>
+<img src="{{ '/images/site/spacer.gif' | absolute_url }}" {% if include.alt %} alt="{{ include.alt }}" {% endif %} data-echo="{{ site.url }}{{ include.src }}"/>
 {% if include.caption %}
 <figcaption>
   {{ include.caption }}
