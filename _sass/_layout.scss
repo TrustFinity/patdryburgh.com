@@ -378,7 +378,6 @@ figcaption {
 }
 
 .footnotes {
-  font-size: .825em;
   margin-bottom: 3em;
   padding-bottom: 2em;
   &:before {
@@ -389,6 +388,12 @@ figcaption {
     margin: 0 auto;
     width: 100%;
     text-align: center;
+  }
+  ol {
+    margin-top: 2em;
+  }
+  li {
+    font-size: .825em;
   }
 }
 

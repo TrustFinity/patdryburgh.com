@@ -13,9 +13,9 @@ $base-line-height: 1.625;
 
 $spacing-unit:     1em;
 
-$text-color:       #111;
-$background-color: #fcfcfc;
-$brand-color:      #dc4b3c;
+$text-color:       darken(#fff, 15%);
+$background-color: #222;
+$brand-color:      #fdcda0;
 
 $grey-color:       #828282;
 $grey-color-light: lighten($grey-color, 40%);
@@ -40,3 +40,11 @@ $on-desktop:       75em;
   "syntax-highlighting",
   "print"  
 ;
+
+.post img {
+  opacity: .6;
+  transition: opacity .25s ease-in-out;
+  &:active {
+    opacity: 1;
+  }
+}
