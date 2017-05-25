@@ -41,7 +41,7 @@ As promised during the presentation, I want to share with you some notes and lin
 
 I hope I was able to convey just how great of an impact employing user testing can have on both the usability and viability of your product. My thanks to [Kenny][ke] and the whole Viral Foundry team for hosting the event.
 
-[^1]: Not really a “book”, but this site is so jam-packed with useful information about running a design sprint, I had to include it. In fact, this guide helped me understand what improvements were needed to be made following [my first design sprint][fds].
+[^1]: Not really a “book”, but this site is so jam-packed with useful information about running a design sprint, I had to include it. In fact, this guide helped me understand what improvements needed to be made following [my first design sprint][fds].
 
 [ipd]:  https://www.facebook.com/events/320760311691158
 [vf]:   http://viralfoundry.com
