@@ -25,10 +25,10 @@ function setTheme() {
   if (0 <= currentTime&&currentTime < 8) {
     setNightTheme();
   }
-  if (8 <= currentTime&&currentTime < 20) {
+  if (8 <= currentTime&&currentTime < 19) {
     setDayTheme();
   }
-  if (20 <= currentTime&&currentTime <= 24) {
+  if (19 <= currentTime&&currentTime <= 24) {
     setNightTheme();
   }
 
