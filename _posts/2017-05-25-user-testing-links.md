@@ -26,6 +26,7 @@ As promised during the presentation, I want to share with you some notes and lin
 
 - [Quick and dirty method to observe and capture user tests][qdm]
 - [Considerations for user testing in Uganda][utu]
+- [Why You Only Need To Test with 5 Users][jn] by Jakob Neilsen
 - Google Ventures' [Design Sprint Page][gv]
 - [Design Sprints as a Service][bp] by Black Pixel
 - [Know Your Customers' “Jobs to be Done”][hbr] by Clayton M. Christensen, Taddy Hall, Karen Dillon, and David S. Duncan
@@ -54,6 +55,7 @@ I hope I was able to convey just how great of an impact employing user testing c
 [ijd]:  https://www.intercom.com/books/jobs-to-be-done
 [qdm]:  {{ '/blog/observe-and-capture-user-tests/' | absolute_url }}
 [utu]:  {{ '/blog/user-testing-in-uganda/' | absolute_url }}
+[jn]:   https://www.nngroup.com/articles/why-you-only-need-to-test-with-5-users/
 [bp]:   https://blackpixel.com/writing/2016/07/design-sprints-as-a-service.html
 [hbr]:  https://hbr.org/2016/09/know-your-customers-jobs-to-be-done
 [13]:   https://medium.com/@monteiro/13-ways-designers-screw-up-client-presentations-51aaee11e28c
