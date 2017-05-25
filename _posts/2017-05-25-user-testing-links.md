@@ -9,7 +9,7 @@ author: patdryburgh
 
 Thank you to everyone who attended the first ever [Indonesian product design livestream][ipd] hosted by [Viral Foundry][vf]. It was an honour to share with you the lessons I've learned about improving products through user testing. I hope each of you took something away that you'll be able to apply to your own craft.
 
-I do apologize for my lack of visual slides. In the past, I've found slides to be a hindrance to my style of presentation. However, some of the feedback I received from Kenny following the presentation indicated that I wasn't fully considerate of the language barriers between us. Were I to give this talk again, I will certainly take this feedback to heart.
+I do apologize for my lack of visual slides. In the past, I've found slides to be a hindrance to my style of presentation. However, some of the feedback I received from Kenny following the presentation indicated that I wasn't fully considerate of the language barriers between us. Seeing the beautiful slide deck put together by [Dany][dr] drove home just how foolish I was to not have my own. Won't be making that mistake again.
 
 As promised during the presentation, I want to share with you some notes and links from my talk. If you were an attendee and see that I've missed something, please [hit me up on Twitter][pt] and let me know.
 
@@ -44,6 +44,7 @@ I hope I was able to convey just how great of an impact employing user testing c
 
 [ipd]:  https://www.facebook.com/events/320760311691158
 [vf]:   http://viralfoundry.com
+[dr]:   https://twitter.com/kackackac_
 [pt]:   {{ site.twitter }}
 [ds]:   http://shop.oreilly.com/product/0636920038573.do
 [gv]:   http://www.gv.com/sprint/
