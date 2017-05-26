@@ -18,4 +18,9 @@ This site is built with [Jekyll](https://jekyllrb.com), managed by [Siteleaf](ht
 
 ---
 
-The illustration in the header was drawn by [Courtney Yake](https://twitter.com/courtneymake).
+The illustration in the header was drawn by [Courtney Yake][cy]. The [sun][sun] and the [moon][moon] are by [Iulia Ardeleanu][ia].
+
+[cy]: https://twitter.com/courtneymake
+[moon]: https://thenounproject.com/iuliaardeleanu/collection/weather/?oq=weather&cidx=71&i=680142
+[sun]: httpshttps://thenounproject.com/iuliaardeleanu/collection/weather/?oq=weather&cidx=71&i=675989
+[ia]: https://thenounproject.com/iuliaardeleanu
