@@ -1,0 +1,19 @@
+<aside class="wrapper m-{{ include.margin }}">
+  <div class="call-to-action">
+    <div class="call-to-action-header">
+      <h2>Get a weekly digest of new content</h2>
+    </div>
+    <form 
+      action="https://feed.press/e/mailverify" 
+      method="post" 
+      target="popupwindow" 
+      onsubmit="window.open('https://feed.press/e/mailverify?feed_id=patdryburgh', 'popupwindow', 'scrollbars=yes,width=550,height=400'); return true"
+    >
+      <input type="email" name="email" placeholder="Enter your email address">
+      <input type="hidden" value="patdryburgh" name="feed_id">
+      <div class="text-right call-to-action-button">
+        <button type="submit" class="btn">Subscribe</button>
+      </div>
+    </form>
+  </div>
+</aside>
