@@ -15,7 +15,9 @@
   text-indent: -9999px;
   z-index: 999;
   cursor: pointer;
-  // background-color: red;
+  @media (min-width: $on-tablet) {
+    position: fixed;
+  }
 }
 
 #js-theme-toggle.day {

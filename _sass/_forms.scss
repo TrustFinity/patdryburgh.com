@@ -3,7 +3,7 @@ input[type="email"],
 textarea {
   background: none;
   border: 0;
-  border-bottom: 1px solid #eee;
+  border-bottom: $border-width solid $grey-color;
   display: block;
   font: 400 .75em $base-font-family;
   padding: .5em 0 .625em;
@@ -20,7 +20,7 @@ textarea {
   border-radius: 0;
   &:focus {
     outline: none;
-    border-color: $text-color;
+    border-color: $brand-color;
   }
   &[type=submit] {
     padding: 0;
@@ -36,7 +36,7 @@ button[type=submit] {
 .floating-input textarea {
   background: none;
   border: 0;
-  border: 1px solid #eee;
+  border: $border-width solid #eee;
   font: 400 1em $base-font-family;
   margin: 2em 0 0;
   padding: .5em .5em .625em;
@@ -78,7 +78,7 @@ button[type=submit] {
   top: 0;
   left: 0;
   padding: .5em .5em;
-  border: 1px solid transparent;
+  border: $border-width solid transparent;
   position: absolute;
   z-index: 1;
   -webkit-transition: all .125s ease-in;
@@ -171,7 +171,7 @@ button[type=submit] {
 }
 
 .range-slider {
-  border: 1px solid #eee;
+  border: $border-width solid #eee;
   margin-bottom: 2em;
   padding: .5em 6em 1em 0;
   position: relative;
@@ -221,7 +221,7 @@ input[type=range]::-moz-range-thumb {
 }
 
 input[type=range]::-ms-thumb {
-  border: 1px solid #000000;
+  border: $border-width solid #000000;
   height: 36px;
   width: 16px;
   border-radius: 3px;
