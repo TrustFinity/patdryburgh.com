@@ -1,0 +1,8 @@
+@mixin text-shadow($width) {
+  text-shadow: 1px 1px 0 $background-color, $width $width 0 $shadow-color, ($width + 1) ($width + 1) 0 $background-color;
+}
+
+@mixin shadow($width) {
+  background-image: linear-gradient(to right, $shadow-color 100%, $shadow-color 100%);
+  @include text-shadow($width);
+}

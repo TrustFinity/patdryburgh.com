@@ -4,13 +4,10 @@
 @charset "utf-8";
 
 // colors
-$text-color:       darken(#fff, 15%);
-$background-color: #222;
 $brand-color:      #fdcda0;
-
-$grey-color:       #828282;
-$grey-color-light: lighten($grey-color, 40%);
-$grey-color-dark:  darken($grey-color, 25%);
+$text-color:       lighten($brand-color, 15%);
+$background-color: desaturate(darken($brand-color, 72%), 96%);
+$shadow-color:     rgba($brand-color, .3);
 
 @import
   "variables",

@@ -1,0 +1,29 @@
+.btn {
+  background: none;
+  border: 0;
+  color: $brand-color;
+  font-family: $base-font-family;
+  font-size: .625em;
+  font-weight: 700;
+  letter-spacing: .125em;
+  padding: .25em 0;
+  text-transform: uppercase;
+  &:hover,
+  &:focus {
+    color: $text-color;
+    text-decoration: none;
+    @include text-shadow(2px);
+  }
+}
+
+.btn-bordered {
+  background-color: $background-color;
+  border: $border-width solid $brand-color;
+  padding: .5em .75em;
+  border-radius: .125em;
+  &:focus {
+    background-color: $brand-color !important;
+    color: $background-color;
+    text-shadow: none;
+  }
+}
