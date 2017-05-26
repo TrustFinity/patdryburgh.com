@@ -15,8 +15,8 @@
   <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ site.rss }}" />
   <link rel="alternate" title="{{ site.title }}" type="application/json" href="{{ "/feed/index.json" | prepend: site.baseurl | prepend: site.url }}" />
 
-  <script src="/js/echo.min.js"></script>
-  <script src="/js/init.js"></script>
+  <script src="{{ '/js/echo.min.js' | absolute_url }}"></script>
+  <script src="{{ '/js/init.js' | absolute_url }}"></script>
 
   <script>
     setTheme();

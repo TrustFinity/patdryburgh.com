@@ -7,7 +7,6 @@ dl, dd, ol, ul, figure {
     padding: 0;
 }
 
-
 /* Basic styling */
 
 ::-moz-selection { background: lighten($brand-color, 30%); }
@@ -16,6 +15,7 @@ dl, dd, ol, ul, figure {
 html {
   background: $brand-color;
   height: 100%;
+  width: 100%;
 }
 
 body {
@@ -24,8 +24,10 @@ body {
   font: 400 $base-font-size $base-font-family;
   line-height: $base-line-height;
   min-height: 100%;
+  width: 100%;
   -webkit-font-smoothing: antialiased;
-  @media screen and (min-width: $on-tablet) {
+  transition: background-color .125s ease-in-out;
+  @media (min-width: $on-bigphone) {
     font-size: 1.425em;
   }
 }
@@ -245,23 +247,6 @@ hr {
     content: "";
     display: table;
     clear: both;
-  }
-}
-
-
-/* Icons */
-
-.icon {
-
-  > svg {
-    display: inline-block;
-    width: 16px;
-    height: 16px;
-    vertical-align: baseline;
-
-    path {
-      fill: $grey-color;
-    }
   }
 }
 
