@@ -44,6 +44,9 @@ home: true
         </main>
 
       </article>
+    {% if forloop.first %}
+      {% include newsletter.html margin="bottom" %}
+    {% endif %}
     {% endunless %}
   {% endfor %}
 

@@ -4,10 +4,9 @@ textarea {
   background: none;
   border: 0;
   border-bottom: 1px solid #eee;
+  display: block;
   font: 400 .75em $base-font-family;
-  margin: 1em 0;
-  padding: .5em .5em .625em;
-  max-width: 12em;
+  padding: .5em 0 .625em;
   height: auto;
   width: 100%;
   -webkit-appearance: none;
@@ -26,6 +25,10 @@ textarea {
   &[type=submit] {
     padding: 0;
   }
+}
+
+button[type=submit] {
+  outline: none;
 }
 
 .floating-input input[type="text"],

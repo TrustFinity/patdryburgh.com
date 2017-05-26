@@ -205,10 +205,6 @@ h3.post-title {
   border: 1px solid $brand-color;
   padding: 0 1em;
   max-width: 36rem;
-  @media (min-width: $on-tablet) {
-    margin-left: -1em;
-    margin-right: -1em;
-  }
 }
 
 .call-to-action-header {
@@ -221,16 +217,32 @@ h3.post-title {
 .call-to-action h2 {
   background-color: $background-color;
   box-shadow: .5em 0 0px 0px $background-color, -.5em 0 0px 0px $background-color;
-  font-size: 1em;
+  font-size: 1.325em;
   display: inline;
 }
 
-.call-to-action-header + p {
-  margin-top: -.625em;
+.call-to-action-header + * {
+  margin-top: -.25em;
 }
 
 .call-to-action form {
   margin-bottom: 1em;
+}
+
+.call-to-action .btn:last-child {
+  background-color: $background-color;
+  border: 1px solid $brand-color;
+  padding: .5em .75em;
+  border-radius: .125em;
+  &:active {
+    background-color: $brand-color;
+    color: #fff;
+  }
+}
+
+.call-to-action-button {
+  margin-top: 1em;
+  margin-bottom: -1.75em;
 }
 
 /* Figures & Images */
@@ -378,8 +390,6 @@ figcaption {
 }
 
 .footnotes {
-  margin-bottom: 3em;
-  padding-bottom: 2em;
   &:before {
     content: ". . .";
     color: #d2d2d2;
