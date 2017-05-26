@@ -5,13 +5,16 @@
   position: relative;
   z-index: 99;
   a {
-    padding: .5em;
+    padding: .25em;
     &:hover {
       text-decoration: none;
     }
   }
   @media screen and (min-width: $on-tablet) {
     padding-top: 3em;
+    a {
+      padding: .5em;
+    }
   }
 }
 
@@ -24,6 +27,8 @@
   -webkit-transition: all .25s ease-in-out;
   -moz-transition: all .25s ease-in-out;
   transition: all .25s ease-in-out;
+  width: 46px;
+  height: 58px;
   &:hover,
   &:focus {
     -webkit-transform: rotate(-3deg);
@@ -34,6 +39,10 @@
     top: 2px;
   }
   img {
+    height: 100%;
+    width: 100%;
+  }
+  @media (min-width: $on-tablet) {
     width: 69px;
     height: 88px;
   }
@@ -74,24 +83,5 @@
   }
   a {
     font-size: .925rem;
-  }
-}
-
-.menu-icon {
-  display: none;
-  float: right;
-  width: 36px;
-  height: 26px;
-  line-height: 0;
-  padding-top: 10px;
-  text-align: center;
-
-  > svg {
-    width: 18px;
-    height: 15px;
-
-    path {
-      fill: $grey-color-dark;
-    }
   }
 }

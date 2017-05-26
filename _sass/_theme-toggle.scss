@@ -1,0 +1,24 @@
+#js-theme-toggle {
+  -webkit-appearance: none;
+  background: none;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  border: none;
+  outline: none;
+  height: 25px;
+  width: 25px;
+  position: absolute;
+  top: 2em;
+  right: 2em;
+  text-indent: -9999px;
+  z-index: 99;
+  cursor: pointer;
+}
+
+#js-theme-toggle.day {
+  background-image: url('/images/site/sun.svg');
+}
+
+#js-theme-toggle.night {
+  background-image: url('/images/site/moon.svg ');
+}

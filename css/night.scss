@@ -3,16 +3,7 @@
 
 @charset "utf-8";
 
-
-
-// Our variables
-$base-font-family: "freight-sans-pro", Helvetica, Arial, sans-serif;
-$base-font-size:   1.3125em;
-$small-font-size:  $base-font-size * 0.875;
-$base-line-height: 1.625;
-
-$spacing-unit:     1em;
-
+// colors
 $text-color:       darken(#fff, 15%);
 $background-color: #222;
 $brand-color:      #fdcda0;
@@ -21,24 +12,9 @@ $grey-color:       #828282;
 $grey-color-light: lighten($grey-color, 40%);
 $grey-color-dark:  darken($grey-color, 25%);
 
-// Width of the content area
-$content-width:    42em;
-
-$on-tablet:        48em;
-$on-laptop:        58em;
-$on-desktop:       75em;
-
-
-
-// Import partials from `sass_dir` (defaults to `_sass`)
 @import
-  "base",
-  "helpers",
-  "layout",
-  "navigation",
-  "forms",
-  "syntax-highlighting",
-  "print"  
+  "variables",
+  "import"
 ;
 
 .post img {

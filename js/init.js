@@ -8,17 +8,20 @@ echo.init({
   debounce: false
 });
 
-function setNightTheme() {
-  document.write("<link rel='stylesheet' href='{{ "/css/night.css" | absolute_url }}' type='text/css'>");
-  localStorage.setItem('theme', 'night');
-}
+// themes
+
+var dayTheme      = '{{ "/css/main.css" | absolute_url }}';
+    nightTheme    = '{{ "/css/night.css" | absolute_url }}';
 
 function setDayTheme() {
-  document.write("<link rel='stylesheet' href='{{ "/css/main.css" | absolute_url }}' type='text/css'>");
   localStorage.setItem('theme', 'day');
 }
 
-function setTheme() {
+function setNightTheme() {
+  localStorage.setItem('theme', 'night');
+}
+
+function setThemeTime() {
   
   var currentTime = new Date().getHours();
   
@@ -30,6 +33,55 @@ function setTheme() {
   }
   if (19 <= currentTime&&currentTime <= 24) {
     setNightTheme();
+  }
+
+}
+
+function checkTheme() {
+  
+  var timeTheme = localStorage.getItem('theme');
+      userTheme = sessionStorage.getItem('theme');
+
+  if (userTheme) {
+    currentTheme = userTheme;
+  } else {
+    currentTheme = timeTheme;
+  }
+
+}
+
+function setTheme() {
+
+  setThemeTime();
+
+  checkTheme();
+
+  if (currentTheme == 'day') {
+    theme = dayTheme;
+  }
+
+  if (currentTheme == 'night') {
+    theme = nightTheme;
+  }
+
+  document.write('<link rel="stylesheet" href="' + theme + '" type="text/css" id="js-theme">');
+
+}
+
+function toggleTheme(e) {
+  
+  checkTheme();
+
+  if (currentTheme == 'day') {
+    document.getElementById('js-theme').href=nightTheme;
+    e.target.className = 'night';
+    sessionStorage.setItem('theme', 'night');
+  }
+
+  if (currentTheme == 'night') {
+    document.getElementById('js-theme').href=dayTheme;
+    e.target.className = 'day';
+    sessionStorage.setItem('theme', 'day');
   }
 
 }
