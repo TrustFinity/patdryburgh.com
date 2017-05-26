@@ -1,13 +1,22 @@
-var clickEventType = ('ontouchstart' in window ? 'touchend' : 'click');
+function toggleTheme(e) {
+  
+  checkTheme()
 
-toggleButton  = document.getElementById('js-theme-toggle');
+  if (currentTheme == 'day') {
+    document.getElementById('js-theme').href=nightTheme
+    e.target.className = 'night'
+    sessionStorage.setItem('theme', 'night')
+  }
 
-toggleButton.className = currentTheme;
+  if (currentTheme == 'night') {
+    document.getElementById('js-theme').href=dayTheme
+    e.target.className = 'day'
+    sessionStorage.setItem('theme', 'day')
+  }
 
-toggleButton.addEventListener('click', toggleTheme);
+}
 
-toggleButton.addEventListener('touchstart', function(e) {
-  e.preventDefault();
-  // trigger the actual behavior we bound to the 'click' event
-  e.target.click();
-});
+toggleButton  = document.getElementById('js-theme-toggle')
+toggleButton.className = currentTheme
+
+toggleButton.addEventListener('click', toggleTheme)

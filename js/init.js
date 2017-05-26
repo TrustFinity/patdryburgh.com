@@ -6,82 +6,61 @@ echo.init({
   offset: 1000,
   unload: true,
   debounce: false
-});
+})
 
 // themes
 
-var dayTheme      = '{{ "/css/main.css" | absolute_url }}';
-    nightTheme    = '{{ "/css/night.css" | absolute_url }}';
+var dayTheme      = '{{ "/css/main.css" | absolute_url }}'
+    nightTheme    = '{{ "/css/night.css" | absolute_url }}'
 
 function setDayTheme() {
-  localStorage.setItem('theme', 'day');
+  localStorage.setItem('theme', 'day')
 }
 
 function setNightTheme() {
-  localStorage.setItem('theme', 'night');
+  localStorage.setItem('theme', 'night')
 }
 
 function setThemeTime() {
   
-  var currentTime = new Date().getHours();
+  var currentTime = new Date().getHours()
   
-  if (0 <= currentTime&&currentTime < 8) {
-    setNightTheme();
+  if ((0 <= currentTime&&currentTime < 8) || (19 <= currentTime&&currentTime <= 24)) {
+    setNightTheme()
   }
   if (8 <= currentTime&&currentTime < 19) {
-    setDayTheme();
-  }
-  if (19 <= currentTime&&currentTime <= 24) {
-    setNightTheme();
+    setDayTheme()
   }
 
 }
 
 function checkTheme() {
   
-  var timeTheme = localStorage.getItem('theme');
-      userTheme = sessionStorage.getItem('theme');
+  var timeTheme = localStorage.getItem('theme')
+      userTheme = sessionStorage.getItem('theme')
 
   if (userTheme) {
-    currentTheme = userTheme;
+    currentTheme = userTheme
   } else {
-    currentTheme = timeTheme;
+    currentTheme = timeTheme
   }
 
 }
 
 function setTheme() {
 
-  setThemeTime();
+  setThemeTime()
 
-  checkTheme();
+  checkTheme()
 
   if (currentTheme == 'day') {
-    theme = dayTheme;
+    theme = dayTheme
   }
 
   if (currentTheme == 'night') {
-    theme = nightTheme;
+    theme = nightTheme
   }
 
-  document.write('<link rel="stylesheet" href="' + theme + '" type="text/css" id="js-theme">');
-
-}
-
-function toggleTheme(e) {
-  
-  checkTheme();
-
-  if (currentTheme == 'day') {
-    document.getElementById('js-theme').href=nightTheme;
-    e.target.className = 'night';
-    sessionStorage.setItem('theme', 'night');
-  }
-
-  if (currentTheme == 'night') {
-    document.getElementById('js-theme').href=dayTheme;
-    e.target.className = 'day';
-    sessionStorage.setItem('theme', 'day');
-  }
+  document.write('<link rel="stylesheet" href="' + theme + '" type="text/css" id="js-theme">')
 
 }

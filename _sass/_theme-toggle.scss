@@ -1,18 +1,21 @@
 #js-theme-toggle {
   -webkit-appearance: none;
   background: none;
+  background-position: center;
   background-repeat: no-repeat;
-  background-size: 100%;
+  background-size: 50%;
   border: none;
   outline: none;
   height: 25px;
   width: 25px;
   position: absolute;
-  top: 2em;
-  right: 2em;
+  top: 0;
+  right: 0;
+  padding: 25px;
   text-indent: -9999px;
-  z-index: 99;
+  z-index: 999;
   cursor: pointer;
+  // background-color: red;
 }
 
 #js-theme-toggle.day {
