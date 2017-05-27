@@ -84,5 +84,8 @@
   a {
     font-size: .925rem;
     padding: .25em;
+    &:hover {
+      box-shadow: 0 .125em 0 $brand-color;
+    }
   }
 }
