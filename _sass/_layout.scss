@@ -388,13 +388,7 @@ figcaption {
 
 .footnotes {
   &:before {
-    content: ". . .";
-    color: #d2d2d2;
-    display: inline-block;
-    letter-spacing: .5em;
-    margin: 0 auto;
-    width: 100%;
-    text-align: center;
+    @include separator;
   }
   ol {
     margin-top: 2em;
