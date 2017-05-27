@@ -73,7 +73,7 @@
   font-size: 1rem;
   text-transform: uppercase;
   ul {
-    margin-left: 0;
+    margin-left: -.25em;
     margin-top: 0;
   }
   li {
@@ -83,5 +83,6 @@
   }
   a {
     font-size: .925rem;
+    padding: .25em;
   }
 }
