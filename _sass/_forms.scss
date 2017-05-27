@@ -4,6 +4,7 @@ textarea {
   background: none;
   border: 0;
   border-bottom: $border-width solid $grey-color;
+  color: $text-color;
   display: block;
   font: 400 .75em $base-font-family;
   padding: .5em 0 .625em;
