@@ -14,9 +14,3 @@ $on-bigphone:      22em;
 $on-tablet:        48em;
 $on-laptop:        58em;
 $on-desktop:       75em;
-
-// grey
-
-$grey-color:       rgba($text-color, .2);
-$grey-color-light: lighten($grey-color, .1);
-$grey-color-dark:  darken($grey-color, .2);
