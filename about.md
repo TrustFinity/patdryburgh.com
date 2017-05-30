@@ -6,7 +6,7 @@ hide_title: true
 layout: page
 ---
 
-For the past 9 years, I've been working with startups and small businesses to solve big problems with design. I've worked with some amazing companies including Grooveshark, Fusion Ads, CocoaTech, QuickCal, Thorel Woodworking, [Ethical Coffee Chain][ecc], UpThemes, [Ongo][ongo], [Perch][perch], [Agent Inbox][ai], [Brewhouse][bh], [Steamclock][sc], [Arc'teryx][arc], [Viral Foundry][vf], [Finstripe][fs], [Blanc Media][bm], [Platero Visual][pv], [Rye 51][r5], and [Stantec][st]. 
+For the past 9 years, I've been working with startups and small businesses to solve big problems with design. I've worked with some amazing companies including Grooveshark, Fusion Ads, CocoaTech, QuickCal, Thorel Woodworking, [Ethical Coffee Chain][ecc], UpThemes, [Ongo][ongo], [Perch][perch], [Agent Inbox][ai], [Brewhouse][bh], [Steamclock][sc], [Arc'teryx][arc], [Viral Foundry][vf], [Finstripe][fs], [Blanc Media][bm], [Platero Visual][pv], [Rye&nbsp;51][r5], and [Stantec][st]. 
 
 [Currently]({{ '/now/' | absolute_url }}), I am [leading product and service design]({{ '/blog/designing-in-uganda' | absolute_url }}) for microfinancing startup [Ensibuuko](http://ensibuuko.com) in Kampala, Uganda.
 
