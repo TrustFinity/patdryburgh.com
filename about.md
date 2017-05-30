@@ -12,7 +12,7 @@ For the past 9 years, I've been working with startups and small businesses to so
 
 My work has been featured in Beautiful Pixels, TechCrunch, Gigaom, VentureBeat, and the iOS App Store. 
 
-I've also had the pleasure of helping creative people like [Fraser Spiers][fsp], [Patrick Rhone][pr], [Ben Brooks][bb], Richard Dew, Tim Latham, Natalee Blagden, and [Carly Thomas][ct] bring their visions to life.
+I've also had the pleasure of helping creative people like [Fraser Speirs][fsp], [Patrick Rhone][pr], [Ben Brooks][bb], Richard Dew, Tim Latham, Natalee Blagden, and [Carly Thomas][ct] bring their visions to life.
 
 In my free time I write and record music, [take photos](http://instagram.com/patdryburgh), and explore the beautiful province of British Columbia.
 
@@ -41,7 +41,7 @@ The illustration in the header was drawn by [Courtney Yake][cy]. The [sun][sun] 
 [pv]: http://platerovisual.com/
 [r5]: http://rye51.com
 [st]: http://stantec.com
-[fsp]: http://spiers.org
+[fsp]: http://speirs.org
 [pr]: http://patrickrhone.com
 [ct]: http://carlythomas.com
 [bb]: http://brooksreview.net
