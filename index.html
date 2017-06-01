@@ -65,10 +65,8 @@ home: true
       {% endif %}
     {% endunless %}
   {% endfor %}
-
-  <div class="wrapper m-top">
-    <a href="{{ '/blog/' | absolute_url }}" class="btn">Full Archive &rarr;</a>
-  </div>
+  
+  {% include newsletter.html margin="top" %}
 
 </main>
 
