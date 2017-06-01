@@ -1,0 +1,40 @@
+---
+layout: default
+---
+
+<article class="post">
+
+  {% if page.photo %}
+    <div class="photo">
+      <img src="{{ site.url }}/{{ page.photo }}" alt="{{ page.title }}">
+    </div>
+  {% endif %}
+  
+  <main class="post-content">
+  
+    <div class="wrapper">
+      {{ content | markdownify }}
+    </div>
+
+    {% if page.categories contains 'design' %}
+      <aside class="wrapper m-top">
+        <div class="call-to-action">
+            <div class="call-to-action-header">
+              <h2>
+                Thanks for reading about <a href="{{ '/design/' | absolute_url }}">my work</a> with {{ page.title }}.
+              </h2>
+            </div>
+            <p>
+              Interested in working together? You should <a href="mailto:{{ site.email }}">get in touch</a>.
+            </p>
+        </div>
+      </aside>
+    {% endif %}
+
+    {% if page.categories contains 'blog' %}
+      {% include newsletter.html margin="top" %}
+    {% endif %}
+
+  </main>
+
+</article>
