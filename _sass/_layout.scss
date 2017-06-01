@@ -209,11 +209,12 @@ h3.post-title {
 .call-to-action {
   border: $border-width solid $brand-color;
   padding: 0 1em;
-  max-width: 36rem;
+  // max-width: 36rem;
 }
 
 .call-to-action-header {
   margin: 0 -.5em 0;
+  max-width: 36rem;
   padding: 0 1em 0 .5em;
   position: relative;
   top: -.825em;
