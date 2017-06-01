@@ -12,7 +12,7 @@ subtitle: I write about design, music, and life.
       {% if post.date and currentdate != date %}
         {% unless forloop.first %}</ul>{% endunless %}
         <div class="wrapper m-top">
-          <h2 class="year-heading" id="y{{post.date | date: "%Y"}}">{{ currentdate }}</h2>
+          <h2 class="post-meta" id="y{{post.date | date: "%Y"}}">{{ currentdate }}</h2>
         </div>
         <ul class="post-list list-unstyled">
         {% assign date = currentdate %}

@@ -2,15 +2,15 @@
 layout: default
 ---
 
-<article class="post">
+<article class="post m-top">
 
-  {% if page.categories contains 'blog' %}
-    <header class="post-header">
-      <div class="wrapper">
-        <span class="post-meta">
-          {% if page.date %}
-            <a href="{{ post.url | prepend: site.baseurl }}">{{ page.date | date: "%b %-d, %Y" }}</a>
-          {% endif %}
+  <header class="post-header">
+    <div class="wrapper">
+      <span class="post-meta">
+        {% if page.date %}
+          <a href="{{ post.url | prepend: site.baseurl }}">{{ page.date | date: "%b %-d, %Y" }}</a>
+        {% endif %}
+        {% if page.categories contains 'blog' %}
           {% include read_time.html %}
           {% if page.date and page.meta %}
             &middot; 
@@ -20,9 +20,11 @@ layout: default
           {% endif %}
         </span>
         <h1 class="post-title">{{ page.title }}</h1>
-      </div>
-    </header>
-  {% endif %}
+      {% else %}
+        </span>
+      {% endif %}
+    </div>
+  </header>
 
   {% if page.photo %}
     <div class="photo">

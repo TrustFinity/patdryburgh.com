@@ -7,10 +7,9 @@ subtitle: I help companies solve big problems with creative thinking and [design
 <main class="work">
 
   <ul class="post-list list-unstyled">
-    {% for post in site.categories.design %}
-      {% unless post.draft %}
-        {% include post_link.html %}
-      {% endunless %}
+    {% assign projects = (site.projects | sort: 'date') | reverse) %}
+    {% for post in projects %}
+      {% include post_link.html %}
     {% endfor %}
   </ul>
 

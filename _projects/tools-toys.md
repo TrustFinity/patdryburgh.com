@@ -5,7 +5,6 @@ categories:
 - design
 layout: post
 author: patdryburgh
-url_title: tools-toys
 photo: "/images/work/hero-tools-toys.jpg"
 it: In 2014, I designed and built a new responsive website that saw 3x growth year-over-year
   in pageviews, unique visitors, and revenue with

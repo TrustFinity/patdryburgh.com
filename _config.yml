@@ -7,7 +7,11 @@ collections:
     output: true
   uploads:
     title: Uploads
+    output: false
+  projects:
+    title: Projects
     output: true
+    permalink: /:collection/:name
 email: hello@patdryburgh.com
 description: Pat Dryburgh is a product designer based in Vancouver, BC.
 baseurl: 

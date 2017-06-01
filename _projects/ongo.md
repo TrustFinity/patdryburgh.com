@@ -5,7 +5,6 @@ categories:
 - design
 layout: post
 author: patdryburgh
-url_title: ongo
 photo: "/images/work/hero-ongo.jpg"
 it: From 2011&ndash;2012, I designed interfaces for New York Times and Washington
   Post-backed news reading service

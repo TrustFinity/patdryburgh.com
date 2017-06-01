@@ -50,11 +50,17 @@
 // Spacing
 
 .m-top {
-  margin-top: 4em;
+  margin-top: 2em;
+  @media (min-width: $on-tablet) {
+    margin-top: 4em;
+  }
 }
 
 .m-bottom {
-  margin-bottom: 4em;
+  margin-bottom: 2em;
+  @media (min-width: $on-tablet) {
+    margin-bottom: 4em;
+  }
 }
 
 // Footer
@@ -200,6 +206,21 @@
 .post-link .post-title {
   font-size: 1em;
   margin: 0;
+}
+
+.post-micro {
+  margin-left: 1.5em;
+  @media (min-width: $on-tablet) {
+    margin-left: 0;
+  }
+}
+
+.post-reference {
+  display: block;
+  float: left;
+  margin-left: -1.5em;
+  font-size: .75em;
+  line-height: 1.825;
 }
 
 h3.post-title {
