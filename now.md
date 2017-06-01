@@ -2,7 +2,6 @@
 title: This is what I'm doing now
 permalink: "/now/"
 layout: page
-hide_title: true
 ---
 
 - Leading product design for [Ensibuuko][en] in [Kampala, Uganda][ku]
