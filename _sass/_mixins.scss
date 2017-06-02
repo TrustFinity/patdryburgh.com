@@ -16,3 +16,17 @@
   width: 100%;
   text-align: center;
 }
+
+@mixin m-top {
+  margin-top: 2em;
+  @media (min-width: $on-tablet) {
+    margin-top: 4em;
+  }
+}
+
+@mixin m-bottom {
+  margin-bottom: 2em;
+  @media (min-width: $on-tablet) {
+    margin-bottom: 4em;
+  }
+}

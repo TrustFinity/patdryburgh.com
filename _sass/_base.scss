@@ -28,6 +28,9 @@ body {
   -webkit-font-smoothing: antialiased;
   transition: background-color .125s ease-in-out;
   @media (min-width: $on-bigphone) {
+    font-size: 1.25em;
+  }
+  @media (min-width: $on-tablet) {
     font-size: 1.425em;
   }
 }

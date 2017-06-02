@@ -6,15 +6,7 @@
     <a href="{{ site.url }}">Pat Dryburgh</a>
   </h1>
 
-  <nav class="site-menu">
-    <ul>
-      {% for link in site.data.menu %}
-        <li>
-          <a href="{{ link.url | prepend: site.url }}">{{ link.title }}</a>
-        </li>
-      {% endfor %}
-    </ul>
-  </nav>
+  {% include navigation.html %}
 
   {% if page.categories contains 'design' %}
     <p>{{ page.it }} <strong>{{ page.title }}</strong>.</p>

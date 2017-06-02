@@ -1,4 +1,4 @@
-<aside class="wrapper m-{{ include.margin }}">
+<aside class="{% unless include.wrapped == "true" %}wrapper{% endunless %} m-{{ include.margin }}">
   <div class="call-to-action">
     <div class="call-to-action-header">
       <h2>Get a weekly digest of new content</h2>

@@ -50,17 +50,15 @@
 // Spacing
 
 .m-top {
-  margin-top: 2em;
-  @media (min-width: $on-tablet) {
-    margin-top: 4em;
-  }
+  @include m-top;
+}
+
+.blog .m-top:first-child {
+  margin-top: 0;
 }
 
 .m-bottom {
-  margin-bottom: 2em;
-  @media (min-width: $on-tablet) {
-    margin-bottom: 4em;
-  }
+  @include m-bottom;
 }
 
 // Footer
@@ -210,6 +208,14 @@
   @media (min-width: $on-tablet) {
     margin-left: 0;
   }
+}
+
+.m-top + .post-micro {
+  margin-top: 1em;
+}
+
+.post-micro a + p {
+  margin-top: 0;
 }
 
 .post-reference {
