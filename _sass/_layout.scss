@@ -195,7 +195,7 @@
     &:focus {
       color: $text-color;
       text-decoration: none;
-      @include shadow(3px);
+      @include shadow(2px);
     }
   }
 }
