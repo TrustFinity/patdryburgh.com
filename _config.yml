@@ -19,7 +19,7 @@ url: http://patdryburgh.com
 rss: http://feed.patdryburgh.com
 json: http://patdryburgh.com/feed/index.json
 blog_rss: http://feed.patdryburgh.com/blog
-blog_json: http://patdryburgh.com/blog.json
+blog_json: http://patdryburgh.com/feed/blog.json
 micro_rss: http://feed.patdryburgh.com/micro
 micro_json: http://patdryburgh.com/feed/micro.json
 twitter: http://twitter.com/patdryburgh
