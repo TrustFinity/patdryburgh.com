@@ -12,10 +12,10 @@ permalink: /feed/index.json
     "favicon": "{{ "/favicon.ico" | absolute_url }}",
     "expired": false,
     "items": [
-    {% for post in site.posts limit: 15 %}
+    {% for post in site.categories.blog limit: 15 %}
         {
             "id": "{{ post.url | absolute_url | sha1 }}",
-            {% if post.categories contains 'blog' %}"title": {{ post.title | jsonify }},{% endif %}
+            "title": {{ post.title | jsonify }},
             "content_text": {{ post.content | strip_html | strip_newlines | jsonify }},
             "content_html": {{ post.content | strip_newlines | jsonify }},
             "url": "{{ post.url | absolute_url }}",
