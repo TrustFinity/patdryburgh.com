@@ -8,14 +8,14 @@ layout:
     <title>{{ site.title | xml_escape }}</title>
     <description>{{ site.description | xml_escape }}</description>
     <link>{{ site.url }}{{ site.baseurl }}/</link>
-    <atom:link href="{{ "/feed/index.xml" | absolute_url }}" rel="self" type="application/rss+xml"/>
+    <atom:link href="{{ "/feed/micro.xml" | absolute_url }}" rel="self" type="application/rss+xml"/>
     <pubDate>{{ site.time | date_to_rfc822 }}</pubDate>
     <lastBuildDate>{{ site.time | date_to_rfc822 }}</lastBuildDate>
     <generator>Jekyll v{{ jekyll.version }}</generator>
-    {% for post in site.posts limit: 15 %}
+    {% for post in site.categories.micro %}
       {% unless post.draft %}
         <item>
-          {% if post.categories contains 'blog' %}<title>{{ post.title | xml_escape }}</title>{% endif %}
+          {% if post.link %}<title>{{ post.title | xml_escape }}</title>{% endif %}
           <description>{{ post.content | xml_escape }}</description>
           <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
           {% if post.link %}<link>{{ post.link }}</link>{% else %}<link>{{ post.url | absolute_url }}</link>{% endif %}

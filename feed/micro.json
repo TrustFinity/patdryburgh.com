@@ -1,21 +1,20 @@
 ---
 layout: null
-permalink: /feed/index.json
+permalink: /feed/micro.json
 ---
 {
     "version": "https://jsonfeed.org/version/1",
     "title": "{{ site.title | xml_escape }}",
     "home_page_url": "{{ "/" | absolute_url }}",
-    "feed_url": "{{ "/feed/index.json" | absolute_url }}",
+    "feed_url": "{{ "/feed/micro.json" | absolute_url }}",
     "description": {{ site.description | jsonify }},
     "icon": "{{ "/images/favicon/favicon-228.png" | absolute_url }}",
     "favicon": "{{ "/favicon.ico" | absolute_url }}",
     "expired": false,
     "items": [
-    {% for post in site.posts limit: 15 %}
+    {% for post in site.categories.micro %}
         {
             "id": "{{ post.url | absolute_url | sha1 }}",
-            {% if post.categories contains 'blog' %}"title": {{ post.title | jsonify }},{% endif %}
             "content_text": {{ post.content | strip_html | strip_newlines | jsonify }},
             "content_html": {{ post.content | strip_newlines | jsonify }},
             {% if post.link %}"url": "{{ post.link }}",{% else %}"url": "{{ post.url | absolute_url }}",{% endif %}
