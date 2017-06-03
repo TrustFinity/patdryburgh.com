@@ -79,28 +79,6 @@
   position: relative;
 }
 
-@supports (initial-letter: 4) or (-webkit-initial-letter: 4) {
-  .post-content p:first-child::first-letter,
-  .post-content .pull-out:first-child + p::first-letter {
-    -webkit-initial-letter: 2;
-    initial-letter: 2;
-    color: $brand-color;
-    font-weight: 700;
-    margin-top: 1em;
-    margin-right: .5em;
-  }
-  .post .post-content .wrapper blockquote p:first-child::first-letter,
-  .post .post-content .wrapper li p:first-child::first-letter,
-  .post .post-content .wrapper > .no-il p:first-child::first-letter {
-    -webkit-initial-letter: normal;
-    initial-letter: normal;
-    color: inherit;
-    font-weight: 400;
-    margin-top: 0;
-    margin-right: 0;
-  }
-}
-
 .list-unstyled {
   list-style: none;
   margin: 0;
