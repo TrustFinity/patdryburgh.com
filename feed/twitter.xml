@@ -18,7 +18,7 @@ layout:
         <item>
           {% if size > 140 %}
             <description>
-              {{ post.content | strip_html | truncate: 115, '' | xml_escape }}… {{ post.url | absolute_url }}
+              {{ post.content | strip_html | truncate: 115, '…' | xml_escape }} {{ post.url | absolute_url }}
             </description>
           {% else %}
             <description>
