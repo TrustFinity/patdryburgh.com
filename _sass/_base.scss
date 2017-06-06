@@ -181,7 +181,7 @@ code {
 }
 
 code {
-  background: lighten($brand-color, 40%);
+  background: none;
   color: darken($brand-color, 20%);
   padding: 1px 5px;
 }
@@ -195,9 +195,9 @@ pre {
   word-wrap: break-word;
   width: 100%;
   > code {
+    background: none;
     border: 0;
-    // white-space: pre-line;
-    padding: 8px 12px;
+    padding: 8px 0;
   }
 }
 
