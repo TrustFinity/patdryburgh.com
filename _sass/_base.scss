@@ -174,12 +174,6 @@ cite .title {
 
 /* Code formatting */
 
-pre,
-code {
-  font-size: 15px;
-  border-radius: 3px;
-}
-
 code {
   background: none;
   color: darken($brand-color, 20%);
@@ -188,6 +182,7 @@ code {
 
 pre {
   background: none !important;
+  font-size: 1em;
   white-space: pre-wrap;
   white-space: -moz-pre-wrap !important;
   white-space: -pre-wrap;
@@ -198,6 +193,11 @@ pre {
     background: none;
     border: 0;
     padding: 8px 0;
+    font-size: 1em;
+    > span {
+      background: none;
+      color: inherit;
+    }
   }
 }
 
