@@ -188,13 +188,16 @@ code {
 
 pre {
   background: none !important;
-  padding: 8px 12px;
-
+  white-space: pre-wrap;
+  white-space: -moz-pre-wrap !important;
+  white-space: -pre-wrap;
+  white-space: -o-pre-wrap;
+  word-wrap: break-word;
+  width: 100%;
   > code {
     border: 0;
-    white-space: pre-line;
-    padding-right: 0;
-    padding-left: 0;
+    // white-space: pre-line;
+    padding: 8px 12px;
   }
 }
 

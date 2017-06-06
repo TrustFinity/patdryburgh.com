@@ -22,14 +22,13 @@ A quick email to the support team at DuckDuckGo resulted in a small modification
 I've included some of these parameters in the code below, which you can modify and use to add a custom DuckDuckGo search to your own site. To see what the codes used in the "name" attribute, be sure to read through [DuckDuckGo's URL Parameters page](http://duckduckgo.com/params.html). 
 
 <pre>
-<code>
-&lt;form method="get" id="search" action="http://duckduckgo.com/">
-	&lt;input type="hidden" name="sites" value="YOURDOMAIN.COM"/>
-	&lt;input type="hidden" name="k8" value="#444444"/>
-	&lt;input type="hidden" name="k9" value="#D51920"/>
-	&lt;input type="hidden" name="kt" value="h"/>
-	&lt;input type="text" name="q" maxlength="255" placeholder="Search&amp;hellip;"/>
-	&lt;input type="submit" value="DuckDuckGo Search" style="visibility: hidden;" />
+<code>&lt;form method="get" id="search" action="http://duckduckgo.com/">
+  &lt;input type="hidden" name="sites" value="YOURDOMAIN.COM"/>
+  &lt;input type="hidden" name="k8" value="#444444"/>
+  &lt;input type="hidden" name="k9" value="#D51920"/>
+  &lt;input type="hidden" name="kt" value="h"/>
+  &lt;input type="text" name="q" maxlength="255" placeholder="Search&amp;hellip;"/>
+  &lt;input type="submit" value="DuckDuckGo Search" style="visibility: hidden;" />
 &lt;/form>
 </code>
 </pre>
