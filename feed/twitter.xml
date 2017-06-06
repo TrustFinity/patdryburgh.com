@@ -18,7 +18,7 @@ layout:
         <item>
           {% if size > 140 %}
             {% capture link %}
-              <br /><a href="{{ post.url | absolute_url }}"></a>
+              {{ post.url | absolute_url }}
             {% endcapture %}
             <description>
               {{ post.content | strip_html | truncate: 115, '' | xml_escape }}…{{ link | xml_escape }}
