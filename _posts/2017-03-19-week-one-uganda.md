@@ -1,6 +1,6 @@
 ---
 title: Stories from the first week and a bit in Uganda
-date: 2017-03-19 00:00:00 Z
+date: 2017-03-30 00:00:00 Z
 categories:
 - blog
 layout: post

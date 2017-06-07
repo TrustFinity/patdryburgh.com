@@ -2,6 +2,8 @@
 layout: default
 ---
 
+{% assign words = content | number_of_words %}
+
 <article class="post m-top">
 
   <header class="post-header">
@@ -11,7 +13,7 @@ layout: default
           <a href="{{ post.url | prepend: site.baseurl }}">{{ page.date | date: "%b %-d, %Y" }}</a>
         {% endif %}
         {% if page.categories contains 'blog' %}
-          {% include read_time.html %}
+          &middot; {% include read_time.html %}
           {% if page.date and page.meta %}
             &middot; 
           {% endif %}

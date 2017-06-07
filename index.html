@@ -6,47 +6,14 @@ home: true
 <main class="blog">
 
   {% for post in site.posts limit: 20 %}
+    
     {% assign page = post %}
     {% assign content = post.content %}
+    {% assign words = content | number_of_words %}
     {% assign currentdate = post.date | date: "%Y-%m-%d" %}
+
     {% unless page.draft %}
-      {% if page.categories contains 'blog' %}
-        <article class="post m-top">
-
-            <header class="post-header">
-              <div class="wrapper">
-                <span class="post-meta">
-                  {% if page.date %}
-                    <a href="{{ page.url | absolute_url }}">{{ page.date | date: "%b %-d, %Y" }}</a>
-                  {% endif %}
-                  {% include read_time.html %}
-                  {% if page.date and page.meta %}
-                    &middot; 
-                  {% endif %}
-                  {% if page.meta %}
-                    {{ page.meta }}
-                  {% endif %}
-                </span>
-                <h1 class="post-title">
-                  <a href="{{ page.url | absolute_url }}">{{ page.title }}</a>
-                </h1>
-              </div>
-            </header>
-
-          {% if page.photo %}
-            <div class="photo">
-              <img src="{{ site.url }}/{{ page.photo }}" alt="{{ page.title }}">
-            </div>
-          {% endif %}
-
-          <main class="post-content">  
-            <div class="wrapper">
-              {{ content | markdownify }}
-            </div>
-          </main>
-
-        </article>
-      {% endif %}
+      
       {% if page.categories contains 'micro' %}
         {% if post.date and currentdate != date %}
           <div class="wrapper m-top">
@@ -63,7 +30,50 @@ home: true
           </main>
         </article>
       {% endif %}
+
+      {% if page.categories contains 'blog' %}
+        <article class="post m-top m-bottom">
+
+          <header class="post-header">
+            <div class="wrapper">
+              <span class="post-meta">
+                {% if date != currentdate %}
+                  <a href="{{ page.url | absolute_url }}">{{ page.date | date: "%b %-d, %Y" }}</a>
+                  &middot; {% include read_time.html %}
+                  {% assign date = currentdate %}
+                {% else %}
+                  {% include read_time.html %}
+                {% endif %}
+                {% if page.date and page.meta %}
+                  &middot; 
+                {% endif %}
+                {% if page.meta %}
+                  {{ page.meta }}
+                {% endif %}
+              </span>
+              <h1 class="post-title">
+                <a href="{{ page.url | absolute_url }}">{{ page.title }}</a>
+              </h1>
+            </div>
+          </header>
+
+          {% if page.photo %}
+            <div class="photo">
+              <img src="{{ site.url }}/{{ page.photo }}" alt="{{ page.title }}">
+            </div>
+          {% endif %}
+
+          <main class="post-content">  
+            <div class="wrapper">
+              {{ content | markdownify }}
+            </div>
+          </main>
+
+        </article>
+      {% endif %}
+
     {% endunless %}
+
   {% endfor %}
   
   {% include newsletter.html margin="top" %}
