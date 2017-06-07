@@ -70,7 +70,7 @@ But we'll save that for another time.
 
 If you'd like to see this in action, [you should follow me on Twitter][tw]. If you're interested in seeing the final code for conditionally including a link in the item description, [check out the code on Github][gh].
 
-[mp]: http://localhost:4000/micro/2017-06-01-20-35-06
+[mp]: http://patdryburgh.com/micro/2017-06-01-20-35-06
 [mr]: http://manton.org
 [mb]: http://micro.blog
 [ex]: http://patdryburgh.com/micro/2017-06-03-08-45-00
@@ -82,5 +82,5 @@ If you'd like to see this in action, [you should follow me on Twitter][tw]. If y
 [feeds]: http://patdryburgh.com/subscribe/
 [tw]: http://twitter.com/patdryburgh
 [gh]: https://github.com/patdryburgh/patdryburgh.com/blob/master/feed/twitter.xml
-[first]: http://localhost:4000/micro/2017-06-06-11-55-26
+[first]: http://patdryburgh.com/micro/2017-06-06-11-55-26
 [ed]: https://jsonfeed.org/2017/05/17/announcing_json_feed
