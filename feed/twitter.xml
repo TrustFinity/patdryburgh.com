@@ -14,15 +14,16 @@ layout:
     <generator>Jekyll v{{ jekyll.version }}</generator>
     {% for post in site.categories.micro %}
       {% unless post.draft %}
-      {% assign size = post.content | size %}
+      {% assign content = post.content | strip_html | xml_escape %}
+      {% assign size = content | size %}
         <item>
           {% if size > 140 %}
             <description>
-              {{ post.content | strip_html | truncate: 115, '…' | xml_escape }} {{ post.url | absolute_url }}
+              {{ content | truncate: 115, '…' }} {{ post.url | absolute_url }}
             </description>
           {% else %}
             <description>
-              {{ post.content | strip_html | xml_escape }}
+              {{ content }}
             </description>
           {% endif %}
           <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>

@@ -13,7 +13,7 @@ As I was not a Kickstarter supporter of [Manton Reece's][mr] [Micro.blog][mb] se
 
 My first [experiment][ex] involved using [FeedPress][fp] to publish feed updates directly to Twitter. I connected my [microblog RSS feed in FeedPress][rf] with my Twitter account and used the following format:
 
-    ${text}
+    ${text}  
     ${link}
 
 Though my first post failed to get syndicated, FeedPress successfully tweeted [the micro post I published earlier today][first]. Instantly I realized the format I was using wasn't going to be optimal. Because FeedPress added the link to the tweet, it appeared as though there was more to read when in fact everything I had to say fit in the tweet.
@@ -24,9 +24,18 @@ The solution I came up with was to create and connect another RSS feed to FeedPr
 
 ## Determining when to add a link
 
-In order to determine whether or not to include the link, first I need to determine how many characters are in each micro post:
+In order to determine whether or not to include the link, first I need to determine how many characters are in each micro post. This can be done by running a `size` filter on a liquid variable, like so:
 
-{% raw %}`{% assign size = post.content | size %}`{% endraw %}
+{% raw %}
+    {% assign size = post.content | size %}
+{% endraw %}
+
+This will get you the number of characters in the `post.content` variable. While this is a good start, it fails to account for characters which are used in the post's HTML tags and special character entities. As such, you will want to strip the HTML from the `post.content` variable and then escape any special characters for XML. I decided to store the cleaned up content in its own variable.
+
+{% raw %}
+    {% assign content = post.content | strip_html | xml_escape %}
+    {% assign size = content | size %}
+{% endraw %}
 
 Next, I need to set a condition that determines when a link should be included. Twitter allows 140 characters in a tweet, so if my micro post is ≤140 characters, no link is required.
 
@@ -44,12 +53,25 @@ Now that I know which micro posts require a link, I need to know how many charac
 
 Truncating Jekyll posts is as easy as adding `truncate: 115` to the `post.content` variable. Unfortunately, someone at Jekyll thinks three periods is the same as an ellipsis so I had to manually add my own ellipsis.
 
-Of note, when truncating characters in Jekyll, you are not only truncating the content itself, you are also truncating any HTML tags included in the `post.content` variable. This led to my realization that since I'm publishing these posts to Twitter anyway, I can remove the HTML from the content altogether using the `strip_html` filter. Lastly, I need to escape any special characters so they're safe for use in XML with the `xml_escape` filter.
-
 In the end, the variable I'm passing when `size > 140` looks like this:
 
 {% raw %}
-    {{ post.content | strip_html | truncate: 115, '…' | xml_escape }}
+    {{ content | truncate: 115, '…' }}
+{% endraw %}
+
+The resulting code looks like this:
+
+{% raw %}
+    {% if size > 140 %}
+      <description>
+        {{ content | truncate: 115, '…' }}
+        {{ post.url | absolute_url }}
+      </description>
+    {% else %}
+      <description>
+        {{ content }}
+      </description>
+    {% endif %}
 {% endraw %}
 
 ## Connecting the pipes
@@ -70,6 +92,10 @@ But we'll save that for another time.
 
 If you'd like to see this in action, [you should follow me on Twitter][tw]. If you're interested in seeing the final code for conditionally including a link in the item description, [check out the code on Github][gh].
 
+***
+
+_Edit: I made an error when I posted the original version of this article. I had failed to realize I was calculating the size of the `post.content` variable before stripping out the HTML tags and special character entities. The article has been [updated][up] to reflect this change._
+
 [mp]: http://patdryburgh.com/micro/2017-06-01-20-35-06
 [mr]: http://manton.org
 [mb]: http://micro.blog
@@ -84,3 +110,4 @@ If you'd like to see this in action, [you should follow me on Twitter][tw]. If y
 [gh]: https://github.com/patdryburgh/patdryburgh.com/blob/master/feed/twitter.xml
 [first]: http://patdryburgh.com/micro/2017-06-06-11-55-26
 [ed]: https://jsonfeed.org/2017/05/17/announcing_json_feed
+[up]: /#determining-when-to-add-a-link
