@@ -13,7 +13,7 @@ Ever since I lost my Kindle Paperwhite on the flight from Brussels to Entebbe, I
 
 Leaning on [the work of Chris Coyier][cc], I first added a simple function which changes between light and dark themes depending on your computer's local time. Thanks to SASS, I can produce as many colour themes as I'd like just by changing a few variables.
 
-Of course, as someone who cares deeply about his own reading environment, I wouldn't want to prevent you from viewing the site how you'd prefer. Using some more JavaScript and HTML5's `'localStorage` and `sessionStorage`, I've added the ability for you to override the time-based theme to suit your own preference. I'm storing your preference in `sessionStorage` so it will reset the next time you visit this site.
+Of course, as someone who cares deeply about his own reading environment, I wouldn't want to prevent you from viewing the site how you'd prefer. Using some more JavaScript and HTML5's `localStorage` and `sessionStorage`, I've added the ability for you to override the time-based theme to suit your own preference. I'm storing your preference in `sessionStorage` so it will reset the next time you visit this site.
 
 You can have a look at how I'm doing this thanks to…
 
