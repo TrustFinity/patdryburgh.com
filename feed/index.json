@@ -13,20 +13,25 @@ permalink: /feed/index.json
     "expired": false,
     "items": [
     {% for post in site.posts limit: 15 %}
+      {% unless post.draft %}
+        {% if post.link %}{% capture reference %}<p><a href="{{ page.url | absolute_url }}">※</a></p>{% endcapture %}{% endif %}
+        {% capture content_text %}{{ post.content | strip_html | strip_newlines }}{% endcapture %}
+        {% capture content_html %}{{ post.content | strip_newlines }}{% if post.link %}{{ reference }}{% endif %}{% endcapture %}
         {
             "id": "{{ post.url | absolute_url | sha1 }}",
             {% if post.categories contains 'blog' %}"title": {{ post.title | jsonify }},{% endif %}
-            "content_text": {{ post.content | strip_html | strip_newlines | jsonify }},
-            "content_html": {{ post.content | strip_newlines | jsonify }},
-            {% if post.link %}"url": "{{ post.link }}",{% else %}"url": "{{ post.url | absolute_url }}",{% endif %}
+            {% if post.link %}"title": {{ post.title | jsonify }},{% endif %}
+            "content_text": {{ content_text | jsonify }},
+            "content_html": {{ content_html | jsonify }},
+            "url": "{{ post.url | absolute_url}}",
             {% if post.photo.size > 1 %}"image": "{{ post.photo | absolute_url }}",{% endif %}
-            {% if post.link.size > 1 %}"external_url": "{{ post.link }}",{% endif %}
+            {% if post.link %}"external_url": "{{ post.link }}",{% endif %}
             "date_published": "{{ post.date | date_to_xmlschema }}",
             "date_modified": "{{ post.date | date_to_xmlschema }}",
             "author": {
                 "name": "{{ site.title }}"
             }
-        }{% if forloop.last == false %},{% endif %}
+        }{% if forloop.last == false %},{% endif %}{% endunless %}
     {% endfor %}
     ]
 }

@@ -14,9 +14,26 @@ layout:
     <generator>Jekyll v{{ jekyll.version }}</generator>
     {% for post in site.posts limit: 15 %}
       {% unless post.draft %}
+        {% if post.link %}
+          {% capture reference %}
+            <p><a href="{{ page.url | absolute_url }}">※</a></p>
+          {% endcapture %}
+        {% endif %}
         <item>
-          {% if post.categories contains 'blog' %}<title>{{ post.title | xml_escape }}</title>{% endif %}
-          <description>{{ post.content | xml_escape }}</description>
+          {% if post.categories contains 'blog' %}
+            <title>{{ post.title | xml_escape }}</title>
+          {% endif %}
+          {% if post.categories contains 'micro' %}
+            {% if post.link %}
+              <title>{{ post.title | xml_escape }}</title>
+            {% endif %}
+          {% endif %}
+          <description>
+            {{ post.content | xml_escape }}
+            {% if reference %}
+              {{ reference | xml_escape }}
+            {% endif %}
+          </description>
           <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
           {% if post.link %}<link>{{ post.link }}</link>{% else %}<link>{{ post.url | absolute_url }}</link>{% endif %}
           <guid isPermaLink="true">{{ post.url | absolute_url }}</guid>
@@ -27,6 +44,7 @@ layout:
           <category>{{ cat | xml_escape }}</category>
           {% endfor %}
         </item>
+        {% assign reference = '' %}
       {% endunless %}
     {% endfor %}
   </channel>
