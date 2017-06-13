@@ -4,7 +4,7 @@ layout: default
 
 {% assign words = content | number_of_words %}
 
-<article class="post">
+<article class="post single">
 
   <header class="post-header">
     <div class="wrapper">
@@ -12,7 +12,7 @@ layout: default
         {% if page.date %}
           <a href="{{ post.url | prepend: site.baseurl }}">{{ page.date | date: "%b %-d, %Y" }}</a>
         {% endif %}
-        {% if page.categories contains 'blog' %}
+      {% if page.categories contains 'blog' %}
           &middot; {% include read_time.html %}
           {% if page.date and page.meta %}
             &middot; 
@@ -37,6 +37,9 @@ layout: default
   <main class="post-content">
   
     <div class="wrapper">
+      {% if page.link %}
+        <a href="{{ page.link }}" class="post-micro-link">{{ page.title }}</a>
+      {% endif %}
       {{ content | markdownify }}
     </div>
 

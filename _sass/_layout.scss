@@ -200,6 +200,14 @@
   font-weight: 700;
 }
 
+.single .post-micro-link {
+  display: inline-block;
+  margin-top: 1em;
+  & + p {
+    margin-top: 0;
+  }
+}
+
 .post-reference {
   display: block;
   float: left;
