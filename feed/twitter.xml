@@ -14,7 +14,7 @@ layout:
     <generator>Jekyll v{{ jekyll.version }}</generator>
     {% for post in site.categories.micro %}
       {% unless post.draft %}
-      {% assign content = post.content | strip_html | xml_escape %}
+      {% capture content %}{% if post.link %}{{ post.title | xml_escape }}: {% endif %}{{ post.content | strip_html | xml_escape }}{% endcapture %}
       {% assign size = content | size %}
         <item>
           {% if size > 140 %}
