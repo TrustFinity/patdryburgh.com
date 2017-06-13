@@ -25,6 +25,9 @@ home: true
           <main class="post-content">  
             <div class="wrapper">
               <a href="{{ page.url | absolute_url }}" class="post-reference">&#8251;</a>
+              {% if post.link != '' %}
+                <a href="{{ post.link }}" class="post-micro-link">{{ post.title }}</a>
+              {% endif %}
               {{ content | markdownify }}
             </div>
           </main>
