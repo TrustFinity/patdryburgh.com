@@ -79,6 +79,7 @@ h6 {
 
 p {
   margin: 1em 0;
+  hyphens: auto;
 }
 
 h2 + p {
@@ -142,13 +143,14 @@ a {
 
 blockquote {
   border-left: .25rem solid $brand-color;
-  color: $grey-color;
+  color: $text-color;
   padding-left: $spacing-unit;
-  font: italic 400 1em/1.425 $base-font-family;
+  font: italic 400 1.325em/1.425 $base-font-family;
   font-style: italic;
   position: relative;
 
   p {
+    opacity: .7;
     position: relative;
     z-index: 2
   }
@@ -171,6 +173,11 @@ cite .title {
   margin-left: 1.5em;
 }
 
+/* Abbreviations */
+
+abbr {
+  cursor: help;
+}
 
 /* Code formatting */
 

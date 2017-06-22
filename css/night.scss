@@ -18,7 +18,7 @@ $shadow-color:     rgba($brand-color, .3);
 .post img {
   opacity: .6;
   transition: opacity .25s ease-in-out;
-  &:active {
+  &:hover {
     opacity: 1;
   }
 }

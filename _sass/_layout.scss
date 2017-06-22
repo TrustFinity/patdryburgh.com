@@ -250,8 +250,8 @@ h3.post-title {
 }
 
 .call-to-action-button {
-  margin-top: 1em;
   margin-bottom: -1.75em;
+  margin-top: .25em;
   .btn {
     background: $background-color;
   }
@@ -281,12 +281,12 @@ figcaption {
 }
 
 .extra-wide {
-  margin-left: -1em;
-  margin-right: -1em;
+  // margin-left: -1em;
+  // margin-right: -1em;
   text-align: center;
   @media (min-width: $on-tablet) {
-    margin-left: -3em;
-    margin-right: -3em;
+    margin-left: -2em;
+    margin-right: -2em;
   }
   @media (min-width: $on-desktop) {
     display: flex;
@@ -322,9 +322,6 @@ figcaption {
 
 .photo {
   margin: 1em 0 2em;
-  @media (min-width: $on-tablet) {
-    margin: 1em 4em 2em;
-  }
   img {
     display: inline-block;
   }
@@ -384,20 +381,48 @@ figcaption {
 // Misc
 
 .pull-out {
-  @media screen and (min-width: $on-desktop) {
-    font-size: .75em;
-    position: absolute;
-    left: 100%;
-    margin-left: 4em;
-    margin-top: .475em;
-    width: 12em;
+  @media (min-width: $on-tablet) {
+    position: relative;
+    font-size: .675em;
+    float: right;
+    margin: 1em -2em 1em 4em;
+    width: 40%;
     blockquote,
     p:first-child {
       margin-top: 0;
     }
     blockquote {
+      border: 0;
       line-height: 1.475;
+      transform: rotate(-2.5deg);
     }
+    cite {
+      display: block;
+      font-style: normal;
+      float: right;
+      padding: .125em 1em .5em;
+      margin-right: 1em;
+    }
+  }
+  &:before {
+    position: absolute;
+    top: 0;
+    left: -.125em;
+    content: "“";
+    height: 1em;
+    width: 1em;
+    quotes: '“';
+    font-size: 9em;
+    line-height: .5rem;
+    color: $brand-color;
+    background-position: 0 1.125em;
+    background-repeat: repeat-x;
+    background-size: 1px 4px;
+    text-decoration: none;
+    @include shadow(2px);
+  }
+  @media (min-width: $on-desktop) {
+    margin-right: -12em;
   }
 }
 
