@@ -381,28 +381,25 @@ figcaption {
 // Misc
 
 .pull-out {
-  @media (min-width: $on-tablet) {
-    position: relative;
-    font-size: .675em;
+  position: relative;
+  margin: 5em 2em 6em 1em;
+  font-size: .75em;
+  opacity: 0;
+  blockquote,
+  p:first-child {
+    margin-top: 0;
+  }
+  blockquote {
+    border: 0;
+    line-height: 1.475;
+    transform: rotate(-1.5deg);
+  }
+  cite {
+    display: block;
+    font-style: normal;
     float: right;
-    margin: 1em -2em 1em 4em;
-    width: 40%;
-    blockquote,
-    p:first-child {
-      margin-top: 0;
-    }
-    blockquote {
-      border: 0;
-      line-height: 1.475;
-      transform: rotate(-2.5deg);
-    }
-    cite {
-      display: block;
-      font-style: normal;
-      float: right;
-      padding: .125em 1em .5em;
-      margin-right: 1em;
-    }
+    padding: .125em 1em .5em;
+    margin-right: 1em;
   }
   &:before {
     position: absolute;
@@ -420,6 +417,11 @@ figcaption {
     background-size: 1px 4px;
     text-decoration: none;
     @include shadow(2px);
+  }
+  @media (min-width: $on-tablet) {
+    float: right;
+    margin: 1em -2em 2em 4em;
+    width: 40%;
   }
   @media (min-width: $on-desktop) {
     margin-right: -12em;

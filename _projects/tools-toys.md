@@ -38,7 +38,6 @@ The long-form reviews and product guides had built a tremendous reputation among
 
 {% include image.html src="/images/work/tools-toys-featured-content.png" alt="Tools &amp; Toys Featured Content" caption="Featured articles are designed to present the site's beautiful photography" %}
 
-## Featured Products
 
 <div class="pull-out">
   <blockquote>
@@ -49,6 +48,8 @@ The long-form reviews and product guides had built a tremendous reputation among
     <span class="title small">Editor-in-Chief, Beautiful Pixels</span>
   </cite>
 </div>
+
+## Featured Products
 
 Tools &amp; Toys was founded on sharing beautiful and useful products for geeky outdoor enthusiasts. The design of the product pages on the site now feature larger photos and clean typography, as well as the ability to browse related products and articles featured on the site. The site's writers now have an easy way to include affiliate links that drive the site's revenue.
 
