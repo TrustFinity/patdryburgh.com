@@ -61,6 +61,6 @@ function setTheme() {
     theme = nightTheme
   }
 
-  document.write('<link rel="stylesheet" href="' + theme + '" type="text/css" id="js-theme">')
+  document.write('<link rel="stylesheet" href="' + theme + '?{{site.time | date: '%s%N'}}" type="text/css" id="js-theme">')
 
 }
