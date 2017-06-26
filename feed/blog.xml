@@ -14,9 +14,10 @@ layout:
     <generator>Jekyll v{{ jekyll.version }}</generator>
     {% for post in site.categories.blog limit: 15 %}
       {% unless post.draft %}
+        {% capture spacer %}src="{{ '/images/site/spacer.gif' | absolute_url }}"{% endcapture %}
         <item>
           <title>{{ post.title | xml_escape }}</title>
-          <description>{{ post.content | xml_escape }}</description>
+          <description>{{ post.content | replace: 'data-echo', 'src' | replace: spacer, '' | xml_escape }}</description>
           <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
           <link>{{ post.url | absolute_url }}</link>
           <guid isPermaLink="true">{{ post.url | absolute_url }}</guid>

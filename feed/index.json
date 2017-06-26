@@ -14,9 +14,10 @@ permalink: /feed/index.json
     "items": [
     {% for post in site.posts limit: 15 %}
       {% unless post.draft %}
+        {% capture spacer %} src="{{ '/images/site/spacer.gif' | absolute_url }}"{% endcapture %}
+        {% capture content_text %}{{ post.content | replace: 'data-echo', 'src' | replace: spacer, '' | strip_html | strip_newlines }}{% endcapture %}
+        {% capture content_html %}{{ post.content | replace: 'data-echo', 'src' | replace: spacer, '' | strip_newlines }}{% if post.link %}{{ reference }}{% endif %}{% endcapture %}
         {% if post.link %}{% capture reference %}<p><a href="{{ page.url | absolute_url }}">※</a></p>{% endcapture %}{% endif %}
-        {% capture content_text %}{{ post.content | strip_html | strip_newlines }}{% endcapture %}
-        {% capture content_html %}{{ post.content | strip_newlines }}{% if post.link %}{{ reference }}{% endif %}{% endcapture %}
         {
             "id": "{{ post.url | absolute_url | sha1 }}",
             {% if post.categories contains 'blog' %}"title": {{ post.title | jsonify }},{% endif %}

@@ -14,6 +14,7 @@ layout:
     <generator>Jekyll v{{ jekyll.version }}</generator>
     {% for post in site.posts limit: 15 %}
       {% unless post.draft %}
+        {% capture spacer %}src="{{ '/images/site/spacer.gif' | absolute_url }}"{% endcapture %}
         {% if post.link %}
           {% capture reference %}
             <p><a href="{{ page.url | absolute_url }}">※</a></p>
@@ -29,7 +30,7 @@ layout:
             {% endif %}
           {% endif %}
           <description>
-            {{ post.content | xml_escape }}
+            {{ post.content | replace: 'data-echo', 'src' | replace: spacer, '' | xml_escape }}
             {% if reference %}
               {{ reference | xml_escape }}
             {% endif %}
