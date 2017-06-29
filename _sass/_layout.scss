@@ -181,13 +181,6 @@
   margin: 0;
 }
 
-.post-micro {
-  margin-left: 1.5em;
-  @media (min-width: $on-tablet) {
-    margin-left: 0;
-  }
-}
-
 .m-top + .post-micro {
   margin-top: 1em; 
 }
