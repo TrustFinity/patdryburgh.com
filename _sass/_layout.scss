@@ -189,7 +189,11 @@
 }
 
 .m-top + .post-micro {
-  margin-top: 1em;
+  margin-top: 1em; 
+}
+
+.post-micro p:last-of-type {
+  display: inline;
 }
 
 .post-micro a + p {
@@ -197,11 +201,11 @@
 }
 
 .post-micro-link {
+  display: block;
   font-weight: 700;
 }
 
 .single .post-micro-link {
-  display: inline-block;
   margin-top: 1em;
   & + p {
     margin-top: 0;
@@ -209,11 +213,11 @@
 }
 
 .post-reference {
-  display: block;
-  float: left;
-  margin-left: -1.5em;
+  display: inline-block;
   font-size: .75em;
-  line-height: 1.925;
+  position: relative;
+  top: -.25em;
+  margin-left: .25em;
 }
 
 h3.post-title {

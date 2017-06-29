@@ -38,7 +38,7 @@ layout: default
   
     <div class="wrapper">
       {% if page.link %}
-        <a href="{{ page.link }}" class="post-micro-link">{{ page.title }}</a>
+        <a href="{{ page.link }}" class="post-micro-link">{{ page.title }} &rarr;</a>
       {% endif %}
       {{ content | markdownify }}
     </div>

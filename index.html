@@ -21,14 +21,14 @@ home: true
           </div>
           {% assign date = currentdate %}
         {% endif %}
-        <article class="post post-micro">
+        <article class="post post-micro m-bottom">
           <main class="post-content">  
             <div class="wrapper">
-              <a href="{{ page.url | absolute_url }}" class="post-reference">&#8251;</a>
               {% if post.link %}
-                <a href="{{ post.link }}" class="post-micro-link">{{ post.title }}</a>
+                <a href="{{ post.link }}" class="post-micro-link">{{ post.title }} &rarr;</a>
               {% endif %}
               {{ content | markdownify }}
+              <a href="{{ page.url | absolute_url }}" class="post-reference">&#8251;</a>
             </div>
           </main>
         </article>
