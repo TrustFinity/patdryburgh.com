@@ -2,9 +2,10 @@
 title: Subscribe
 permalink: "/subscribe/"
 layout: page
+hide_title: true
 ---
 
-Be notified when new posts are added to the site. 
+{% include newsletter.html margin="top" wrapped="true" margin="bottom m-top" %}
 
 ## Full Feed
 
@@ -26,5 +27,3 @@ Only the short-form microblog posts:
 
 - RSS: [{{ site.micro_rss }}]({{ site.micro_rss }})
 - JSON: [{{ site.micro_json }}]({{ site.micro_json }})
-
-{% include newsletter.html margin="top" wrapped="true" %}
