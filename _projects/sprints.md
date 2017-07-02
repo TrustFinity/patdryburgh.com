@@ -1,5 +1,6 @@
 ---
 title: Design Sprints
+date: 2017-07-02 11:30:00 +0300
 layout: page
 subtitle: I lead teams who want to quickly validate ideas, solve big problems, and
   radically reduce the risk of building the wrong thing using **Design Sprints**.
