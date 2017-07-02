@@ -1,6 +1,5 @@
 ---
 title: Design Sprints
-permalink: "/design-sprints/"
 layout: page
 subtitle: I lead teams who want to quickly validate ideas, solve big problems, and
   radically reduce the risk of building the wrong thing using **Design Sprints**.
@@ -62,13 +61,13 @@ By adopting a philosophy of &ldquo;fake it 'til you make it&rdquo;, the team wil
 
 Through interviewing existing or potential customers and capturing their reaction to our prototype, we can validate our ideas and assumptions and gain invaluable insight into our riskiest knowledge gaps and what problems remain. With this knowledge, we can plan what to do next with confidence.
 
-<aside class="m-top">
-  <div class="call-to-action">
+<aside class="call-to-action m-top">
+  <div class="call-to-action-header">
     <h2>Want to learn more about design sprints?</h2>
-    <p>
-      I've had the wonderful opportunity to facilitate design sprints for several startups, saving them time and money through validated learning. If you're an entrepreneur, product manager, designer, or developer and have not yet found a way to validate your ideas and reduce the risk of building the wrong product, I would love to <a href="/contact">talk with you</a>.
-    </p>
   </div>
+  <p>
+    I've had the wonderful opportunity to facilitate design sprints for several startups, saving them time and money through validated learning. If you're an entrepreneur, product manager, designer, or developer and have not yet found a way to validate your ideas and reduce the risk of building the wrong thing, I would love to <a href="/contact">talk with you</a>.
+  </p>
 </aside>
 
 [1]: http://www.gv.com/sprint/
