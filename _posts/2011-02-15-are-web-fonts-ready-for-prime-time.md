@@ -11,7 +11,7 @@ old_entry_id: 109
 
 Designers, for the most part, are geeks. And geeks, for the most part, are trailblazers. They are willing to give new technology a chance, even if it means building their own computer from spare parts, waiting for a dial-up connection to be made, or [waiting in line for 4 days](http://firstinline.wordpress.com/) for a phone.
 
-2010 saw the rise of the web font. Fantastic services such as [Typekit](http://code.google.com/webfonts) and [Web Type](http://www.webtype.com/) have provided a way for web designers to leave behind relics like Georgia, Verdana and Arial. We've seen some pretty incredible work done with typography on the web since, and I am sure that more work is on the horizon.
+2010 saw the rise of the web font. Fantastic services such as [Typekit](http://typekit.com) and [Web Type](http://www.webtype.com/) have provided a way for web designers to leave behind relics like Georgia, Verdana and Arial. We've seen some pretty incredible work done with typography on the web since, and I am sure that more work is on the horizon.
 
 I've been using Typekit on my personal site for a year now, and have always been pleased with how things look on my machine. Today I was playing around with the type on my site and decided to start using [FF Meta Serif Web](http://typekit.com/fonts/ff-meta-serif-web-pro). FF Meta Serif looked fantastic on my Mac. I knew that on computers powered by Windows the type might look a little jaggy, but that has been the case since the day I designed my first website over 5 years ago.
 
