@@ -3,42 +3,49 @@ layout: default
 home: true
 ---
 
-<main class="blog">
 
-  {% for post in site.posts limit: 20 %}
-    
-    {% assign page = post %}
-    {% assign content = post.content %}
-    {% assign words = content | number_of_words %}
-    {% assign currentdate = post.date | date: "%Y-%m-%d" %}
 
-    {% unless page.draft %}
+<main>
+
+  <section class="blog">
+
+    {% for post in site.posts limit: 20 %}
       
-      {% if page.categories contains 'micro' %}
-        {% if post.date and currentdate != date %}
-          <div class="wrapper m-top">
-            <span class="post-meta" id="y{{post.date | date: "%Y-%m-%d"}}">{{post.date | date: "%b %-d, %Y"}}</h2>
-          </div>
-          {% assign date = currentdate %}
-        {% endif %}
-        <article class="post post-micro m-bottom">
-          <main class="post-content">  
-            <div class="wrapper">
-              {% if post.link %}
-                <a href="{{ post.link }}" class="post-micro-link">{{ post.title }} &rarr;</a>
+      {% assign page = post %}
+      {% assign content = post.content %}
+      {% assign words = content | number_of_words %}
+      {% assign currentdate = post.date | date: "%Y-%m-%d" %}
+
+      {% unless page.draft %}
+        
+        {% if page.categories contains 'micro' %}
+          {% if page.date and currentdate != date %}
+            <header class="wrapper m-top">
+              <span class="post-meta" id="y{{post.date | date: "%Y-%m-%d"}}">
+                {{ page.date | date: "%b %-d, %Y" }}</span>
+            </header>
+            {% assign date = currentdate %}
+          {% endif %}
+          <article class="post post-micro m-bottom">
+            <main class="post-content wrapper">  
+              {% if page.photo %}
+                <figure>
+                  <img src="{{ '/images/site/spacer.gif' | absolute_url }}" data-echo="{{ page.photo | absolute_url }}">
+                </figure>
+              {% endif %}
+              {% if page.link %}
+                <a href="{{ page.link }}" class="post-micro-link">{{ page.title }} &rarr;</a>
               {% endif %}
               {{ content | markdownify }}
               <a href="{{ page.url | absolute_url }}" class="post-reference">&#8251;</a>
-            </div>
-          </main>
-        </article>
-      {% endif %}
+            </main>
+          </article>
+        {% endif %}
 
-      {% if page.categories contains 'blog' %}
-        <article class="post m-top m-bottom">
+        {% if page.categories contains 'blog' %}
+          <article class="post m-top m-bottom">
 
-          <header class="post-header">
-            <div class="wrapper">
+            <header class="post-header wrapper">
               <span class="post-meta">
                 {% if date != currentdate %}
                   <a href="{{ page.url | absolute_url }}">{{ page.date | date: "%b %-d, %Y" }}</a>
@@ -57,29 +64,28 @@ home: true
               <h1 class="post-title">
                 <a href="{{ page.url | absolute_url }}">{{ page.title }}</a>
               </h1>
-            </div>
-          </header>
+            </header>
 
-          {% if page.photo %}
-            <div class="photo">
-              <img src="{{ site.url }}/{{ page.photo }}" alt="{{ page.title }}">
-            </div>
-          {% endif %}
+            {% if page.photo %}
+              <div class="photo">
+                <img src="{{ site.url }}/{{ page.photo }}" alt="{{ page.title }}">
+              </div>
+            {% endif %}
 
-          <main class="post-content">  
-            <div class="wrapper">
+            <main class="post-content wrapper">
               {{ content | markdownify }}
-            </div>
-          </main>
+            </main>
 
-        </article>
-      {% endif %}
+          </article>
+        {% endif %}
 
-    {% endunless %}
+      {% endunless %}
 
-  {% endfor %}
-  
-  {% include newsletter.html margin="top" %}
+    {% endfor %}
+    
+    {% include newsletter.html margin="top" %}
+
+  </section>
 
 </main>
 

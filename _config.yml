@@ -37,5 +37,5 @@ kramdown:
   enable_coderay: false
 flickr:
   api_key: 9672d2a4458dfb7049545b6a93a0818a
-gems:
+plugins:
 - jekyll-paginate

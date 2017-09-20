@@ -12,4 +12,10 @@
     <p>{{ page.it }} <strong>{{ page.title }}</strong>.</p>
   {% endif %}
 
+  {% if page.url == {{ site.url }} %}
+    <h2 class="introduction">
+      I am a product designer working to improve financial inclusion in sub-Saharan Africa through technology.
+    </h2>
+  {% endif %}
+
 </header>

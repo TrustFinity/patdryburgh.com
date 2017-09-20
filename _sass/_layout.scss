@@ -377,19 +377,32 @@ figcaption {
 
 // Misc
 
-.pull-out {
+blockquote {
+  border: 0;
+  color: $text-color;
+  font-size: 1em;
+  font-style: italic;
+  line-height: 1.475;
+  transform: rotate(-1.5deg);
+  margin: 0;
+  padding-left: $spacing-unit;
   position: relative;
-  margin: 5em 2em 6em 1em;
-  font-size: .75em;
-  opacity: 0;
-  blockquote,
+  p {
+    opacity: .7;
+    position: relative;
+    z-index: 2
+  }  
+  em {
+    font-style: normal;
+  }
+  > :last-child {
+    margin-bottom: 0;
+  }
+  @media (min-width: $on-laptop) {
+    margin-left: -1.25em;
+  }
   p:first-child {
     margin-top: 0;
-  }
-  blockquote {
-    border: 0;
-    line-height: 1.475;
-    transform: rotate(-1.5deg);
   }
   cite {
     display: block;
@@ -399,14 +412,13 @@ figcaption {
     margin-right: 1em;
   }
   &:before {
-    position: absolute;
-    top: 0;
+    top: -.125em;
     left: -.125em;
     content: "“";
     height: 1em;
     width: 1em;
     quotes: '“';
-    font-size: 9em;
+    font-size: 6em;
     line-height: .5rem;
     color: $brand-color;
     background-position: 0 1.125em;
@@ -415,6 +427,9 @@ figcaption {
     text-decoration: none;
     @include shadow(2px);
   }
+}
+
+.pull-out {
   @media (min-width: $on-tablet) {
     float: right;
     margin: 1em -2em 2em 4em;

@@ -4,9 +4,7 @@ permalink: "/now/"
 layout: page
 ---
 
-- Leading product design for [Ensibuuko][en] in [Kampala, Uganda][ku]
-- Practicing [Service Blueprints][sb] for the first time to design the service Ensibuuko offers to Saccos and microfinance organizations across Africa
-- Learning the basics of [Luganda][lu]
+- Living in Vancouver, BC and product managing for [Ensibuuko][en], a micro-financing startup based in [Kampala, Uganda][ku]
 - Reading [The Design of Everyday Things][et] by Don Norman
 - Saving quotes in my very first app, [Quotational][qu]
 
