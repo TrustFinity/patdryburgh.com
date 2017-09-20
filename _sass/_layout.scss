@@ -384,8 +384,9 @@ blockquote {
   font-style: italic;
   line-height: 1.475;
   transform: rotate(-1.5deg);
-  margin: 0;
+  margin: 1em 0 0;
   padding-left: $spacing-unit;
+  padding-top: .5em;
   position: relative;
   p {
     opacity: .7;
@@ -398,45 +399,45 @@ blockquote {
   > :last-child {
     margin-bottom: 0;
   }
-  @media (min-width: $on-laptop) {
-    margin-left: -1.25em;
-  }
   p:first-child {
     margin-top: 0;
   }
-  cite {
-    display: block;
-    font-style: normal;
-    float: right;
-    padding: .125em 1em .5em;
-    margin-right: 1em;
-  }
   &:before {
-    top: -.125em;
-    left: -.125em;
+    position: absolute;
+    top: 0;
+    left: 0;
     content: "“";
-    height: 1em;
-    width: 1em;
     quotes: '“';
-    font-size: 6em;
+    font-size: 3em;
     line-height: .5rem;
     color: $brand-color;
     background-position: 0 1.125em;
     background-repeat: repeat-x;
     background-size: 1px 4px;
     text-decoration: none;
-    @include shadow(2px);
+    @include text-shadow(2px);
+    @media (min-width: $on-tablet) {
+      font-size: 4em;
+    }
   }
+}
+
+cite {
+  display: block;
+  font-size: .75em;
+  font-style: normal;
+  float: right;
+  padding: .125em 1em .5em;
 }
 
 .pull-out {
   @media (min-width: $on-tablet) {
     float: right;
-    margin: 1em -2em 2em 4em;
+    margin: 0em -2em 2em 1em;
     width: 40%;
   }
   @media (min-width: $on-desktop) {
-    margin-right: -12em;
+    margin-right: -8em;
   }
 }
 
