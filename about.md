@@ -8,6 +8,8 @@ layout: page
 
 My name is Pat Dryburgh and I design products. I live in Vancouver, BC and am currently leading [product and service design]({{ '/blog/designing-in-uganda' | absolute_url }}) for Uganda-based micro-financing startup, [Ensibuuko](http://ensibuuko.com).
 
+I've worked with some great teams over the last 9 years, including Grooveshark, Fusion Ads, CocoaTech, QuickCal, Thorel Woodworking, [Ethical Coffee Chain][ecc], UpThemes, [Ongo][ongo], [Perch][perch], [Agent Inbox][ai], [Brewhouse][bh], [Steamclock][sc], [Arc'teryx][arc], [Viral Foundry][vf], [Finstripe][fs], [Blanc Media][bm], [Platero Visual][pv], [Rye&nbsp;51][r5], and [Stantec][st]. 
+
 In my free time I write and record music, [take photos](http://instagram.com/patdryburgh), and explore the beautiful province of British Columbia.
 
 ## Colophon
