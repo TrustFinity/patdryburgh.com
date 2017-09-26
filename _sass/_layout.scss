@@ -39,12 +39,6 @@
     padding-right: 3rem;
   }
 
-  @media screen and (min-width: $on-laptop) {
-    margin-left: 0;
-    left: 8rem;
-    padding-right: 0;
-    padding-left: 0;
-  }
 }
 
 // Spacing
@@ -439,6 +433,9 @@ cite {
   @media (min-width: $on-desktop) {
     margin-right: -8em;
   }
+  blockquote {
+    font-size: .75em;
+  }
 }
 
 .footnotes {
@@ -456,4 +453,27 @@ cite {
 .social-media-list > a > svg {
   fill: currentColor;
   vertical-align: baseline;
+}
+
+
+// Projects
+
+.project-image {
+}
+
+.project-link {
+  background-position: center;
+  background-size: cover;
+  display: block;
+  margin-bottom: $spacing-unit;
+  position: relative;
+  border-radius: .25em;
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
+}
+
+.project-description {
+  color: #fff;
+  padding: ($spacing-unit * 2) $spacing-unit;
+  text-align: center;
 }

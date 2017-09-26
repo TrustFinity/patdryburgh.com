@@ -1,21 +1,9 @@
-<header class="wrapper masthead{% if page.categories contains 'design' %} masthead-project{% endif %}">
-
-  <a href="{{ site.url }}" class="me"><img src="{{ site.url }}/images/site/pat.png" alt="Pat Dryburgh"></a>
+<header class="masthead{% if page.categories contains 'design' %} masthead-project{% endif %}">
 
   <h1 class="site-title">
     <a href="{{ site.url }}">Pat Dryburgh</a>
   </h1>
 
   {% include navigation.html %}
-
-  {% if page.categories contains 'design' %}
-    <p>{{ page.it }} <strong>{{ page.title }}</strong>.</p>
-  {% endif %}
-
-  {% if page.url == {{ site.url }} %}
-    <h2 class="introduction">
-      I am a product designer working to improve financial inclusion in sub-Saharan Africa through technology.
-    </h2>
-  {% endif %}
 
 </header>
