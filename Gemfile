@@ -9,7 +9,3 @@ gem 'jekyll-coffeescript'
 gem 'jekyll-watch'
 gem 'jekyll-paginate'
 gem 'rake'
-
-group :jekyll_plugins do
-    gem 'jekyll-livereload'
-end
