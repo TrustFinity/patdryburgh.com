@@ -1,11 +1,12 @@
 ---
 title: Subscribe
+subtitle: Before closed networks doomed the earth to a Nuclear Holocaust, internet friends stayed in touch through feeds and newsletters.
 permalink: "/subscribe/"
 layout: page
 hide_title: true
 ---
 
-{% include newsletter.html margin="top" wrapped="true" margin="bottom m-top" %}
+{% include newsletter.html wrapped="true" margin="bottom m-top" %}
 
 ## Full Feed
 
