@@ -24,13 +24,12 @@
 // Wrapper
 
 .wrapper {
-  width: 90%;
   max-width: 45rem;
   margin-right: auto;
   margin-left: auto;
-  padding-right: 1rem;
-  padding-left: 1rem;
   position: relative;
+  padding-left: 1rem;
+  padding-right: 1rem;
 
   @extend %clearfix;
 
@@ -64,9 +63,7 @@
 // Content
 
 .page-content {
-  @media screen and (min-width: 840px) {
-    margin-top: -4em;
-  }
+  @include p-top;
 }
 
 .post-content {
@@ -83,7 +80,7 @@
 }
 
 .post-link {
-  background-position: 0 100%;
+  // background-position: 0 100%;
   color: $text-color;
   display: block;
   padding: .5em 0;
@@ -96,29 +93,28 @@
   -webkit-transition: color 0.2s ease-in-out;
   -moz-transition: color 0.2s ease-in-out;
   transition: color 0.2s ease-in-out;
-  &:before {
+  & .post-title:before {
     content: "";
-    position: absolute;
     z-index: -1;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    width: .25em;
+    display: inline-block;
+    height: .25em;
+    width: 0;
+    position: absolute;
+    top: .325em;
+    right: 100%;
+    margin-right: .5em;
     background: $brand-color;
-    -webkit-transform: scaleX(0);
-    transform: scaleX(0);
     -webkit-transform-origin: 0 50%;
     transform-origin: 0 50%;
-    -webkit-transition: transform .2s ease-in-out;
-    -moz-transition: transform .2s ease-in-out;
-    transition: transform .2s ease-in-out;
+    -webkit-transition: width .2s ease-in-out;
+    -moz-transition: width .2s ease-in-out;
+    transition: width .2s ease-in-out;
   }
   &:hover {
-    background-position: 0 0;
+    // background-position: 0 0;
     text-decoration: none;
-    &:before {
-      -webkit-transform: scaleX(1);
-      transform: scaleX(1);
+    & .post-title:before {
+      width: 2em;
     }
     .post-title {
       color: $brand-color;
@@ -211,6 +207,18 @@ h3.post-title {
   font-size: 1.25em;
 }
 
+.project-title {
+  font-weight: 400;
+  @include m-top;
+  @media (min-width: $on-tablet) {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    @include m-bottom;
+  }
+}
+
 .call-to-action {
   border: $border-width solid $brand-color;
   padding: 0 1em;
@@ -280,46 +288,49 @@ figcaption {
     margin-right: -2em;
   }
   @media (min-width: $on-desktop) {
-    display: flex;
-    width: 100vw;
+    // display: flex;
     margin-top: 2em;
-    margin-right: 0;
     margin-left: -6em;
+    margin-right: -6em;
   }
 }
 
 .extra-wide img {
   max-width: 100%;
-  @media screen and (min-width: $on-desktop) {
-    width: -webkit-calc(100% - 15.25em);
-    width: calc(100% - 15.25em);
-    max-width: 41.75em;
-    margin-left: 3em;
-    height: 100%;
-  }
+  height: auto;
+  // @media screen and (min-width: $on-desktop) {
+  //   width: -webkit-calc(100% - 15.25em);
+  //   width: calc(100% - 15.25em);
+  //   max-width: 41.75em;
+  //   margin-left: 3em;
+  //   height: 100%;
+  // }
 }
 
 .extra-wide figcaption {
   margin: 0 1em;
-  @media (min-width: $on-desktop) {
-    border-top: 4px solid $brand-color;
-    margin-left: 3em;
-    padding-top: 1em;
-    text-align: left;
-    top: 0;
-    width: 10em;
-  }
+  // @media (min-width: $on-desktop) {
+  //   border-top: 4px solid $brand-color;
+  //   margin-left: 3em;
+  //   padding-top: 1em;
+  //   text-align: left;
+  //   top: 0;
+  //   width: 10em;
+  // }
 }
 
 .photo {
   margin: 1em 0 2em;
+  text-align: center;
   img {
     display: inline-block;
+    margin: 0 auto;
   }
 }
 
 .photo-masthead {
   margin: 0 0 2em;
+  position: relative;
   img {
     width: 100%;
   }
@@ -378,7 +389,7 @@ blockquote {
   font-style: italic;
   line-height: 1.475;
   transform: rotate(-1.5deg);
-  margin: 1em 0 0;
+  margin: 2em 0;
   padding-left: $spacing-unit;
   padding-top: .5em;
   position: relative;
@@ -425,16 +436,17 @@ cite {
 }
 
 .pull-out {
+  @extend %clearfix;
   @media (min-width: $on-tablet) {
     float: right;
     margin: 0em -2em 2em 1em;
     width: 40%;
+    blockquote {
+      font-size: .825em;
+    }
   }
   @media (min-width: $on-desktop) {
     margin-right: -8em;
-  }
-  blockquote {
-    font-size: .75em;
   }
 }
 

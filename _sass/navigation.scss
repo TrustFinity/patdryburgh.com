@@ -1,10 +1,24 @@
 .masthead {
-  font-family: $base-font-family;
-  padding: .325em 1em 0;
+  padding-top: .325em;
   margin-bottom: .425em;
+  margin-right: 2em;
+  margin-left: 1rem;
   position: relative;
-  z-index: 99;
+  z-index: 999;
+  
+  @supports (transform: rotate(-90deg)) {
+    @media (min-width: $on-laptop) and (min-height: 40em) {
+      transform-origin: left top;
+      transform: rotate(-90deg);
+      position: fixed;
+      left: 0;
+      top: 100%;
+      margin-top: -1em;
+      margin-left: 0;
+    }
+  }
 }
+
 
 .masthead .me {
   display: block;
@@ -76,9 +90,34 @@
   a {
     font-size: .925rem;
     padding: .5rem 0;
+    position: relative;
+    &:before {
+      content: "";
+      position: absolute;
+      z-index: -1;
+      top: 0;
+      left: 0;
+      right: 0;
+      height: .25em;
+      background: $brand-color;
+      -webkit-transform: scaleY(0);
+      transform: scaleY(0);
+      -webkit-transform-origin: 50% 0;
+      transform-origin: 50% 0;
+      -webkit-transition: transform .2s ease-in-out;
+      -moz-transition: transform .2s ease-in-out;
+      transition: transform .2s ease-in-out;
+    }
     &:hover {
-      box-shadow: 0 .125em 0 $brand-color;
+      background-position: 0 0;
       text-decoration: none;
+      &:before {
+        -webkit-transform: scaleY(1);
+        transform: scaleY(1);
+      }
+      .post-title {
+        color: $brand-color;
+      }
     }
   }
   .site-footer & {

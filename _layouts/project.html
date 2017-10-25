@@ -5,12 +5,17 @@ layout: default
 <article class="post">
 
   {% if page.photo %}
-    <div class="photo-masthead">
+    <header class="photo-masthead">
       <img src="{{ site.url }}/{{ page.photo }}" alt="{{ page.title }}">
-    </div>
+      <h1 class="post-title project-title">
+        <div class="wrapper">
+          {{ page.it }} <strong>{{ page.title }}</strong>.
+        </div>
+      </h1>
+    </header>
   {% endif %}
   
-  <main class="post-content">
+  <main class="post-content page-content">
   
     <div class="wrapper">
       {{ content | markdownify }}

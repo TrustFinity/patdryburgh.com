@@ -30,3 +30,17 @@
     margin-bottom: 4em;
   }
 }
+
+@mixin p-top {
+  padding-top: 2em;
+  @media (min-width: $on-tablet) {
+    padding-top: 4em;
+  }
+}
+
+@mixin p-bottom {
+  padding-bottom: 2em;
+  @media (min-width: $on-tablet) {
+    padding-bottom: 4em;
+  }
+}

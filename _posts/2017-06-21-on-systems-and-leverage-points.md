@@ -77,11 +77,11 @@ As someone who enjoys tinkering and making things look and work exactly how I en
 <div class="pull-out">
   <blockquote>
     <p>Where do you intervene? Where in this array of interrelated, interdependent, codependent variables do you choose to try and make a difference?</p>
+    <cite>
+      &mdash; <a href="https://www.youtube.com/watch?v=gnQma0e0JFE">James Shelley</a>
+      <span class="title small">Writer &amp; Friend</span>
+    </cite>
   </blockquote>
-  <cite>
-    &mdash; <a href="https://www.youtube.com/watch?v=gnQma0e0JFE">James Shelley</a>
-    <span class="title small">Writer &amp; Friend</span>
-  </cite>
 </div>
 
 This framework is helping me prioritize the problems our company needs to solve while recognizing my time and attention can have drastically varying levels of impact depending on which lever I'm pulling.

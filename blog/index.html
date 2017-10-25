@@ -4,26 +4,28 @@ layout: default
 subtitle: I write about design, music, and life.
 ---
 
-<div class="wrapper">
-  {% include search.html %}
-</div>
+<main class="page-content">
+  <div class="wrapper">
+    {% include search.html %}
+  </div>
 
-<main class="blog">
+  <section class="blog">
 
-  {% for post in site.categories.blog %}
-    {% unless post.draft %}
-      {% assign currentdate = post.date | date: "%Y" %}
-      {% if post.date and currentdate != date %}
-        {% unless forloop.first %}</ul>{% endunless %}
-        <div class="wrapper m-top">
-          <h2 class="post-meta" id="y{{post.date | date: "%Y"}}">{{ currentdate }}</h2>
-        </div>
-        <ul class="post-list list-unstyled">
-        {% assign date = currentdate %}
-      {% endif %}
-      {% include post_link.html %}
-      {% if forloop.last %}</ul>{% endif %}
-    {% endunless %}
-  {% endfor %}
+    {% for post in site.categories.blog %}
+      {% unless post.draft %}
+        {% assign currentdate = post.date | date: "%Y" %}
+        {% if post.date and currentdate != date %}
+          {% unless forloop.first %}</ul>{% endunless %}
+          <div class="wrapper m-top">
+            <h2 class="post-meta" id="y{{post.date | date: "%Y"}}">{{ currentdate }}</h2>
+          </div>
+          <ul class="post-list list-unstyled">
+          {% assign date = currentdate %}
+        {% endif %}
+        {% include post_link.html %}
+        {% if forloop.last %}</ul>{% endif %}
+      {% endunless %}
+    {% endfor %}
 
+  </section>
 </main>
