@@ -207,18 +207,6 @@ h3.post-title {
   font-size: 1.25em;
 }
 
-.project-title {
-  font-weight: 400;
-  @include m-top;
-  @media (min-width: $on-tablet) {
-    position: absolute;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    @include m-bottom;
-  }
-}
-
 .call-to-action {
   border: $border-width solid $brand-color;
   padding: 0 1em;
@@ -325,14 +313,6 @@ figcaption {
   img {
     display: inline-block;
     margin: 0 auto;
-  }
-}
-
-.photo-masthead {
-  margin: 0 0 2em;
-  position: relative;
-  img {
-    width: 100%;
   }
 }
 
@@ -470,18 +450,28 @@ cite {
 
 // Projects
 
-.project-image {
+.photo-masthead {
+  background: desaturate(darken($brand-color, 72%), 96%);
+  margin: 0 0 2em;
+  position: relative;
+  img {
+    opacity: .6;
+    width: 100%;
+    height: auto;
+  }
 }
 
-.project-link {
-  background-position: center;
-  background-size: cover;
-  display: block;
-  margin-bottom: $spacing-unit;
-  position: relative;
-  border-radius: .25em;
-  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
-  filter: grayscale(100%);
+.project-title {
+  color: #fff;
+  font-weight: 400;
+  @include m-top;
+  @media (min-width: $on-tablet) {
+    position: absolute;
+    bottom: 0;
+    margin: 0;
+    width: 100%;
+    @include p-bottom;
+  }
 }
 
 .project-description {

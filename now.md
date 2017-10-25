@@ -1,6 +1,6 @@
 ---
 title: Now
-subtitle: This is what I'm doing now
+subtitle: This is what I'm doing now.
 hide_title: true
 permalink: "/now/"
 layout: page

@@ -7,7 +7,7 @@ layout: project
 author: patdryburgh
 photo: "/images/work/hero-tools-toys.jpg"
 it: In 2014, I designed and built a new responsive website that saw 3x growth year-over-year
-  in pageviews, unique visitors, and revenue with
+  in pageviews, unique visitors, and revenue for
 ---
 
 When writer Shawn Blanc quit his job to pursue writing full-time, part of his strategy was to launch other properties in addition to his then- 4 year old blog. One of those properties, [Tools &amp; Toys][1], was spun out from Shawn's proclivity for sharing links to tools and gadgets for his design-savvy audience.
