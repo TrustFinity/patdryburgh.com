@@ -10,9 +10,9 @@ old_entry_id: 302
 ---
 
 >Then Jesus got into the boat and started across the lake with his disciples. Suddenly, a fierce storm struck the lake, with waves breaking into the boat. But Jesus was sleeping. The disciples went and woke him up, shouting, “Lord, save us! We’re going to drown!”
-
+>
 >Jesus responded, “Why are you afraid? You have so little faith!” Then he got up and rebuked the wind and waves, and suddenly there was a great calm.
-
+>
 >The disciples were amazed. “Who is this man?” they asked. “Even the winds and waves obey him!”
 
 Somedays I forget that even though I can do things on my own, that isn't how God intended for me to live. I read this passage from Matthew 8, where these disciples go to Jesus, and Jesus says they have "so little faith." It makes me wonder why he said that, to be honest. I mean, they went to him thinking he must be able to do something. And yet he still announces they are of little faith. Why is that?

@@ -39,3 +39,5 @@ flickr:
   api_key: 9672d2a4458dfb7049545b6a93a0818a
 plugins:
 - jekyll-paginate
+paginate: 20
+paginate_path: "/page/:num/"
