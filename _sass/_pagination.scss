@@ -1,0 +1,19 @@
+.pagination {
+  display: flex;
+  justify-content: space-between;
+}
+
+.pagination > * {
+  flex-grow: 1;
+}
+
+.pagination-number {
+  font-size: .625em;
+  letter-spacing: .125em;
+  text-transform: uppercase;
+  text-align: center
+}
+
+.pagination-next {
+  text-align: right;
+}
