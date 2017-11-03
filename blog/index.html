@@ -4,6 +4,8 @@ layout: default
 subtitle: I write about design, music, and life.
 ---
 
+{% assign lastyear = site.time | date: '%Y' | minus: 1 %}
+
 <main class="page-content">
 
   <header class="post-header wrapper">
@@ -21,15 +23,20 @@ subtitle: I write about design, music, and life.
       {% unless post.draft %}
         {% assign currentdate = post.date | date: "%Y" %}
         {% if post.date and currentdate != date %}
-          {% unless forloop.first %}</ul>{% endunless %}
+          {% unless forloop.first %}
+            </ul>
+          {% endunless %}
+          {% if currentdate contains lastyear %}
+            {% include newsletter.html margin="top" %}
+          {% endif %}
           <div class="wrapper m-top">
-            <h2 class="post-meta" id="y{{post.date | date: "%Y"}}">{{ currentdate }}</h2>
+            <h2 class="post-meta" id="y{{ currentdate }}">{{ currentdate }}</h2>
           </div>
           <ul class="post-list list-unstyled">
           {% assign date = currentdate %}
         {% endif %}
         {% include post_link.html %}
-        {% if forloop.last %}</ul>{% endif %}
+        {% if forloop.last %}</ul><!-- last -->{% endif %}
       {% endunless %}
     {% endfor %}
 
