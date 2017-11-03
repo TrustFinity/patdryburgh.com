@@ -110,4 +110,4 @@ _Edit: I made an error when I posted the original version of this article. I had
 [gh]: https://github.com/patdryburgh/patdryburgh.com/blob/master/feed/twitter.xml
 [first]: http://patdryburgh.com/micro/2017-06-06-11-55-26
 [ed]: https://jsonfeed.org/2017/05/17/announcing_json_feed
-[up]: /#determining-when-to-add-a-link
+[up]: #determining-when-to-add-a-link

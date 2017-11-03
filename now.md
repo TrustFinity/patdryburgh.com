@@ -6,8 +6,8 @@ permalink: "/now/"
 layout: page
 ---
 
-- Living in Vancouver, BC and product managing for [Ensibuuko][en], a micro-financing startup based in [Kampala, Uganda][ku]
-- Reading [The Design of Everyday Things][et] by Don Norman
+- Living in Vancouver, BC and managing product for [Ensibuuko][en], a micro-financing startup based in [Kampala, Uganda][ku]
+- Reading [Meat Eater: Adventures from the Life of an American Hunter][et] by Steven Rinella
 - Saving quotes in my very first app, [Quotational][qu]
 
 [en]: http://ensibuuko.com

@@ -164,6 +164,11 @@
       @include shadow(2px);
     }
   }
+  & + h2 {
+    opacity: .7;
+    font-weight: 400;
+    margin-top: 0;
+  }
 }
 
 .post-link .post-title {
@@ -368,7 +373,6 @@ blockquote {
   font-size: 1em;
   font-style: italic;
   line-height: 1.475;
-  transform: rotate(-1.5deg);
   margin: 2em 0;
   padding-left: $spacing-unit;
   padding-top: .5em;
@@ -404,6 +408,9 @@ blockquote {
     @media (min-width: $on-tablet) {
       font-size: 4em;
     }
+  }
+  @media (min-width: $on-tablet) {
+    transform: rotate(-1.5deg);
   }
 }
 
