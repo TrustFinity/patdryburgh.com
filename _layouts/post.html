@@ -60,7 +60,7 @@ layout: default
         </aside>
       {% endif %}
 
-      {% if page.categories contains 'blog' %}
+      {% if page.categories contains 'blog'  or page.categories contains 'micro' %}
         {% include newsletter.html margin="top" %}
       {% endif %}
 
