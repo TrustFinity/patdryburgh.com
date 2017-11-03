@@ -451,20 +451,39 @@ cite {
 // Projects
 
 .photo-masthead {
-  background: desaturate(darken($brand-color, 72%), 96%);
+  background-position: center;
+  background-size: cover;
   margin: 0 0 2em;
   position: relative;
   img {
-    opacity: .6;
     width: 100%;
     height: auto;
+  }
+}
+
+.project-masthead {
+  @media (min-width: $on-tablet) {
+    min-height: 100vh;
+  }
+  &::after {
+    content: "";
+    background: desaturate(darken($brand-color, 72%), 96%);
+    opacity: .5;
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 2;
   }
 }
 
 .project-title {
   color: #fff;
   font-weight: 400;
-  @include m-top;
+  @include p-top;
+  @include p-bottom;
   @media (min-width: $on-tablet) {
     position: absolute;
     bottom: 0;
