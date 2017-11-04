@@ -100,6 +100,20 @@
     font-size: .925rem;
     padding: .25rem .5rem;
     position: relative;
+    z-index: 1;
+  }
+  .site-footer & {
+    margin-bottom: 2rem;
+  }
+}
+
+.masthead .site-menu {
+  a {
+    display: inline-block;
+    font-size: .925rem;
+    padding: .25rem .5rem;
+    position: relative;
+    z-index: 1;
     &:before {
       background: $brand-color;
       content: "";
@@ -121,8 +135,5 @@
     &:hover:before {
       transform: scaleX(1) rotate(-.75deg);
     }
-  }
-  .site-footer & {
-    margin-bottom: 2rem;
   }
 }
