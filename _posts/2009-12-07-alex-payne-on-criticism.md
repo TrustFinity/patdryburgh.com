@@ -9,9 +9,12 @@ url_title: alex-payne-on-criticism
 old_entry_id: 262
 ---
 
->There is the perception, particularly in American culture, that criticism and negativity go hand-in-hand. We understand well the idea of being in favor or something, or against something, but we don’t particularly understand how criticism fits into this dichotomy.
-
-<cite><a href="http://al3x.net/2009/12/06/criticism.html">Alex Payne — Criticism, Cheerleading, and Negativity</a></cite>
+<blockquote>
+  There is the perception, particularly in American culture, that criticism and negativity go hand-in-hand. We understand well the idea of being in favor or something, or against something, but we don’t particularly understand how criticism fits into this dichotomy.
+  <cite>
+    <a href="http://al3x.net/2009/12/06/criticism.html">Alex Payne — Criticism, Cheerleading, and Negativity</a>
+  </cite>
+</blockquote>
 
 There is about a 1 in a billion chance that <a href="http://al3x.net/">Alex Payne</a> knows my name, let alone reads my blog. However, in his most recent post he seems to take me to task on my last post <a href="http://patdryburgh.com/post/271078863/why-start-with-the-negative">regarding criticism</a>.
 

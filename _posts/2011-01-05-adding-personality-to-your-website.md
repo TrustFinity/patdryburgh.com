@@ -97,6 +97,6 @@ You'll notice a couple variables in each of these feedback statements.
 
 **&#123;project_type}** - In the "Request for a Quote" statement, I've included their selected Project Type in their feedback statement. This gives the user assurance that the form successfully gathered more than just their personal information, but also specific information about their specific inquiry.
 
-##Creating Delight
+## Creating Delight
 
 Every interaction on your website is an opportunity to create delight. You have an opportunity to use your own voice to directly impact the interactions your users have with your site. Whether your site is a personal site, a corporate site, or even a web application, your users will benefit from hearing your voice direct them, guide them, welcome them and thank them.

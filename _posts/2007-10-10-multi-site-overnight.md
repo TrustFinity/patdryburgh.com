@@ -10,7 +10,7 @@ old_entry_id: 294
 ---
 
 <blockquote>
-  <p>Here’s the decision many of us have been waiting for. It’s official tonight: Connexus will be launching in December 2007 at the Galaxy Cinemas in Barrie and Orillia”</p>
+  Here’s the decision many of us have been waiting for. It’s official tonight: Connexus will be launching in December 2007 at the Galaxy Cinemas in Barrie and Orillia
   <cite><a href="http://connexuscommunity.com">connexuscommunity.com</a></cite>
 </blockquote>
 
