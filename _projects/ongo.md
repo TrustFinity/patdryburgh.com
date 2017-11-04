@@ -6,11 +6,11 @@ categories:
 layout: project
 author: patdryburgh
 photo: "/images/work/hero-ongo.jpg"
-it: From 2011&ndash;2012, I designed interfaces for New York Times and Washington
-  Post-backed news reading service
+it: From 2011&ndash;2012, I designed mobile and web interfaces for a New York Times and Washington
+  Post-backed news reading service called
 ---
 
-When the iPad was released on April 3, 2010, it promised to revolutionize the way we consume media. Six months later, the New York Times, Washington Post, and Gannett Co. [announced a $12MM investment][1] in the social new site Ongo. Founded by former eBay SVP Alex Kazim, Ongo had a simple mandate: create an ad-free news distribution platform that people would pay for.
+When the iPad was released on April 3, 2010, it promised to revolutionize the way we consume media. Six months later, the New York Times, Washington Post, and Gannett Co. [announced a $12MM investment][1] in the social news site Ongo. Founded by former eBay SVP Alex Kazim, Ongo had a simple mandate: create an ad-free news distribution platform that people would pay for.
 
 The service ingested news and other content from hundreds of sources presented in a clean interface void of advertising and built with modern touch gestures in mind. A team of editors combed through the day's news and curated the homepage, putting preference on original sources. Users could select their favourite topics and publications and have hand-picked stories delivered to them every morning.
 
