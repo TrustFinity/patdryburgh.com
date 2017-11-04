@@ -469,7 +469,11 @@ cite {
 }
 
 .project-masthead {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   @media (min-width: $on-tablet) {
+    background-attachment: fixed;
     min-height: 100vh;
   }
   &::after {
@@ -492,11 +496,7 @@ cite {
   @include p-top;
   @include p-bottom;
   @media (min-width: $on-tablet) {
-    position: absolute;
-    bottom: 0;
-    margin: 0;
-    width: 100%;
-    @include p-bottom;
+    
   }
 }
 
