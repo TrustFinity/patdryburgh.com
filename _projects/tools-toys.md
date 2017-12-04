@@ -36,7 +36,7 @@ In contrast with the logo's flowing nature, the site's navigation was designed t
 
 The long-form reviews and product guides had built a tremendous reputation amongst Tools &amp; Toys' readership, but the team wasn't proud of how their work was being presented. They also wanted to put a heavier emphasis on the amazing photography that accompanies each piece.
 
-{% include image.html src="/images/work/tools-toys-featured-content.png" alt="Tools &amp; Toys Featured Content" caption="Featured articles are designed to present the site's beautiful photography" %}
+{% include image.html src="/images/work/tools-toys-featured-content.png" alt="Tools &amp; Toys Featured Content" %}
 
 
 <div class="pull-out">

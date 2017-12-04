@@ -1,6 +1,7 @@
 ---
 title: Subscribe
-subtitle: Before closed networks doomed the earth to a Nuclear Holocaust, internet friends stayed in touch through feeds and newsletters.
+subtitle: I don't wanna close my eyes.
+subsubtitle: And you don't wanna miss a thing.
 permalink: "/subscribe/"
 layout: page
 hide_title: true
