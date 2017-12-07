@@ -1,5 +1,5 @@
 ---
-title: Becoming a Meateater
+title: Becoming a meateater
 date: 2017-12-03 20:19:16 +0700
 categories:
 - blog
