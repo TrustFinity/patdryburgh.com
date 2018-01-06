@@ -16,7 +16,7 @@ permalink: /feed/micro.json
       {% unless post.draft %}
         {% capture spacer %} src="{{ '/images/site/spacer.gif' | absolute_url }}"{% endcapture %}
         {% capture content_text %}{{ post.content | replace: 'data-echo', 'src' | replace: spacer, '' | strip_html | strip_newlines }}{% endcapture %}
-        {% if post.link %}{% capture reference %}<p><a href="{{ page.url | absolute_url }}">※</a></p>{% endcapture %}{% endif %}
+        {% if post.link %}{% capture reference %}<p><a href="{{ post.url | absolute_url }}">※</a></p>{% endcapture %}{% endif %}
         {% capture content_html %}{{ post.content | replace: 'data-echo', 'src' | replace: spacer, '' | markdownify | strip_newlines }}{% if post.link %}{{ reference }}{% endif %}{% endcapture %}
           {
               "id": "{{ post.url | absolute_url | sha1 }}",
