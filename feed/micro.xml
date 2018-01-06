@@ -21,7 +21,7 @@ layout:
           {% endcapture %}
         {% endif %}
         <item>
-          {% if post.link %}<title>{{ post.title | xml_escape }}</title>{% endif %}
+          {% if post.link %}<title>{{ post.title | xml_escape }} {{ '→' | xml_escape }}</title>{% endif %}
           <description>
             {{ post.content | replace: 'data-echo', 'src' | replace: spacer, '' | xml_escape }}
             {% if reference %}

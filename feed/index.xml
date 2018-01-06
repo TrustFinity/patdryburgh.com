@@ -26,7 +26,7 @@ layout:
           {% endif %}
           {% if post.categories contains 'micro' %}
             {% if post.link %}
-              <title>{{ post.title | xml_escape }}</title>
+              <title>{{ post.title | xml_escape }} {{ '→' | xml_escape }}</title>
             {% endif %}
           {% endif %}
           <description>

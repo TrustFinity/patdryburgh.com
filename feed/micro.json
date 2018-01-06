@@ -12,12 +12,12 @@ permalink: /feed/micro.json
     "favicon": "{{ "/favicon.ico" | absolute_url }}",
     "expired": false,
     "items": [
-    {% for post in site.categories.micro %}
-        {% unless post.draft %}
+    {% for post in site.categories.micro limit: 15 %}
+      {% unless post.draft %}
         {% capture spacer %} src="{{ '/images/site/spacer.gif' | absolute_url }}"{% endcapture %}
         {% capture content_text %}{{ post.content | replace: 'data-echo', 'src' | replace: spacer, '' | strip_html | strip_newlines }}{% endcapture %}
-        {% capture content_html %}{{ post.content | replace: 'data-echo', 'src' | replace: spacer, '' | strip_newlines }}{% if post.link %}{{ reference }}{% endif %}{% endcapture %}
         {% if post.link %}{% capture reference %}<p><a href="{{ page.url | absolute_url }}">※</a></p>{% endcapture %}{% endif %}
+        {% capture content_html %}{{ post.content | replace: 'data-echo', 'src' | replace: spacer, '' | markdownify | strip_newlines }}{% if post.link %}{{ reference }}{% endif %}{% endcapture %}
           {
               "id": "{{ post.url | absolute_url | sha1 }}",
               "content_text": {{ content_text | jsonify }},
