@@ -191,6 +191,7 @@
 .post-micro-link {
   display: block;
   font-weight: 700;
+  margin-bottom: 1em;
 }
 
 .single .post-micro-link {
@@ -457,47 +458,19 @@ cite {
 
 // Projects
 
-.photo-masthead {
-  background-position: center;
-  background-size: cover;
-  margin: 0 0 2em;
-  position: relative;
-  img {
-    width: 100%;
-    height: auto;
-  }
-}
-
 .project-masthead {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  @media (min-width: $on-tablet) {
-    background-attachment: fixed;
-    min-height: 100vh;
-  }
-  &::after {
-    content: "";
-    background: desaturate(darken($brand-color, 72%), 96%);
-    opacity: .5;
+  img {
+    max-width: 90%;
+    height: auto;
     display: block;
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    z-index: 2;
+    margin: 0 auto;
   }
 }
 
 .project-title {
-  color: #fff;
   font-weight: 400;
-  @include p-top;
-  @include p-bottom;
-  @media (min-width: $on-tablet) {
-    
-  }
+  @include m-top;
+  @include m-bottom;
 }
 
 .project-description {

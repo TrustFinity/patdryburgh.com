@@ -4,15 +4,18 @@ layout: default
 
 <article class="post project">
 
-  {% if page.photo %}
-    <header class="photo-masthead project-masthead" style="background-image: url({{ site.url }}/{{ page.photo }})">
-      <h1 class="post-title project-title">
-        <div class="wrapper">
-          {{ page.it }} <strong>{{ page.title }}</strong>.
-        </div>
-      </h1>
-    </header>
-  {% endif %}
+  <header class="project-masthead">
+    <h1 class="post-title project-title">
+      <div class="wrapper">
+        {{ page.it }} <strong>{{ page.title }}</strong>.
+      </div>
+    </h1>
+
+    {% if page.photo %}
+      <img src="{{ site.url }}/{{ page.photo }}" alt="{{ page.title }}">
+    {% endif %}
+
+  </header>
   
   <main class="post-content page-content">
   

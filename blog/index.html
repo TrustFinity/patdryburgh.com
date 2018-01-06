@@ -4,7 +4,9 @@ layout: default
 subtitle: I write about design, music, and life.
 ---
 
-{% assign lastyear = site.time | date: '%Y' | minus: 1 %}
+{% for post in site.categories.blog limit: 1 %}
+  {% assign lastyear = post.date | date: '%Y' | minus: 1 %}
+{% endfor %}
 
 <main class="page-content">
 
