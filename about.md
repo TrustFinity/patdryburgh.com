@@ -7,7 +7,7 @@ hide_title: true
 layout: page
 --- 
 
-Over the last 9 years, I've worked with some great teams and clients including Grooveshark, Fusion Ads, CocoaTech, QuickCal, Thorel Woodworking, [Ethical Coffee Chain][ecc], UpThemes, [Ongo][ongo], [Perch][perch], [Agent Inbox][ai], [Brewhouse][bh], [Steamclock][sc], [Arc'teryx][arc], [Viral Foundry][vf], [Finstripe][fs], [Blanc Media][bm], [Platero Visual][pv], [Rye&nbsp;51][r5], and [Stantec][st]. 
+Over the last 9 years, I've worked with some great teams and clients including Grooveshark, Fusion Ads, CocoaTech, QuickCal, Thorel Woodworking, [Ethical Coffee Chain][ecc], UpThemes, [Ongo][ongo], [Perch][perch], [Agent Inbox][ai], [Brewhouse][bh], [Steamclock][sc], [Arc'teryx][arc], [Viral Foundry][vf], [Finstripe][fs], [Blanc Media][bm], [Platero Visual][pv], [Rye&nbsp;51][r5], [Stantec][st], and [Ensibuuko][en]. 
 
 In my free time I write and record music, [take photos](http://instagram.com/patdryburgh), and explore the beautiful province of British Columbia.
 
@@ -36,6 +36,7 @@ This site is built with [Jekyll](https://jekyllrb.com) and hosted on [Github](ht
 [pr]: http://patrickrhone.com
 [ct]: http://carlythomas.com
 [bb]: http://brooksreview.net
+[en]: http://ensibuuko.com
 [ongo]: {{ '/projects/ongo' | absolute_url }}
 [perch]: {{ '/projects/perch' | absolute_url }}
 [ai]: {{ '/projects/agent-inbox/' | absolute_url }}
