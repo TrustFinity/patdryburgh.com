@@ -6,7 +6,7 @@ permalink: "/now/"
 layout: page
 ---
 
-- Living in Vancouver, BC and managing product for [Ensibuuko][en], a micro-financing startup based in [Kampala, Uganda][ku]
+- Living in Vancouver, BC and figuring out what's next
 - Reading *[Roughing it in the Bush](https://en.wikipedia.org/wiki/Roughing_it_in_the_Bush)* by Susanna Moodie
 - Saving quotes in my very first app, [Quotational][qu]
 
