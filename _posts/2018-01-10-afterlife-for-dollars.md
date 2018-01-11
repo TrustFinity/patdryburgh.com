@@ -23,9 +23,26 @@ As of this writing, Afterlife's FAQ page leaves much to be desired:
 
 {% include image.html src="/images/uploads/afterlife-faq.png" alt="Screenshot of FAQ page on Afterlife.co" %}
 
+Afterlife does offer a page to submit a request for removal, which states the following:
+
+>This publication is used to honor the deceased, show respect and support to the families, and allow anyone to contribute to build a beautiful memorial page. 
+
+_*cough*_ bullshit _*cough*_
+
+>We understand that some families do not want loved ones to be shown here. 
+
+Translation: We know you're gonna be pissed at us but we don't care.
+
+>If you have the approval of the family, you may fill out the removal request form below. Note that up to 3 business days may pass before the removal.
+
+But you didn't have our permission to publish this page in the first place…
+
+---
+
 The CBC is reporting that at least [one funeral home in Calgary][cbc] has received over a dozen phone calls asking why the personal information of a loved one was being used in a commercial manner without consent. The funeral home was not only unaware of the initial infringement, they had already asked for the information be removed only for their request to be left unfulfilled.
 
 I just got off the phone with the funeral home who handled my mother's funeral. While they weren't familiar with this specific site, the person I spoke to did indicate that this wasn't the first he'd heard of such a site. Requests they've made to similar sites have also gone unanswered.
+
 
 I also spoke briefly with a support agent (or maybe it was a bot?) from [dmca.com][dmca]. They can look into having the content removed, but their services aren't free and there's no guarantee that the site owners won't simply move the content to another server.
 

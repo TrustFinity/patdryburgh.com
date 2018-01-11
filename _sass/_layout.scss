@@ -370,13 +370,13 @@ figcaption {
 
 blockquote {
   border: 0;
+  border-left: 2px solid $brand-color;
   color: $text-color;
   font-size: 1em;
   font-style: italic;
   line-height: 1.475;
-  margin: 2em 0;
-  padding-left: $spacing-unit;
-  padding-top: .5em;
+  margin: 1em 0;
+  padding-left: $spacing-unit / 2;
   position: relative;
   p {
     opacity: .7;
@@ -392,6 +392,16 @@ blockquote {
   p:first-child {
     margin-top: 0;
   }
+  
+  @media (min-width: $on-tablet) {
+    margin-left: $spacing-unit * -1 / 2;
+  }
+}
+
+.pull-out blockquote {
+  border: 0;
+  margin: 2em 0;
+  padding-top: .5em;
   &:before {
     position: absolute;
     top: 0;
