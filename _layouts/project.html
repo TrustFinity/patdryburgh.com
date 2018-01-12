@@ -5,11 +5,11 @@ layout: default
 <article class="post project">
 
   <header class="project-masthead">
-    <h1 class="post-title project-title">
-      <div class="wrapper">
-        {{ page.it }} <strong>{{ page.title }}</strong>.
-      </div>
-    </h1>
+    <div class="wrapper m-top m-bottom">
+      <h1 class="post-title project-title">
+          {{ page.it }} <strong>{{ page.title }}</strong>.
+      </h1>
+    </div>
 
     {% if page.photo %}
       <img src="{{ site.url }}/{{ page.photo }}" alt="{{ page.title }}">
@@ -32,7 +32,7 @@ layout: default
               </h2>
             </div>
             <p>
-              Want to talk about how design can help your product or business? You should <a href="{{ '/contact' | absolute_url }}">get in touch</a>.
+              Want to talk about how design can help your product or business? You should <a href="{{ '/contact' | absolute_url }}">get in touch</a>. Not sure yet? Read about my work with {% include collection_navigation.html %}.
             </p>
         </div>
       </aside>

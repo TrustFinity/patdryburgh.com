@@ -24,7 +24,7 @@
 // Wrapper
 
 .wrapper {
-  max-width: 45rem;
+  max-width: $content-width;
   margin-right: auto;
   margin-left: auto;
   position: relative;
@@ -216,7 +216,6 @@ h3.post-title {
 .call-to-action {
   border: $border-width solid $brand-color;
   padding: 0 1em;
-  // max-width: 36rem;
 }
 
 .call-to-action-header {
@@ -238,13 +237,8 @@ h3.post-title {
   margin-top: -.25em;
 }
 
-.call-to-action form {
-  margin-bottom: 1em;
-}
-
 .call-to-action-button {
-  margin-bottom: -1.75em;
-  margin-top: .25em;
+  margin-bottom: -.75em;
   .btn {
     background: $background-color;
   }
@@ -274,23 +268,13 @@ figcaption {
 }
 
 .extra-wide {
-  // margin-left: -1em;
-  // margin-right: -1em;
   text-align: center;
-  @media (min-width: $on-tablet) {
-    margin-left: -2em;
-    margin-right: -2em;
-  }
-  @media (min-width: $on-desktop) {
-    // display: flex;
-    margin-top: 2em;
-    margin-left: -6em;
-    margin-right: -6em;
-  }
+  @include figures;
 }
 
 .extra-wide img {
   max-width: 100%;
+  width: auto;
   height: auto;
   // @media screen and (min-width: $on-desktop) {
   //   width: -webkit-calc(100% - 15.25em);
@@ -311,6 +295,30 @@ figcaption {
   //   top: 0;
   //   width: 10em;
   // }
+}
+
+.shadowed {
+  box-shadow: 0 8px 24px rgba(0,0,0,.1);
+}
+
+.overlapped {
+  margin-bottom: 3rem;
+  @include figures;
+  img {
+    display: block;
+    width: 80%;
+    transition: all .5s ease-in-out;
+  }
+  img + img {
+    margin-left: auto;
+    margin-top: -35%;
+  }
+}
+
+.overlapped:hover {
+  img + img {
+    margin-top: -15%;
+  }
 }
 
 .photo {
@@ -437,14 +445,14 @@ cite {
   @extend %clearfix;
   @media (min-width: $on-tablet) {
     float: right;
-    margin: 0em -2em 2em 1em;
+    margin: 0em -2rem 2rem 1rem;
     width: 40%;
     blockquote {
       font-size: .825em;
     }
   }
   @media (min-width: $on-desktop) {
-    margin-right: -8em;
+    margin-right: -6rem;
   }
 }
 
@@ -468,9 +476,34 @@ cite {
 
 // Projects
 
+.project-list {
+  max-width: 90rem;
+  margin: 0 auto;
+  @media (min-width: $on-tablet) {
+    display: grid;
+    grid-gap: 2rem;
+    grid-template-columns: 1fr 1fr;
+    padding: 0 2rem;
+  }
+  @media (min-width: $on-laptop) {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  a {
+    display: block;
+  }
+  img {
+    filter: grayscale(100%);
+    transition: all .25s ease-in-out;
+  }
+  a:hover img,
+  a:focus img {
+    filter: grayscale(0);
+  }
+}
+
 .project-masthead {
   img {
-    max-width: 90%;
+    max-width: 100%;
     height: auto;
     display: block;
     margin: 0 auto;
@@ -479,8 +512,6 @@ cite {
 
 .project-title {
   font-weight: 400;
-  @include m-top;
-  @include m-bottom;
 }
 
 .project-description {

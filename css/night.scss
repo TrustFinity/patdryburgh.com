@@ -14,15 +14,3 @@ $shadow-color:     rgba($brand-color, .3);
   "variables",
   "import"
 ;
-
-.post img {
-  opacity: .6;
-  transition: opacity .25s ease-in-out;
-  &:hover {
-    opacity: 1;
-  }
-}
-
-.post .photo-masthead img {
-  opacity: .6;
-}

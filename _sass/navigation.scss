@@ -1,9 +1,5 @@
-$navigation-width: 12rem;
-
 .masthead {
-  padding: .325em 0;
-  margin-bottom: .425rem;
-  position: relative;
+  @include p-top;
   z-index: 999;
 }
 

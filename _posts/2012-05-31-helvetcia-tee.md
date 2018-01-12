@@ -7,7 +7,7 @@ layout: post
 author: patdryburgh
 url_title: helvetcia-tee
 old_entry_id: 480
-photo: /images/uploads/Helvetcia-Shirt.jpg"
+photo: /images/uploads/Helvetcia-Shirt.jpg
 flickr-link: http://helvetcia.com
 ---
 

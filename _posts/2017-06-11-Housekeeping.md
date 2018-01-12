@@ -31,7 +31,7 @@ The dozen or so of you who subscribe to my [feed][sub] may have noticed an incre
 
 Back when I used ExpressionEngine to publish this site, I used to have a section called “asides”. These were always links to other sites with a bit of personal commentary. At times these links were interspersed with the long-form posts, other times they lived on their own page. Currently, the new micro posts only live on the homepage of this site.
 
-The way I've designed the new micro posts makes linking to other pages optional. While some may link out, others will feel more like a tweet. Unti Manton Reece's new service, [Micro.blog][mb] opens to the general public, I'm [using IFTTT to post these][if] to my Twitter feed.
+The way I've designed the new micro posts makes linking to other pages optional. While some may link out, others will feel more like a tweet. Until Manton Reece's new service, [Micro.blog][mb] opens to the general public, I'm [using IFTTT to post these][if] to my Twitter feed.
 
 Probably the best part of adding these short-form posts to the site has been the inspiration to finally find a solution to a problem I've faced for almost 5 years now, which was…
 

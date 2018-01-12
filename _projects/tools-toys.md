@@ -1,6 +1,6 @@
 ---
 title: Tools &amp; Toys
-date: 2016-08-19 15:30:00 Z
+date: 2014-08-19 15:30:00 Z
 categories:
 - design
 layout: project
@@ -22,8 +22,6 @@ Tools &amp; Toys' audience is smart, creative, and adventurous. They are as comf
 
 In contrast with the logo's flowing nature, the site's navigation was designed to be sturdy and structural. It allows users to quickly navigate between categories on the site, search for content, and engage further with the publication.
 
-## Featured Content
-
 <div class="pull-out">
   <blockquote>
     <p>It’s been 90 days since the re-design of Tools &amp; Toys went live, and compared to the same quarter last year we saw <strong>a 3x growth</strong> in pageviews, unique visitors, and site revenue.</p>
@@ -34,9 +32,11 @@ In contrast with the logo's flowing nature, the site's navigation was designed t
   </cite>
 </div>
 
+## Featured Content
+
 The long-form reviews and product guides had built a tremendous reputation amongst Tools &amp; Toys' readership, but the team wasn't proud of how their work was being presented. They also wanted to put a heavier emphasis on the amazing photography that accompanies each piece.
 
-{% include image.html src="/images/work/tools-toys-featured-content.png" alt="Tools &amp; Toys Featured Content" %}
+{% include image.html src="/images/work/tools-toys-featured-content.jpg" alt="Tools &amp; Toys Featured Content" class="shadowed" %}
 
 
 <div class="pull-out">
@@ -53,7 +53,7 @@ The long-form reviews and product guides had built a tremendous reputation among
 
 Tools &amp; Toys was founded on sharing beautiful and useful products for geeky outdoor enthusiasts. The design of the product pages on the site now feature larger photos and clean typography, as well as the ability to browse related products and articles featured on the site. The site's writers now have an easy way to include affiliate links that drive the site's revenue.
 
-{% include image.html src="/images/work/tools-toys-product-page.png" alt="Tools &amp; Toys Product Page" caption="The new product page design features bold, beautiful photography and clean typography" %}
+{% include image.html src="/images/work/tools-toys-product-page.jpg" alt="Tools &amp; Toys Product Page" caption="The new product page design features bold, beautiful photography and clean typography" class="shadowed" %}
 
 Shawn and his team have continued to produce great work since the redesign. I was proud to provide photos for a [review of the Goruck GR1][2] written by my good friend [Ben Brooks][3].
 

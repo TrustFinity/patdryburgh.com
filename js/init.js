@@ -67,3 +67,11 @@ function setTheme() {
   document.write('<link rel="stylesheet" href="' + theme + '?{{site.time | date: '%s%N'}}" type="text/css" id="js-theme">')
 
 }
+
+function renderAvailability() {
+  var availabilityLabel = document.getElementById('data-availability-badge')
+  if (this.isAvailable()) availabilityLabel.innerHTML = 'currently available for freelance work'
+  if (this.isUnavailable()) availabilityLabel.innerHTML = 'booking projects for ' . this.month
+}
+
+Availability.custom({ user: '305caaaa-f027-466d-bc2e-66ccdde3c95a', render: renderAvailability })

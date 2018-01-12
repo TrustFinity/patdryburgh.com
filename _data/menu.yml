@@ -1,14 +1,11 @@
+- title: Blog
+  url: /blog
+
 - title: Design
   url: /design
 
-- title: Writing
-  url: /blog
-
 - title: About
   url: /about
-
-- title: Now
-  url: /now
 
 - title: Subscribe
   url: /subscribe

@@ -23,6 +23,7 @@ blog_json: http://patdryburgh.com/feed/blog.json
 micro_rss: http://feed.patdryburgh.com/micro
 micro_json: http://patdryburgh.com/feed/micro.json
 twitter: http://twitter.com/patdryburgh
+micro_blog: https://micro.blog/pat
 twitter_username: patdryburgh
 github_username: patdryburgh
 permalink: "/:categories/:title/"

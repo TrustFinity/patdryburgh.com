@@ -6,6 +6,6 @@ permalink: "/contact/"
 layout: page
 ---
 
-While currently I am not accepting new project proposals, I am always accepting offers for hugs.
+I am <strong id="data-availability-badge"></strong>. Fill out my <a href="https://patdryburgh.typeform.com/to/yBqh1y"><strong>project inquiry</strong></a> form to let me know how I can help you.
 
-<a href="mailto:hello@patdryburgh.com" class="btn">hello@patdryburgh.com</a>
+If you're just looking for a hug, feel free to <a href="mailto:hello@patdryburgh.com">email me</a>.

@@ -17,9 +17,9 @@ layout:
       {% capture content %}{% if post.link %}{{ post.title | xml_escape }}: {% endif %}{{ post.content | strip_html | xml_escape }}{% endcapture %}
       {% assign size = content | size %}
         <item>
-          {% if size > 140 %}
+          {% if size > 280 %}
             <description>
-              {{ content | truncate: 115, '…' }} {{ post.url | absolute_url }}
+              {{ content | truncate: 255, '…' }} {{ post.url | absolute_url }}
             </description>
           {% else %}
             <description>
