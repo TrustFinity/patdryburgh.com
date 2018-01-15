@@ -70,8 +70,14 @@ function setTheme() {
 
 function renderAvailability() {
   var availabilityLabel = document.getElementById('data-availability-badge')
-  if (this.isAvailable()) availabilityLabel.innerHTML = 'currently available for freelance work'
-  if (this.isUnavailable()) availabilityLabel.innerHTML = 'booking projects for ' . this.month
+  if (this.isAvailable()) {
+    availabilityLabel.innerHTML = 'available immediately for work'
+    availabilityLabel.className = 'available'
+  }
+  if (this.isUnavailable()) {
+    availabilityLabel.innerHTML = 'accepting project proposals for ' . this.month
+    availabilityLabel.className = 'unavailable'
+  }
 }
 
 Availability.custom({ user: '305caaaa-f027-466d-bc2e-66ccdde3c95a', render: renderAvailability })

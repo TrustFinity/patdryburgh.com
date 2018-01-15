@@ -4,11 +4,13 @@
 @charset "utf-8";
 
 // colors
-$brand-color:      #fdcda0;
-$text-color:       lighten($brand-color, 18%);
-$grey-color:       rgba($text-color, .5);
-$background-color: desaturate(darken($brand-color, 72%), 96%);
-$shadow-color:     rgba($brand-color, .3);
+$brand-color:         #fdcda0;
+$text-color:          lighten($brand-color, 18%);
+$grey-color:          rgba($text-color, .5);
+$background-color:    desaturate(darken($brand-color, 72%), 96%);
+$shadow-color:        rgba($brand-color, .3);
+$available-color:     #56E89A;
+$unavailable-color:   #78B4FF;
 
 @import
   "variables",

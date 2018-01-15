@@ -215,33 +215,50 @@ h3.post-title {
 
 .call-to-action {
   border: $border-width solid $brand-color;
-  padding: 0 1em;
+  @include m-top;
+  padding: 0 2rem;
+  position: relative;
+  &:after {
+    background: rgba($brand-color, 0.025);
+    content: "";
+    position: absolute;
+    top: 0;
+    right: -1rem;
+    bottom: 0;
+    left: -1rem;
+    pointer-events: none;
+    transform: skew(-10deg) rotate(-1.5deg);
+  }
 }
 
 .call-to-action-header {
-  margin: 0 -.5em 0;
-  max-width: 36rem;
-  padding: 0 1em 0 .5em;
+  background-color: $background-color;
+  display: inline-block;
+  margin: 0 0 0 -1rem;
+  padding: .25rem 1rem;
   position: relative;
-  top: -.825em;
+  top: -1.25rem;
 }
 
 .call-to-action h2 {
-  background-color: $background-color;
-  box-shadow: .5em 0 0px 0px $background-color, -.5em 0 0px 0px $background-color;
   font-size: 1.325em;
   display: inline;
 }
 
 .call-to-action-header + * {
-  margin-top: -.25em;
+  margin-top: -1em;
 }
 
 .call-to-action-button {
-  margin-bottom: -.75em;
+  margin-bottom: -1rem;
+  position: relative;
   .btn {
     background: $background-color;
   }
+}
+
+.call-to-action input {
+  padding-bottom: 0;
 }
 
 /* Figures & Images */
@@ -481,23 +498,66 @@ cite {
   margin: 0 auto;
   @media (min-width: $on-tablet) {
     display: grid;
-    grid-gap: 2rem;
     grid-template-columns: 1fr 1fr;
     padding: 0 2rem;
   }
   @media (min-width: $on-laptop) {
     grid-template-columns: 1fr 1fr 1fr;
   }
+  @media (min-width: $on-desktop) {
+   grid-template-columns: 1fr 1fr 1fr 1fr; 
+  }
   a {
     display: block;
+    position: relative;
+  }
+  a > header {
+    background: $background-color;
+    box-shadow: 0 4px 12px rgba(0,0,0,.05);
+    color: $text-color;
+    padding: 1em;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: 0;
+    transform: scale(.9) translate(0, 60%);
+    transition: all .25s ease-in-out;
+  }
+  a:hover,
+  a:focus {
+    z-index: 999;
+  }
+  a:hover > header,
+  a:focus > header {
+    opacity: 1;
+    @media (min-width: $on-tablet) {
+      transform: scale(1) translate(2rem, 65%);
+    }
+  }
+  h3 {
+    font-weight: 400;
+    margin: 0;
+  }
+  h4 {
+    font-size: .625em;
+    font-weight: 400;
+    margin: .5em 0 0;
+    opacity: .6;
   }
   img {
     filter: grayscale(100%);
     transition: all .25s ease-in-out;
+    vertical-align : middle;
+  }
+  &:hover img {
+    opacity: .4;
   }
   a:hover img,
   a:focus img {
     filter: grayscale(0);
+    opacity: 1;
+    transform: scale(1.05);
   }
 }
 
@@ -518,4 +578,12 @@ cite {
   color: #fff;
   padding: ($spacing-unit * 2) $spacing-unit;
   text-align: center;
+}
+
+.available {
+  color: $available-color;
+}
+
+.unavailable {
+  color: $unavailable-color;
 }

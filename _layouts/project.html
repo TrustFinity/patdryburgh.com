@@ -23,25 +23,23 @@ layout: default
       {{ content | markdownify }}
     </div>
 
-    {% if page.categories contains 'design' %}
-      <aside class="wrapper m-top">
-        <div class="call-to-action">
-            <div class="call-to-action-header">
-              <h2>
-                Thanks for reading about <a href="{{ '/design/' | absolute_url }}">my work</a> with {{ page.title }}.
-              </h2>
-            </div>
-            <p>
-              Want to talk about how design can help your product or business? You should <a href="{{ '/contact' | absolute_url }}">get in touch</a>. Not sure yet? Read about my work with {% include collection_navigation.html %}.
-            </p>
-        </div>
-      </aside>
-    {% endif %}
-
-    {% if page.categories contains 'blog' %}
-      {% include newsletter.html margin="top" %}
-    {% endif %}
-
   </main>
+
+  {% if page.categories contains 'design' %}
+    <aside class="m-top call-to-action wrapper">
+      <div class="call-to-action-header">
+        <h2>
+          Thanks for reading about <a href="{{ '/design/' | absolute_url }}">my work</a> with {{ page.title }}.
+        </h2>
+      </div>
+      <p>
+        Want to discuss how design can improve your product or business? You should <a href="mailto:hello@patdryburgh.com">get in touch</a>. Need some more convincing? Read about my work with {% include collection_navigation.html %}.
+      </p>
+    </aside>
+  {% endif %}
+
+  {% if page.categories contains 'blog' %}
+    {% include newsletter.html margin="top" %}
+  {% endif %}
 
 </article>

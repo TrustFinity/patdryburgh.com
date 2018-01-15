@@ -8,13 +8,33 @@
     <button id="js-theme-toggle">Toggle Theme</button>
 
     {% unless page.hide_chrome %}
-      {% include header.html %}
+      <header class="masthead{% if page.categories contains 'design' %} masthead-project{% endif %} wrapper">
+
+        <h1 class="site-title">
+          <a href="{{ site.url }}">Pat Dryburgh</a>
+        </h1>
+
+        {% include navigation.html %}
+
+      </header>
     {% endunless %}
 
-    {{ content }}
-
+    <main>
+      {{ content }}
+    </main>
+    
     {% unless page.hide_chrome %}
-      {% include footer.html %}
+      <footer class="site-footer wrapper">
+
+        {% include navigation.html %}
+
+        {% include search.html %}
+
+        <p class="small">
+          If you enjoy <a href="{{ '/blog/' | absolute_url }}" >my writing</a>, you should <a href="{{ '/subscribe/' | absolute_url }}">subscribe</a> and <a href="{{ site.micro_blog }}">follow me on Micro.blog</a>. <br class="hide show-md">If you prefer to take things slow, <a href="{{ '/about/' | absolute_url }}">get to know me</a> a bit better first.
+        </p>
+
+      </footer>
     {% endunless %}
 
     {% include scripts.html %}

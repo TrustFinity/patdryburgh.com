@@ -16,7 +16,7 @@
 
 .btn-bordered {
   background-color: $background-color;
-  border: $border-width solid $brand-color;
+  border: 1px solid $brand-color;
   padding: .5em .75em;
   border-radius: .125em;
   &:focus {
