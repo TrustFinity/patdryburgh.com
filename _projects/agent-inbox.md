@@ -6,8 +6,8 @@ categories:
 layout: project
 author: patdryburgh
 photo: "/images/work/hero-agent-inbox.jpg"
-it: I designed an all-in-one unified communications platform for real estate
-  agents and their clients with
+it: An all-in-one unified communications platform for real estate
+  agents and their clients called
 ---
 
 In 2013, entrepreneurs [Tyler Gordon][1] and Elliot Koolik set out to build [Agent Inbox][3], an all-in-one unified communications platform for real estate agents and their clients. Shortly after teaming up with John Ashenden at [H1 Studios][4], the team reached out and invited me to help with the project. 

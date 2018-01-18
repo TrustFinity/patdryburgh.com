@@ -6,7 +6,7 @@ categories:
 layout: project
 author: patdryburgh
 photo: "/images/work/hero-finstripe.jpg"
-it: In 2015, I designed a responsive front-end for a modern financing platform that processed nearly $1B in loans in its first year called 
+it: In 2015, I designed a responsive front-end for a modern financing platform with nearly $1B of loans posted in its first year called 
 ---
 
 Working with founders is always an exciting experience. You get to work with interesting people who are experts in their field and are also passionate about building something new.
@@ -47,7 +47,7 @@ By designing the interface in code, we were able to quickly iterate through mult
 
 {% include image.html src="/images/work/finstripe-mobile.png" alt="Finstripe Mobile" %}
 
-We were able to design, build, and launch the MVP in just 6 weeks. Finstripe processed nearly $1B in loans in its first year.
+We were able to design, build, and launch the MVP in just 6 weeks. Nearly $1B in loans was posted to the platform in its first year.
 
 [vf]: http://viralfoundry.com
 [pr]: http://promo.co

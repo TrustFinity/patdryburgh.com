@@ -57,7 +57,8 @@
 // Footer
 
 .site-footer {
-  padding: 6em 0 2em;
+  @include m-top;
+  @include p-bottom;
 }
 
 // Content
@@ -148,7 +149,7 @@
 
 .post-title {
   color: $text-color;
-  font: 900 2em/1 $base-font-family;
+  font: 900 1.325em/1 $base-font-family;
   margin: 0 0 .25em;
   position: relative;
   z-index: 99;
@@ -168,6 +169,12 @@
     opacity: .7;
     font-weight: 400;
     margin-top: 0;
+    @media (max-width: $on-laptop) {
+      font-size: 1em;
+    }
+  }
+  @media (min-width: $on-tablet) {
+    font-size: 2em;
   }
 }
 
@@ -218,16 +225,18 @@ h3.post-title {
   @include m-top;
   padding: 0 2rem;
   position: relative;
-  &:after {
-    background: rgba($brand-color, 0.025);
-    content: "";
-    position: absolute;
-    top: 0;
-    right: -1rem;
-    bottom: 0;
-    left: -1rem;
-    pointer-events: none;
-    transform: skew(-10deg) rotate(-1.5deg);
+  @media (min-width: $on-tablet) {
+    &:after {
+      background: rgba($brand-color, 0.025);
+      content: "";
+      position: absolute;
+      top: 0;
+      right: -1rem;
+      bottom: 0;
+      left: -1rem;
+      pointer-events: none;
+      transform: skew(-10deg) rotate(-1.5deg);
+    }
   }
 }
 
@@ -241,8 +250,11 @@ h3.post-title {
 }
 
 .call-to-action h2 {
-  font-size: 1.325em;
+  font-size: 1em;
   display: inline;
+  @media (min-width: $on-tablet) {
+    font-size: 1.325em;
+  }
 }
 
 .call-to-action-header + * {
@@ -495,17 +507,14 @@ cite {
 
 .project-list {
   max-width: 90rem;
-  margin: 0 auto;
+  margin: 0 auto 4rem;
   @media (min-width: $on-tablet) {
     display: grid;
     grid-template-columns: 1fr 1fr;
     padding: 0 2rem;
   }
   @media (min-width: $on-laptop) {
-    grid-template-columns: 1fr 1fr 1fr;
-  }
-  @media (min-width: $on-desktop) {
-   grid-template-columns: 1fr 1fr 1fr 1fr; 
+    grid-template-columns: 1fr 1fr;
   }
   a {
     display: block;
@@ -513,26 +522,30 @@ cite {
   }
   a > header {
     background: $background-color;
-    box-shadow: 0 4px 12px rgba(0,0,0,.05);
     color: $text-color;
     padding: 1em;
-    position: absolute;
     bottom: 0;
     left: 0;
     right: 0;
-    opacity: 0;
-    transform: scale(.9) translate(0, 60%);
+    z-index: 999;
     transition: all .25s ease-in-out;
+    @media (hover) and (min-width: $on-tablet) {
+      box-shadow: 0 4px 12px rgba(0,0,0,.05);
+      opacity: 0;
+      position: absolute;
+      transform: scale(.9) translate(0, 0);
+    }
   }
   a:hover,
   a:focus {
+    text-decoration: none;
     z-index: 999;
   }
   a:hover > header,
   a:focus > header {
     opacity: 1;
-    @media (min-width: $on-tablet) {
-      transform: scale(1) translate(2rem, 65%);
+    @media (hover) and (min-width: $on-tablet) {
+      transform: scale(1) translate(2rem, 2rem);
     }
   }
   h3 {
@@ -540,10 +553,10 @@ cite {
     margin: 0;
   }
   h4 {
+    color: $brand-color;
     font-size: .625em;
     font-weight: 400;
-    margin: .5em 0 0;
-    opacity: .6;
+    margin: .75em 0 0;
   }
   img {
     filter: grayscale(100%);
@@ -557,7 +570,10 @@ cite {
   a:focus img {
     filter: grayscale(0);
     opacity: 1;
-    transform: scale(1.05);
+    @media (min-width: $on-tablet) {
+      box-shadow: 0 4px 12px rgba(0,0,0,.05);
+      transform: scale(1.05);
+    }
   }
 }
 

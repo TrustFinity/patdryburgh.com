@@ -2,8 +2,8 @@
 title: Design Sprints
 date: 2017-07-02 11:30:00 +0300
 layout: page
-subtitle: I lead teams who want to quickly validate ideas, solve big problems, and
-  radically reduce the risk of building the wrong thing using **Design Sprints**.
+subtitle: Need an answer to a critical business question?
+subsubtitle: I help teams find the right solution to their customers' problems with one-week design sprints.
 hide_title: true
 photo: "/images/sprints/design-sprints.jpg"
 full_bleed: true

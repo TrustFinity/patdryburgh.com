@@ -5,7 +5,7 @@ categories:
 - design
 layout: project
 photo: /images/work/hero-cocoatech.jpg
-it: In 2011, I designed and built a marketing landing page for
+it: In 2011, I created a digital design language that is still in use today by 
 ---
 
 Cocoatech is a Mac development company, responsible for the fantastic file browser Path Finder.

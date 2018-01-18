@@ -70,13 +70,15 @@ function setTheme() {
 
 function renderAvailability() {
   var availabilityLabel = document.getElementById('data-availability-badge')
-  if (this.isAvailable()) {
-    availabilityLabel.innerHTML = 'available immediately for work'
-    availabilityLabel.className = 'available'
-  }
-  if (this.isUnavailable()) {
-    availabilityLabel.innerHTML = 'accepting project proposals for ' . this.month
-    availabilityLabel.className = 'unavailable'
+  if (availabilityLabel) {
+    if (this.isAvailable()) {
+      availabilityLabel.innerHTML = 'available immediately for work'
+      availabilityLabel.className = 'available'
+    }
+    if (this.isUnavailable()) {
+      availabilityLabel.innerHTML = 'accepting project proposals for ' . this.month
+      availabilityLabel.className = 'unavailable'
+    }
   }
 }
 

@@ -1,0 +1,13 @@
+<aside class="m-top call-to-action wrapper">
+  <div class="call-to-action-header">
+    <h2>
+      Thanks for reading about <a href="{{ '/design/' | absolute_url }}">my work</a>{% if page.categories contains 'design' %} with {{ page.title }}{% endif %}.
+    </h2>
+  </div>
+  <p>
+    Want to discuss how design can improve your product or business? You should <a href="mailto:hello@patdryburgh.com">get in touch</a>.
+    {% if page.categories contains 'design' %} 
+       Need some more convincing? Read about my work with {% include collection_navigation.html %}.
+    {% endif %}
+  </p>
+</aside>
