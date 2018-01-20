@@ -6,11 +6,12 @@
 // colors
 $brand-color:         #fdcda0;
 $text-color:          lighten($brand-color, 18%);
+$heading-text-color:  lighten($brand-color, 30%);
 $grey-color:          rgba($text-color, .5);
 $background-color:    desaturate(darken($brand-color, 72%), 96%);
 $shadow-color:        rgba($brand-color, .3);
-$available-color:     #56E89A;
-$unavailable-color:   #78B4FF;
+$available-color:     rgba(#56E89A, .2);
+$unavailable-color:   rgba(#78B4FF, .2);
 
 @import
   "variables",

@@ -72,11 +72,11 @@ function renderAvailability() {
   var availabilityLabel = document.getElementById('data-availability-badge')
   if (availabilityLabel) {
     if (this.isAvailable()) {
-      availabilityLabel.innerHTML = 'available immediately for work'
+      availabilityLabel.innerHTML = 'I am currently available for work. '
       availabilityLabel.className = 'available'
     }
     if (this.isUnavailable()) {
-      availabilityLabel.innerHTML = 'accepting project proposals for ' . this.month
+      availabilityLabel.innerHTML = 'I am booking projects for ${this.month}.';
       availabilityLabel.className = 'unavailable'
     }
   }

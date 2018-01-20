@@ -4,7 +4,6 @@
 }
 
 .site-title {
-  display: inline-block;
   font-size: 1rem;
   margin-top: -.125rem;
   padding-right: 1.5rem;
@@ -51,7 +50,7 @@
       left: 0;
       width: 100%;
       z-index: -1;
-      transform: scaleX(0) rotate(-.75deg);
+      transform: scaleX(0) skew(-2.5deg) rotate(-.75deg);
       transform-origin: top left;
       transition: transform .125s ease-in-out;
     }
@@ -60,7 +59,7 @@
       text-decoration: none;
     }
     &:hover:before {
-      transform: scaleX(1) rotate(-.75deg);
+      transform: scaleX(1) skew(-2.5deg) rotate(-.75deg);
     }
   }
 }

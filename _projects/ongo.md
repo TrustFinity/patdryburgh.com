@@ -6,7 +6,7 @@ categories:
 layout: project
 author: patdryburgh
 photo: "/images/work/hero-ongo.jpg"
-it: From 2011&ndash;2012, I designed mobile and web interfaces for a New York Times and Washington
+it: I designed mobile and web interfaces for a New York Times and Washington
   Post-backed news reading service called
 ---
 

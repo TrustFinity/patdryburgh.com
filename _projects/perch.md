@@ -6,7 +6,7 @@ categories:
 layout: project
 author: patdryburgh
 photo: "/images/work/hero-perch.jpg"
-it: From 2012&ndash;2013, I led branding and product design of a real-time hands-free
+it: I led branding and product design of a real-time hands-free
   communication platform for teams like Slack, TripAdvisor, and Shopify called
 ---
 

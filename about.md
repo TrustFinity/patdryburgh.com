@@ -21,6 +21,8 @@ Originally from London, Ontario, I now live in Vancouver, British Columbia with 
 
 This site is built with [Jekyll](https://jekyllrb.com) and hosted on [Github](https://pages.github.com). Freight Sans is served by [Typekit](http://typekit.com). The [sun][sun] and the [moon][moon] are by [Iulia Ardeleanu][ia].
 
+Growing up, I enjoyed watching directors' commentaries of my favourite movies. I love learning how people do what they do and think what they think. In web design and development, the closest comparison to a director's commentary is getting to see the actual code someone wrote to produce a site. You can see how this site is made by viewing the public repo on [Github][gb].
+
 [now]: /now
 [gs]: https://en.wikipedia.org/wiki/Grooveshark
 [ad]: http://adobe.com
@@ -50,3 +52,4 @@ This site is built with [Jekyll](https://jekyllrb.com) and hosted on [Github](ht
 [ai]: {{ '/projects/agent-inbox/' | absolute_url }}
 [de]: {{ '/projects/sprint/' | absolute_url }}
 [cct]: {{ '/projects/cocoatech' | absolute_url }}
+[gb]: https://github.com/patdryburgh/patdryburgh.com

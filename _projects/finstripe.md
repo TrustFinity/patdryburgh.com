@@ -6,7 +6,7 @@ categories:
 layout: project
 author: patdryburgh
 photo: "/images/work/hero-finstripe.jpg"
-it: In 2015, I designed a responsive front-end for a modern financing platform with nearly $1B of loans posted in its first year called 
+it: I designed a responsive front-end experience for a modern financing platform called
 ---
 
 Working with founders is always an exciting experience. You get to work with interesting people who are experts in their field and are also passionate about building something new.
@@ -19,7 +19,7 @@ I was working with [Viral Foundry][vf] on [Promo][pr] when Martin Pasek and Bern
       As a career-long technologist, multiple-time founder and investor in technology companies I've had the chance to work with many technology developers. I place Pat Dryburgh in the highest class of professionals. As a designer he combines strong technical capability with a keen aesthetic eye, and even more importantly with an insightful understanding of how the users interact with the products he touches. I look forward to the possibility of working with Pat again at the first opportunity.
     </p>
     <cite>
-      &mdash; <a href="http://shawnblanc.net">Bernd Petak</a>
+      &mdash; <a href="https://twitter.com/berndpetak?lang=en">Bernd Petak</a>
       <span class="title small">Co-founder of Finstripe</span>
     </cite>
   </blockquote>

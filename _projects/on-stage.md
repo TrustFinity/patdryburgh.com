@@ -5,7 +5,7 @@ categories:
 - design
 layout: project
 photo: "/images/work/hero-on-stage.jpg"
-it: In 2010, I designed and built a responsive WordPress-powered site for Stratford's leading dance studio, 
+it: I designed and built a responsive WordPress-powered site for Stratford's leading dance studio, 
 ---
 
 On Stage's previous website struggled to keep up with the growing demands of a growing dance studio. I was hired to bring the groove from the dance floor to the web. Once a content strategy had been developed, a fresh website with bold photography and beautiful type was created, highlighting not only what happens in the studio, but also what happens in the community.

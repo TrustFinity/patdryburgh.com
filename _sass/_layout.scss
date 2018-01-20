@@ -40,27 +40,6 @@
 
 }
 
-// Spacing
-
-.m-top {
-  @include m-top;
-}
-
-.blog .m-top:first-child {
-  margin-top: 0;
-}
-
-.m-bottom {
-  @include m-bottom;
-}
-
-// Footer
-
-.site-footer {
-  @include m-top;
-  @include p-bottom;
-}
-
 // Content
 
 .page-content {
@@ -148,19 +127,19 @@
 }
 
 .post-title {
-  color: $text-color;
-  font: 900 1.325em/1 $base-font-family;
+  color: $heading-text-color;
+  font: 400 1.325em/1 $base-font-family;
   margin: 0 0 .25em;
   position: relative;
   z-index: 99;
   a {
     background-position: 0 1.125em;
     background-repeat: repeat-x;
-    background-size: 1px 4px;
+    background-size: 1px 2px;
     color: $text-color;
     &:hover,
     &:focus {
-      color: $text-color;
+      color: $heading-text-color;
       text-decoration: none;
       @include shadow(2px);
     }
@@ -227,7 +206,7 @@ h3.post-title {
   position: relative;
   @media (min-width: $on-tablet) {
     &:after {
-      background: rgba($brand-color, 0.025);
+      background: rgba($brand-color, 0.05);
       content: "";
       position: absolute;
       top: 0;
@@ -508,13 +487,9 @@ cite {
 .project-list {
   max-width: 90rem;
   margin: 0 auto 4rem;
+  padding: 0 1rem;
   @media (min-width: $on-tablet) {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
     padding: 0 2rem;
-  }
-  @media (min-width: $on-laptop) {
-    grid-template-columns: 1fr 1fr;
   }
   a {
     display: block;
@@ -527,10 +502,12 @@ cite {
     bottom: 0;
     left: 0;
     right: 0;
+    margin-bottom: 2rem;
     z-index: 999;
     transition: all .25s ease-in-out;
     @media (hover) and (min-width: $on-tablet) {
       box-shadow: 0 4px 12px rgba(0,0,0,.05);
+      margin-bottom: 0;
       opacity: 0;
       position: absolute;
       transform: scale(.9) translate(0, 0);
@@ -596,10 +573,23 @@ cite {
   text-align: center;
 }
 
-.available {
-  color: $available-color;
+// Spacing
+
+.m-top {
+  @include m-top;
 }
 
-.unavailable {
-  color: $unavailable-color;
+.blog .m-top:first-child {
+  margin-top: 0;
+}
+
+.m-bottom {
+  @include m-bottom;
+}
+
+// Footer
+
+.site-footer {
+  @include m-top;
+  @include p-bottom;
 }

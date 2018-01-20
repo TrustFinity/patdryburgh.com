@@ -11,7 +11,7 @@ layout: default
     <h2>More work available on <a href="https://dribbble.com/pat">Dribbble</a>.</h2>
   </header>
 
-  <ul class="project-list list-unstyled">
+  <ul class="project-list grid-tablet grid-1-2 list-unstyled">
     {% assign projects = site.projects | sort: 'date' | reverse %}
     {% for post in projects %}
       <li>
@@ -29,6 +29,20 @@ layout: default
       </li>
     {% endfor %}
   </ul>
+
+  <div class="wrapper">
+
+    <h2>I've also had the fortune of working on projects for other great brands, like:</h2>
+
+    <ul class="list-unstyled m-top grid grid-1-3 grid-center grid-padded-columns grid-padded-rows">
+      {% for client in site.data.clients %}
+        <li>
+          {{ client.logo }}
+        </li>
+      {% endfor %}
+    </ul>
+
+  </div>
 
   {% include design-cta.html margin="top" %}
 
