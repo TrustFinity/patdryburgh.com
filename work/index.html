@@ -36,8 +36,10 @@ layout: default
 
     <ul class="list-unstyled m-top grid grid-1-2 grid-tablet-1-3 grid-center grid-padded-columns grid-padded-rows">
       {% for client in site.data.clients %}
-        <li class="svg-container" style="padding-bottom: {{ client.padding }}%">
-          {{ client.logo }}
+        <li>
+          <div class="svg-container" style="padding-bottom: {{ client.padding }}%">
+            {{ client.logo }}
+          </div>
         </li>
       {% endfor %}
     </ul>

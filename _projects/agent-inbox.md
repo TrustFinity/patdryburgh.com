@@ -6,7 +6,7 @@ categories:
 layout: project
 author: patdryburgh
 photo: "/images/work/hero-agent-inbox.jpg"
-it: An all-in-one unified communications platform for real estate
+it: I led user experience and interface design for an all-in-one unified communications platform for real estate
   agents and their clients called
 ---
 
