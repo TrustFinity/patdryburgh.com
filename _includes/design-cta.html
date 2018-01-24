@@ -3,17 +3,20 @@
     <div class="call-to-action-header">
       <h2>
         {% if page.categories contains 'design' %}
-          Thanks for reading about <a href="{{ '/design/' | absolute_url }}">my work</a> with {{ page.title }}.
+          Thanks for reading about my work with {{ page.title }}.
         {% else %}
-          Need help your product or website?
+          Need help with your product or website?
         {% endif %}
       </h2>
     </div>
     <p>
-      <em id="data-availability-badge"></em>Fill out my <a href="https://patdryburgh.typeform.com/to/SIkOZC">project inquiry form</a> to let me know how I can help you.
-      {% if page.categories contains 'design' %} 
-         Need some more convincing? Read about my work with {% include collection_navigation.html %}.
-      {% endif %}
+      <strong id="data-availability-badge"></strong>
+      Drop me a line at <a href="mailto:inquiry@patdryburgh.com">inquiry@patdryburgh.com</a> and let me know what's on your mind.
     </p>
+    {% if page.categories contains 'design' %} 
+      <p>
+         Need some more convincing? Read about <a href="{{ '/work' | absolute_url }}">my work</a> with {% include collection_navigation.html %}.
+      </p>
+    {% endif %}
   </aside>
 </div>

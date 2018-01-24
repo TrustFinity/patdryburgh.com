@@ -15,16 +15,19 @@
 }
 
 .grid-padded-columns {
-  grid-column-gap: $spacing-unit * 2;
+  grid-column-gap: $spacing-unit * 4;
 }
 
 .grid-padded-rows {
-  grid-row-gap: $spacing-unit * 2;
+  grid-row-gap: $spacing-unit * 4;
 }
 
 @media (min-width: $on-tablet) {
   .grid-tablet {
     display: grid;
+  }
+  .grid-tablet-1-3 {
+    grid-template-columns: 1fr 1fr 1fr;
   }
 }
 

@@ -1,8 +1,8 @@
 - title: Blog
   url: /blog
 
-- title: Design
-  url: /design
+- title: Work
+  url: /work
 
 - title: About
   url: /about
@@ -10,5 +10,5 @@
 - title: Subscribe
   url: /subscribe
 
-- title: Contact
-  url: /contact
+- title: Email
+  url: mailto:hello@patdryburgh.com

@@ -276,6 +276,7 @@ figcaption {
 }
 
 .extra-wide {
+  margin-top: 2rem;
   text-align: center;
   @include figures;
 }
@@ -505,7 +506,7 @@ cite {
     margin-bottom: 2rem;
     z-index: 999;
     transition: all .25s ease-in-out;
-    @media (hover) and (min-width: $on-tablet) {
+    @media screen and (hover) and (min-width: $on-tablet) {
       box-shadow: 0 4px 12px rgba(0,0,0,.05);
       margin-bottom: 0;
       opacity: 0;

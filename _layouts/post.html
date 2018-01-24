@@ -45,19 +45,8 @@ layout: default
         {{ content | markdownify }}
       </div>
 
-      {% if page.categories contains 'design' %}
-        <aside class="wrapper m-top">
-          <div class="call-to-action">
-              <div class="call-to-action-header">
-                <h2>
-                  Thanks for reading about <a href="{{ '/design/' | absolute_url }}">my work</a> with {{ page.title }}.
-                </h2>
-              </div>
-              <p>
-                Interested in working together? You should <a href="mailto:{{ site.email }}">get in touch</a>.
-              </p>
-          </div>
-        </aside>
+      {% if page.categories contains 'work' %}
+        {% include design_cta.html %}
       {% endif %}
 
       {% if page.categories contains 'blog'  or page.categories contains 'micro' %}

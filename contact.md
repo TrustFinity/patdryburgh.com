@@ -1,7 +1,7 @@
 ---
 title: Contact
 subtitle: Need help with a project?
-subsubtitle: I am <em id="data-availability-badge"></em>.
+subsubtitle: <span id="data-availability-badge"></span>
 hide_title: true
 permalink: "/contact/"
 layout: page
