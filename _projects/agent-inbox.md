@@ -6,8 +6,7 @@ categories:
 layout: project
 author: patdryburgh
 photo: "/images/work/hero-agent-inbox.jpg"
-it: I led user experience and interface design for an all-in-one unified communications platform for real estate
-  agents and their clients called
+it: I led user experience and interface design for a unified communications platform for real estate agents and their clients called
 ---
 
 In 2013, entrepreneurs [Tyler Gordon][1] and Elliot Koolik set out to build [Agent Inbox][3], an all-in-one unified communications platform for real estate agents and their clients. Shortly after teaming up with John Ashenden at [H1 Studios][4], the team reached out and invited me to help with the project. 
@@ -29,7 +28,7 @@ With the UX taking shape, I began working on the interface's visual aesthetic. D
 
 When deliverables were ready, we used Invision’s asset generation feature to quickly produce the dozens of icons used throughout the app instantly. Specs of key components were drawn up to help the developers implement the designs, and I made myself available to assist with any design and development questions that they had.
 
-As we worked, we continued to design and refine the team's vision for the product, leading to the successful launch of the first version of the Agent Inbox product in July of 2015.
+As we worked, we continued to refine the team's vision for the product, leading to the successful launch of the first version of the Agent Inbox product in July of 2015.
 
 As a result of the customer-first approach, iterative design, and the team’s application immersion, Agent Inbox has seen widespread adoption and usage across Florida and now the country among those in the real estate community.
 

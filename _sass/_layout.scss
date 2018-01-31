@@ -128,8 +128,9 @@
 
 .post-title {
   color: $heading-text-color;
-  font: 400 1.325em/1 $base-font-family;
-  margin: 0 0 .25em;
+  font-size: 1.325em;
+  line-height: 1.125;
+  margin: 0 0 .125em;
   position: relative;
   z-index: 99;
   a {
@@ -571,6 +572,33 @@ cite {
   color: #fff;
   padding: ($spacing-unit * 2) $spacing-unit;
   text-align: center;
+}
+
+// Availability
+// Using the super cool trick from: 
+// https://css-tricks.com/snippets/css/typewriter-effect/
+
+#data-availability-badge {
+  display: block;
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: .15em solid orange;
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: .15em; /* Adjust as needed */
+  animation: 
+    typing 3.5s steps(40, end),
+    blink-caret .75s step-end infinite;
+}
+
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: orange; }
 }
 
 // Spacing

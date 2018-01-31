@@ -78,4 +78,7 @@ function renderAvailability() {
   }
 }
 
-Availability.custom({ user: '305caaaa-f027-466d-bc2e-66ccdde3c95a', render: renderAvailability })
+Availability.custom({ 
+  user: '305caaaa-f027-466d-bc2e-66ccdde3c95a', 
+  render: renderAvailability 
+})

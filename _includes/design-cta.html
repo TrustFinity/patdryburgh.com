@@ -1,4 +1,6 @@
+{% unless inc.wrapper == "false" %}
 <div class="wrapper">
+{% endunless %}
   <aside class="m-top call-to-action">
     <div class="call-to-action-header">
       <h2>
@@ -10,8 +12,7 @@
       </h2>
     </div>
     <p>
-      <strong id="data-availability-badge"></strong>
-      Drop me a line at <a href="mailto:inquiry@patdryburgh.com">inquiry@patdryburgh.com</a> to discuss what I can do for you.
+      {% include availability.html %}
     </p>
     {% if page.categories contains 'design' %} 
       <p>
@@ -19,4 +20,6 @@
       </p>
     {% endif %}
   </aside>
+{% unless inc.wrapper == "false" %}
 </div>
+{% endunless %}
