@@ -7,7 +7,7 @@ layout: project
 author: patdryburgh
 photo: "/images/work/hero-perch.jpg"
 it: I led branding and product design of a real-time hands-free
-  communication platform for teams like Slack, TripAdvisor, and Shopify called
+  communication platform used by teams like Slack, TripAdvisor, and Shopify called
 ---
 
 In April of 2012, I packed my things and moved across the continent to work with an awesome team of people to create Perch, an always-on video communication service. Through a series of experiments and design iterations, what started as a simple hands-free tool for capturing and sending asynchronous video messages turned into a real-time hands-free communication platform which connecting teams of people wherever they are.
