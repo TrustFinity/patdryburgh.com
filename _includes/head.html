@@ -4,18 +4,18 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <title>{% if page.title %}{{ page.title }} &mdash; {% endif %}{{ site.title }}</title>
+  
   <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
-
-  {% include og.html %}
 
   <script src="https://use.typekit.net/qen7ihg.js"></script>
   <script>try{Typekit.load({ async: true });}catch(e){}</script>
 
-  <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
-  <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ site.rss }}" />
-  <link rel="alternate" title="{{ site.title }}" type="application/json" href="{{ "/feed/index.json" | prepend: site.baseurl | prepend: site.url }}" />
+  <script src="//static.cushionapp.com/availability.js"></script>
   <script src="{{ '/js/init.js' | absolute_url }}"></script>
-
+  
+  <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ site.rss }}" />
+  <link rel="alternate" title="{{ site.title }}" type="application/json" href="{{ "/feed/index.json" | absolute_url }}" />
+  
   <script>
     setTheme();
   </script>
@@ -23,5 +23,11 @@
   <noscript>
     <link rel="stylesheet" href="{{ "/css/main.css" | absolute_url }}?{{site.time | date: '%s%N'}}">
   </noscript>
+  
+  {% if site.google_analytics and jekyll.environment == 'production' %}
+    {% include analytics.html %}
+  {% endif %}
+
+  {% include og.html %}
 
 </head>

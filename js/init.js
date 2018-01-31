@@ -67,3 +67,18 @@ function setTheme() {
   document.write('<link rel="stylesheet" href="' + theme + '?{{site.time | date: '%s%N'}}" type="text/css" id="js-theme">')
 
 }
+
+function renderAvailability() {
+  var availabilityLabel = document.getElementById('data-availability-badge')
+  if (availabilityLabel) {
+    if (this.isAvailable()) {
+      availabilityLabel.innerHTML = 'I am currently booking projects for ' + this.month() + '.';
+      availabilityLabel.className = 'available'
+    }
+  }
+}
+
+Availability.custom({ 
+  user: '305caaaa-f027-466d-bc2e-66ccdde3c95a', 
+  render: renderAvailability 
+})

@@ -24,7 +24,7 @@
 // Wrapper
 
 .wrapper {
-  max-width: 45rem;
+  max-width: $content-width;
   margin-right: auto;
   margin-left: auto;
   position: relative;
@@ -38,26 +38,6 @@
     padding-right: 3rem;
   }
 
-}
-
-// Spacing
-
-.m-top {
-  @include m-top;
-}
-
-.blog .m-top:first-child {
-  margin-top: 0;
-}
-
-.m-bottom {
-  @include m-bottom;
-}
-
-// Footer
-
-.site-footer {
-  padding: 6em 0 2em;
 }
 
 // Content
@@ -147,19 +127,20 @@
 }
 
 .post-title {
-  color: $text-color;
-  font: 900 2em/1 $base-font-family;
-  margin: 0 0 .25em;
+  color: $heading-text-color;
+  font-size: 1.325em;
+  line-height: 1.125;
+  margin: 0 0 .125em;
   position: relative;
   z-index: 99;
   a {
     background-position: 0 1.125em;
     background-repeat: repeat-x;
-    background-size: 1px 4px;
+    background-size: 1px 2px;
     color: $text-color;
     &:hover,
     &:focus {
-      color: $text-color;
+      color: $heading-text-color;
       text-decoration: none;
       @include shadow(2px);
     }
@@ -168,6 +149,12 @@
     opacity: .7;
     font-weight: 400;
     margin-top: 0;
+    @media (max-width: $on-laptop) {
+      font-size: 1em;
+    }
+  }
+  @media (min-width: $on-tablet) {
+    font-size: 2em;
   }
 }
 
@@ -215,39 +202,55 @@ h3.post-title {
 
 .call-to-action {
   border: $border-width solid $brand-color;
-  padding: 0 1em;
-  // max-width: 36rem;
+  @include m-top;
+  padding: 0 2rem;
+  position: relative;
+  @media (min-width: $on-tablet) {
+    &:after {
+      background: rgba($brand-color, 0.05);
+      content: "";
+      position: absolute;
+      top: 0;
+      right: -1rem;
+      bottom: 0;
+      left: -1rem;
+      pointer-events: none;
+      transform: skew(-10deg) rotate(-1.5deg);
+    }
+  }
 }
 
 .call-to-action-header {
-  margin: 0 -.5em 0;
-  max-width: 36rem;
-  padding: 0 1em 0 .5em;
+  background-color: $background-color;
+  display: inline-block;
+  margin: 0 0 0 -1rem;
+  padding: .25rem 1rem;
   position: relative;
-  top: -.825em;
+  top: -1.5rem;
 }
 
 .call-to-action h2 {
-  background-color: $background-color;
-  box-shadow: .5em 0 0px 0px $background-color, -.5em 0 0px 0px $background-color;
-  font-size: 1.325em;
+  font-size: 1em;
   display: inline;
+  @media (min-width: $on-tablet) {
+    font-size: 1.325em;
+  }
 }
 
 .call-to-action-header + * {
-  margin-top: -.25em;
-}
-
-.call-to-action form {
-  margin-bottom: 1em;
+  margin-top: -1em;
 }
 
 .call-to-action-button {
-  margin-bottom: -1.75em;
-  margin-top: .25em;
+  margin-bottom: -1rem;
+  position: relative;
   .btn {
     background: $background-color;
   }
+}
+
+.call-to-action input {
+  padding-bottom: 0;
 }
 
 /* Figures & Images */
@@ -274,23 +277,14 @@ figcaption {
 }
 
 .extra-wide {
-  // margin-left: -1em;
-  // margin-right: -1em;
+  margin-top: 2rem;
   text-align: center;
-  @media (min-width: $on-tablet) {
-    margin-left: -2em;
-    margin-right: -2em;
-  }
-  @media (min-width: $on-desktop) {
-    // display: flex;
-    margin-top: 2em;
-    margin-left: -6em;
-    margin-right: -6em;
-  }
+  @include figures;
 }
 
 .extra-wide img {
   max-width: 100%;
+  width: auto;
   height: auto;
   // @media screen and (min-width: $on-desktop) {
   //   width: -webkit-calc(100% - 15.25em);
@@ -311,6 +305,30 @@ figcaption {
   //   top: 0;
   //   width: 10em;
   // }
+}
+
+.shadowed {
+  box-shadow: 0 8px 24px rgba(0,0,0,.1);
+}
+
+.overlapped {
+  margin-bottom: 3rem;
+  @include figures;
+  img {
+    display: block;
+    width: 80%;
+    transition: all .5s ease-in-out;
+  }
+  img + img {
+    margin-left: auto;
+    margin-top: -35%;
+  }
+}
+
+.overlapped:hover {
+  img + img {
+    margin-top: -15%;
+  }
 }
 
 .photo {
@@ -374,9 +392,8 @@ blockquote {
   color: $text-color;
   font-size: 1em;
   font-style: italic;
-  line-height: 1.475;
   margin: 1em 0;
-  padding-left: $spacing-unit / 2;
+  padding-left: $spacing-unit;
   position: relative;
   p {
     opacity: .7;
@@ -394,7 +411,7 @@ blockquote {
   }
   
   @media (min-width: $on-tablet) {
-    margin-left: $spacing-unit * -1 / 2;
+    margin-left: $spacing-unit * -1;
   }
 }
 
@@ -437,14 +454,14 @@ cite {
   @extend %clearfix;
   @media (min-width: $on-tablet) {
     float: right;
-    margin: 0em -2em 2em 1em;
+    margin: 0em -2rem 2rem 1rem;
     width: 40%;
     blockquote {
       font-size: .825em;
     }
   }
   @media (min-width: $on-desktop) {
-    margin-right: -8em;
+    margin-right: -6rem;
   }
 }
 
@@ -468,9 +485,79 @@ cite {
 
 // Projects
 
+.project-list {
+  max-width: 90rem;
+  margin: 0 auto 4rem;
+  padding: 0 1rem;
+  @media (min-width: $on-tablet) {
+    padding: 0 2rem;
+  }
+  a {
+    display: block;
+    position: relative;
+  }
+  a > header {
+    background: $background-color;
+    color: $text-color;
+    padding: 1em;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin-bottom: 2rem;
+    z-index: 999;
+    transition: all .25s ease-in-out;
+    @media screen and (hover) and (min-width: $on-tablet) {
+      box-shadow: 0 4px 12px rgba(0,0,0,.05);
+      margin-bottom: 0;
+      opacity: 0;
+      position: absolute;
+      transform: scale(.9) translate(0, 0);
+    }
+  }
+  a:hover,
+  a:focus {
+    text-decoration: none;
+    z-index: 999;
+  }
+  a:hover > header,
+  a:focus > header {
+    opacity: 1;
+    @media (hover) and (min-width: $on-tablet) {
+      transform: scale(1) translate(2rem, 2rem);
+    }
+  }
+  h3 {
+    font-weight: 400;
+    margin: 0;
+  }
+  h4 {
+    color: $brand-color;
+    font-size: .625em;
+    font-weight: 400;
+    margin: .75em 0 0;
+  }
+  img {
+    filter: grayscale(100%);
+    transition: all .25s ease-in-out;
+    vertical-align : middle;
+  }
+  &:hover img {
+    opacity: .4;
+  }
+  a:hover img,
+  a:focus img {
+    filter: grayscale(0);
+    opacity: 1;
+    @media (min-width: $on-tablet) {
+      box-shadow: 0 4px 12px rgba(0,0,0,.05);
+      transform: scale(1.05);
+    }
+  }
+}
+
 .project-masthead {
   img {
-    max-width: 90%;
+    max-width: 100%;
     height: auto;
     display: block;
     margin: 0 auto;
@@ -479,12 +566,58 @@ cite {
 
 .project-title {
   font-weight: 400;
-  @include m-top;
-  @include m-bottom;
 }
 
 .project-description {
   color: #fff;
   padding: ($spacing-unit * 2) $spacing-unit;
   text-align: center;
+}
+
+// Availability
+// Using the super cool trick from: 
+// https://css-tricks.com/snippets/css/typewriter-effect/
+
+#data-availability-badge {
+  display: block;
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: .15em solid orange;
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: .15em; /* Adjust as needed */
+  animation: 
+    typing 3.5s steps(40, end),
+    blink-caret .75s step-end infinite;
+}
+
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: orange; }
+}
+
+// Spacing
+
+.m-top {
+  @include m-top;
+}
+
+.blog .m-top:first-child {
+  margin-top: 0;
+}
+
+.m-bottom {
+  @include m-bottom;
+}
+
+// Footer
+
+.site-footer {
+  @include m-top;
+  @include p-bottom;
 }

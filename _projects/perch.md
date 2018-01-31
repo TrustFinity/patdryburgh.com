@@ -1,12 +1,12 @@
 ---
 title: Perch
-date: 2016-08-19 15:25:00 Z
+date: 2013-09-30 15:25:00 Z
 categories:
 - design
 layout: project
 author: patdryburgh
 photo: "/images/work/hero-perch.jpg"
-it: From 2012&ndash;2013, I led branding and product design of a real-time hands-free
+it: I led branding and product design of a real-time hands-free
   communication platform for teams like Slack, TripAdvisor, and Shopify called
 ---
 
@@ -38,12 +38,8 @@ In my role as Sr. User Experience Designer, I was responsible for leading the cr
 </figure>
 
 <figure class="extra-wide">
-  <img src="{{ site.url }}/images/work/perch-website.png" alt="Perch 1.0 Marketing Site — Homepage Design & Photography" />
+  <img src="{{ site.url }}/images/work/perch-website.jpg" alt="Perch 1.0 Marketing Site — Homepage Design & Photography" class="shadowed" />
   <figcaption>
     Perch 1.0 Marketing Site — Homepage Design & Photography
   </figcaption>
 </figure>
-
-When the time came to leave my role at Perch, I was able to lead the search for my replacement. [Brady Valentino](http://bradyvalentino.com) was an up-and-coming UI designer who had been following the story of Perch from the beginning. Brady and the team were able to design and develop two excellent major updates and a series of minor updates to the Perch experience in the years following my resignation.
-
-Sadly, Perch [closed its doors](https://perch.co/blog/goodbye-perch/) in September of 2016.

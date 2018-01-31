@@ -1,17 +1,14 @@
-- title: Design
-  url: /design
-
-- title: Writing
+- title: Blog
   url: /blog
+
+- title: Work
+  url: /work
 
 - title: About
   url: /about
 
-- title: Now
-  url: /now
-
 - title: Subscribe
   url: /subscribe
 
-- title: Contact
-  url: /contact
+- title: Connect
+  url: /connect

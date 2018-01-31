@@ -1,5 +1,8 @@
 ---
 title: Pat Dryburgh
+description: Pat Dryburgh is a designer based in Vancouver, BC.
+email: hello@patdryburgh.com
+
 timezone: '+0700'
 collections:
   posts:
@@ -11,9 +14,8 @@ collections:
   projects:
     title: Projects
     output: true
-    permalink: /:collection/:name
-email: hello@patdryburgh.com
-description: Pat Dryburgh is a product designer based in Vancouver, BC.
+    permalink: /work/:name
+    
 baseurl: 
 url: http://patdryburgh.com
 rss: http://feed.patdryburgh.com
@@ -22,10 +24,13 @@ blog_rss: http://feed.patdryburgh.com/blog
 blog_json: http://patdryburgh.com/feed/blog.json
 micro_rss: http://feed.patdryburgh.com/micro
 micro_json: http://patdryburgh.com/feed/micro.json
+
 twitter: http://twitter.com/patdryburgh
-twitter_username: patdryburgh
-github_username: patdryburgh
+micro_blog: https://micro.blog/pat
+instagram: http://instagram.com/patdryburgh
+
 permalink: "/:categories/:title/"
+
 markdown: kramdown
 markdown_ext: markdown,mkdown,mkdn,mkd,md
 kramdown:
@@ -35,9 +40,9 @@ kramdown:
   toc_levels: 1..6
   smart_quotes: lsquo,rsquo,ldquo,rdquo
   enable_coderay: false
-flickr:
-  api_key: 9672d2a4458dfb7049545b6a93a0818a
+
 plugins:
 - jekyll-paginate
+
 paginate: 20
 paginate_path: "/page/:num/"

@@ -1,0 +1,15 @@
+.svg-container {
+  position: relative;
+  width: 100%;
+  vertical-align: middle; 
+}
+
+.svg-container svg {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+path {
+  fill: $text-color;
+}

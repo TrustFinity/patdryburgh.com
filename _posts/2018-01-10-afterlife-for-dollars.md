@@ -9,11 +9,11 @@ author: patdryburgh
 
 My brother just sent me a link to a page that aims to profit off my mother's obituary.
 
-{% include image.html src="/images/uploads/afterlife-profile.png" alt="Screenshot of Margaret Dryburgh's on Afterlife.co" caption="My mom's unauthorized profile on Afterlife.co" %}
+{% include image.html src="/images/uploads/afterlife-profile.png" alt="Screenshot of Margaret Dryburgh's on Afterlife.co" caption="My mom's unauthorized profile on Afterlife.co" class="shadowed" %}
 
 From this page, you can buy flowers for $269.99 CAD and have them sent to the funeral home that buried her over [3 years ago][3].
 
-{% include image.html src="/images/uploads/afterlife-flowers.png" alt="Screenshot of purchase form for flowers" caption="My mom preferred carnations." %}
+{% include image.html src="/images/uploads/afterlife-flowers.png" alt="Screenshot of purchase form for flowers" caption="My mom preferred carnations." class="shadowed" %}
 
 The thing is, our family didn't ask to have her obituary used in this way. We were not asked permission for her name and likeness to be used to market flowers or for anyone to “light” anything for us. 
 
@@ -21,12 +21,12 @@ When writing about my mother [on this very blog][vb], I have never once asked an
 
 As of this writing, Afterlife's FAQ page leaves much to be desired:
 
-{% include image.html src="/images/uploads/afterlife-faq.png" alt="Screenshot of FAQ page on Afterlife.co" %}
+{% include image.html src="/images/uploads/afterlife-faq.png" alt="Screenshot of FAQ page on Afterlife.co" class="shadowed" %}
 
 Afterlife does offer a page to submit a request for removal, which states the following:
 
 <div class="pull-out">
-  {% include image.html src="/images/uploads/afterlife-removal-form.png" alt="Screenshot of Afterlife.co removal request form" extra_wide="false" %}
+  {% include image.html src="/images/uploads/afterlife-removal-form.png" alt="Screenshot of Afterlife.co removal request form" extra_wide="false" class="shadowed" %}
 </div>
 
 >This publication is used to honor the deceased, show respect and support to the families, and allow anyone to contribute to build a beautiful memorial page. 

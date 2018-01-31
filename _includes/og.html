@@ -1,6 +1,12 @@
-<meta property="og:title" content="{% if page.title %}{{ page.title }} &mdash; {% endif %}{{ site.title }}" />
-<meta property="og:url" content="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}" />
-<meta property="og:description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}" />
+<link rel="canonical" href="{{ page.url | replace:'index.html','' | absolute_url }}">
+
+<meta property="og:title" 
+      content="{% if page.title %}{{ page.title }} &mdash; 
+      {% endif %}{{ site.title }}" />
+<meta property="og:url" 
+      content="{{ page.url | replace:'index.html','' | prepend: site.baseurl | absolute_url }}" />
+<meta property="og:description" 
+      content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% elsif post.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}" />
 
 {% if page.home %}
   <meta property="og:type" content="website" />
@@ -17,7 +23,11 @@
 {% endif %}
 
 {% if page.photo %}
-  <meta property="og:image" content="{{ page.photo | prepend: site.baseurl | prepend: site.url }}" />
+  <meta property="og:image" content="{{ page.photo | absolute_url }}" />
+{% elsif post.photo %}
+  <meta property="og:image" content="{{ post.photo | absolute_url }}" />
 {% else %}
-  <meta property="og:image" content="{{ site.url }}/images/site/patdryburgh.jpg" />
+  <meta property="og:image" content="https://c2.staticflickr.com/8/7060/6904847186_8ed35bb470_h.jpg" />
 {% endif %}
+
+<link href="https://micro.blog/pat" rel="me" />

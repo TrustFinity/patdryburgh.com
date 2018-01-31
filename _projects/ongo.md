@@ -1,12 +1,12 @@
 ---
 title: Ongo
-date: 2016-08-19 15:20:00 Z
+date: 2012-04-19 15:20:00 Z
 categories:
 - design
 layout: project
 author: patdryburgh
 photo: "/images/work/hero-ongo.jpg"
-it: From 2011&ndash;2012, I designed mobile and web interfaces for a New York Times and Washington
+it: I designed mobile and web interfaces for a New York Times and Washington
   Post-backed news reading service called
 ---
 
@@ -18,10 +18,6 @@ During an extended contract with Ongo, I was able to help the team solve a numbe
 
 Working closely with the product manager, UX designer, and developers working across multiple platforms, I designed user interfaces for multiple areas of the product, not limited to but including the main navigation of the desktop and mobile web apps, table of contents views for magazines in the iPad app, as well as various marketing pages and other assets.
 
-While the work we did to improve both the product and marketing was able to drive growth to the service, mitigating circumstances prevented the company from securing a second round of funding.
-
-Sadly, Ongo [closed its doors][2] in May of 2012.
-
 <figure class="extra-wide">
   <img src="{{ site.url }}/images/work/ongo-work.png" alt="Ongo" />
   <figcaption>
@@ -30,4 +26,3 @@ Sadly, Ongo [closed its doors][2] in May of 2012.
 </figure>
 
 [1]: https://gigaom.com/2010/09/29/419-social-news-startup-ongo-raises-12-million-from-gannett-nytco-wapo/
-[2]: https://gigaom.com/2012/05/08/paywall-site-ongo-closes/

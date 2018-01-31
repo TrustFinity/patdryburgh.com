@@ -1,12 +1,12 @@
 ---
 title: Tools &amp; Toys
-date: 2016-08-19 15:30:00 Z
+date: 2014-08-19 15:30:00 Z
 categories:
 - design
 layout: project
 author: patdryburgh
 photo: "/images/work/hero-tools-toys.jpg"
-it: In 2014, I designed and built a new responsive website that saw 3x growth year-over-year
+it: This redesigned brand and responsive website generated 3x growth year-over-year
   in pageviews, unique visitors, and revenue for
 ---
 
@@ -18,11 +18,11 @@ Edited by Shawn and [Stephen Hackett][4] and written by a growing number of free
 
 ## The Logo &amp; Masthead
 
-Tools &amp; Toys' audience is smart, creative, and adventurous. They are as comfortable in front of a BBQ as they are a keyboard and have a finely-tuned sense of quality. In designing the logo, we wanted to set Tools &amp; Toys apart from other gadget-focused publications. By leaning into a more outdoorsy look, I was able to design a logo that sits as the centrepiece of the site's masthead.
+Tools &amp; Toys' audience is smart, creative, and adventurous. They are as comfortable in front of a BBQ as they are a keyboard and have a finely-tuned sense of quality. In designing the logo, we wanted to set Tools &amp; Toys apart. Rather than relying a Grotesque or Modern typeface common among most publications in the genre, I used [Lust Script][ls] by [Neil Summerour][ns] to design a logo that spoke to a feeling of adventure and exploration.
+
+{% include image.html src="/images/work/tools-toys-logo.png" alt="Tools &amp; Toys Logo and Navigation" %}
 
 In contrast with the logo's flowing nature, the site's navigation was designed to be sturdy and structural. It allows users to quickly navigate between categories on the site, search for content, and engage further with the publication.
-
-## Featured Content
 
 <div class="pull-out">
   <blockquote>
@@ -34,9 +34,11 @@ In contrast with the logo's flowing nature, the site's navigation was designed t
   </cite>
 </div>
 
+## Featured Content
+
 The long-form reviews and product guides had built a tremendous reputation amongst Tools &amp; Toys' readership, but the team wasn't proud of how their work was being presented. They also wanted to put a heavier emphasis on the amazing photography that accompanies each piece.
 
-{% include image.html src="/images/work/tools-toys-featured-content.png" alt="Tools &amp; Toys Featured Content" %}
+{% include image.html src="/images/work/tools-toys-featured-content.jpg" alt="Tools &amp; Toys Featured Content" class="shadowed" %}
 
 
 <div class="pull-out">
@@ -53,7 +55,7 @@ The long-form reviews and product guides had built a tremendous reputation among
 
 Tools &amp; Toys was founded on sharing beautiful and useful products for geeky outdoor enthusiasts. The design of the product pages on the site now feature larger photos and clean typography, as well as the ability to browse related products and articles featured on the site. The site's writers now have an easy way to include affiliate links that drive the site's revenue.
 
-{% include image.html src="/images/work/tools-toys-product-page.png" alt="Tools &amp; Toys Product Page" caption="The new product page design features bold, beautiful photography and clean typography" %}
+{% include image.html src="/images/work/tools-toys-product-page.jpg" alt="Tools &amp; Toys Product Page" caption="The new product page design features bold, beautiful photography and clean typography" class="shadowed" %}
 
 Shawn and his team have continued to produce great work since the redesign. I was proud to provide photos for a [review of the Goruck GR1][2] written by my good friend [Ben Brooks][3].
 
@@ -61,3 +63,5 @@ Shawn and his team have continued to produce great work since the redesign. I wa
 [2]: http://toolsandtoys.net/reviews/goruck-gr1/
 [3]: http://brooksreview.net
 [4]: https://512pixels.net
+[ls]: https://typekit.com/fonts/lust-script
+[ns]: https://typekit.com/designers/neil-summerour

@@ -44,3 +44,21 @@
     padding-bottom: 4em;
   }
 }
+
+@mixin figures {
+  @media (min-width: $on-tablet) and (max-width: $on-desktop) {
+    margin-left: -2rem;
+    margin-right: -2rem;
+    .pull-out + & {
+      width: 60%
+    }
+  }
+  @media (min-width: $on-desktop) {
+    margin-top: 2rem;
+    margin-left: -6rem;
+    margin-right: -6rem;
+    .pull-out + & {
+      width: 80%
+    }
+  }
+}
