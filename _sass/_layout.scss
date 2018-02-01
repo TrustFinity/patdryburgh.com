@@ -203,10 +203,12 @@ h3.post-title {
   // border: $border-width solid $brand-color;
   color: rgba($background-color, .8);
   @include m-top;
-  padding: .5em 1em 1em;
-  margin-left: -1rem;
-  margin-right: -1rem;
+  padding: 2rem 1rem 2.25rem;
   position: relative;
+  @media (min-width: $on-tablet) {
+    margin-left: -1rem;
+    margin-right: -1rem;
+  }
   & a {
     color: $background-color;
   }
@@ -215,16 +217,12 @@ h3.post-title {
     box-shadow: 4px 4px 0 $background-color, 8px 8px 0 $shadow-color;
     content: "";
     position: absolute;
-    top: -.5em;
-    right: 0;
-    bottom: -.5rem;
-    left: 0;
+    top: 0;
+    right: -.5rem;
+    bottom: 0;
+    left: -.5rem;
     pointer-events: none;
-    @media (min-width: $on-tablet) {
-      right: -.5rem;
-      left: -.5rem;
-      transform: skew(-2.5deg) rotate(-.25deg);
-    }
+    transform: skew(-2.5deg) rotate(-.25deg);
   }
 }
 
@@ -244,6 +242,10 @@ h3.post-title {
 
 .call-to-action-header + p {
   margin-top: .0625em;
+}
+
+.call-to-action > p:last-child {
+  margin-bottom: 0;
 }
 
 .call-to-action-button {
