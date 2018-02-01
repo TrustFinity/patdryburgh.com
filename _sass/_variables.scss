@@ -1,6 +1,7 @@
 // Typography
 $base-font-family: "freight-sans-pro", Helvetica, Arial, sans-serif;
-$base-font-size:   1em;
+$secondary-font-family: "freight-macro-pro", Georgia, Times, serif;
+$base-font-size:   .825em;
 $small-font-size:  $base-font-size * 0.875;
 $base-line-height: 1.5;
 
@@ -8,9 +9,9 @@ $spacing-unit:     1em;
 $border-width:     1px;
 
 // Width of the content area
-$content-width:    45rem;
+$content-width:    42rem;
 
-$on-bigphone:      22em;
-$on-tablet:        48em;
-$on-laptop:        58em;
-$on-desktop:       75em;
+$on-bigphone:      28rem;
+$on-tablet:        48rem;
+$on-laptop:        58rem;
+$on-desktop:       75rem;

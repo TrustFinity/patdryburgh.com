@@ -128,7 +128,7 @@
 
 .post-title {
   color: $heading-text-color;
-  font-size: 1.325em;
+  font-size: 1.5em;
   line-height: 1.125;
   margin: 0 0 .125em;
   position: relative;
@@ -149,9 +149,7 @@
     opacity: .7;
     font-weight: 400;
     margin-top: 0;
-    @media (max-width: $on-laptop) {
-      font-size: 1em;
-    }
+    font-size: 1.5em;
   }
   @media (min-width: $on-tablet) {
     font-size: 2em;
@@ -201,41 +199,50 @@ h3.post-title {
 }
 
 .call-to-action {
-  border: $border-width solid $brand-color;
+  // border: $border-width solid $brand-color;
+  color: rgba($background-color, .8);
   @include m-top;
-  padding: 0 2rem;
+  padding: .5em 1em 1em;
+  margin-left: -1rem;
+  margin-right: -1rem;
   position: relative;
-  @media (min-width: $on-tablet) {
-    &:after {
-      background: rgba($brand-color, 0.05);
-      content: "";
-      position: absolute;
-      top: 0;
-      right: -1rem;
-      bottom: 0;
-      left: -1rem;
-      pointer-events: none;
-      transform: skew(-10deg) rotate(-1.5deg);
+  & a {
+    color: $background-color;
+  }
+  &:before {
+    background: $brand-color;
+    box-shadow: 4px 4px 0 $background-color, 8px 8px 0 $shadow-color;
+    content: "";
+    position: absolute;
+    top: -.5em;
+    right: 0;
+    bottom: -.5rem;
+    left: 0;
+    pointer-events: none;
+    @media (min-width: $on-tablet) {
+      right: -.5rem;
+      left: -.5rem;
+      transform: skew(-2.5deg) rotate(-.25deg);
     }
   }
 }
 
-.call-to-action-header {
-  background-color: $background-color;
-  display: inline-block;
-  margin: 0 0 0 -1rem;
-  padding: .25rem 1rem;
+.call-to-action-header h2 {
+  color: $background-color;
+  margin: 0;
+  font-size: 1em;
+  @media (min-width: $on-tablet) {
+    font-size: 1.75em;
+  }
+}
+
+.call-to-action > * {
   position: relative;
-  top: -1em;
+  z-index: 9;
 }
 
-.call-to-action h2 {
-  display: inline;
-  font-size: 1.325em;
-}
-
-.call-to-action-header + * {
-  margin-top: -1em;
+.call-to-action-header + p {
+  margin-top: .0625em;
 }
 
 .call-to-action-button {
@@ -246,7 +253,8 @@ h3.post-title {
   }
 }
 
-.call-to-action input {
+.call-to-action input[type="email"] {
+  color: $background-color;
   padding-bottom: 0;
 }
 
@@ -385,7 +393,7 @@ figcaption {
 
 blockquote {
   border: 0;
-  border-left: 2px solid $brand-color;
+  border-left: 4px solid $brand-color;
   color: $text-color;
   font-size: 1em;
   font-style: italic;

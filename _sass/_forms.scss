@@ -32,6 +32,19 @@ button[type=submit] {
   outline: none;
 }
 
+.call-to-action ::placeholder {
+    color: rgba($background-color, .7);
+    opacity: 1; /* Firefox */
+}
+
+.call-to-action :-ms-input-placeholder {
+    color: rgba($background-color, .7);
+}
+
+.call-to-action ::-ms-input-placeholder {
+    color: rgba($background-color, .7);
+}
+
 .floating-input input[type="text"],
 .floating-input input[type="email"],
 .floating-input textarea {
