@@ -129,6 +129,7 @@
 .post-title {
   color: $heading-text-color;
   font-size: 1.5em;
+  font-weight: 400;
   line-height: 1.125;
   margin: 0 0 .125em;
   position: relative;
@@ -532,11 +533,13 @@ cite {
     }
   }
   h3 {
+    font-size: 1em;
     font-weight: 400;
     margin: 0;
   }
   h4 {
     color: $brand-color;
+    font-family: $base-font-family;
     font-size: .625em;
     font-weight: 400;
     margin: .75em 0 0;
