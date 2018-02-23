@@ -3,7 +3,7 @@ title: Pat Dryburgh
 description: Pat Dryburgh is a designer based in Vancouver, BC.
 email: hello@patdryburgh.com
 
-timezone: '+0700'
+timezone: '-0800'
 collections:
   posts:
     title: Posts
