@@ -14,7 +14,7 @@ collections:
   projects:
     title: Projects
     output: true
-    permalink: /work/:name
+    permalink: /work/:name/
     
 baseurl: 
 url: http://patdryburgh.com
@@ -29,7 +29,7 @@ twitter: http://twitter.com/patdryburgh
 micro_blog: https://micro.blog/pat
 instagram: http://instagram.com/patdryburgh
 
-permalink: "/:categories/:title/"
+permalink: /:categories/:title/
 
 markdown: kramdown
 markdown_ext: markdown,mkdown,mkdn,mkd,md
