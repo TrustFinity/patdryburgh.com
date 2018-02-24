@@ -1,7 +1,8 @@
 ---
+browser_title: Connect
 title: The internet was made for friends.
 permalink: "/connect/"
-layout: page
+layout: post
 ---
 
 I am a proud member and proponent of the [independent web][iw]. I have [a weekly newsletter as well as RSS and JSON feeds][ss] available for you to follow my writing. 

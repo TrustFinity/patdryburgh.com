@@ -1,13 +1,12 @@
 ---
-title: Subscribe
-subtitle: I don't wanna close my eyes.
-subsubtitle: And you don't wanna miss a thing.
+browser_title: Subscribe
+title: I don't wanna close my eyes.
+subtitle: And you don't wanna miss a thing.
 permalink: "/subscribe/"
-layout: page
-hide_title: true
+layout: post
 ---
 
-{% include newsletter.html wrapped="true" margin="bottom m-top" %}
+{% include newsletter.html %}
 
 ## Full Feed
 

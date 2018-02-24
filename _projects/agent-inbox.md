@@ -3,7 +3,7 @@ title: Agent Inbox
 date: 2015-01-19 15:35:00 Z
 categories:
 - design
-layout: project
+layout: post
 author: patdryburgh
 photo: "/images/work/hero-agent-inbox.jpg"
 it: I led user experience and interface design for a unified communications platform for real estate agents and their clients called

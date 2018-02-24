@@ -3,7 +3,7 @@ title: Finstripe
 date: 2015-06-19 15:30:00 Z
 categories:
 - design
-layout: project
+layout: post
 author: patdryburgh
 photo: "/images/work/hero-finstripe.jpg"
 it: I designed a responsive front-end experience for a modern financing platform called

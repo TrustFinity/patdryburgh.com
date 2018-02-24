@@ -1,10 +1,10 @@
 ---
-title: About
+browser_title: About
 permalink: "/about/"
-subtitle: My name is Pat Dryburgh.
-subsubtitle:  A designer & musician in Vancouver, BC.
+title: My name is Pat Dryburgh.
+subtitle:  A designer & musician in Vancouver, BC.
 hide_title: true
-layout: page
+layout: post
 --- 
 
 I've been designing and building on the web for over 10 years. From a music playlist generator powered by tweets to an accounting platform for micro-financing institutions in sub-Saharan Africa, my breadth of experience brings fresh thinking to every project.

@@ -1,62 +1,58 @@
 ---
-title: Work
-subtitle: I design products &amp; websites that work &amp; look great on any device.
-subsubtitle: More work available on <a href="https://dribbble.com/pat">Dribbble</a>.
+browser_title: Work
+title: I design products &amp; websites that work &amp; look great on any device.
+subtitle: More work available on <a href="https://dribbble.com/pat">Dribbble</a>.
 layout: default
 ---
 
-<main class="work page-content">
+<header class="post-header wrapper m-bottom">
+  <h1 class="post-title">
+    {{ page.subtitle }}
+  </h1>
+  <h2>
+    {{ page.subsubtitle }}
+  </h2>
+</header>
 
-  <header class="post-header wrapper m-bottom">
-    <h1 class="post-title">
-      {{ page.subtitle }}
-    </h1>
-    <h2>
-      {{ page.subsubtitle }}
-    </h2>
-  </header>
+<ul class="project-list grid-tablet grid-1-2 list-unstyled">
+  {% assign projects = site.projects | sort: 'date' | reverse %}
+  {% for post in projects %}
+    <li>
+      <a href="{{ post.url | absolute_url }}">
+        <img src="{{ post.photo | replace: 'hero', 'thumb' | absolute_url }}" alt="{{ post.title }}">
+        <header>
+          <h3>
+            {{ post.it }} <strong>{{ post.title }}</strong>.
+          </h3>
+          <h4>
+            View Case Study &rarr;
+          </h4>
+        </header>
+      </a>
+    </li>
+  {% endfor %}
+</ul>
 
-  <ul class="project-list grid-tablet grid-1-2 list-unstyled">
-    {% assign projects = site.projects | sort: 'date' | reverse %}
-    {% for post in projects %}
-      <li>
-        <a href="{{ post.url | prepend: site.baseurl }}">
-          <img src="{{ post.photo | replace: 'hero', 'thumb' | absolute_url }}" alt="{{ post.title }}">
-          <header>
-            <h3>
-              {{ post.it }} <strong>{{ post.title }}</strong>.
-            </h3>
-            <h4>
-              View Case Study &rarr;
-            </h4>
-          </header>
-        </a>
-      </li>
-    {% endfor %}
+<div class="wrapper">
+
+  <h2>How can I help?</h2>
+
+  <p>
+    I love discussing interesting projects of all types (got a new album on the way? I'd love to hear it!), but there are specific areas where I can help you achieve your business objectives and create value for your business and your customers.
+  </p>
+
+  <ul>
+    <li>
+      <strong>Prototyping your awesome new idea.</strong> Are you starting a new company and want to validate your ideas before raising your next round of funding? Or perhaps your company already has an existing product but doesn't have the resources to explore new ideas and opportunities. I've worked with startups and established businesses looking to validate their ideas and test their assumptions through design sprints, prototyping, and building minimum viable products.
+    </li>
+    <li>
+      <strong>Naming your new business or product.</strong> Coming up with the right name for your brand requires an equal mix of creative and strategic thinking. I can help you brainstorm a list of names or objectively evaluate an existing list of options to help you find the right name for your brand.
+    </li>
+    <li>
+      <strong>Designing &amp; developing awesome websites and apps.</strong> With over 10 years of experience working with companies both large and small, I have the ability to bring your idea from conception to launch. I am able to lead teams of designers and developers to help you reach your business objectives while creating an awesome experience for your customers.
+    </li>
   </ul>
 
-  <div class="wrapper">
+</div>
 
-    <h2>How can I help?</h2>
-
-    <p>
-      I love discussing interesting projects of all types (got a new album on the way? I'd love to hear it!), but there are specific areas where I can help you achieve your business objectives and create value for your business and your customers.
-    </p>
-
-    <ul>
-      <li>
-        <strong>Prototyping your awesome new idea.</strong> Are you starting a new company and want to validate your ideas before raising your next round of funding? Or perhaps your company already has an existing product but doesn't have the resources to explore new ideas and opportunities. I've worked with startups and established businesses looking to validate their ideas and test their assumptions through design sprints, prototyping, and building minimum viable products.
-      </li>
-      <li>
-        <strong>Naming your new business or product.</strong> Coming up with the right name for your brand requires an equal mix of creative and strategic thinking. I can help you brainstorm a list of names or objectively evaluate an existing list of options to help you find the right name for your brand.
-      </li>
-      <li>
-        <strong>Designing &amp; developing awesome websites and apps.</strong> With over 10 years of experience working with companies both large and small, I have the ability to bring your idea from conception to launch. I am able to lead teams of designers and developers to help you reach your business objectives while creating an awesome experience for your customers.
-      </li>
-    </ul>
-
-  </div>
-
-  {% include design-cta.html margin="top" %}
-
-</main>
+{% include design_cta.html margin="top" %}

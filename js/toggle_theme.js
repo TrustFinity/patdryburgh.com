@@ -16,7 +16,9 @@ function toggleTheme(e) {
 
 }
 
-toggleButton  = document.getElementById('js-theme-toggle')
-toggleButton.className = currentTheme
+var body = document.getElementsByTagName('body')[0]
 
-toggleButton.addEventListener('click', toggleTheme)
+body.appendChild(themeButton)
+
+themeButton.className = currentTheme
+themeButton.addEventListener('click', toggleTheme)
