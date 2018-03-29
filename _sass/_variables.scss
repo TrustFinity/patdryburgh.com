@@ -1,17 +1,18 @@
 // Typography
-$base-font-family: "freight-sans-pro", Helvetica, Arial, sans-serif;
-$secondary-font-family: "freight-macro-pro", Georgia, Times, serif;
+$base-font-family: "freight-text-pro", Georgia, Times, serif;
+$secondary-font-family: "freight-sans-pro", Helvetica, Arial, sans-serif;
 $base-font-size:   1em;
-$small-font-size:  $base-font-size * 0.875;
+$small-font-size:  $base-font-size * 0.75;
 $base-line-height: 1.5;
+$base-font-weight: 400;
 
-$spacing-unit:     1em;
+$spacing-unit:     1.5rem;
 $border-width:     1px;
 
 // Width of the content area
-$content-width:    42rem;
+$content-width:    30rem;
 
-$on-bigphone:      28rem;
-$on-tablet:        48rem;
-$on-laptop:        58rem;
-$on-desktop:       75rem;
+$on-bigphone:      375px;
+$on-tablet:        768px;
+$on-laptop:        928px;
+$on-desktop:       1200px;

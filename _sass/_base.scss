@@ -1,104 +1,131 @@
-/* Reset some basic elements */
+html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address,cite,code,del,dfn,em,img,ins,kbd,q,samp,small,strong,sub,sup,var,b,i,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,figcaption,figure,footer,header,hgroup,menu,nav,section,summary,time,mark,audio,video{border:0;font-size:100%;font:inherit;vertical-align:baseline;margin:0;padding:0}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:none}ins{background-color:#ff9;color:#000;text-decoration:none}mark{background-color:#ff9;color:#000;font-style:italic;font-weight:700}del{text-decoration:line-through}abbr[title],dfn[title]{border-bottom:1px dotted;cursor:help}table{border-collapse:collapse;border-spacing:0}hr{display:block;height:1px;border:0;border-top:1px solid #ccc;margin:1em 0;padding:0}input,select{vertical-align:middle} .clearfix:after{clear:both;content:' ';display:block;font-size:0;line-height:0;visibility:hidden;width:0;height:0}.clearfix{display:inline-block}* html .clearfix{height:1%}.clearfix{display:block}
 
-body, h1, h2, h3, h4, h5, h6,
-p, blockquote, pre, hr,
-dl, dd, ol, ul, figure {
-    margin: 0;
-    padding: 0;
-}
+// Baseline
 
-/* Basic styling */
+// @import url("//basehold.it/24") only screen;
+// @import url("//basehold.it/30") only screen and (min-width: $on-tablet);
+
+// Body
 
 ::-moz-selection { background: lighten($brand-color, 30%); }
 ::selection { background: lighten($brand-color, 30%); }
 
+html,
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
 html {
   background: $brand-color;
   height: 100%;
-  width: 100%;
+  @media (min-width: $on-tablet) {
+    font-size: $base-font-size * 1.25;
+  }
 }
 
 body {
   background-color: $background-color;
   color: $text-color;
-  font: 400 $base-font-size $base-font-family;
+  font: $base-font-weight $base-font-size $base-font-family;
   line-height: $base-line-height;
   min-height: 100%;
-  width: 100%;
   -webkit-font-smoothing: antialiased;
   transition: background-color .125s ease-in-out;
-  @media (min-width: $on-bigphone) {
-    font-size: 1.25em;
-  }
-  @media (min-width: $on-tablet) {
-    font-size: 1.25em;
-  }
 }
 
-h1, h2, h3, h4, h5, h6,
-p, blockquote, pre,
-ul, ol, dl, figure,
-%vertical-rhythm {
-  margin: $spacing-unit 0;
-}
-
-h1, h2, h3, h4, h5, h6 {
-  color: $heading-text-color;
-  font-family: $secondary-font-family;
-  font-weight: 700;
-}
-
-h2, h3, h4, h5, h6 {
-  margin-top: 1em;
-  margin-bottom: .5em;
-}
-
-h2 {
-  font-size: 1.5em;
-  line-height: 1.25;
-}
-
-h3 {
-  font-size: 1.25em;
-  font-weight: 700;
-  margin-bottom: 0;
-}
-
-h3 + p,
-h4 + p,
-h5 + p,
-h6 + p {
-  margin-top: .5em;
-}
-
-h4 {
-  font-size: 1em;
-  font-weight: 700;
-  text-transform: uppercase;
-}
-
-h5 {
-  font-size: .825em;
-  font-weight: normal;
-  text-transform: uppercase;
-}
-
-h6 {
-  font-size: .75em;
-  font-weight: normal;
-  text-transform: uppercase;
-}
+// Typographical elements
 
 p,
 ul,
-ol {
-  margin: 1em 0;
-  font-size: 1.125em;
+ol,
+dd {
+  margin: 1.5em 0;
+  line-height: $base-line-height;
 }
 
-h2 + p {
-  margin-top: 0;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: $heading-text-color;
+  font-family: $secondary-font-family;
+  font-weight: 900;
 }
+
+h1 {
+  font-size: 1.5rem;
+  line-height: 1.5rem;
+  @media (min-width: $on-tablet) {
+    font-size: 3rem;
+    line-height: 3rem;
+  }
+}
+
+h2 {
+  font-size: 1.25rem;
+  line-height: 1.5rem;
+  @media (min-width: $on-tablet) {
+    font-size: 2.25rem;
+    line-height: 3rem;
+  }
+}
+
+strong {
+  font-weight: 700;
+  h1 > & {
+    font-weight: 900;
+  }
+}
+
+// h1, h2, h3, h4, h5, h6,
+// p, blockquote, pre,
+// ul, ol, dl, figure {
+//   margin: $spacing-unit 0;
+// }
+
+// h1, h2, h3, h4, h5, h6 {
+//   color: $heading-text-color;
+//   font-family: $secondary-font-family;
+//   font-weight: 700;
+// }
+
+// h2, h3, h4, h5, h6 {
+//   margin-top: 1em;
+//   margin-bottom: .5em;
+// }
+
+// h2 {
+//   font-size: 1.5em;
+//   line-height: 1.25;
+// }
+
+// h3 {
+//   font-size: 1.25em;
+//   font-weight: 700;
+//   margin-bottom: 0;
+// }
+
+// h4 {
+//   font-size: 1em;
+//   font-weight: 700;
+//   text-transform: uppercase;
+// }
+
+// h5 {
+//   font-size: .825em;
+//   font-weight: normal;
+//   text-transform: uppercase;
+// }
+
+// h6 {
+//   font-size: .75em;
+//   font-weight: normal;
+//   text-transform: uppercase;
+// }
 
 .year-heading {
   color: $grey-color;
@@ -116,15 +143,15 @@ h2 + p {
   font-size: .75em
 }
 
-/* Images */
+//// Blockquotes
 
-img {
-  max-width: 100%;
-  vertical-align: middle;
+cite .title {
+  display: block;
+  line-height: 1;
+  margin-left: 1.5em;
 }
 
-
-/* Lists */
+//// Lists
 
 ul, ol {
   margin-left: $spacing-unit * 1.5;
@@ -137,37 +164,37 @@ li {
     }
 }
 
-
-/* Links */
+//// Links
 
 a {
-  color: $brand-color;
+  color: $text-color;
   text-decoration: none;
-
+  
   &:visited {
-    color: lighten($brand-color, 5%);
+    color: lighten($text-color, 5%);
   }
 
   &:hover {
+    text-decoration: none;
+  }
+
+  .post__content > * & {
     text-decoration: underline;
+    &:hover,
+    &:focus {
+      color: $brand-color;
+      text-decoration: none;
+    }
   }
 }
 
-/* Blockquotes */
-
-cite .title {
-  display: block;
-  line-height: 1;
-  margin-left: 1.5em;
-}
-
-/* Abbreviations */
+// Abbreviations
 
 abbr {
   cursor: help;
 }
 
-/* Code formatting */
+// Code formatting
 
 code {
   background: none;
@@ -196,36 +223,33 @@ pre {
   }
 }
 
-/* Sub and super-script */
+// Sub and superscript
 
 sup, 
 sub {
   line-height: 1
 }
 
+// Images
 
-/* Hard rules */
+img {
+  max-width: 100%;
+  vertical-align: middle;
+}
+
+// Hard rules
 
 hr {
   border: 0;
-  margin: 1.5em auto;
+  margin: auto;
+  @include m(top);
+  @include m(bottom);
   &:after {
     @include separator;
   }
 }
 
-
-/* Clearfix */
-
-%clearfix {
-  &:after {
-    content: "";
-    display: table;
-    clear: both;
-  }
-}
-
-/* Tables */
+// Tables
 
 table {
   min-width: 100%;
@@ -247,6 +271,8 @@ table th:first-child,
 table td:first-child {
   padding-left: 0;
 }
+
+// Signatures
 
 .signatures th {
   padding-bottom: 2em;

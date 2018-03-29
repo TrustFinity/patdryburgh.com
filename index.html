@@ -3,24 +3,22 @@ layout: default
 home: true
 ---
 
-<main class="page-content">
-
-  {% for post in site.categories.blog %}
-    {% unless post.draft %}
-      {% assign currentdate = post.date | date: "%Y" %}
-      {% if post.date and currentdate != date %}
-        {% unless forloop.first %}
-          </ul>
-        {% endunless %}
-        <div class="wrapper m-top">
-          <h2 class="post-meta" id="y{{ currentdate }}">{{ currentdate }}</h2>
-        </div>
-        <ul class="post-list list-unstyled">
-        {% assign date = currentdate %}
-      {% endif %}
-      {% include post_link.html %}
-      {% if forloop.last %}</ul><!-- last -->{% endif %}
-    {% endunless %}
-  {% endfor %}
-
-</main>
+{% for post in site.categories.blog %}
+  {% unless post.draft %}
+    {% assign currentdate = post.date | date: "%Y" %}
+    {% if post.date and currentdate != date %}
+      {% unless forloop.first %}
+        </ul>
+      {% endunless %}
+      <div class="container">
+        <h2 class="post-list__year wrapper" id="y{{ currentdate }}">
+          {{ currentdate }}
+        </h2>
+      </div>
+      <ul class="post-list container">
+      {% assign date = currentdate %}
+    {% endif %}
+    {% include post_link.html %}
+    {% if forloop.last %}</ul><!-- last -->{% endif %}
+  {% endunless %}
+{% endfor %}

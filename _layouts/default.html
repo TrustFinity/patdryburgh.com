@@ -3,12 +3,14 @@
 
   {% include head.html %}
 
-  <body>
+  <body class="site">
 
-    <header class="masthead wrapper">
+    <header class="header container">
 
-      <h1 class="site-title">
-        <a href="{{ site.url }}">{{ site.title }}</a>
+      <h1 class="title">
+        <a href="{{ site.url }}" class="title__link">
+          <img src="{{ '/images/site/pat.png' | absolute_url }}" alt="{{ site.title }}" />
+        </a>
       </h1>
 
       {% include navigation.html %}
@@ -21,7 +23,7 @@
 
     </main>
     
-    <footer class="site-footer wrapper">
+    <footer class="footer wrapper">
 
       {% include navigation.html %}
 

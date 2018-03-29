@@ -7,58 +7,46 @@
   @include text-shadow($width);
 }
 
- @mixin separator {
-  content: ". . .";
-  color: rgba($text-color, .4);
+@mixin separator {
+  content: "• • •";
+  color: $grey-color;
   display: inline-block;
-  letter-spacing: .5em;
+  letter-spacing: 1em;
   margin: 0 auto;
   width: 100%;
   text-align: center;
+  font-size: .125rem;
+  margin-top: -.325rem;
 }
 
-@mixin m-top {
-  margin-top: 2em;
+@mixin m($side) {
+  margin-#{$side}: $spacing-unit;
   @media (min-width: $on-tablet) {
-    margin-top: 4em;
+    margin-#{$side}: $spacing-unit * 2;
   }
 }
 
-@mixin m-bottom {
-  margin-bottom: 2em;
+@mixin p($side) {
+  padding-#{$side}: $spacing-unit;
   @media (min-width: $on-tablet) {
-    margin-bottom: 4em;
-  }
-}
-
-@mixin p-top {
-  padding-top: 2em;
-  @media (min-width: $on-tablet) {
-    padding-top: 4em;
-  }
-}
-
-@mixin p-bottom {
-  padding-bottom: 2em;
-  @media (min-width: $on-tablet) {
-    padding-bottom: 4em;
+    padding-#{$side}: $spacing-unit * 2;
   }
 }
 
 @mixin figures {
-  @media (min-width: $on-tablet) and (max-width: $on-desktop) {
-    margin-left: -2rem;
-    margin-right: -2rem;
-    .pull-out + & {
-      width: 60%
-    }
-  }
-  @media (min-width: $on-desktop) {
-    margin-top: 2rem;
-    margin-left: -6rem;
-    margin-right: -6rem;
+  @media (min-width: $on-tablet) {
+    margin-left: -33.333333%;
+    margin-right: -33.333333%;
+    // margin-right: $spacing-unit * -1;
     .pull-out + & {
       width: 80%
     }
   }
+  // @media (min-width: $on-desktop) {
+  //   margin-left: $spacing-unit * -2;
+  //   margin-right: $spacing-unit * -2;
+  //   .pull-out + & {
+  //     width: 80%
+  //   }
+  // }
 }

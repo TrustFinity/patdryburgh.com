@@ -6,61 +6,33 @@ layout: default
 
 <article class="post single">
 
-  {% unless page.categories contains 'micro' %}
-    <header class="post-header">
-      
-      {% if page.it %}
-        <h1 class="post-title project-title">
-          {{ page.it }} <strong>{{ page.title }}</strong>.
-        </h1>
-      {% else %}
-        <h1 class="post-title">
-          {{ page.title }}
-        </h1>
-      {% endif %}
-      
-      {% if page.subtitle %}
-        <h2>{{ page.subtitle }}</h2>
-      {% endif %}
-
-      {% if page.date or page.categories contains 'blog' %}
-        <div class="post-meta">
-          {% if page.date %}
-            <a href="{{ post.url | absolute_url }}">
-              {{ page.date | date: "%b %-d, %Y" }}
-            </a>
-          {% endif %}
-          {% if page.categories contains 'blog' %}
-            &middot; {% include read_time.html %}
-          {% endif %}
-        </div>
-      {% endif %}
-
-    </header>
-  {% endunless %}
+  {% include post_header.html %}
 
   {% if page.photo %}
-    <figure class="photo">
+    <figure class="post__photo">
       <img src="{{ page.photo | absolute_url }}" alt="{{ page.title }}">
     </figure>
   {% endif %}
   
-  <section class="post-content">
-  
+  <section class="post__content container">
+
     <div class="wrapper">
+  
       {% if page.link %}
-        <a href="{{ page.link }}" class="post-micro-link">{{ page.title }} &rarr;</a>
+        <a href="{{ page.link }}" class="post__micro-link">{{ page.title }} &rarr;</a>
       {% endif %}
+      
       {{ content | markdownify }}
+
+      {% if page.categories contains 'design' %}
+        {% include design_cta.html %}
+      {% endif %}
+
+      {% if page.categories contains 'blog'  or page.categories contains 'micro' %}
+        {% include newsletter.html %}
+      {% endif %}
+
     </div>
-
-    {% if page.categories contains 'design' %}
-      {% include design_cta.html %}
-    {% endif %}
-
-    {% if page.categories contains 'blog'  or page.categories contains 'micro' %}
-      {% include newsletter.html %}
-    {% endif %}
 
   </section>
 
