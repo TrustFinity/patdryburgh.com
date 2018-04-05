@@ -17,14 +17,16 @@
 
   {% if page.categories contains 'blog' or 'micro' %}
     <div class="post-header__meta">
-      {% if page.date %}
-        <a href="{{ post.url | absolute_url }}">
-          {{ page.date | date: "%b %-d, %Y" }}
-        </a>
-      {% endif %}
-      {% if page.categories contains 'blog' %}
-        &middot; {% include read_time.html %}
-      {% endif %}
+      {% unless page.categories contains 'design' %}
+        {% if page.date %}
+          <a href="{{ post.url | absolute_url }}">
+            {{ page.date | date: "%b %-d, %Y" }}
+          </a>
+        {% endif %}
+        {% if page.categories contains 'blog' %}
+          &middot; {% include read_time.html %}
+        {% endif %}
+      {% endunless %}
     </div>
   {% endif %}
 

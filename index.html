@@ -3,22 +3,74 @@ layout: default
 home: true
 ---
 
-{% for post in site.categories.blog %}
-  {% unless post.draft %}
-    {% assign currentdate = post.date | date: "%Y" %}
-    {% if post.date and currentdate != date %}
-      {% unless forloop.first %}
-        </ul>
-      {% endunless %}
-      <div class="container">
-        <h2 class="post-list__year wrapper" id="y{{ currentdate }}">
-          {{ currentdate }}
-        </h2>
-      </div>
-      <ul class="post-list container">
-      {% assign date = currentdate %}
+<section>
+
+  {% for post in paginator.posts %}
+    
+    {% assign page = post %}
+    {% assign content = post.content %}
+    {% assign words = content | number_of_words %}
+    {% assign currentdate = post.date | date: "%Y-%m-%d" %}
+
+    {% unless page.draft %}
+      
+      {% if page.date and currentdate != date %}
+        {% unless forloop.first %}
+          <!-- test -->
+          </section>
+        {% endunless %}
+        <section class="day" id="y{{post.date | date: "%Y-%m-%d"}}">
+      {% endif %}
+      {% if page.categories contains 'micro' %}
+        <div class="container">
+          {% if page.date and currentdate != date %}
+              <header class="day-header">
+                <span class="post-header__meta">
+                  {{ page.date | date: "%b %-d, %Y" }}</span>
+              </header>
+            {% assign date = currentdate %}
+          {% endif %}
+          <article class="post post--micro">
+            <main class="post__content wrapper">  
+              {% if page.photo %}
+                <figure>
+                  <img src="{{ '/images/site/spacer.gif' | absolute_url }}" data-echo="{{ page.photo | absolute_url }}">
+                </figure>
+              {% endif %}
+              {% if page.link %}
+                <p>
+                  <a href="{{ page.link }}" class="post--micro__link">{{ page.title }} &rarr;</a>
+                </p>
+              {% endif %}
+              {{ content | markdownify }}
+              <a href="{{ page.url | absolute_url }}" class="post-reference">&#8251;</a>
+            </main>
+          </article>
+        </div>
+      {% endif %}
+
+      {% if page.categories contains 'blog' %}
+        {% include post.html %}
+      {% endif %}
+
+    {% endunless %}
+
+  {% endfor %}
+
+  {% include newsletter.html margin="top" %}
+  
+  <nav class="pagination wrapper m-top">
+    {% if paginator.previous_page %}
+      <a href="{{ paginator.previous_page_path }}" class="pagination-previous btn">&lang; Previous</a>
+    {% else %}
+      <span></span>  
     {% endif %}
-    {% include post_link.html %}
-    {% if forloop.last %}</ul><!-- last -->{% endif %}
-  {% endunless %}
-{% endfor %}
+    <span class="pagination-number">Page: {{ paginator.page }} of {{ paginator.total_pages }}</span>
+    {% if paginator.next_page %}
+      <a href="{{ paginator.next_page_path }}" class="pagination-next btn">Next &rang; </a>
+    {% else %}
+      <span class="pagination-next">Next</span>
+    {% endif %}
+  </nav>
+
+</section>

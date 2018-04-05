@@ -36,6 +36,12 @@
 @media (min-width: $on-tablet) {
   .wrapper {
     padding-left: 20%;
+    padding-right: 10%;
+  }
+}
+
+@media (min-width: $on-desktop) {
+  .wrapper {
     padding-right: 20%;
   }
 }
@@ -98,29 +104,8 @@
   -webkit-transition: color 0.2s ease-in-out;
   -moz-transition: color 0.2s ease-in-out;
   transition: color 0.2s ease-in-out;
-  & .post-title:before {
-    content: "";
-    z-index: -1;
-    display: inline-block;
-    height: .25em;
-    width: 0;
-    position: absolute;
-    top: .5em;
-    right: 100%;
-    margin-right: .5em;
-    background: $brand-color;
-    -webkit-transform-origin: 0 50%;
-    transform-origin: 0 50%;
-    -webkit-transition: width .2s ease-in-out;
-    -moz-transition: width .2s ease-in-out;
-    transition: width .2s ease-in-out;
-  }
   &:hover {
-    // background-position: 0 0;
     text-decoration: none;
-    & .post-title:before {
-      width: 2em;
-    }
     .post-title {
       color: $brand-color;
     }
@@ -128,14 +113,7 @@
   &:visited {
     opacity: .6;
   }
-  // @media screen and (min-width: $on-tablet) {
-  //   padding: 1.25em 8rem;
-  // }
 }
-
-// .post-link .wrapper {
-//   z-index: 1;
-// }
 
 .post-title {
   color: $heading-text-color;
@@ -172,17 +150,30 @@
   margin: 0;
 }
 
-// .m-top + .post-micro {
-//   margin-top: 1em; 
-// }
+.day {
+  @include m(top);
+  @include m(bottom);
+}
 
-// .post-micro p:last-of-type {
-//   display: inline;
-// }
+.day-header {
+  float: left;
+}
 
-// .post-micro a + p {
-//   margin-top: 0;
-// }
+.post--micro__link {
+  font: 700 1.0625em $secondary-font-family;
+}
+
+.post--micro {
+  @include m(bottom);
+}
+
+.post--micro p:last-of-type {
+  display: inline;
+}
+
+.post--micro a + p {
+  margin-top: 0;
+}
 
 // .post-micro-link {
 //   display: block;

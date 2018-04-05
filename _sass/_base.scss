@@ -68,9 +68,10 @@ h1 {
 h2 {
   font-size: 1.25rem;
   line-height: 1.5rem;
+  margin-top: 1.5rem;
   @media (min-width: $on-tablet) {
     font-size: 2.25rem;
-    line-height: 3rem;
+    line-height: 2.5rem;
   }
 }
 
@@ -79,6 +80,10 @@ strong {
   h1 > & {
     font-weight: 900;
   }
+}
+
+em {
+  font-style: italic;
 }
 
 // h1, h2, h3, h4, h5, h6,
@@ -149,6 +154,9 @@ cite .title {
   display: block;
   line-height: 1;
   margin-left: 1.5em;
+  font-size: 1em;
+  font-style: italic;
+  font-weight: normal;
 }
 
 //// Lists
@@ -178,7 +186,7 @@ a {
     text-decoration: none;
   }
 
-  .post__content > * & {
+  .post__content & {
     text-decoration: underline;
     &:hover,
     &:focus {
@@ -204,7 +212,7 @@ code {
 
 pre {
   background: none !important;
-  font-size: 1em;
+  font: 1em "Courier", monospace;
   white-space: pre-wrap;
   white-space: -moz-pre-wrap !important;
   white-space: -pre-wrap;
