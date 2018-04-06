@@ -7,7 +7,9 @@ layout: default
 <div class="container">
   <div class="wrapper">
     {% unless page.categories contains 'design' %}
-      {% include newsletter.html %}
+      {% unless page.browser_title == 'Subscribe' %}
+        {% include newsletter.html %}
+      {% endunless %}
     {% endunless %}
   </div>
 </div>

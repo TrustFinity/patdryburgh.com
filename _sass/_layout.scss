@@ -342,6 +342,7 @@ cite {
 .footnotes {
   &:before {
     @include separator;
+    top: 0;
   }
   ol {
     margin-top: 2em;

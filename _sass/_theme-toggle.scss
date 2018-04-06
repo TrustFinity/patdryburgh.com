@@ -25,6 +25,10 @@
   &.night:after {
     left: .75rem;
   }
+  &:focus,
+  &:active {
+    outline: none;
+  }
 }
 
 // #js-theme-toggle {

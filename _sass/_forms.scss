@@ -39,7 +39,6 @@ label {
   display: inline-block;
   font-size: 1em;
   font-weight: 700;
-  margin-top: 1.5rem;
   margin-bottom: .75rem;
   @media (min-width: $on-tablet) {
     font-size: 1.5rem;
@@ -55,4 +54,8 @@ label {
 
 .form-group input {
   flex: 1 1 auto;
+}
+
+.form-group > * + * {
+  margin-left: $spacing-unit / 2;
 }
