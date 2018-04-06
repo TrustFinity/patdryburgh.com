@@ -5,7 +5,7 @@ categories:
 - blog
 layout: post
 author: patdryburgh
-url_title: two-campuses.-one-week.-crazy
+url_title: two-campuses-one-week-crazy
 old_entry_id: 286
 ---
 

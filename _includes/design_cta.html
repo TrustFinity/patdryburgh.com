@@ -1,0 +1,21 @@
+<hr />
+
+<aside class="m-top call-to-action">
+  <div class="call-to-action-header">
+    <h3>
+      {% if page.categories contains 'design' %}
+        Dig what I did with {{ page.title }}?
+      {% else %}
+        Need help with your product or website?
+      {% endif %}
+    </h3>
+  </div>
+  <p>
+    {% include availability.html %}
+  </p>
+  {% if page.categories contains 'design' %} 
+    <p>
+       Need some more convincing? Read about <a href="{{ '/work' | absolute_url }}">my work</a> with {% include collection_navigation.html %}.
+    </p>
+  {% endif %}
+</aside>

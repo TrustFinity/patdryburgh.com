@@ -3,7 +3,17 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>{% if page.title %}{{ page.title }} &mdash; {% endif %}{{ site.title }}</title>
+  <title>
+    {% if page.browser_title or page.title %}
+      {% if page.browser_title %}
+        {{ page.browser_title }}
+      {% else %}
+        {{ page.title }}
+      {% endif %}
+       &mdash;
+    {% endif %}
+    {{ site.title }}
+  </title>
   
   <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
 
@@ -29,5 +39,9 @@
   {% endif %}
 
   {% include og.html %}
+
+  {% if site.tags != "" %}
+    {% include collect_tags.html %}
+  {% endif %}
 
 </head>

@@ -3,6 +3,7 @@ title: Tweeting micro posts with Jekyll and IFTTT
 date: 2017-06-07 00:47:40 +0300
 categories:
 - blog
+tags: blogging
 layout: post
 author: patdryburgh
 ---

@@ -3,6 +3,7 @@ title: Project365&#58; Best of January
 date: 2011-02-01 00:00:00 Z
 categories:
 - blog
+tags: projects
 layout: post
 author: patdryburgh
 url_title: project365-best-of-january

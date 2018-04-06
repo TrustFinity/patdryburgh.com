@@ -3,6 +3,7 @@ title: Someone is trying to make money off my mother's obituary
 date: 2018-01-10 14:45:00 +0700
 categories:
 - blog
+tags: design family
 layout: post
 author: patdryburgh
 ---

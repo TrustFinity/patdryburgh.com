@@ -1,9 +1,8 @@
 ---
-title: Now
-subtitle: This is what I'm doing now.
-hide_title: true
+browser_title: Now
+title: This is what I'm doing now.
 permalink: "/now/"
-layout: page
+layout: post
 ---
 
 - Living in Vancouver, BC and figuring out what's next

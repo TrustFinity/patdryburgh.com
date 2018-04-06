@@ -3,6 +3,7 @@ title: My Face Hurts
 date: 2008-03-03 00:00:00 Z
 categories:
 - blog
+tags: life health
 layout: post
 author: patdryburgh
 url_title: my-face-hurts

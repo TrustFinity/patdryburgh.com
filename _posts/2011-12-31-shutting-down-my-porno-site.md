@@ -3,6 +3,7 @@ title: Shutting Down My Porno Site
 date: 2011-12-31 00:00:00 Z
 categories:
 - blog
+tags: productivity
 layout: post
 author: patdryburgh
 url_title: shutting-down-my-porno-site

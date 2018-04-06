@@ -3,6 +3,7 @@ title: Pittsburgh
 date: 2007-09-13 00:00:00 Z
 categories:
 - blog
+tags: travel
 layout: post
 author: patdryburgh
 url_title: pittsburgh

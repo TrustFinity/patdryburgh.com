@@ -3,6 +3,7 @@ title: Montr&eacute;al, Easter 2010
 date: 2010-04-21 00:00:00 Z
 categories:
 - blog
+tags: travel
 layout: post
 author: patdryburgh
 url_title: montreal-easter-2010

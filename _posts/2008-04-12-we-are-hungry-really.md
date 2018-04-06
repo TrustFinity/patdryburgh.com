@@ -3,6 +3,7 @@ title: We Are Hungry? Really?
 date: 2008-04-12 00:00:00 Z
 categories:
 - blog
+tags: religion
 layout: post
 author: patdryburgh
 url_title: we-are-hungry-really

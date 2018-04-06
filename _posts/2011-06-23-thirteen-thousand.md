@@ -3,6 +3,7 @@ title: Thirteen Thousand
 date: 2011-06-23 00:00:00 Z
 categories:
 - blog
+tags: design projects
 layout: post
 author: patdryburgh
 url_title: thirteen-thousand

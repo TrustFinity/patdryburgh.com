@@ -3,6 +3,7 @@ title: Ninety-Eight Degrees
 date: 2009-07-14 00:00:00 Z
 categories:
 - blog
+tags: technology
 layout: post
 author: patdryburgh
 url_title: ninety-eight-degrees

@@ -3,6 +3,7 @@ title: Goodbye, Fusion
 date: 2012-05-07 00:00:00 Z
 categories:
 - blog
+tags: design
 layout: post
 author: patdryburgh
 url_title: goodbye-fusion

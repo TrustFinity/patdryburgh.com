@@ -1,89 +1,75 @@
 ---
 layout: default
-home: true
 ---
 
-<main class="page-content">
+{% assign blog_count = 0 %}
 
-  <section class="blog">
+<section>
 
-    {% for post in paginator.posts %}
+  {% for post in paginator.posts %}
+    
+    {% assign page = post %}
+    {% assign content = post.content %}
+    {% assign words = content | number_of_words %}
+    {% assign currentdate = post.date | date: "%Y-%m-%d" %}
+
+    {% unless page.draft %}
       
-      {% assign page = post %}
-      {% assign content = post.content %}
-      {% assign words = content | number_of_words %}
-      {% assign currentdate = post.date | date: "%Y-%m-%d" %}
-
-      {% unless page.draft %}
-        
-        {% if page.categories contains 'micro' %}
+      {% if page.date and currentdate != date %}
+        {% unless forloop.first %}
+          <!-- test -->
+          </section>
+        {% endunless %}
+        <section class="day" id="y{{post.date | date: "%Y-%m-%d"}}">
+      {% endif %}
+      {% if page.categories contains 'micro' %}
+        <div class="container">
           {% if page.date and currentdate != date %}
-            <header class="wrapper m-top">
-              <span class="post-meta" id="y{{post.date | date: "%Y-%m-%d"}}">
-                {{ page.date | date: "%b %-d, %Y" }}</span>
-            </header>
+              <header class="day-header">
+                <span class="post-header__meta">
+                  {{ page.date | date: "%b %-d, %Y" }}</span>
+              </header>
             {% assign date = currentdate %}
           {% endif %}
-          <article class="post post-micro m-bottom">
-            <main class="post-content wrapper">  
+          <article class="post post--micro">
+            <main class="post__content wrapper">  
               {% if page.photo %}
                 <figure>
                   <img src="{{ '/images/site/spacer.gif' | absolute_url }}" data-echo="{{ page.photo | absolute_url }}">
                 </figure>
               {% endif %}
               {% if page.link %}
-                <a href="{{ page.link }}" class="post-micro-link">{{ page.title }} &rarr;</a>
+                <p>
+                  <a href="{{ page.link }}" class="post--micro__link">{{ page.title }} &rarr;</a>
+                </p>
               {% endif %}
               {{ content | markdownify }}
               <a href="{{ page.url | absolute_url }}" class="post-reference">&#8251;</a>
             </main>
           </article>
-        {% endif %}
+        </div>
+      {% endif %}
 
-        {% if page.categories contains 'blog' %}
-          <article class="post m-top m-bottom">
-
-            <header class="post-header wrapper">
-              <span class="post-meta">
-                {% if date != currentdate %}
-                  <a href="{{ page.url | absolute_url }}">{{ page.date | date: "%b %-d, %Y" }}</a>
-                  &middot; {% include read_time.html %}
-                  {% assign date = currentdate %}
-                {% else %}
-                  {% include read_time.html %}
-                {% endif %}
-                {% if page.date and page.meta %}
-                  &middot; 
-                {% endif %}
-                {% if page.meta %}
-                  {{ page.meta }}
-                {% endif %}
-              </span>
-              <h1 class="post-title">
-                <a href="{{ page.url | absolute_url }}">{{ page.title }}</a>
-              </h1>
-            </header>
-
-            {% if page.photo %}
-              <div class="photo">
-                <img src="{{ site.url }}/{{ page.photo }}" alt="{{ page.title }}">
+      {% if page.categories contains 'blog' %}
+        {% assign post_count = post_count | plus: 1 %}
+        {% include post.html %}
+        {% if post_count == 2 %}
+          {% unless forloop.last %}
+            <div class="container">
+              <div class="wrapper">
+                {% include newsletter.html %}
               </div>
-            {% endif %}
-
-            <main class="post-content wrapper">
-              {{ content | markdownify }}
-            </main>
-
-          </article>
+            </div>
+          {% endunless %}
         {% endif %}
+      {% endif %}
 
-      {% endunless %}
+    {% endunless %}
 
-    {% endfor %}
+  {% endfor %}
 
-    {% include newsletter.html margin="top" %}
-    
-    <nav class="pagination wrapper m-top">
+  <nav class="container">
+    <div class="pagination wrapper">
       {% if paginator.previous_page %}
         <a href="{{ paginator.previous_page_path }}" class="pagination-previous btn">&lang; Previous</a>
       {% else %}
@@ -95,9 +81,7 @@ home: true
       {% else %}
         <span class="pagination-next">Next</span>
       {% endif %}
-    </nav>
+    </div>
+  </nav>
 
-  </section>
-
-</main>
-
+</section>

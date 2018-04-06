@@ -3,6 +3,7 @@ title: WWDC Casting Call
 date: 2012-06-06 00:00:00 Z
 categories:
 - blog
+tags: travel
 layout: post
 author: patdryburgh
 url_title: wwdc-casting-call

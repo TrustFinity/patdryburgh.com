@@ -3,6 +3,7 @@ title: Leading Worship
 date: 2008-02-11 00:00:00 Z
 categories:
 - blog
+tags: religion
 layout: post
 author: patdryburgh
 url_title: leading-worship

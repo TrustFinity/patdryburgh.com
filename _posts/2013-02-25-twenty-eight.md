@@ -3,6 +3,7 @@ title: Twenty-eight
 date: 2013-02-25 00:00:00 Z
 categories:
 - blog
+tags: life
 layout: post
 author: patdryburgh
 url_title: twenty-eight

@@ -3,7 +3,7 @@ title: Tools &amp; Toys
 date: 2014-08-19 15:30:00 Z
 categories:
 - design
-layout: project
+layout: post
 author: patdryburgh
 photo: "/images/work/hero-tools-toys.jpg"
 it: This redesigned brand and responsive website generated 3x growth year-over-year

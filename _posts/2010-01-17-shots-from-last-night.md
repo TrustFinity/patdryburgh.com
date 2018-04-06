@@ -3,6 +3,7 @@ title: Shots From Last Night
 date: 2010-01-17 00:00:00 Z
 categories:
 - blog
+tags: music
 layout: post
 author: patdryburgh
 url_title: shots-from-last-night

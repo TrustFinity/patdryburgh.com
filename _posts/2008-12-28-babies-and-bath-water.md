@@ -3,6 +3,7 @@ title: Babies and Bath Water
 date: 2008-12-28 00:00:00 Z
 categories:
 - blog
+tags: religion
 layout: post
 author: patdryburgh
 url_title: babies-and-bath-water

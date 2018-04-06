@@ -3,6 +3,7 @@ title: People Who Are Currently Awesome
 date: 2010-01-26 00:00:00 Z
 categories:
 - blog
+tags: community
 layout: post
 author: patdryburgh
 url_title: people-who-are-currently-awesome

@@ -3,6 +3,7 @@ title: Tough Decisions
 date: 2009-02-05 00:00:00 Z
 categories:
 - blog
+tags: religion
 layout: post
 author: patdryburgh
 url_title: tough-decisions

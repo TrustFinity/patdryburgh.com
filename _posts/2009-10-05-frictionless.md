@@ -3,6 +3,7 @@ title: Frictionless
 date: 2009-10-05 00:00:00 Z
 categories:
 - blog
+tags: blogging
 layout: post
 author: patdryburgh
 url_title: frictionless

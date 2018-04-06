@@ -3,6 +3,7 @@ title: Travelling
 date: 2009-12-23 00:00:00 Z
 categories:
 - blog
+tags: travel
 layout: post
 author: patdryburgh
 url_title: travelling

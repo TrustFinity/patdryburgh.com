@@ -3,6 +3,7 @@ title: My Life in Bullet Form &mdash; Part Deux
 date: 2009-09-22 00:00:00 Z
 categories:
 - blog
+tags: life
 layout: post
 author: patdryburgh
 url_title: my-life-in-bullet-form-part-deux

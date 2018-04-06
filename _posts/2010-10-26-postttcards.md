@@ -3,6 +3,7 @@ title: Postttcards
 date: 2010-10-26 00:00:00 Z
 categories:
 - blog
+tags: design
 layout: post
 author: patdryburgh
 url_title: postttcards

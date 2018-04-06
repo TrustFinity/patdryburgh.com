@@ -3,6 +3,7 @@ title: Tie Those Laces, Son
 date: 2009-02-28 00:00:00 Z
 categories:
 - blog
+tags: life health
 layout: post
 author: patdryburgh
 url_title: tie-those-laces-son

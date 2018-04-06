@@ -3,6 +3,7 @@ title: Please Pray
 date: 2008-01-29 00:00:00 Z
 categories:
 - blog
+tags: community
 layout: post
 author: patdryburgh
 url_title: please-pray

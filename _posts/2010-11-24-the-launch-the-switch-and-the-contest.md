@@ -3,6 +3,7 @@ title: The Launch, The Switch, and The Contest
 date: 2010-11-24 00:00:00 Z
 categories:
 - blog
+tags: design projects
 layout: post
 author: patdryburgh
 url_title: the-launch-the-switch-and-the-contest

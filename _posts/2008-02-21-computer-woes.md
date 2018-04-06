@@ -3,6 +3,7 @@ title: Computer Woes
 date: 2008-02-21 00:00:00 Z
 categories:
 - blog
+tags: technology
 layout: post
 author: patdryburgh
 url_title: computer-woes

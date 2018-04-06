@@ -3,6 +3,7 @@ title: The Results Are In
 date: 2011-12-28 00:00:00 Z
 categories:
 - blog
+tags: design
 layout: post
 author: patdryburgh
 url_title: the-results-are-in

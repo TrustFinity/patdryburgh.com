@@ -3,6 +3,7 @@ title: You should be reading this
 date: 2013-07-19 00:00:00 Z
 categories:
 - blog
+tags: blogging
 layout: post
 author: patdryburgh
 url_title: you-should-be-reading-this

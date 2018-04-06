@@ -1,10 +1,10 @@
 ---
-title: About
+browser_title: About
 permalink: "/about/"
-subtitle: My name is Pat Dryburgh.
-subsubtitle:  A designer & musician in Vancouver, BC.
+title: My name is Pat Dryburgh.
+subtitle:  A designer & musician in Vancouver, BC.
 hide_title: true
-layout: page
+layout: post
 --- 
 
 I've been designing and building on the web for over 10 years. From a music playlist generator powered by tweets to an accounting platform for micro-financing institutions in sub-Saharan Africa, my breadth of experience brings fresh thinking to every project.
@@ -19,7 +19,7 @@ Originally from London, Ontario, I now live in Vancouver, British Columbia with 
 
 ## Colophon
 
-This site is built with [Jekyll](https://jekyllrb.com) and hosted on [Github](https://pages.github.com). Freight and Freight Sans are served by [Typekit](http://typekit.com). The [sun][sun] and the [moon][moon] are by [Iulia Ardeleanu][ia].
+This site is built with [Jekyll](https://jekyllrb.com) and hosted on [Github](https://pages.github.com). Freight and Freight Sans are served by [Typekit](http://typekit.com). The illustration of me is by [Courtney Make](https://twitter.com/courtneymake?lang=en).
 
 Growing up, I enjoyed watching directors' commentaries of my favourite movies. I love learning how people do what they do and think what they think. In web design and development, the closest comparison to a director's commentary is getting to see the actual code someone wrote to produce a site. You can see how this site is made by viewing the public repo on [Github][gb].
 

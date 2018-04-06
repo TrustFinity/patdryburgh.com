@@ -3,6 +3,7 @@ title: Non-Christians on the Worship Team
 date: 2007-12-12 00:00:00 Z
 categories:
 - blog
+tags: religion
 layout: post
 author: patdryburgh
 url_title: non-christians-on-the-worship-team

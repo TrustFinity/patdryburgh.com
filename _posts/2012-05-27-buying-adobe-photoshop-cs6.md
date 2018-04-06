@@ -3,6 +3,7 @@ title: Buying Adobe Photoshop CS6
 date: 2012-05-27 00:00:00 Z
 categories:
 - blog
+tags: design products
 layout: post
 author: patdryburgh
 url_title: buying-adobe-photoshop-cs6

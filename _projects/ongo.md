@@ -3,7 +3,7 @@ title: Ongo
 date: 2012-04-19 15:20:00 Z
 categories:
 - design
-layout: project
+layout: post
 author: patdryburgh
 photo: "/images/work/hero-ongo.jpg"
 it: I designed mobile and web interfaces for a New York Times and Washington

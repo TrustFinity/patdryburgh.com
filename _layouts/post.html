@@ -2,59 +2,14 @@
 layout: default
 ---
 
-{% assign words = content | number_of_words %}
+{% include post.html %}
 
-<main class="page-content">
-
-  <article class="post single">
-
-    <header class="post-header">
-      <div class="wrapper">
-        <span class="post-meta">
-          {% if page.date %}
-            <a href="{{ post.url | prepend: site.baseurl }}">{{ page.date | date: "%b %-d, %Y" }}</a>
-          {% endif %}
-        {% if page.categories contains 'blog' %}
-            &middot; {% include read_time.html %}
-            {% if page.date and page.meta %}
-              &middot; 
-            {% endif %}
-            {% if page.meta %}
-              {{ page.meta }}
-            {% endif %}
-          </span>
-          <h1 class="post-title">{{ page.title }}</h1>
-        {% else %}
-          </span>
-        {% endif %}
-      </div>
-    </header>
-
-    {% if page.photo %}
-      <div class="photo">
-        <img src="{{ page.photo | absolute_url }}" alt="{{ page.title }}">
-      </div>
-    {% endif %}
-    
-    <main class="post-content">
-    
-      <div class="wrapper">
-        {% if page.link %}
-          <a href="{{ page.link }}" class="post-micro-link">{{ page.title }} &rarr;</a>
-        {% endif %}
-        {{ content | markdownify }}
-      </div>
-
-      {% if page.categories contains 'design' %}
-        {% include design_cta.html %}
-      {% endif %}
-
-      {% if page.categories contains 'blog'  or page.categories contains 'micro' %}
-        {% include newsletter.html margin="top" %}
-      {% endif %}
-
-    </main>
-
-  </article>
-
-</main>
+<div class="container">
+  <div class="wrapper">
+    {% unless page.categories contains 'design' %}
+      {% unless page.browser_title == 'Subscribe' %}
+        {% include newsletter.html %}
+      {% endunless %}
+    {% endunless %}
+  </div>
+</div>

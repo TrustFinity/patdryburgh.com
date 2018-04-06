@@ -3,7 +3,7 @@ title: Cocoatech
 date: 2011-08-19 15:35:00 Z
 categories:
 - design
-layout: project
+layout: post
 photo: /images/work/hero-cocoatech.jpg
 it: In 2011, I created a digital design language that is still in use today by 
 ---

@@ -3,6 +3,7 @@ title: Helvetcia Tee
 date: 2012-05-31 00:00:00 Z
 categories:
 - blog
+tags: design projects
 layout: post
 author: patdryburgh
 url_title: helvetcia-tee

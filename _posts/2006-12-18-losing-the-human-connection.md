@@ -3,6 +3,7 @@ title: Losing the Human Connection
 date: 2006-12-18 00:00:00 Z
 categories:
 - blog
+tags: community
 layout: post
 author: patdryburgh
 url_title: losing-the-human-connection

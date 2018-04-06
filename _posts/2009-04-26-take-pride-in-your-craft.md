@@ -3,6 +3,7 @@ title: Take Pride In Your Craft
 date: 2009-04-26 00:00:00 Z
 categories:
 - blog
+tags: design
 layout: post
 author: patdryburgh
 url_title: take-pride-in-your-craft

@@ -3,6 +3,7 @@ title: The Passionate Worshipper
 date: 2005-02-04 00:00:00 Z
 categories:
 - blog
+tags: music religion
 layout: post
 author: patdryburgh
 url_title: the-passionate-worshipper

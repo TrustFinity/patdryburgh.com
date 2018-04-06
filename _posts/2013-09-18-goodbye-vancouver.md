@@ -3,6 +3,7 @@ title: Goodbye, Vancouver
 date: 2013-09-18 00:00:00 Z
 categories:
 - blog
+tags: life
 layout: post
 author: patdryburgh
 url_title: goodbye-vancouver

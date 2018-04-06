@@ -3,6 +3,7 @@ title: Las Vegas &ndash; Los Angeles
 date: 2011-12-04 00:00:00 Z
 categories:
 - blog
+tags: travel
 layout: post
 author: patdryburgh
 url_title: las-vegas-los-angeles

@@ -3,6 +3,7 @@ title: So This is Christmas
 date: 2006-12-26 00:00:00 Z
 categories:
 - blog
+tags: life
 layout: post
 author: patdryburgh
 url_title: so-this-is-christmas

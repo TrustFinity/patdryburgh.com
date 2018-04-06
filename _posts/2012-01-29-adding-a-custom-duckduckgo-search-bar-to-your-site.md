@@ -3,6 +3,7 @@ title: Adding a Custom DuckDuckGo Search Bar to Your Site
 date: 2012-01-29 00:00:00 Z
 categories:
 - blog
+tags: design development
 layout: post
 author: patdryburgh
 url_title: adding-a-custom-duckduckgo-search-bar-to-your-site

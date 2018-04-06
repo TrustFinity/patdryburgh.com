@@ -3,6 +3,7 @@ title: Are They A Christian Band?
 date: 2005-05-05 00:00:00 Z
 categories:
 - blog
+tags: music religion
 layout: post
 author: patdryburgh
 url_title: are-they-a-christian-band

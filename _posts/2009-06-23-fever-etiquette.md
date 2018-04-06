@@ -3,6 +3,7 @@ title: Fever Etiquette
 date: 2009-06-23 00:00:00 Z
 categories:
 - blog
+tags: technology
 layout: post
 author: patdryburgh
 url_title: fever-etiquette

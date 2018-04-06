@@ -3,6 +3,7 @@ title: Redesign&#58; Highlights
 date: 2010-12-30 00:00:00 Z
 categories:
 - blog
+tags: design
 layout: post
 author: patdryburgh
 url_title: redesign-highlights

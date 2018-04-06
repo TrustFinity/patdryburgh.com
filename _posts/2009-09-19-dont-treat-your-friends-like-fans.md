@@ -3,6 +3,7 @@ title: Don&#8217;t Treat Your Friends Like Fans
 date: 2009-09-19 00:00:00 Z
 categories:
 - blog
+tags: community
 layout: post
 author: patdryburgh
 url_title: dont-treat-your-friends-like-fans

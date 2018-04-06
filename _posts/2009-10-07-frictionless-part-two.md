@@ -3,6 +3,7 @@ title: Frictionless, Part Two
 date: 2009-10-07 00:00:00 Z
 categories:
 - blog
+tags: blogging
 layout: post
 author: patdryburgh
 url_title: frictionless-part-two

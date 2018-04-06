@@ -3,7 +3,7 @@ title: Perch
 date: 2013-09-30 15:25:00 Z
 categories:
 - design
-layout: project
+layout: post
 author: patdryburgh
 photo: "/images/work/hero-perch.jpg"
 it: I led branding and product design of a real-time hands-free

@@ -3,6 +3,7 @@ title: Soft Launch - Recap
 date: 2007-11-20 00:00:00 Z
 categories:
 - blog
+tags: leadership
 layout: post
 author: patdryburgh
 url_title: soft-launch-recap

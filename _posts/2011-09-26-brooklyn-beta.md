@@ -3,6 +3,7 @@ title: Brooklyn Beta
 date: 2011-09-26 00:00:00 Z
 categories:
 - blog
+tags: design community travel
 layout: post
 author: patdryburgh
 url_title: brooklyn-beta

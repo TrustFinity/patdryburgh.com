@@ -3,6 +3,7 @@ title: Passport Miracle
 date: 2007-04-11 00:00:00 Z
 categories:
 - blog
+tags: travel
 layout: post
 author: patdryburgh
 url_title: passport-miracle

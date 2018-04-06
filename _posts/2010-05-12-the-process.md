@@ -3,6 +3,7 @@ title: The Process
 date: 2010-05-12 00:00:00 Z
 categories:
 - blog
+tags: design
 layout: post
 author: patdryburgh
 url_title: the-process

@@ -3,6 +3,7 @@ title: Creating product shortcodes for Shopify
 date: 2016-11-22 00:00:00 Z
 categories:
 - blog
+tags: design development
 author: patdryburgh
 url_title: shopify-shortcodes
 layout: post

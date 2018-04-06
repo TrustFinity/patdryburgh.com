@@ -3,6 +3,7 @@ title: What I&#8217;m About to Do
 date: 2010-11-18 00:00:00 Z
 categories:
 - blog
+tags: design
 layout: post
 author: patdryburgh
 url_title: what-im-about-to-do

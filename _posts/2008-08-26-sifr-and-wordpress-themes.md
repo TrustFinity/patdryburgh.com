@@ -3,6 +3,7 @@ title: sIFR and WordPress Themes
 date: 2008-08-26 00:00:00 Z
 categories:
 - blog
+tags: design development
 layout: post
 author: patdryburgh
 url_title: sifr-and-wordpress-themes

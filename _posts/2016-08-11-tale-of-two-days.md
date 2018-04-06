@@ -3,6 +3,7 @@ title: A tale of two days
 date: 2016-08-11 00:00:00 Z
 categories:
 - blog
+tags: life family health
 layout: post
 author: patdryburgh
 url_title: a-tale-of-two-days

@@ -3,6 +3,7 @@ title: Rehearsal Space
 date: 2007-11-09 00:00:00 Z
 categories:
 - blog
+tags: music
 layout: post
 author: patdryburgh
 url_title: rehearsal-space

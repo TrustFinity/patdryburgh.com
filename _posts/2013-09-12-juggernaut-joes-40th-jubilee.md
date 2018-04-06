@@ -3,6 +3,7 @@ title: Juggernaut Joe&#8217;s 40th Jubilee
 date: 2013-09-12 00:00:00 Z
 categories:
 - blog
+tags: health
 layout: post
 author: patdryburgh
 url_title: juggernaut-joes-40th-jubilee

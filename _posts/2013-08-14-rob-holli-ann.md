@@ -3,6 +3,7 @@ title: Rob &amp; Holli-Ann
 date: 2013-08-14 00:00:00 Z
 categories:
 - blog
+tags: family
 layout: post
 author: patdryburgh
 url_title: rob-holli-ann

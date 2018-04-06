@@ -3,6 +3,7 @@ title: The hardest ten
 date: 2013-08-18 00:00:00 Z
 categories:
 - blog
+tags: health
 layout: post
 author: patdryburgh
 url_title: the-hardest-ten

@@ -3,6 +3,7 @@ title: Then, Who Wants a Tablet?
 date: 2010-01-11 00:00:00 Z
 categories:
 - blog
+tags: technology
 layout: post
 author: patdryburgh
 url_title: then-who-wants-a-tablet

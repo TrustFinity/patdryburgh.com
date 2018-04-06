@@ -3,6 +3,7 @@ title: Mobile Productivity
 date: 2009-07-29 00:00:00 Z
 categories:
 - blog
+tags: productivity technology
 layout: post
 author: patdryburgh
 url_title: mobile-productivity

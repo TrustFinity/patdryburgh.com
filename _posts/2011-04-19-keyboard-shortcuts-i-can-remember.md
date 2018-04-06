@@ -3,6 +3,7 @@ title: Keyboard Shortcuts I Can Remember
 date: 2011-04-19 00:00:00 Z
 categories:
 - blog
+tags: technology
 layout: post
 author: patdryburgh
 url_title: keyboard-shortcuts-i-can-remember

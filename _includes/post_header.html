@@ -1,0 +1,55 @@
+<header class="post-header container">
+
+  <div class="post-header__heading">
+    {% unless page.categories contains 'micro' %}
+      {% if page.it %}
+        <h1 class="post-header__title project__title">
+          {{ page.it }} <strong>{{ page.title }}</strong>.
+        </h1>
+      {% elsif page.categories contains 'blog' %}
+        <h1 class="post-header__title">
+          <a href="{{ page.url }}">{{ page.title }}</a>
+        </h1>
+      {% else %}
+        <h1 class="post-header__title">
+          {{ page.title }}
+        </h1>
+      {% endif %}
+      
+      {% if page.browser_title == 'Blog' %}
+        {% capture tags %}
+          {% for tag in site.tags %}
+            {{ tag[1].size | plus: 1000 }}#{{ tag[0] }}#{{ tag[1].size }}
+          {% endfor %}
+        {% endcapture %}
+        {% assign sorted_tags = tags | split:' ' | sort | reverse %}
+        <h2 class="post-header__subtitle">
+          I write about
+          {% for tag in sorted_tags %}
+            {% if forloop.last %}{% assign separator = '.' %}{% else %}{% assign separator = ',' %}{% endif %}
+            {% assign tag_items = tag | split: '#' %}
+            {% capture tag_name %}{{ tag_items[1] }}{% endcapture %}
+            {% if forloop.last %}and {% endif %}<nobr>{{ tag_name }}</nobr>{{ separator }}
+          {% endfor %}
+        </h2>
+      {% elsif page.subtitle %}
+        <h2 class="post-header__subtitle">{{ page.subtitle }}</h2>
+      {% endif %}
+    {% endunless %}
+
+  </div>
+
+  {% if page.date %}
+    {% unless page.categories contains 'design' %}
+      <div class="post-header__meta">
+          <a href="{{ post.url | absolute_url }}">
+            {{ page.date | date: "%b %-d, %Y" }}
+          </a>
+        {% if page.categories contains 'blog' %}
+          <br />{% include read_time.html %}
+        {% endif %}
+      </div>
+    {% endunless %}
+  {% endif %}
+
+</header>

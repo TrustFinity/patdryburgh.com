@@ -3,6 +3,7 @@ title: Our first design sprint
 date: 2015-11-15 00:00:00 Z
 categories:
 - blog
+tags: design
 author: patdryburgh
 url_title: our-first-design-sprint
 layout: post

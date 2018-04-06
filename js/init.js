@@ -13,8 +13,12 @@ echo.init({
 
 // themes
 
-var dayTheme      = '{{ "/css/main.css" | absolute_url }}'
-    nightTheme    = '{{ "/css/night.css" | absolute_url }}'
+var dayTheme   = '{{ "/css/main.css" | absolute_url }}?{{site.time | date: '%s%N'}}'
+    nightTheme = '{{ "/css/night.css" | absolute_url }}?{{site.time | date: '%s%N'}}'
+    
+var themeButton = document.createElement('button')
+    themeButton.innerHTML = 'Toggle Theme'
+    themeButton.id = 'js-theme-toggle'
 
 function setDayTheme() {
   localStorage.setItem('theme', 'day')
@@ -68,15 +72,20 @@ function setTheme() {
 
 }
 
+// Availability label
+
+var availabilityLabel = document.getElementById('data-availability-badge')
+
 function renderAvailability() {
-  var availabilityLabel = document.getElementById('data-availability-badge')
   if (availabilityLabel) {
     availabilityLabel.innerHTML = 'I am currently booking projects for ' + this.month() + '.';
     availabilityLabel.className = 'available'
   }
 }
 
-Availability.custom({ 
-  user: '305caaaa-f027-466d-bc2e-66ccdde3c95a', 
-  render: renderAvailability 
-})
+if (availabilityLabel) {
+  Availability.custom({ 
+    user: '305caaaa-f027-466d-bc2e-66ccdde3c95a', 
+    render: renderAvailability 
+  })
+}

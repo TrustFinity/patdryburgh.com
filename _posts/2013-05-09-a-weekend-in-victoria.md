@@ -3,6 +3,7 @@ title: A weekend in Victoria
 date: 2013-05-09 00:00:00 Z
 categories:
 - blog
+tags: travel
 layout: post
 author: patdryburgh
 url_title: a-weekend-in-victoria

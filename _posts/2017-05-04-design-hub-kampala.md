@@ -3,6 +3,7 @@ title: Design Hub Kampala
 date: 2017-05-04 12:35:00
 categories:
 - blog
+tags: design community
 layout: post
 author: patdryburgh
 url_title: design-hub-kampala

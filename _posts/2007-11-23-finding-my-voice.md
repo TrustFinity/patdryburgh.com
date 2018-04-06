@@ -3,6 +3,7 @@ title: Finding My Voice
 date: 2007-11-23 00:00:00 Z
 categories:
 - blog
+tags: blogging
 layout: post
 author: patdryburgh
 url_title: finding-my-voice

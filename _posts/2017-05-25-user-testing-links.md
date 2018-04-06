@@ -3,6 +3,7 @@ title: Links from yesterday's presentation on user testing
 date: 2017-05-25 8:30:00
 categories:
 - blog
+tags: design
 layout: post
 author: patdryburgh
 ---

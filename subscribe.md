@@ -1,29 +1,28 @@
 ---
-title: Subscribe
-subtitle: I don't wanna close my eyes.
-subsubtitle: And you don't wanna miss a thing.
+browser_title: Subscribe
+title: I don't wanna close my eyes.
+subtitle: And you don't wanna miss a thing.
 permalink: "/subscribe/"
-layout: page
-hide_title: true
+layout: post
 ---
 
-{% include newsletter.html wrapped="true" margin="bottom m-top" %}
+{% include newsletter.html %}
 
-## Full Feed
+### Full Feed
 
 Everything posted to patdryburgh.com:
 
 - RSS: [{{ site.rss }}]({{ site.rss }})
 - JSON [{{ site.json }}]({{ site.json }})
 
-## Blog Feed
+### Blog Feed
 
 Only the long-form blog posts:
 
 - RSS: [{{ site.blog_rss }}]({{ site.blog_rss }})
 - JSON: [{{ site.blog_json }}]({{ site.blog_json }})
 
-## Microblog Feed
+### Microblog Feed
 
 Only the short-form microblog posts:
 

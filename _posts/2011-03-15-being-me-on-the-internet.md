@@ -3,6 +3,7 @@ title: Being Me on the Internet
 date: 2011-03-15 00:00:00 Z
 categories:
 - blog
+tags: blogging
 layout: post
 author: patdryburgh
 url_title: being-me-on-the-internet

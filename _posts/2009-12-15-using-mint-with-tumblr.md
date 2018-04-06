@@ -3,6 +3,7 @@ title: Using Mint With Tumblr
 date: 2009-12-15 00:00:00 Z
 categories:
 - blog
+tags: development
 layout: post
 author: patdryburgh
 url_title: using-mint-with-tumblr

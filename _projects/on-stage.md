@@ -3,7 +3,7 @@ title: On Stage Dance Studio
 date: 2010-08-19 15:35:00 Z
 categories:
 - design
-layout: project
+layout: post
 photo: "/images/work/hero-on-stage.jpg"
 it: I designed and built a responsive WordPress-powered site for Stratford's leading dance studio, 
 ---
