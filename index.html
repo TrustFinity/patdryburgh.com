@@ -56,18 +56,20 @@ layout: default
 
   {% endfor %}
 
-  <nav class="pagination container">
-    {% if paginator.previous_page %}
-      <a href="{{ paginator.previous_page_path }}" class="pagination-previous btn">&lang; Previous</a>
-    {% else %}
-      <span></span>  
-    {% endif %}
-    <span class="pagination-number">Page: {{ paginator.page }} of {{ paginator.total_pages }}</span>
-    {% if paginator.next_page %}
-      <a href="{{ paginator.next_page_path }}" class="pagination-next btn">Next &rang; </a>
-    {% else %}
-      <span class="pagination-next">Next</span>
-    {% endif %}
+  <nav class="container">
+    <div class="pagination wrapper">
+      {% if paginator.previous_page %}
+        <a href="{{ paginator.previous_page_path }}" class="pagination-previous btn">&lang; Previous</a>
+      {% else %}
+        <span></span>  
+      {% endif %}
+      <span class="pagination-number">Page: {{ paginator.page }} of {{ paginator.total_pages }}</span>
+      {% if paginator.next_page %}
+        <a href="{{ paginator.next_page_path }}" class="pagination-next btn">Next &rang; </a>
+      {% else %}
+        <span class="pagination-next">Next</span>
+      {% endif %}
+    </div>
   </nav>
 
   <div class="container">
