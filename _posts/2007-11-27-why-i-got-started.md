@@ -3,6 +3,7 @@ title: Why I Got Started
 date: 2007-11-27 00:00:00 Z
 categories:
 - blog
+tags: music
 layout: post
 author: patdryburgh
 url_title: why-i-got-started

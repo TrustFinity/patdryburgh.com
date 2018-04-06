@@ -3,6 +3,7 @@ title: Community
 date: 2012-01-29 00:00:00 Z
 categories:
 - blog
+tags: community
 layout: post
 author: patdryburgh
 url_title: community

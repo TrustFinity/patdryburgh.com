@@ -3,6 +3,7 @@ title: A Birthday Surprise
 date: 2009-02-23 00:00:00 Z
 categories:
 - blog
+tags: life
 layout: post
 author: patdryburgh
 url_title: a-birthday-surprise

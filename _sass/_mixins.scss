@@ -16,7 +16,8 @@
   width: 100%;
   text-align: center;
   font-size: .125rem;
-  margin-top: -.325rem;
+  position: relative;
+  top: -1rem;
 }
 
 @mixin m($side) {
@@ -34,22 +35,14 @@
 }
 
 @mixin figures {
-  @media (min-width: $on-tablet) {
+  @media (min-width: $on-laptop) {
     margin-left: -33.333333%;
-    margin-right: -19.333333%;
+    margin-right: -33.333333%;
   }
   @media (min-width: $on-desktop) {
-    margin-right: -33.333333%;
     // margin-right: $spacing-unit * -1;
     .pull-out + & {
       width: 80%
     }
   }
-  // @media (min-width: $on-desktop) {
-  //   margin-left: $spacing-unit * -2;
-  //   margin-right: $spacing-unit * -2;
-  //   .pull-out + & {
-  //     width: 80%
-  //   }
-  // }
 }

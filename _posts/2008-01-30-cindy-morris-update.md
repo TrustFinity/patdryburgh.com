@@ -3,6 +3,7 @@ title: Cindy Morris - Update
 date: 2008-01-30 00:00:00 Z
 categories:
 - blog
+tags: community
 layout: post
 author: patdryburgh
 url_title: cindy-morris-update

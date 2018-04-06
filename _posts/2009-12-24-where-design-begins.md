@@ -3,6 +3,7 @@ title: Where Design Begins
 date: 2009-12-24 00:00:00 Z
 categories:
 - blog
+tags: design
 layout: post
 author: patdryburgh
 url_title: where-design-begins

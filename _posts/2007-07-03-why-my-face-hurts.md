@@ -3,6 +3,7 @@ title: Why My Face Hurts
 date: 2007-07-03 00:00:00 Z
 categories:
 - blog
+tags: health
 layout: post
 author: patdryburgh
 url_title: why-my-face-hurts

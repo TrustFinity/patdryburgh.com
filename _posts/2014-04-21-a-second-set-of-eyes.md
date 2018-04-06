@@ -3,6 +3,7 @@ title: A second set of eyes
 date: 2014-04-21 00:00:00 Z
 categories:
 - blog
+tags: design freelancing
 layout: post
 author: patdryburgh
 ---

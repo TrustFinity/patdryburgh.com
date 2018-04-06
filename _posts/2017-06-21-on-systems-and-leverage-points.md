@@ -3,6 +3,7 @@ title: On systems and leverage points
 date: 2017-06-22 17:43:06 +0300
 categories:
 - blog
+tags: design systems leadership
 layout: post
 author: patdryburgh
 ---
@@ -79,7 +80,7 @@ As someone who enjoys tinkering and making things look and work exactly how I en
     <p>Where do you intervene? Where in this array of interrelated, interdependent, codependent variables do you choose to try and make a difference?</p>
     <cite>
       &mdash; <a href="https://www.youtube.com/watch?v=gnQma0e0JFE">James Shelley</a>
-      <span class="title small">Writer &amp; Friend</span>
+      <span class="small">Writer &amp; Friend</span>
     </cite>
   </blockquote>
 </div>

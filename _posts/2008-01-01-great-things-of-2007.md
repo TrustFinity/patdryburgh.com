@@ -3,6 +3,7 @@ title: Great Things of 2007
 date: 2008-01-01 00:00:00 Z
 categories:
 - blog
+tags: life
 layout: post
 author: patdryburgh
 url_title: great-things-of-2007

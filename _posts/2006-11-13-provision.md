@@ -3,6 +3,7 @@ title: Provision
 date: 2006-11-13 00:00:00 Z
 categories:
 - blog
+tags: religion
 layout: post
 author: patdryburgh
 url_title: provision

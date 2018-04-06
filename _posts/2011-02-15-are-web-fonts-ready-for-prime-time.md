@@ -3,6 +3,7 @@ title: Are Web Fonts Ready for Prime Time?
 date: 2011-02-15 00:00:00 Z
 categories:
 - blog
+tags: design development
 layout: post
 author: patdryburgh
 url_title: are-web-fonts-ready-for-prime-time

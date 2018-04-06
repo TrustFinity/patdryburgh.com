@@ -3,6 +3,7 @@ title: Join me on May 24 to learn how user testing can improve your product
 date: 2017-05-11 13:15:00
 categories:
 - blog
+tags: design
 layout: post
 author: patdryburgh
 url_title: improve-your-product

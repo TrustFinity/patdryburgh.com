@@ -3,6 +3,7 @@ title: Alex Payne on Criticism
 date: 2009-12-07 00:00:00 Z
 categories:
 - blog
+tags: community
 layout: post
 author: patdryburgh
 url_title: alex-payne-on-criticism

@@ -3,6 +3,7 @@ title: First Practice
 date: 2007-03-01 00:00:00 Z
 categories:
 - blog
+tags: music
 layout: post
 author: patdryburgh
 url_title: first-practice

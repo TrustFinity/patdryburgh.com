@@ -3,6 +3,7 @@ title: My Greatest Accomplishment Ever
 date: 2009-10-06 00:00:00 Z
 categories:
 - blog
+tags: life
 layout: post
 author: patdryburgh
 url_title: my-greatest-accomplishment-ever

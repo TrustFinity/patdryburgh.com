@@ -3,6 +3,7 @@ title: Pat Dryburgh is a Freelance Designer
 date: 2010-05-11 00:00:00 Z
 categories:
 - blog
+tags: design freelancing
 layout: post
 author: patdryburgh
 url_title: pat-dryburgh-is-a-freelance-designer

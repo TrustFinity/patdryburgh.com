@@ -3,6 +3,7 @@ title: The Mac App Store &amp; App Updates
 date: 2011-03-17 00:00:00 Z
 categories:
 - blog
+tags: design technology
 layout: post
 author: patdryburgh
 url_title: the-mac-app-store-app-updates

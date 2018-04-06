@@ -3,6 +3,7 @@ title: Descriptive Page Titles in Tumblr
 date: 2010-08-07 00:00:00 Z
 categories:
 - blog
+tags: development
 layout: post
 author: patdryburgh
 url_title: descriptive-page-titles-in-tumblr

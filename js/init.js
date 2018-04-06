@@ -18,6 +18,7 @@ var dayTheme   = '{{ "/css/main.css" | absolute_url }}?{{site.time | date: '%s%N
     
 var themeButton = document.createElement('button')
     themeButton.innerHTML = 'Toggle Theme'
+    themeButton.id = 'js-theme-toggle'
 
 function setDayTheme() {
   localStorage.setItem('theme', 'day')

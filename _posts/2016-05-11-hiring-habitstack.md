@@ -3,6 +3,7 @@ title: Hiring HabitStack
 date: 2016-05-11 00:00:00 Z
 categories:
 - blog
+tags: life productivity
 layout: post
 author: patdryburgh
 url_title: hiring-habitstack

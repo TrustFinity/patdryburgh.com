@@ -3,6 +3,7 @@ title: Where I admit that I was wrong and Merlin Mann was right
 date: 2011-06-03 00:00:00 Z
 categories:
 - blog
+tags: blogging
 layout: post
 author: patdryburgh
 url_title: where-i-admit-that-i-was-wrong-and-merlin-mann-was-right

@@ -3,6 +3,7 @@ title: What am I doing in Uganda?
 date: 2017-03-19 00:00:00 Z
 categories:
 - blog
+tags: design Uganda travel
 layout: post
 author: patdryburgh
 url_title: designing-in-uganda

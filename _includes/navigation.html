@@ -1,4 +1,4 @@
-<nav class="menu">
+<nav class="menu" {% if include.header == 'true' %}id="js-menu"{% endif %}>
   <ul class="menu__list">
     {% for link in site.data.menu %}
       <li class="menu__listitem">

@@ -1,15 +1,18 @@
+form {
+  @include m(bottom);
+  @include m(top);
+}
+
 input[type="text"],
 input[type="email"],
 textarea {
   background: none;
-  border: 0;
-  // border-bottom: $border-width solid $grey-color;
+  border: $border-width solid $grey-color;
   color: $text-color;
   display: block;
   font: 400 .825em $base-font-family;
-  padding: .5em 0;
+  padding: .5em;
   height: auto;
-  width: 100%;
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
@@ -32,259 +35,24 @@ button[type=submit] {
   outline: none;
 }
 
-.call-to-action ::placeholder {
-    color: rgba($background-color, .7);
-    opacity: 1; /* Firefox */
-}
-
-.call-to-action :-ms-input-placeholder {
-    color: rgba($background-color, .7);
-}
-
-.call-to-action ::-ms-input-placeholder {
-    color: rgba($background-color, .7);
-}
-
-.floating-input input[type="text"],
-.floating-input input[type="email"],
-.floating-input textarea {
-  background: none;
-  border: 0;
-  border: $border-width solid #eee;
-  font: 400 1em $base-font-family;
-  margin: 2em 0 0;
-  padding: .5em .5em .625em;
-  max-width: 100%;
-  height: auto;
-  width: 100%;
-  -webkit-appearance: none;
-  -moz-appearance: none;
-  appearance: none;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
-  -webkit-border-radius: 0;
-  -moz-border-radius: 0;
-  border-radius: 0;
-  &:focus {
-    outline: none;
-    border-color: $text-color;
-  }
-  &[type=submit] {
-    padding: 0;
+label {
+  display: inline-block;
+  font-size: 1em;
+  font-weight: 700;
+  margin-top: 1.5rem;
+  margin-bottom: .75rem;
+  @media (min-width: $on-tablet) {
+    font-size: 1.5rem;
+    line-height: 1.5rem;
   }
 }
 
-.floating-input,
-.range-slider {
-  position: relative;
+.form-group {
+  display: flex;
+  flex-direction: row;
+  flex: 0 1 auto;
 }
 
-.floating-input input,
-.floating-input textarea {
-  position: relative;
-  z-index: 3;
-}
-
-.floating-input label,
-.range-slider label {
-  font: 400 1em $base-font-family;
-  top: 0;
-  left: 0;
-  padding: .5em .5em;
-  border: $border-width solid transparent;
-  position: absolute;
-  z-index: 1;
-  -webkit-transition: all .125s ease-in;
-  -moz-transition: all .125s ease-in;
-  transition: all .125s ease-in;
-
-  // TODO: refactor design of text and range fields to be more consistent
-  background: $background-color;
-  font-size: .5em;
-  text-transform: uppercase;
-  left: .625em;
-  top: -1.25em;
-  z-index: 5;
-}
-
-.floating-input input:focus + label,
-.floating-input input:valid + label,
-.floating-input input:not([value=""]):not(:focus):invalid + label,
-.floating-input textarea:focus + label,
-.floating-input textarea:valid + label,
-.floating-input textarea:not([value=""]):not(:focus):invalid + label,
-.range-slider input + label {
-  background: $background-color;
-  font-size: .5em;
-  left: .625em;
-  top: -1.25em;
-  z-index: 5;
-}
-
-.range-slider input + label {
-  top: -1.325em;
-}
-
-.floating-input input:not([value=""]):not(:focus):invalid,
-.floating-input textarea:not([value=""]):not(:focus):invalid {
-  border-color: $brand-color;
-}
-
-.floating-input input:not([value=""]):not(:focus):invalid + label,
-.floating-input textarea:not([value=""]):not(:focus):invalid + label {
-  color: $brand-color;
-}
-
-.floating-input input::-webkit-input-placeholder,
-.floating-input textarea::-webkit-input-placeholder {
-  // TODO: refactor design of text and range fields to be more consistent opacity: 0; 
-  -webkit-transition: all .125s ease-in;
-  transition: all .125s ease-in;
-}
-
-.floating-input input:-moz-placeholder,
-.floating-input textarea:-moz-placeholder {
-  // TODO: refactor design of text and range fields to be more consistentopacity: 0;
-  -moz-transition: all .125s ease-in;
-  transition: all .125s ease-in;
-}
-
-.floating-input input::-moz-placeholder,
-.floating-input textarea::-moz-placeholder {
-  // TODO: refactor design of text and range fields to be more consistentopacity: 0;
-  -moz-transition: all .125s ease-in;
-  transition: all .125s ease-in;
-}
-
-.floating-input input:-ms-input-placeholder,
-.floating-input textarea:-ms-input-placeholder {
-  // TODO: refactor design of text and range fields to be more consistent opacity: 0;
-  -ms-transition: all .125s ease-in;
-  transition: all .125s ease-in;
-}
-
-.floating-input input:focus::-webkit-input-placeholder,
-.floating-input textarea:focus::-webkit-input-placeholder {
-  opacity: 1;
-}
-
-.floating-input input:focus:-moz-placeholder,
-.floating-input textarea:focus:-moz-placeholder {
-  opacity: 1;
-}
-
-.floating-input input:focus::-moz-placeholder,
-.floating-input textarea:focus::-moz-placeholder {
-  opacity: 1;
-}
-
-.floating-input input:focus:-ms-input-placeholder,
-.floating-input textarea:focus:-ms-input-placeholder {
-  opacity: 1;
-}
-
-.range-slider {
-  border: $border-width solid #eee;
-  margin-bottom: 2em;
-  padding: .5em 6em 1em 0;
-  position: relative;
-}
-
-.range-display {
-  position: absolute;
-  top: 0;
-  right: 0;
-  width: 4em;
-  padding: 0 1em;
-  text-align: center;
-  line-height: 3.125em;
-  border: 0;
-  border-left: 1px solid #eee;
-  font-family: $base-font-family;
-}
-
-input[type="range"] {
-  -webkit-appearance: none;
-  background: transparent;
-  margin: 0;
-  width: 100%;
-}
-
-input[type=range]:focus {
-  outline: none;
-}
-
-@mixin range-thumb() {
-  height: 1.5em;
-  width: 1.5em;
-  border-radius: 50%;
-  background: $brand-color;
-  border-color: $brand-color;
-  cursor: pointer;
-}
-
-input[type=range]::-webkit-slider-thumb {
-  -webkit-appearance: none;
-  @include range-thumb();
-  margin-top: -.625em; /* You need to specify a margin in Chrome, but in Firefox and IE it is automatic */
-}
-
-input[type=range]::-moz-range-thumb {
-  @include range-thumb();
-}
-
-input[type=range]::-ms-thumb {
-  border: $border-width solid #000000;
-  height: 36px;
-  width: 16px;
-  border-radius: 3px;
-  background: #ffffff;
-  cursor: pointer;
-}
-
-@mixin range-track() {
-  width: 100%;
-  height: 1px;
-  cursor: pointer;
-  background: #eee;
-  padding: 0 1em;
-}
-
-input[type=range]::-webkit-slider-runnable-track {
-  @include range-track();
-}
-
-input[type=range]:focus::-webkit-slider-runnable-track {
-  background: #367ebd;
-}
-
-input[type=range]::-moz-range-track {
-  @include range-track();
-}
-
-input[type=range]::-ms-track {
-  @include range-track();
-  background: transparent;
-  border-color: transparent;
-  border-width: 1px 0 0;
-  color: transparent;
-}
-input[type=range]::-ms-fill-lower {
-  background: #2a6495;
-  border: 0.2px solid #010101;
-  border-radius: 2.6px;
-  box-shadow: 1px 1px 1px #000000, 0px 0px 1px #0d0d0d;
-}
-input[type=range]:focus::-ms-fill-lower {
-  background: #3071a9;
-}
-input[type=range]::-ms-fill-upper {
-  background: #3071a9;
-  border: 0.2px solid #010101;
-  border-radius: 2.6px;
-  box-shadow: 1px 1px 1px #000000, 0px 0px 1px #0d0d0d;
-}
-input[type=range]:focus::-ms-fill-upper {
-  background: #367ebd;
+.form-group input {
+  flex: 1 1 auto;
 }

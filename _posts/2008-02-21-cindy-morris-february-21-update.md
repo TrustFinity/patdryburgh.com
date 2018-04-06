@@ -3,6 +3,7 @@ title: Cindy Morris - February 21 Update
 date: 2008-02-21 00:00:00 Z
 categories:
 - blog
+tags: community
 layout: post
 author: patdryburgh
 url_title: cindy-morris-february-21-update

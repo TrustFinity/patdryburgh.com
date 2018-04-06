@@ -3,6 +3,7 @@ title: High-Res Images in Tumblr
 date: 2010-08-04 00:00:00 Z
 categories:
 - blog
+tags: development
 layout: post
 author: patdryburgh
 url_title: high-res-images-in-tumblr

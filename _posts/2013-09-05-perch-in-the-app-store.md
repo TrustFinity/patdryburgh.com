@@ -3,6 +3,7 @@ title: Perch in the App Store
 date: 2013-09-05 00:00:00 Z
 categories:
 - blog
+tags: design
 layout: post
 author: patdryburgh
 url_title: perch-in-the-app-store

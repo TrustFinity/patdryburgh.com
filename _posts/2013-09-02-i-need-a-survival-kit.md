@@ -3,6 +3,7 @@ title: I need a survival kit
 date: 2013-09-02 00:00:00 Z
 categories:
 - blog
+tags: health
 layout: post
 author: patdryburgh
 url_title: i-need-a-survival-kit

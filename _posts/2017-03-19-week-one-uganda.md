@@ -3,6 +3,7 @@ title: Stories from the first week and a bit in Uganda
 date: 2017-03-30 00:00:00 Z
 categories:
 - blog
+tags: Uganda travel
 layout: post
 author: patdryburgh
 url_title: week-one-uganda

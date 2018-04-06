@@ -3,6 +3,7 @@ title: Almost There
 date: 2010-01-29 00:00:00 Z
 categories:
 - blog
+tags: productivity
 layout: post
 author: patdryburgh
 url_title: almost-there

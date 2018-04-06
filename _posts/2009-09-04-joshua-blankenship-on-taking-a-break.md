@@ -3,6 +3,7 @@ title: Joshua Blankenship on Taking a Break
 date: 2009-09-04 00:00:00 Z
 categories:
 - blog
+tags: productivity
 layout: post
 author: patdryburgh
 url_title: joshua-blankenship-on-taking-a-break

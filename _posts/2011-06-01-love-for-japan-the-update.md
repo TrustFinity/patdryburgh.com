@@ -3,6 +3,7 @@ title: Love for Japan&#58; The Update
 date: 2011-06-01 00:00:00 Z
 categories:
 - blog
+tags: projects
 layout: post
 author: patdryburgh
 url_title: love-for-japan-the-update

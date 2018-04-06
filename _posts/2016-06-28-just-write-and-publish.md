@@ -3,6 +3,7 @@ title: Just write and publish
 date: 2016-06-28 00:00:00 Z
 categories:
 - blog
+tags: blogging
 layout: post
 author: patdryburgh
 url_title: just-write-and-publish

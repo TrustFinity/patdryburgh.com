@@ -3,6 +3,7 @@ title: WordPress Theme Frameworks&#58; A Designer&#8217;s Dream
 date: 2008-08-29 00:00:00 Z
 categories:
 - blog
+tags: design development
 layout: post
 author: patdryburgh
 url_title: wordpress-theme-frameworks-a-designers-dream

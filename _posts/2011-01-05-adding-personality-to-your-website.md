@@ -3,6 +3,7 @@ title: Adding Personality to Your Website
 date: 2011-01-05 00:00:00 Z
 categories:
 - blog
+tags: blogging design
 layout: post
 author: patdryburgh
 url_title: adding-personality-to-your-website

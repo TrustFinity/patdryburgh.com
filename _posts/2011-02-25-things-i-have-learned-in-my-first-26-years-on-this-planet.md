@@ -3,6 +3,7 @@ title: Things I Have Learned In My First 26 Years On This Planet
 date: 2011-02-25 00:00:00 Z
 categories:
 - blog
+tags: life
 layout: post
 author: patdryburgh
 url_title: things-i-have-learned-in-my-first-26-years-on-this-planet

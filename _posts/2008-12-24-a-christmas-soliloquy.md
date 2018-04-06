@@ -3,6 +3,7 @@ title: A Christmas Soliloquy
 date: 2008-12-24 00:00:00 Z
 categories:
 - blog
+tags: life
 layout: post
 author: patdryburgh
 url_title: a-christmas-soliloquy

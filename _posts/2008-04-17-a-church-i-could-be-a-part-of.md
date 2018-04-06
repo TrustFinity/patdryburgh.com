@@ -3,6 +3,7 @@ title: A Church I Could Be a Part Of?
 date: 2008-04-17 00:00:00 Z
 categories:
 - blog
+tags: religion
 layout: post
 author: patdryburgh
 url_title: a-church-i-could-be-a-part-of

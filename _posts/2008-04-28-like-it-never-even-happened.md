@@ -3,6 +3,7 @@ title: Like It Never Even Happened
 date: 2008-04-28 00:00:00 Z
 categories:
 - blog
+tags: life
 layout: post
 author: patdryburgh
 url_title: like-it-never-even-happened

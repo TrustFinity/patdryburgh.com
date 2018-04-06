@@ -3,6 +3,7 @@ title: The Mac For Me
 date: 2012-03-29 00:00:00 Z
 categories:
 - blog
+tags: technology
 layout: post
 author: patdryburgh
 url_title: the-mac-for-me

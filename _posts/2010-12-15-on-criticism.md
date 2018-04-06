@@ -3,6 +3,7 @@ title: On Criticism
 date: 2010-12-15 00:00:00 Z
 categories:
 - blog
+tags: design community
 layout: post
 author: patdryburgh
 url_title: on-criticism

@@ -3,6 +3,7 @@ title: Losing Readers
 date: 2008-04-14 00:00:00 Z
 categories:
 - blog
+tags: blogging
 layout: post
 author: patdryburgh
 url_title: losing-readers

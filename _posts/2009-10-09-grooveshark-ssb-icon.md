@@ -3,6 +3,7 @@ title: Grooveshark SSB Icon
 date: 2009-10-09 00:00:00 Z
 categories:
 - blog
+tags: design
 layout: post
 author: patdryburgh
 url_title: grooveshark-ssb-icon

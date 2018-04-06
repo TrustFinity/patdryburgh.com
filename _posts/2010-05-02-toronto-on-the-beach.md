@@ -3,6 +3,7 @@ title: Toronto on the Beach
 date: 2010-05-02 00:00:00 Z
 categories:
 - blog
+tags: travel
 layout: post
 author: patdryburgh
 url_title: toronto-on-the-beach

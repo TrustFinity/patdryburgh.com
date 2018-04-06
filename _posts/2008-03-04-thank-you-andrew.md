@@ -3,6 +3,7 @@ title: Thank You, Andrew
 date: 2008-03-04 00:00:00 Z
 categories:
 - blog
+tags: community
 layout: post
 author: patdryburgh
 url_title: thank-you-andrew

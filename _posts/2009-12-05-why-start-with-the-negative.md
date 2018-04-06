@@ -3,6 +3,7 @@ title: Why Start With The Negative?
 date: 2009-12-05 00:00:00 Z
 categories:
 - blog
+tags: community blogging
 layout: post
 author: patdryburgh
 url_title: why-start-with-the-negative

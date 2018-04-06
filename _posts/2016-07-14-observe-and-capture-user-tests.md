@@ -3,6 +3,7 @@ title: Quick and dirty method to observe and capture user tests
 date: 2016-07-14 00:00:00 Z
 categories:
 - blog
+tags: design
 layout: post
 author: patdryburgh
 url_title: observe-and-capture-user-tests

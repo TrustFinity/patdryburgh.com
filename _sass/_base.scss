@@ -50,10 +50,19 @@ h2,
 h3,
 h4,
 h5,
-h6 {
+h6,
+label {
   color: $heading-text-color;
   font-family: $secondary-font-family;
   font-weight: 900;
+  > a,
+  > a:visited {
+    color: $heading-text-color;
+    &:hover,
+    &:focus {
+      color: $brand-color;
+    }
+  }
 }
 
 h1 {
@@ -72,6 +81,20 @@ h2 {
   @media (min-width: $on-tablet) {
     font-size: 2.25rem;
     line-height: 2.5rem;
+  }
+  h1 + & {
+    margin-top: .75rem;
+  }
+}
+
+h3 {
+  font-size: 1em;
+  font-weight: 700;
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+  @media (min-width: $on-tablet) {
+    font-size: 1.5rem;
+    line-height: 1.5rem;
   }
 }
 
@@ -106,12 +129,6 @@ em {
 // h2 {
 //   font-size: 1.5em;
 //   line-height: 1.25;
-// }
-
-// h3 {
-//   font-size: 1.25em;
-//   font-weight: 700;
-//   margin-bottom: 0;
 // }
 
 // h4 {
@@ -186,7 +203,8 @@ a {
     text-decoration: none;
   }
 
-  .post__content & {
+  .post__content &,
+  .footer & {
     text-decoration: underline;
     &:hover,
     &:focus {
@@ -207,12 +225,12 @@ abbr {
 code {
   background: none;
   color: darken($brand-color, 20%);
+  font: 1em "Courier", monospace;
   padding: 1px 5px;
 }
 
 pre {
   background: none !important;
-  font: 1em "Courier", monospace;
   white-space: pre-wrap;
   white-space: -moz-pre-wrap !important;
   white-space: -pre-wrap;

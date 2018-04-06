@@ -3,6 +3,7 @@ title: Letting the Numbers Go
 date: 2009-05-08 00:00:00 Z
 categories:
 - blog
+tags: blogging
 layout: post
 author: patdryburgh
 url_title: letting-the-numbers-go

@@ -1,6 +1,9 @@
 {% assign words = content | number_of_words %}
-
-<article class="post single">
+{% assign post_class = 'post' %}
+{% if page.categories contains 'micro' %}
+  {% assign post_class = 'post post--micro' %}
+{% endif %}
+<article class="{{ post_class }}">
 
   {% include post_header.html %}
 
@@ -15,7 +18,9 @@
     <div class="wrapper">
   
       {% if page.link %}
-        <a href="{{ page.link }}" class="post__micro-link">{{ page.title }} &rarr;</a>
+        <p>
+          <a href="{{ page.link }}" class="post--micro__link">{{ page.title }} &rarr;</a>
+        </p>
       {% endif %}
       
       {{ content | markdownify }}

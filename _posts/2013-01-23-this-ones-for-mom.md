@@ -3,6 +3,7 @@ title: This One&#8217;s For Mom
 date: 2013-01-23 00:00:00 Z
 categories:
 - blog
+tags: blogging
 layout: post
 author: patdryburgh
 url_title: this-ones-for-mom

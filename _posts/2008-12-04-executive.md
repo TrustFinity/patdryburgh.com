@@ -3,6 +3,7 @@ title: Executive
 date: 2008-12-04 00:00:00 Z
 categories:
 - blog
+tags: leadership
 layout: post
 author: patdryburgh
 url_title: executive

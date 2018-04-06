@@ -3,6 +3,7 @@ title: Vancouver
 date: 2012-04-20 00:00:00 Z
 categories:
 - blog
+tags: life
 layout: post
 author: patdryburgh
 url_title: vancouver

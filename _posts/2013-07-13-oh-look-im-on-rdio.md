@@ -3,6 +3,7 @@ title: Oh look, I&#8217;m on Rdio
 date: 2013-07-13 00:00:00 Z
 categories:
 - blog
+tags: music
 layout: post
 author: patdryburgh
 url_title: oh-look-im-on-rdio

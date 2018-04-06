@@ -7,7 +7,7 @@ layout: default
 
 {% include post_header.html %}
 
-<ul class="project-list container grid-tablet grid-1-2">
+<ul class="project-list container grid-laptop grid-1-2">
   {% assign projects = site.projects | sort: 'date' | reverse %}
   {% for post in projects %}
     <li>
@@ -47,8 +47,8 @@ layout: default
       </li>
     </ul>
 
+    {% include design_cta.html margin="top" %}
+
   </div>
 
 </div>
-
-{% include design_cta.html margin="top" %}

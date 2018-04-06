@@ -1,6 +1,5 @@
 ---
 layout: default
-home: true
 ---
 
 <section>
@@ -57,9 +56,7 @@ home: true
 
   {% endfor %}
 
-  {% include newsletter.html margin="top" %}
-  
-  <nav class="pagination wrapper m-top">
+  <nav class="pagination container">
     {% if paginator.previous_page %}
       <a href="{{ paginator.previous_page_path }}" class="pagination-previous btn">&lang; Previous</a>
     {% else %}
@@ -72,5 +69,11 @@ home: true
       <span class="pagination-next">Next</span>
     {% endif %}
   </nav>
+
+  <div class="container">
+    <div class="wrapper">
+      {% include newsletter.html margin="top" %}
+    </div>
+  </div>  
 
 </section>

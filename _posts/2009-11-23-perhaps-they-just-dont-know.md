@@ -3,6 +3,7 @@ title: Perhaps They Just Don&#8217;t Know?
 date: 2009-11-23 00:00:00 Z
 categories:
 - blog
+tags: design
 layout: post
 author: patdryburgh
 url_title: perhaps-they-just-dont-know

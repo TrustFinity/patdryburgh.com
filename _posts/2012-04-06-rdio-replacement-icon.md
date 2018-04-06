@@ -3,6 +3,7 @@ title: Rdio Replacement Icon
 date: 2012-04-06 00:00:00 Z
 categories:
 - blog
+tags: design
 layout: post
 author: patdryburgh
 url_title: rdio-replacement-icon

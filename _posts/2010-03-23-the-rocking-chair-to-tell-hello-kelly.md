@@ -3,6 +3,7 @@ title: The Rocking Chair, To Tell, Hello Kelly
 date: 2010-03-23 00:00:00 Z
 categories:
 - blog
+tags: music
 layout: post
 author: patdryburgh
 url_title: the-rocking-chair-to-tell-hello-kelly

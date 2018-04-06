@@ -7,15 +7,24 @@
   // text-transform: uppercase;
 }
 
-.title {
+.logo {
   display: inline-block;
   font-size: 1rem;
   font-weight: 700;
   line-height: 1.5rem;
   margin-bottom: 0;
+  margin-left: -.5rem;
+  margin-right: $spacing-unit / 2;
+  min-width: 34px;
   text-decoration: none;
-  min-width: 5rem;
-  width: 20%;
+  @media (min-width: $on-tablet) {
+    margin-left: -19.0983%;
+    margin-right: 0;
+    width: 19.0983%;
+  }
+  @media (min-width: $on-laptop) {
+    margin-left: 0;
+  }
   a,
   a:visited {
     color: $text-color;
@@ -25,7 +34,10 @@
   }
   img {
     transition: all .5s ease-in-out;
-    width: 69px;
+    width: 34px;
+    @media (min-width: $on-tablet) {
+      width: 69px;
+    }
   }
   &:hover img,
   &:focus img {
@@ -34,7 +46,8 @@
 }
 
 .menu {
-  display: inline;
+  display: inline-flex;
+  align-items: center;
   font-family: $secondary-font-family;
   font-size: .75rem;
   @media (min-width: $on-tablet) {
@@ -44,27 +57,32 @@
 
 .menu__list {
   display: inline-flex;
+  flex-wrap: wrap;
   margin: 0;
 }
 
 .menu__listitem {
   list-style: none;
   margin-left: 0;
-  margin-right: 1.5rem;
+  margin-right: .5rem;
+  @media (min-width: $on-tablet) {
+    margin-right: $spacing-unit;
+  }
   a {
     // font-size: .925rem;
     // padding: .25rem .5rem;
     position: relative;
+    text-decoration: none;
     z-index: 1;
     &:before {
       background: $brand-color;
       content: "";
       display: block;
       position: absolute;
-      top: -.5rem;
-      bottom: -.5rem;
-      left: -.5rem;
-      right: -.5rem;
+      top: -.125rem;
+      bottom: -.125rem;
+      left: -.25rem;
+      right: -.25rem;
       z-index: -1;
       transform: scaleX(0) skew(-2.5deg) rotate(-.75deg);
       transform-origin: top left;

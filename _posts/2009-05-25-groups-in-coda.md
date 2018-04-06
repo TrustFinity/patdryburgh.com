@@ -3,6 +3,7 @@ title: Groups in Coda
 date: 2009-05-25 00:00:00 Z
 categories:
 - blog
+tags: technology
 layout: post
 author: patdryburgh
 url_title: groups-in-coda

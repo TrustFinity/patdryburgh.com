@@ -3,6 +3,7 @@ title: Please help my friend Carly win recording time
 date: 2013-12-19 00:00:00 Z
 categories:
 - blog
+tags: music
 layout: post
 author: patdryburgh
 url_title: please-help-my-friend-carly-win-recording-time

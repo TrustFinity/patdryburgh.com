@@ -3,6 +3,7 @@ title: Starting with the End in Mind
 date: 2007-04-20 00:00:00 Z
 categories:
 - blog
+tags: leadership
 layout: post
 author: patdryburgh
 url_title: starting-with-the-end-in-mind

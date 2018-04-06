@@ -1,47 +1,37 @@
 ---
-title: Blog
-layout: default
-subtitle: I write about design, music, and life.
+browser_title: Blog
+title: I've been writing online since 2004
+subtitle: Luckily for you, this list is sorted newest to oldest.
+layout: post
 ---
 
 {% for post in site.categories.blog limit: 1 %}
-  {% assign lastyear = post.date | date: '%Y' | minus: 1 %}
+  {% assign lastyear = post.date | date: '%Y' | minus: 2 %}
 {% endfor %}
 
-<main class="page-content">
+{% include search.html %}
 
-  <header class="post-header wrapper">
-    <h1 class="post-title">I've been writing online since 2004.</h1>
-    <h2>Luckily for you, this list is sorted newest to oldest.</h2>
-  </header>
+<section class="blog">
 
-  <div class="wrapper m-top">
-    {% include search.html %}
-  </div>
-
-  <section class="blog">
-
-    {% for post in site.categories.blog %}
-      {% unless post.draft %}
-        {% assign currentdate = post.date | date: "%Y" %}
-        {% if post.date and currentdate != date %}
-          {% unless forloop.first %}
-            </ul>
-          {% endunless %}
-          {% if currentdate contains lastyear %}
-            {% include newsletter.html margin="top" %}
-          {% endif %}
-          <div class="wrapper m-top">
-            <h2 class="post-meta" id="y{{ currentdate }}">{{ currentdate }}</h2>
-          </div>
-          <ul class="post-list list-unstyled">
-          {% assign date = currentdate %}
+  {% for post in site.categories.blog %}
+    {% unless post.draft %}
+      {% assign currentdate = post.date | date: "%Y" %}
+      {% if post.date and currentdate != date %}
+        {% unless forloop.first %}
+          </ul>
+        {% endunless %}
+        {% if currentdate contains lastyear %}
+          {% include newsletter.html margin="top" %}
         {% endif %}
-        {% include post_link.html %}
-        {% if forloop.last %}</ul><!-- last -->{% endif %}
-      {% endunless %}
-    {% endfor %}
+        <div class="post-list__year">
+          <h2 class="post-list__year" id="y{{ currentdate }}">{{ currentdate }}</h2>
+        </div>
+        <ul class="post-list list-unstyled">
+        {% assign date = currentdate %}
+      {% endif %}
+      {% include post_link.html %}
+      {% if forloop.last %}</ul><!-- last -->{% endif %}
+    {% endunless %}
+  {% endfor %}
 
-  </section>
-
-</main>
+</section>

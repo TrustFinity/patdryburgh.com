@@ -3,6 +3,7 @@ title: Considerations for user testing in Uganda
 date: 2017-04-13 00:00:00 Z
 categories:
 - blog
+tags: design Uganda
 layout: post
 author: patdryburgh
 url_title: user-testing-in-uganda

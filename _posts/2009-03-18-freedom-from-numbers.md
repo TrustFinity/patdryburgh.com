@@ -3,6 +3,7 @@ title: Freedom From Numbers
 date: 2009-03-18 00:00:00 Z
 categories:
 - blog
+tags: blogging
 layout: post
 author: patdryburgh
 url_title: freedom-from-numbers

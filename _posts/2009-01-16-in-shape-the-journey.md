@@ -3,6 +3,7 @@ title: In Shape - The Journey
 date: 2009-01-16 00:00:00 Z
 categories:
 - blog
+tags: health
 layout: post
 author: patdryburgh
 url_title: in-shape-the-journey

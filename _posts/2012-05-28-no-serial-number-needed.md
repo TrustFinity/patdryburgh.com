@@ -3,6 +3,7 @@ title: No Serial Number Needed
 date: 2012-05-28 00:00:00 Z
 categories:
 - blog
+tags: design products
 layout: post
 author: patdryburgh
 url_title: no-serial-number-needed

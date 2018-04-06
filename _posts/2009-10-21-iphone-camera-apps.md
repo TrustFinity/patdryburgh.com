@@ -3,6 +3,7 @@ title: iPhone Camera Apps
 date: 2009-10-21 00:00:00 Z
 categories:
 - blog
+tags: technology
 layout: post
 author: patdryburgh
 url_title: iphone-camera-apps

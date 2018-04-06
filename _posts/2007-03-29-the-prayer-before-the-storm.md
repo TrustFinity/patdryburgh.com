@@ -3,6 +3,7 @@ title: The Prayer Before the Storm
 date: 2007-03-29 00:00:00 Z
 categories:
 - blog
+tags: religion
 layout: post
 author: patdryburgh
 url_title: the-prayer-before-the-storm

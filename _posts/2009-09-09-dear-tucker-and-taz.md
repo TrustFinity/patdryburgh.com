@@ -3,6 +3,7 @@ title: Dear Tucker and Taz
 date: 2009-09-09 00:00:00 Z
 categories:
 - blog
+tags: life
 layout: post
 author: patdryburgh
 url_title: dear-tucker-and-taz

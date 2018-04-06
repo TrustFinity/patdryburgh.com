@@ -3,6 +3,7 @@ title: Imprint Update
 date: 2011-10-26 00:00:00 Z
 categories:
 - blog
+tags: film
 layout: post
 author: patdryburgh
 url_title: imprint-update
