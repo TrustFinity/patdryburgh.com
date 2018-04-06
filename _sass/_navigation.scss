@@ -65,7 +65,7 @@
   list-style: none;
   margin-left: 0;
   margin-right: .5rem;
-  @media (min-width: $on-tablet) {
+  @media (min-width: $on-laptop) {
     margin-right: $spacing-unit;
   }
   a {
