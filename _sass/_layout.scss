@@ -104,6 +104,18 @@
   }
 }
 
+.post-header__meta > * + * {
+  @media (min-width: $on-laptop) {
+    display: block;
+  }
+  &:before {
+    content: " · ";
+    @media (min-width: $on-laptop) {
+      content: "";
+    }
+  }
+}
+
 .post-list {
   list-style: none;
   margin-left: 0;

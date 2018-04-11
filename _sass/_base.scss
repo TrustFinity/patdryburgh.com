@@ -20,7 +20,7 @@ body {
 html {
   background: $brand-color;
   height: 100%;
-  @media (min-width: $on-tablet) {
+  @media (min-width: $on-bigphone) {
     font-size: $base-font-size * 1.25;
   }
 }

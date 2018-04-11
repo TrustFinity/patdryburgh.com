@@ -46,7 +46,7 @@
             {{ page.date | date: "%b %-d, %Y" }}
           </a>
         {% if page.categories contains 'blog' %}
-          <br />{% include read_time.html %}
+          {% include read_time.html %}
         {% endif %}
       </div>
     {% endunless %}

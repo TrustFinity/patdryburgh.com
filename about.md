@@ -7,9 +7,7 @@ hide_title: true
 layout: post
 --- 
 
-I've been designing and building on the web for over 10 years. From a music playlist generator powered by tweets to an accounting platform for micro-financing institutions in sub-Saharan Africa, my breadth of experience brings fresh thinking to every project.
-
-I've worked with some great teams and clients including [Grooveshark][gs], [Adobe][ad], [Fusion Ads][fa], [CocoaTech][cct], [QuickCal][qc], Thorel Woodworking, [Ethical Coffee Chain][ecc], UpThemes, [Ongo][ongo], [Perch][perch], [Agent Inbox][ai], [Brewhouse][bh], [Steamclock][sc], [Arc'teryx][arc], [Viral Foundry][vf], [Finstripe][fs], [Blanc Media][bm], [Platero Visual][pv], [Rye&nbsp;51][r5], [Stantec][st], and [Ensibuuko][en].
+I've been designing and building on the web for over 10 years. I've worked with some great teams and clients including [Grooveshark][gs], [Adobe][ad], [Fusion Ads][fa], [CocoaTech][cct], [QuickCal][qc], Thorel Woodworking, [Ethical Coffee Chain][ecc], UpThemes, [Ongo][ongo], [Perch][perch], [Agent Inbox][ai], [Brewhouse][bh], [Steamclock][sc], [Arc'teryx][arc], [Viral Foundry][vf], [Finstripe][fs], [Blanc Media][bm], [Platero Visual][pv], [Rye&nbsp;51][r5], [Stantec][st], and [Ensibuuko][en].
 
 My work has been featured in Beautiful Pixels, TechCrunch, Gigaom, VentureBeat, and the iOS App Store.
 
