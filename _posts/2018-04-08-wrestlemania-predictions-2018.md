@@ -5,6 +5,8 @@ categories:
 - blog
 layout: post
 author: patdryburgh
+redirect_from: 
+- /blog/My-20WrestleMania-20Predictions-20for-202018/
 ---
 
 I was in the rec room in my aunt and uncle's basement when I first saw Hulk Hogan bodyslam André the Giant. It's been 30 years since I saw my first WrestleMania on a VHS tape. While like most people my interest in the world of professional wrestling has ebbed and flowed. But tonight, my interest in the product is at an all time high.
