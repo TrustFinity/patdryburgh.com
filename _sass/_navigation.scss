@@ -3,7 +3,6 @@
   @include p(top);
   @include m(bottom);
   display: flex;
-  align-items: center;
   // text-transform: uppercase;
 }
 
@@ -13,17 +12,17 @@
   font-weight: 700;
   line-height: 1.5rem;
   margin-bottom: 0;
-  margin-left: -.5rem;
-  margin-right: $spacing-unit / 2;
+  margin-right: $spacing-unit * 2;
   min-width: 34px;
   text-decoration: none;
   @media (min-width: $on-tablet) {
-    margin-left: -19.0983%;
+    margin-left: -6rem;
     margin-right: 0;
-    width: 19.0983%;
+    width: 6rem;
   }
   @media (min-width: $on-laptop) {
     margin-left: 0;
+    width: 19.0983%;
   }
   a,
   a:visited {
@@ -47,25 +46,27 @@
 
 .menu {
   display: inline-flex;
-  align-items: center;
   font-family: $secondary-font-family;
   font-size: .75rem;
-  @media (min-width: $on-tablet) {
+  @media (min-width: $on-laptop) {
+    align-items: center;
     font-size: 1rem;
   }
 }
 
 .menu__list {
-  display: inline-flex;
+  display: flex;
   flex-wrap: wrap;
   margin: 0;
 }
 
 .menu__listitem {
+  min-width: min-content;
+  width: 50%;
   list-style: none;
   margin-left: 0;
-  margin-right: .5rem;
   @media (min-width: $on-laptop) {
+    width: auto;
     margin-right: $spacing-unit;
   }
   a {
