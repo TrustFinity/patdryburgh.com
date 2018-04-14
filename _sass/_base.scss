@@ -88,7 +88,7 @@ h2 {
 }
 
 h3 {
-  font-size: 1em;
+  font-size: 1.125em;
   font-weight: 700;
   margin-top: 1.5rem;
   margin-bottom: 1.5rem;
@@ -204,7 +204,8 @@ a {
   }
 
   .post__content &,
-  .footer & {
+  .footer &,
+  .call-to-action & {
     text-decoration: underline;
     &:hover,
     &:focus {
