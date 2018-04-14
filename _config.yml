@@ -28,6 +28,7 @@ micro_json: http://patdryburgh.com/feed/micro.json
 twitter: http://twitter.com/patdryburgh
 micro_blog: https://micro.blog/pat
 instagram: http://instagram.com/patdryburgh
+dribbble: http://dribbble.com/pat
 
 permalink: /:categories/:title/
 
