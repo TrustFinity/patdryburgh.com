@@ -51,17 +51,7 @@ layout: default
       {% endif %}
 
       {% if page.categories contains 'blog' %}
-        {% assign post_count = post_count | plus: 1 %}
         {% include post.html %}
-        {% if post_count == 2 %}
-          {% unless forloop.last %}
-            <div class="container">
-              <div class="wrapper">
-                {% include newsletter.html %}
-              </div>
-            </div>
-          {% endunless %}
-        {% endif %}
       {% endif %}
 
     {% endunless %}
@@ -83,5 +73,11 @@ layout: default
       {% endif %}
     </div>
   </nav>
+  
+  <div class="container">
+    <div class="wrapper">
+      {% include newsletter.html %}
+    </div>
+  </div>
 
 </section>
