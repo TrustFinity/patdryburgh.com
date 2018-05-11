@@ -1,13 +1,9 @@
 ---
 browser_title: Blog
-title: I've been writing online since 2004
+title: Published since 2004
 subtitle: Luckily for you, this list is sorted newest to oldest.
 layout: post
 ---
-
-{% for post in site.categories.blog limit: 1 %}
-  {% assign lastyear = post.date | date: '%Y' | minus: 2 %}
-{% endfor %}
 
 {% include search.html %}
 
@@ -20,9 +16,6 @@ layout: post
         {% unless forloop.first %}
           </ul>
         {% endunless %}
-        {% if currentdate contains lastyear %}
-          {% include newsletter.html margin="top" %}
-        {% endif %}
         <div class="post-list__year">
           <h2 class="post-list__year" id="y{{ currentdate }}">{{ currentdate }}</h2>
         </div>

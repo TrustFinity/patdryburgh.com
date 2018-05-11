@@ -23,7 +23,7 @@
 // Grid
 
 .container {
-  max-width: $content-width * 1.75;
+  max-width: $content-width * 1.612903226;
   margin: auto;
   @include p(left);
   @include p(right);
@@ -31,64 +31,62 @@
   box-sizing: padding-box;
 }
 
-.wrapper {
-  margin: auto;
-}
-
 @media (min-width: $on-tablet) {
-  .container {
-    padding-left: 19.0983%;
-    padding-right: 19.0983%;
-  }
-}
-
-@media (min-width: $on-laptop) {
-  .container {
-    @include p(left);
-    @include p(right);
-  }
   .wrapper {
-    padding-left: 19.0983%;
-    padding-right: 19.0983%;
+    display: grid;
+    grid-template-columns: [left-col-start] 19.0983% [right-col-start] auto [right-col-end];
+    grid-template-rows: [row-1] min-content [row-2] min-content [row-end];
+  }
+  .post__meta {
+    grid-column: left-col-start;
+    grid-row: row-1;
+    align-self: end;
+  }
+  .post__heading {
+    grid-column: left-col-start / right-col-end;
+    grid-row: row-1;
+    .post__meta + & {
+      grid-column: right-col-start / right-col-end;
+    }
+  }
+  .post__content {
+    grid-column: right-col-start / right-col-end;
+    grid-row: row-1 / row-end;
+    .post__heading + & {
+      grid-row: row-2 / row-end;
+    }
   }
 }
 
 @media (min-width: $on-desktop) {
   .wrapper {
-    padding-right: 19.0983%;
+    @include p(left);
+    grid-template-columns: [left-col-start] 19.0983% [right-col-start] auto [right-col-end] 19.0983% [grid-end];
   }
 }
 
 // Content
 
-.post-header {
-  display: flex;
-  flex-direction: column;
-  flex: 0 1 auto;
+.post__heading {
   @include m(top);
-  @include m(bottom);
-  @media (min-width: $on-laptop) {
-    flex-direction: row;
-    align-items: flex-end;
+  margin-bottom: $spacing-unit;
+  .post__meta + & {
+    margin-bottom: 0;
   }
 }
 
-.post-header__heading {
-  order: 2;
-}
-
-.post-header__subtitle {
+.post__subtitle {
   color: lighten($heading-text-color, 35%);
   font-weight: 400;
 }
 
-.post-header__meta,
+.post__meta,
 .post-list__year {
   color: $grey-color;
   font-family: $secondary-font-family;
   font-size: .75rem;
   line-height: 1.25;
-  margin-bottom: .325em;
+  margin: ($spacing-unit * 1.25) 0 .225rem;
   order: 1;
   text-transform: uppercase;
   font-variant-numeric: lining-nums;
@@ -98,13 +96,9 @@
   a {
     color: inherit;
   }
-  @media (min-width: $on-laptop) {
-    min-width: 19.0983%;
-    width: 19.0983%;
-  }
 }
 
-.post-header__meta > * + * {
+.post__meta > * + * {
   @media (min-width: $on-laptop) {
     display: block;
   }
@@ -180,25 +174,9 @@
   font-weight: 400;
 }
 
-.post-link .post-title {
-  font-size: $base-font-size;
-  line-height: $base-line-height; 
-  margin: 0;
-}
-
-.day {
-  @include m(top);
-  @include m(bottom);
-}
-
-.day-header {
-  @media (min-width: $on-laptop) {
-    float: left;
-  }
-}
-
-.post--micro__link {
+.post__link {
   font: 700 1.0625em $secondary-font-family;
+  text-decoration: underline;
 }
 
 .post--micro {
@@ -218,13 +196,6 @@ figure {
   @include m(top);
   @include m(bottom);
 }
-
-// figure > img {
-//   display: inline-block;
-//   margin-bottom: 1em;
-//   max-width: 100%;
-//   height: auto;
-// }
 
 figcaption {
   font-size: .625em;
@@ -459,11 +430,20 @@ cite {
   text-align: center;
 }
 
+// Newsletter CTA
+
+.call-to-action {
+  max-width: $content-width;
+  margin: auto;
+  @include m(top);
+}
+
 // Footer
 
 .footer {
   @include m(top);
   @include p(bottom);
+  max-width: $content-width;
   @media (max-width: $on-tablet) {
     br {
       display: none;

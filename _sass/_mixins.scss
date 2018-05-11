@@ -36,11 +36,12 @@
 
 @mixin figures {
   @media (min-width: $on-tablet) {
-    margin-left: -19.0983%;
-    margin-right: -19.0983%;
+    margin-left: -23.4567901%;
+
   }
-  @media (min-width: $on-laptop) {
-    // margin-right: $spacing-unit * -1;
+  @media (min-width: $on-desktop) {
+    margin-left: -30.901698%;
+    margin-right: -30.901698%;
     .pull-out + & {
       width: 80%
     }

@@ -16,13 +16,11 @@
   min-width: 34px;
   text-decoration: none;
   @media (min-width: $on-tablet) {
-    margin-left: -6rem;
     margin-right: 0;
     width: 6rem;
   }
   @media (min-width: $on-laptop) {
     margin-left: 0;
-    width: 19.0983%;
   }
   a,
   a:visited {
@@ -47,7 +45,6 @@
 .menu {
   display: inline-flex;
   font-family: $secondary-font-family;
-  font-size: .75rem;
   @media (min-width: $on-laptop) {
     align-items: center;
     font-size: 1rem;
@@ -81,7 +78,7 @@
       display: block;
       position: absolute;
       top: -.125rem;
-      bottom: -.125rem;
+      bottom: -.25rem;
       left: -.25rem;
       right: -.25rem;
       z-index: -1;

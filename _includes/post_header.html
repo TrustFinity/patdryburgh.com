@@ -1,17 +1,30 @@
-<header class="post-header container">
+{% if page.date %}
+  {% unless page.categories contains 'design' %}
+    <div class="post__meta">
+        <a href="{{ post.url | absolute_url }}">
+          {{ page.date | date: "%b %-d, %Y" }}
+        </a>
+      {% if page.categories contains 'blog' %}
+        {% include read_time.html %}
+      {% endif %}
+    </div>
+  {% endunless %}
+{% endif %}
 
-  <div class="post-header__heading">
-    {% unless page.categories contains 'micro' %}
+{% if page.title != "" %}
+  <div class="post__heading">
       {% if page.it %}
-        <h1 class="post-header__title project__title">
+        <h1 class="post__title project__title">
           {{ page.it }} <strong>{{ page.title }}</strong>.
         </h1>
+      {% elsif page.link %}
+        <a href="{{ page.link }}" class="post__link">{{ page.title }}&nbsp;&rarr;</a>
       {% elsif page.categories contains 'blog' %}
-        <h1 class="post-header__title">
+        <h1 class="post__title">
           <a href="{{ page.url }}">{{ page.title }}</a>
         </h1>
       {% else %}
-        <h1 class="post-header__title">
+        <h1 class="post__title">
           {{ page.title }}
         </h1>
       {% endif %}
@@ -23,7 +36,7 @@
           {% endfor %}
         {% endcapture %}
         {% assign sorted_tags = tags | split:' ' | sort | reverse %}
-        <h2 class="post-header__subtitle">
+        <h2 class="post__subtitle">
           I write about
           {% for tag in sorted_tags %}
             {% if forloop.last %}{% assign separator = '.' %}{% else %}{% assign separator = ',' %}{% endif %}
@@ -33,23 +46,8 @@
           {% endfor %}
         </h2>
       {% elsif page.subtitle %}
-        <h2 class="post-header__subtitle">{{ page.subtitle }}</h2>
+        <h2 class="post__subtitle">{{ page.subtitle }}</h2>
       {% endif %}
-    {% endunless %}
 
   </div>
-
-  {% if page.date %}
-    {% unless page.categories contains 'design' %}
-      <div class="post-header__meta">
-          <a href="{{ post.url | absolute_url }}">
-            {{ page.date | date: "%b %-d, %Y" }}
-          </a>
-        {% if page.categories contains 'blog' %}
-          {% include read_time.html %}
-        {% endif %}
-      </div>
-    {% endunless %}
-  {% endif %}
-
-</header>
+{% endif %}

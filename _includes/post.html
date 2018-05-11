@@ -1,9 +1,6 @@
 {% assign words = content | number_of_words %}
-{% assign post_class = 'post' %}
-{% if page.categories contains 'micro' %}
-  {% assign post_class = 'post post--micro' %}
-{% endif %}
-<article class="{{ post_class }}">
+
+<article class="post container wrapper">
 
   {% include post_header.html %}
 
@@ -13,23 +10,13 @@
     </figure>
   {% endif %}
   
-  <section class="post__content container">
+  <section class="post__content">
+    
+    {{ content | markdownify }}
 
-    <div class="wrapper">
-  
-      {% if page.link %}
-        <p>
-          <a href="{{ page.link }}" class="post--micro__link">{{ page.title }} &rarr;</a>
-        </p>
-      {% endif %}
-      
-      {{ content | markdownify }}
-
-      {% if page.categories contains 'design' %}
-        {% include design_cta.html %}
-      {% endif %}
-
-    </div>
+    {% if page.categories contains 'design' %}
+      {% include design_cta.html %}
+    {% endif %}
 
   </section>
 

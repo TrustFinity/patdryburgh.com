@@ -1,13 +1,11 @@
 ---
 title: Pat Dryburgh
 description: Pat Dryburgh is a designer based in Vancouver, BC.
+logo: /images/site/pat.png
 email: hello@patdryburgh.com
 
 timezone: '-0800'
 collections:
-  posts:
-    title: Posts
-    output: true
   uploads:
     title: Uploads
     output: false
@@ -15,6 +13,14 @@ collections:
     title: Projects
     output: true
     permalink: /work/:name/
+
+defaults:
+  -
+    scope:
+      type: "posts"
+    values:
+      layout: "post"
+      title: ""
     
 baseurl: 
 url: http://patdryburgh.com

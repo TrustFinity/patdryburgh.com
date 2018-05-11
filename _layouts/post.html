@@ -4,12 +4,8 @@ layout: default
 
 {% include post.html %}
 
-<div class="container">
-  <div class="wrapper">
-    {% unless page.categories contains 'design' %}
-      {% unless page.browser_title == 'Subscribe' %}
-        {% include newsletter.html %}
-      {% endunless %}
-    {% endunless %}
-  </div>
-</div>
+{% unless page.categories contains 'design' %}
+  {% unless page.browser_title == 'Subscribe' %}
+    {% include newsletter.html %}
+  {% endunless %}
+{% endunless %}
