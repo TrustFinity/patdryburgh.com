@@ -21,7 +21,7 @@ layout: default
 
   {% endfor %}
 
-  <nav class="pagination wrapper">
+  <nav class="pagination container">
     {% if paginator.previous_page %}
       <a href="{{ paginator.previous_page_path }}" class="pagination-previous btn">&lang; Previous</a>
     {% else %}
@@ -35,8 +35,6 @@ layout: default
     {% endif %}
   </nav>
 
-  <div class="wrapper">
-    {% include newsletter.html %}
-  </div>
+  {% include newsletter.html %}
 
 </section>

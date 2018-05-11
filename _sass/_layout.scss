@@ -34,7 +34,7 @@
 @media (min-width: $on-tablet) {
   .wrapper {
     display: grid;
-    grid-template-columns: [left-col-start] 19.0983% [right-col-start] auto [right-col-end];
+    grid-template-columns: [left-col-start] 19.0983% [right-col-start] auto [right-col-end] [grid-end];
     grid-template-rows: [row-1] min-content [row-2] min-content [row-end];
   }
   .post__meta {
@@ -43,10 +43,11 @@
     align-self: end;
   }
   .post__heading {
-    grid-column: left-col-start / right-col-end;
+    grid-column: left-col-start / grid-end;
     grid-row: row-1;
+    align-self: end;
     .post__meta + & {
-      grid-column: right-col-start / right-col-end;
+      grid-column: right-col-start / grid-end;
     }
   }
   .post__content {
@@ -67,12 +68,12 @@
 
 // Content
 
-.post__heading {
+section .post:first-child {
   @include m(top);
-  margin-bottom: $spacing-unit;
-  .post__meta + & {
-    margin-bottom: 0;
-  }
+}
+
+.post__title {
+  @include m(top);
 }
 
 .post__subtitle {
@@ -435,6 +436,7 @@ cite {
 .call-to-action {
   max-width: $content-width;
   margin: auto;
+  @include m(bottom);
   @include m(top);
 }
 
