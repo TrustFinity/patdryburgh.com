@@ -31,10 +31,7 @@
   }
   img {
     transition: all .5s ease-in-out;
-    width: 34px;
     width: 69px;
-    @media (min-width: $on-tablet) {
-    }
   }
   &:hover img,
   &:focus img {
