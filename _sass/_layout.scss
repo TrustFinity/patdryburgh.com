@@ -34,7 +34,7 @@
 @media (min-width: $on-tablet) {
   .wrapper {
     display: grid;
-    grid-template-columns: [left-col-start] 19.0983% [right-col-start] auto [right-col-end] [grid-end];
+    grid-template-columns: [left-col-start] 19.0983% [right-col-start] auto [right-col-end] 0 [grid-end];
     grid-template-rows: [row-1] min-content [row-2] min-content [row-end];
   }
   .post__meta {
@@ -88,7 +88,6 @@ section .post:first-child {
   font-size: .75rem;
   line-height: 1.25;
   margin: ($spacing-unit * 1.25) 0 .225rem;
-  order: 1;
   text-transform: uppercase;
   font-variant-numeric: lining-nums;
   -moz-font-feature-settings: "lnum";
