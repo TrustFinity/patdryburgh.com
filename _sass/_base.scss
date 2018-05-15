@@ -254,7 +254,36 @@ pre {
 
 sup, 
 sub {
-  line-height: 1
+  line-height: 1;
+}
+
+sup {
+  vertical-align: super;
+  font-size: smaller;
+}
+
+sub {
+  vertical-align: sub;
+  font-size: smaller;
+}
+
+.post__content sup,
+.post__content sub {
+  a {
+    display: inline-block;
+    border-radius: 1em;
+    font-family: $secondary-font-family;
+    padding: .065em .5em .325em;
+    margin: 0 .125rem;
+    text-decoration: none;
+    background: $grey-color;
+    color: $background-color;
+    &:hover,
+    &:focus {
+      background: $brand-color;
+      color: $background-color;
+    }
+  }
 }
 
 // Images
