@@ -35,7 +35,7 @@
   .wrapper {
     display: grid;
     grid-template-columns: [left-col-start] 19.0983% [right-col-start] auto [right-col-end] 0 [grid-end];
-    grid-template-rows: [row-1] min-content [row-2] min-content [row-end];
+    grid-template-rows: [row-1] min-content [row-2] min-content [row-3] min-content [row-end];
   }
   .post__meta {
     grid-column: left-col-start;
@@ -55,6 +55,13 @@
     grid-row: row-1 / row-end;
     .post__heading + & {
       grid-row: row-2 / row-end;
+    }
+  }
+  .post__photo {
+    grid-column: left-col-start / grid-end;
+    grid-row: row-2;
+    & + .post__content {
+      grid-row: row-3;
     }
   }
 }
