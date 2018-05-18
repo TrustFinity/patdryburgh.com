@@ -2,7 +2,7 @@
 browser_title: About
 permalink: "/about/"
 title: My name is Pat Dryburgh.
-subtitle:  A designer & musician in Vancouver, BC.
+subtitle:  A designer, developer, & musician in Vancouver, BC.
 hide_title: true
 layout: post
 --- 

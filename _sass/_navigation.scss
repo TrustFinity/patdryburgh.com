@@ -59,7 +59,7 @@
   width: 50%;
   list-style: none;
   margin-left: 0;
-  @media (min-width: $on-laptop) {
+  @media (min-width: $on-tablet) {
     width: auto;
     margin-right: $spacing-unit;
   }
