@@ -79,6 +79,7 @@ section .post:first-child {
 .post__subtitle {
   color: lighten($heading-text-color, 35%);
   font-weight: 400;
+  margin-bottom: $spacing-unit;
 }
 
 .post__meta,
@@ -437,8 +438,6 @@ cite {
   margin: auto;
   @include m(bottom);
   @include m(top);
-  @include p(left);
-  @include p(right);
 }
 
 // Footer

@@ -54,4 +54,4 @@ plugins:
 - jekyll-autoprefixer
 
 paginate: 20
-paginate_path: "/page/:num/"
+paginate_path: "/blog/page/:num/"
