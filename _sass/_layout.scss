@@ -445,6 +445,8 @@ cite {
   margin: auto;
   @include m(bottom);
   @include m(top);
+  padding-left: $spacing-unit;
+  padding-right: $spacing-unit;
 }
 
 // Footer
