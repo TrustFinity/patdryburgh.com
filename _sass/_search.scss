@@ -1,0 +1,115 @@
+.js-ready #search {
+  background: rgba($background-color, .96);
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: 0;
+  z-index: 9998;
+  display: flex;
+  transition: visibility 0s linear .25s;
+  &.hide {
+    visibility: hidden;
+    animation: fadeOut .25s;
+  }
+  &.show {
+    opacity: 1;
+    animation: fadeIn .25s;
+    transition-delay: 0s;
+  }
+  .form-group {
+    flex: 1 1 auto;
+  }
+  input {
+    background: none;
+    border: 0;
+    width: 100%;
+    font-family: $secondary-font-family;
+    font-size: 2em;
+    padding: $spacing-unit;
+  }
+  button {
+    position: absolute;
+    left: -9999px;
+  }
+}
+
+@-webkit-keyframes fadeIn {
+  0%   { opacity: 0; }
+  100% { opacity: 1; }
+}
+@-moz-keyframes fadeIn {
+  0%   { opacity: 0; }
+  100% { opacity: 1; }
+}
+@-o-keyframes fadeIn {
+  0%   { opacity: 0; }
+  100% { opacity: 1; }
+}
+@keyframes fadeIn {
+  0%   { opacity: 0; }
+  100% { opacity: 1; }
+}
+@-webkit-keyframes fadeOut {
+  0%   { opacity: 1; }
+  100% { opacity: 0; }
+}
+@-moz-keyframes fadeOut {
+  0%   { opacity: 1; }
+  100% { opacity: 0; }
+}
+@-o-keyframes fadeOut {
+  0%   { opacity: 1; }
+  100% { opacity: 0; }
+}
+@keyframes fadeOut {
+  0%   { opacity: 1; }
+  100% { opacity: 0; }
+}
+
+$search-button-size: 20px;
+
+#js-search-toggle {
+  background: none;
+  border: 0;
+  padding: 0;
+  margin-top: .125rem;
+  position: relative;
+  z-index: 9999;
+  height: $search-button-size;
+  width: $search-button-size;
+  -webkit-appearance: none;
+  text-indent: -9999px;
+  &::before,
+  &::after {
+    content: '';
+    line-height: $search-button-size;
+    position: absolute;
+    height: 0;
+    width: $search-button-size;
+    top: $search-button-size / 2;
+    left: 0;
+    background: $background-color;
+    border: 1px solid $text-color;
+    box-sizing: border-box;
+    transition: all .25s ease-in-out;
+  }
+  &::before {
+    transform: rotate(-45deg);
+  }
+  &::after {
+    transform: rotate(45deg);
+  }
+  &.search-toggle--default::after {
+    top: 0;
+    left: $search-button-size * .3;
+    height: $search-button-size * .7;
+    width: $search-button-size * .7;
+    border-radius: $search-button-size * .7;
+    border-width: 2px;
+    line-height: $search-button-size * .7;
+    margin-left: 2px; // account for border width
+    transform: rotate(0);
+  }
+}

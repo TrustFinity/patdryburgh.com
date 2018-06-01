@@ -110,7 +110,7 @@ section .post:first-child {
   @media (min-width: $on-laptop) {
     display: block;
   }
-  &:before {
+  &::before {
     content: " · ";
     @media (min-width: $on-laptop) {
       content: "";
@@ -279,7 +279,7 @@ blockquote {
   border: 0;
   margin: 2em 0;
   padding-top: .5em;
-  &:before {
+  &::before {
     position: absolute;
     top: 0;
     left: 0;
@@ -331,7 +331,7 @@ cite {
 }
 
 .footnotes {
-  &:before {
+  &::before {
     @include separator;
     top: 0;
   }

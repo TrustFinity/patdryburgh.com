@@ -6,11 +6,12 @@
   display: block;
   height: .75rem;
   width: 1.5rem;
-  margin: .125rem 0 0;
+  margin-top: .125rem;
   text-indent: -9999px;
   position: relative;
   transition: all .25s ease-in-out;
-  &:after {
+  -webkit-appearance: none;
+  &::after {
     content: "";
     display: block;
     background: $text-color;

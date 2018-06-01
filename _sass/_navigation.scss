@@ -42,10 +42,7 @@
 .menu {
   display: inline-flex;
   font-family: $secondary-font-family;
-  @media (min-width: $on-laptop) {
-    align-items: center;
-    font-size: 1rem;
-  }
+  align-items: center;
 }
 
 .menu__list {
@@ -91,4 +88,8 @@
       transform: scaleX(1) skew(-2.5deg) rotate(-.75deg);
     }
   }
+}
+
+.menu button {
+  margin-right: $spacing-unit;
 }

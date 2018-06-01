@@ -44,10 +44,11 @@ Growing up, I enjoyed watching directors' commentaries of my favourite movies. I
 [ct]: http://carlythomas.com
 [bb]: http://brooksreview.net
 [en]: http://ensibuuko.com
+[gb]: https://github.com/patdryburgh/patdryburgh.com
 [fs]: {{ '/work/finstripe' | absolute_url }}
 [ongo]: {{ '/work/ongo' | absolute_url }}
 [perch]: {{ '/work/perch' | absolute_url }}
 [ai]: {{ '/work/agent-inbox/' | absolute_url }}
 [de]: {{ '/projects/sprint/' | absolute_url }}
 [cct]: {{ '/work/cocoatech' | absolute_url }}
-[gb]: https://github.com/patdryburgh/patdryburgh.com
+[mp] {{ '/blog/myspace/' | absolute_url }}

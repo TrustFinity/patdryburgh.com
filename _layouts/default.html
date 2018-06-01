@@ -3,7 +3,7 @@
 
   {% include head.html %}
 
-  <body class="site">
+  <body>
 
     <header class="header container wrapper">
 
@@ -30,6 +30,8 @@
       <p class="small">
         If you enjoy <a href="{{ '/blog/' | absolute_url }}" >my writing</a>, you should <a href="{{ '/subscribe/' | absolute_url }}">subscribe</a> and <a href="{{ site.micro_blog }}">follow me on Micro.blog</a>. <br />If you prefer to take things slow, <a href="{{ '/about/' | absolute_url }}">get to know me</a> a bit better first.
       </p>
+
+      {% include search.html %}
 
     </footer>
 
