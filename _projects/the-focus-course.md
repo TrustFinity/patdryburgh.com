@@ -6,7 +6,7 @@ categories:
 layout: post
 author: patdryburgh
 photo: "/images/work/hero-the-focus-course.jpg"
-it: In 2015, I led branding, design, and development for an online course called
+it: In 2015, I led branding, design, and development for the
 ---
 
 

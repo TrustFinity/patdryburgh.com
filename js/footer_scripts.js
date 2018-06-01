@@ -1,3 +1,9 @@
+// javascript detection
+
+var body = document.getElementsByTagName('body')
+
+body[0].className = 'js-ready'
+
 // theme toggle
 
 function toggleTheme(e) {
@@ -18,14 +24,47 @@ function toggleTheme(e) {
 
 }
 
-var body = document.getElementById('js-menu')
+var menu = document.getElementById('js-menu')
 
-body.appendChild(themeButton)
+
+menu.appendChild(themeButton)
 
 themeButton.className = currentTheme
 themeButton.addEventListener('click', toggleTheme)
 
-// Availability label
+// search form
+
+var showSearch  = false
+    searchForm  = document.getElementById('search')
+    searchInput = document.getElementById('search__input')
+
+function toggleSearch() {
+  showSearch = !showSearch
+  updateSearchFormState()
+  return showSearch
+}
+
+function updateSearchFormState() {
+  searchButton.className = !showSearch && 'search-toggle--default'
+  searchForm.className = showSearch ? 'show' : 'hide'
+  if (showSearch) { 
+    searchInput.focus();
+  }
+}
+
+menu.appendChild(searchButton)
+updateSearchFormState()
+
+searchButton.addEventListener('click', toggleSearch)
+
+document.onkeydown = function(e) {
+  e = e || window.event;
+  if (e.keyCode == 27) {
+    toggleSearch()
+  }
+};
+
+// availability label
 
 var availabilityLabel = document.getElementById('data-availability-badge')
 
