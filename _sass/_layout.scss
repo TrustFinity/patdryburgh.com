@@ -75,11 +75,7 @@
 
 // Content
 
-section .post:first-child {
-  @include m(top);
-}
-
-.post__title {
+.post {
   @include m(top);
 }
 

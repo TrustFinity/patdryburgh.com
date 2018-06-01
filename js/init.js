@@ -19,7 +19,8 @@ var dayTheme   = '{{ "/css/main.css" | absolute_url }}?{{site.time | date: '%s%N
 var themeButton = document.createElement('button')
     themeButton.innerHTML = 'Toggle Theme'
     themeButton.id = 'js-theme-toggle'
-    themeButton.setAttribute("aria-label", "Toggle Theme")
+    themeButton.setAttribute('aria-label', 'Toggle Theme')
+    themeButton.setAttribute('title', 'Toggle Theme')
 
 function setDayTheme() {
   localStorage.setItem('theme', 'day')
@@ -78,4 +79,5 @@ function setTheme() {
 var searchButton = document.createElement('button')
     searchButton.innerHTML = 'Toggle Search Form'
     searchButton.id = 'js-search-toggle'
-    searchButton.setAttribute("aria-label", "Toggle Search Form")
+    searchButton.setAttribute('aria-label', 'Toggle Search Form')
+    searchButton.setAttribute('title', 'Toggle Search Form (Esc)')
