@@ -347,6 +347,11 @@ cite {
 
 // // Projects
 
+.project-heading {
+  @include m(top);
+  @include m(bottom);
+}
+
 .project-list {
   list-style: none;
   @include m(bottom);
