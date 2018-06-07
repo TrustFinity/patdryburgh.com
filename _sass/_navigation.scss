@@ -12,7 +12,7 @@
   font-weight: 700;
   line-height: 1.5rem;
   margin-bottom: 0;
-  margin-right: $spacing-unit * 2;
+  margin-right: $spacing-unit;
   min-width: 34px;
   text-decoration: none;
   @media (min-width: $on-tablet) {
@@ -91,5 +91,5 @@
 }
 
 .menu button {
-  margin-right: $spacing-unit;
+  margin-left: $spacing-unit;
 }
