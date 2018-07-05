@@ -30,10 +30,6 @@
   <noscript>
     <link rel="stylesheet" href="{{ "/css/main.css" | absolute_url }}?{{site.time | date: '%s%N'}}">
   </noscript>
-  
-  {% if jekyll.environment == 'production' %}
-    {% include analytics.html %}
-  {% endif %}
 
   {% include og.html %}
 
