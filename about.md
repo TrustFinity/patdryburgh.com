@@ -19,9 +19,13 @@ Originally from London, Ontario, I now live in Vancouver, British Columbia with 
 
 This site is built with [Jekyll](https://jekyllrb.com) and hosted on [Github](https://pages.github.com). Freight and Freight Sans are served by [Typekit](http://typekit.com). The illustration of me is by [Courtney Make](https://twitter.com/courtneymake?lang=en).
 
-I use [Cushion][cu]* to plan projects, track my time, and invoice my clients. It's the best tool I've found for managing my freelance business. [Sign up today][csu] to get your first month free on me.
+I use [Cushion][cu] to plan projects, track my time, and invoice my clients. It's the best tool I've found for managing my freelance business. I'm also using Cushion to display my availability throughout this site. Right now, <strong id="data-availability-badge"></strong>
 
-Growing up, I enjoyed watching directors' commentaries of my favourite movies. I love learning how people do what they do and think what they think. In web design and development, the closest comparison to a director's commentary is getting to see the actual code someone wrote to produce a site. You can see how this site is made by viewing the public repo on [Github][gb].
+[Sign up today][csu] and get your first month free on me.
+
+---
+
+Growing up, I enjoyed watching directors' commentaries of my favourite movies. I love learning how people do what they do and think what they think. In web design and development, the closest comparison to a director's commentary is getting to see the actual source code for a site. You can see how this site is made by viewing the public repo on [Github][gb].
 
 [now]: /now
 [gs]: https://en.wikipedia.org/wiki/Grooveshark
