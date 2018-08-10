@@ -82,6 +82,7 @@ $search-button-size: 20px;
   width: $search-button-size;
   -webkit-appearance: none;
   text-indent: -9999px;
+  outline: none;
   &::before,
   &::after {
     content: '';
