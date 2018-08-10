@@ -405,16 +405,18 @@ $longer: 61.8034%;
 }
 
 .project__image {
-  box-shadow: 0 4px 12px rgba(0,0,0,.0);
   height: auto;
   width: 100%;
-  filter: grayscale(100%);
-  transition: all .25s ease-in-out;
   vertical-align : middle;
   grid-column: 1;
-  .project:hover & {
-    box-shadow: 0 4px 12px rgba(0,0,0,.1);
-    transform: scale(1.01);
+  @media (hover) {
+    box-shadow: 0 4px 12px rgba(0,0,0,.0);
+    filter: grayscale(100%);
+    transition: all .25s ease-in-out;
+    .project:hover & {
+      box-shadow: 0 4px 12px rgba(0,0,0,.1);
+      transform: scale(1.01);
+    }
   }
 }
 
