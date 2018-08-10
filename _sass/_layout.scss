@@ -395,13 +395,6 @@ $longer: 61.8034%;
       }
     }
   }
-  &:hover,
-  &:focus {
-    text-decoration: none;
-    img {
-      filter: grayscale(0);
-    }
-  }
 }
 
 .project__image {
@@ -409,12 +402,13 @@ $longer: 61.8034%;
   width: 100%;
   vertical-align : middle;
   grid-column: 1;
-  @media (hover) {
+  @media (hover: hover) {
     box-shadow: 0 4px 12px rgba(0,0,0,.0);
     filter: grayscale(100%);
     transition: all .25s ease-in-out;
     .project:hover & {
       box-shadow: 0 4px 12px rgba(0,0,0,.1);
+      filter: grayscale(0);
       transform: scale(1.01);
     }
   }
