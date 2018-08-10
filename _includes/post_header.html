@@ -12,42 +12,24 @@
 {% endif %}
 
 {% if page.title != "" %}
-  <div class="post__heading">
-      {% if page.it %}
-        <h1 class="post__title project__title">
-          {{ page.it }} <strong>{{ page.title }}</strong>.
-        </h1>
-      {% elsif page.link %}
+  <header class="post__heading">
+      {% if page.link %}
         <a href="{{ page.link }}" class="post__link">{{ page.title }}&nbsp;&rarr;</a>
       {% elsif page.categories contains 'blog' %}
         <h1 class="post__title">
           <a href="{{ page.url }}">{{ page.title }}</a>
         </h1>
       {% else %}
-        <h1 class="post__title">
-          {{ page.title }}
+        <h1 class="post__title {% if page.categories contains 'design' %}post__title--project{% endif %}">
+          {{ page.title | markdownify | replace: "<p>", "" | replace: "</p>", "" }}
         </h1>
       {% endif %}
       
-      {% if page.browser_title == 'Blog' %}
-        {% capture tags %}
-          {% for tag in site.tags %}
-            {{ tag[1].size | plus: 1000 }}#{{ tag[0] }}#{{ tag[1].size }}
-          {% endfor %}
-        {% endcapture %}
-        {% assign sorted_tags = tags | split:' ' | sort | reverse %}
-        <h2 class="post__subtitle">
-          I write about
-          {% for tag in sorted_tags %}
-            {% if forloop.last %}{% assign separator = '.' %}{% else %}{% assign separator = ',' %}{% endif %}
-            {% assign tag_items = tag | split: '#' %}
-            {% capture tag_name %}{{ tag_items[1] }}{% endcapture %}
-            {% if forloop.last %}and {% endif %}<nobr>{{ tag_name }}</nobr>{{ separator }}
-          {% endfor %}
-        </h2>
+      {% if page.subtitle == "availability" %}
+        <h2 class="post__subtitle data-availability-badge"></h2>
       {% elsif page.subtitle %}
         <h2 class="post__subtitle">{{ page.subtitle }}</h2>
       {% endif %}
 
-  </div>
+  </header>
 {% endif %}

@@ -1,12 +1,12 @@
 ---
-title: The Focus Course
+title: I led branding, design, and development for **The Focus Course**
+browser_title: The Focus Course
 date: 2015-08-19 15:30:00 Z
 categories:
 - design
 layout: post
 author: patdryburgh
 photo: "/images/work/hero-the-focus-course.jpg"
-it: In 2015, I led branding, design, and development for the
 ---
 
 

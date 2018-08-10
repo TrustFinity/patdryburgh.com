@@ -1,11 +1,11 @@
 ---
-title: Cocoatech
+title: I designed and developed single-page site to promote Path Finder 6 for indie Mac developer **Cocoatech**
+browser_title: Cocoatech
 date: 2011-08-19 15:35:00 Z
 categories:
 - design
 layout: post
 photo: /images/work/hero-cocoatech.jpg
-it: In 2011, I created a digital design language that is still in use today by 
 ---
 
 Cocoatech is a Mac development company, responsible for the fantastic file browser Path Finder.

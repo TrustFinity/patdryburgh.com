@@ -1,5 +1,6 @@
 ---
-title: Tools &amp; Toys
+title: This redesigned brand and responsive website for **Tools &amp; Toys** generated 3x growth year-over-year in pageviews, unique visitors, and revenue
+browser_title: Tools &amp; Toys
 date: 2014-08-19 15:30:00 Z
 categories:
 - design

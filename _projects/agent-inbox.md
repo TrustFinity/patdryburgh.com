@@ -1,12 +1,12 @@
 ---
-title: Agent Inbox
+title: I designed and prototyped a unified communications platform for real estate agents and their clients called **Agent Inbox**
+browser_title: Agent Inbox
 date: 2015-01-19 15:35:00 Z
 categories:
 - design
 layout: post
 author: patdryburgh
 photo: "/images/work/hero-agent-inbox.jpg"
-it: I led user experience and interface design for a unified communications platform for real estate agents and their clients called
 ---
 
 In 2013, entrepreneurs [Tyler Gordon][1] and Elliot Koolik set out to build [Agent Inbox][3], an all-in-one unified communications platform for real estate agents and their clients. Shortly after teaming up with John Ashenden at [H1 Studios][4], the team reached out and invited me to help with the project. 

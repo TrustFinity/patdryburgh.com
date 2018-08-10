@@ -1,11 +1,11 @@
 ---
-title: On Stage Dance Studio
+title: I designed and developed a responsive WordPress-powered site for Stratford's leading dance studio, **On Stage Dance Studio**
+browser_title: On Stage Dance Studio
 date: 2010-08-19 15:35:00 Z
 categories:
 - design
 layout: post
 photo: "/images/work/hero-on-stage.jpg"
-it: I designed and built a responsive WordPress-powered site for Stratford's leading dance studio, 
 ---
 
 On Stage's previous website struggled to keep up with the growing demands of a growing dance studio. I was hired to bring the groove from the dance floor to the web. Once a content strategy had been developed, a fresh website with bold photography and beautiful type was created, highlighting not only what happens in the studio, but also what happens in the community.

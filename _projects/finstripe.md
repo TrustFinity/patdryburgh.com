@@ -1,12 +1,12 @@
 ---
-title: Finstripe
+title: I designed a responsive front-end for modern financing platform **Finstripe**
+browser_title: Finstripe
 date: 2015-06-19 15:30:00 Z
 categories:
 - design
 layout: post
 author: patdryburgh
 photo: "/images/work/hero-finstripe.jpg"
-it: I designed a responsive front-end experience for a modern financing platform called
 ---
 
 Working with founders is always an exciting experience. You get to work with interesting people who are experts in their field and are also passionate about building something new.

@@ -6,6 +6,7 @@
   letter-spacing: .125em;
   padding: .25em 0;
   text-transform: uppercase;
+  transition: all .175s ease-in-out;
   &:hover,
   &:focus {
     color: $text-color;
@@ -19,6 +20,7 @@
   border: 1px solid $brand-color;
   padding: .5em .75em;
   border-radius: .125em;
+  &:hover,
   &:focus {
     background-color: $brand-color !important;
     color: $background-color;

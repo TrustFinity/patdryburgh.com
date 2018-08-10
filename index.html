@@ -1,50 +1,44 @@
 ---
-title: I design products &amp; websites that work &amp; look great on any device.
-subtitle: More work available on <a href="https://dribbble.com/pat">Dribbble</a>.
+title: I design products and websites that work and look great on any device.
 layout: default
 ---
 
-<div class="project-heading container">
-  {% include post_header.html %}
-</div>
-
-<ul class="project-list container grid-laptop grid-1-2">
+<section class="project-list">
   {% assign projects = site.projects | sort: 'date' | reverse %}
   {% for post in projects %}
-    <li>
-      <a href="{{ post.url | absolute_url }}">
-        <img src="{{ post.photo | replace: 'hero', 'thumb' | absolute_url }}" alt="{{ post.title }}">
-        <header>
-          <h3>
-            {{ post.it }} <strong>{{ post.title }}</strong>.
-          </h3>
-          <h4>
+    <article class="project">
+      <img src="{{ post.photo | replace: "hero", "thumb" | absolute_url }}" alt="{{ post.title }}" class="project__image">
+      <div class="project__description">
+        <div>
+          {{ post.title | markdownify | replace: "<p>", "<h1>" | replace: "</p>", "</h1>" }}
+          <a href="{{ post.url | prepend: site.baseurl }}" class="btn btn-bordered">
             View Case Study &rarr;
-          </h4>
-        </header>
-      </a>
-    </li>
+          </a>
+        </div>
+      </div>
+    </article>
   {% endfor %}
-</ul>
+</section>
 
-<div class="container wrapper">
+<section class="container wrapper">
+  
   <div class="post__content">
 
     <h2>How can I help?</h2>
 
     <p>
-      I love discussing interesting projects of all types (got a new album on the way? I'd love to hear it!), but there are specific areas where I can help you achieve your business objectives and create value for your business and your customers.
+      I love discussing interesting projects of all types, but there are specific areas where I can help you achieve your business objectives and create value for your business and your customers.
     </p>
 
     <ul>
       <li>
-        <strong>Prototyping your awesome new idea.</strong> Are you starting a new company and want to validate your ideas before raising your next round of funding? Or perhaps your company already has an existing product but doesn't have the resources to explore new ideas and opportunities. I've worked with startups and established businesses looking to validate their ideas and test their assumptions through design sprints, prototyping, and building minimum viable products.
+        <h3>Prototyping your awesome new idea.</h3> Are you starting a new company and want to validate your ideas before raising your next round of funding? Or perhaps your company already has an existing product but doesn't have the internal resources to explore new ideas and opportunities. I've worked with startups and established businesses looking to validate their ideas and test their assumptions through design sprints, prototyping, and building minimum viable products.
       </li>
       <li>
-        <strong>Naming your new business or product.</strong> Coming up with the right name for your brand requires an equal mix of creative and strategic thinking. I can help you brainstorm a list of names or objectively evaluate an existing list of options to help you find the right name for your brand.
+        <h3>Naming your new business or product.</h3> Coming up with the right name for your brand requires an equal mix of creative and strategic thinking. I can help you brainstorm a list of names or objectively evaluate an existing list of options to help you find the right name for your brand.
       </li>
       <li>
-        <strong>Designing &amp; developing awesome websites and apps.</strong> With over 10 years of experience working with companies both large and small, I have the ability to bring your idea from conception to launch. I am able to lead teams of designers and developers to help you reach your business objectives while creating an awesome experience for your customers.
+        <h3>Designing &amp; developing awesome websites and apps.</h3> With over 10 years of experience working with companies both large and small, I have the ability to bring your idea from conception to launch. I am able to lead teams of designers and developers to help you reach your business objectives while creating an awesome experience for your customers.
       </li>
     </ul>
 
@@ -52,4 +46,5 @@ layout: default
 
   </div>
 
-</div>
+
+</section>

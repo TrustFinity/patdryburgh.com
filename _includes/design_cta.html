@@ -4,7 +4,7 @@
   <div class="call-to-action-header">
     <h3>
       {% if page.categories contains 'design' %}
-        Dig what I did with {{ page.title }}?
+        Dig what I did with {{ page.browser_title }}?
       {% else %}
         Need help with your product or website?
       {% endif %}
@@ -15,7 +15,7 @@
   </p>
   {% if page.categories contains 'design' %} 
     <p>
-       Need some more convincing? Read about <a href="{{ '/work' | absolute_url }}">my work</a> with {% include collection_navigation.html %}.
+       Need some more convincing? Read about <a href="{{ '/' | prepend: site.baseurl }}">my work</a> with {% include collection_navigation.html %}.
     </p>
   {% endif %}
 </aside>

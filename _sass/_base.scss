@@ -165,7 +165,7 @@ em {
   font-size: .75em
 }
 
-//// Blockquotes
+// Blockquotes
 
 cite .title {
   display: block;
@@ -176,20 +176,24 @@ cite .title {
   font-weight: normal;
 }
 
-//// Lists
+// Lists
 
 ul, ol {
-  margin-left: $spacing-unit * 1.5;
+  margin-left: $spacing-unit;
 }
 
 li {
-    > ul,
-    > ol {
-       margin-bottom: 0;
-    }
+  > ul,
+  > ol {
+    margin-bottom: 0;
+  }
+  h3 {
+    font-size: 1em;
+    margin-bottom: 0;
+  }
 }
 
-//// Links
+// Links
 
 a {
   color: $text-color;
