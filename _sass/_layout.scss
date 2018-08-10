@@ -356,6 +356,11 @@ cite {
   margin: auto;
   @include m(bottom);
   @include m(top);
+  max-width: 1600px;
+  overflow: hidden;
+  @media (min-width: 1600px) {
+    overflow: visible;
+  }
 }
 
 $shorter: 38.1966%;
@@ -365,6 +370,10 @@ $longer: 61.8034%;
   position: relative;
   font-family: $secondary-font-family;
   font-weight: 400;
+  margin-top: 2rem;
+  &:first-child {
+    margin-top: 0;
+  }
   @media (min-width: $on-laptop) {
     display: grid;
     grid-template-columns: $longer $shorter;

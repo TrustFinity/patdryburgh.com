@@ -40,7 +40,7 @@
 }
 
 .menu {
-  display: inline-flex;
+  display: flex;
   font-family: $secondary-font-family;
   align-items: center;
 }
@@ -91,5 +91,8 @@
 }
 
 .menu button {
-  margin-left: $spacing-unit;
+  margin-left: $spacing-unit / 2;
+  @media (min-width: $on-tablet) {
+    margin-left: $spacing-unit;
+  }
 }
