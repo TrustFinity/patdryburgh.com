@@ -25,6 +25,12 @@
     
     <footer class="footer container">
 
+      {% unless page.categories contains 'design' %}
+        {% unless page.browser_title == 'Subscribe' %}
+          {% include newsletter.html %}
+        {% endunless %}
+      {% endunless %}
+
       {% include navigation.html %}
 
       <p class="small">

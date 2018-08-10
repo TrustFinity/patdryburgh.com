@@ -6,7 +6,7 @@ permalink: "/subscribe/"
 layout: post
 ---
 
-{% include newsletter.html %}
+{% include newsletter.html wrapper="false" %}
 
 ### Full Feed
 

@@ -1,0 +1,31 @@
+{% assign words = content | number_of_words %}
+
+<article class="post">
+
+  <div class="container wrapper">
+
+    {% include post_header.html %}
+
+  </div>
+
+  {% if page.photo %}
+    <figure class="post__photo">
+      <img src="{{ page.photo | absolute_url }}" alt="{{ page.title }}">
+    </figure>
+  {% endif %}
+  
+  <div class="container wrapper">
+  
+    <section class="post__content">
+      
+      {{ content | markdownify }}
+
+      {% if page.categories contains 'design' %}
+        {% include design_cta.html %}
+      {% endif %}
+
+    </section>
+
+  </div>
+
+</article>

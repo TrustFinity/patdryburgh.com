@@ -7,7 +7,7 @@ hide_title: true
 layout: post
 --- 
 
-I've been designing and building on the web for over 10 years. I've worked with some great teams and clients including [Grooveshark][gs], [Adobe][ad], [Fusion Ads][fa], [CocoaTech][cct], [QuickCal][qc], Thorel Woodworking, [Ethical Coffee Chain][ecc], UpThemes, [Ongo][ongo], [Perch][perch], [Agent Inbox][ai], [Brewhouse][bh], [Steamclock][sc], [Arc'teryx][arc], [Viral Foundry][vf], [Finstripe][fs], [Blanc Media][bm], [Platero Visual][pv], [Rye&nbsp;51][r5], [Stantec][st], and [Ensibuuko][en].
+I've been designing and building on the web for over 10 years. I've worked with some great teams and clients including [Grooveshark][gs], [Adobe][ad], [Fusion Ads][fa], [CocoaTech][cct], [QuickCal][qc], Thorel Woodworking, [Ethical Coffee Chain][ecc], UpThemes, [Ongo][ongo], [Perch][perch], [Agent Inbox][ai], [Brewhouse][bh], [Steamclock][sc], [Arc'teryx][arc], [Viral Foundry][vf], [Finstripe][fs], [Blanc Media][bm], [Platero Visual][pv], [Rye&nbsp;51][r5], [Stantec][st], [Ensibuuko][en], and [Make IT][mi]
 
 My work has been featured in Beautiful Pixels, TechCrunch, Gigaom, VentureBeat, and the iOS App Store.
 
@@ -18,6 +18,8 @@ Originally from London, Ontario, I now live in Vancouver, British Columbia with 
 ## Colophon
 
 This site is built with [Jekyll](https://jekyllrb.com) and hosted on [Github](https://pages.github.com). Freight and Freight Sans are served by [Typekit](http://typekit.com). The illustration of me is by [Courtney Make](https://twitter.com/courtneymake?lang=en).
+
+I use [Cushion][cu]* to plan projects, track my time, and invoice my clients. It's the best tool I've found for managing my freelance business. [Sign up today][csu] to get your first month free on me.
 
 Growing up, I enjoyed watching directors' commentaries of my favourite movies. I love learning how people do what they do and think what they think. In web design and development, the closest comparison to a director's commentary is getting to see the actual code someone wrote to produce a site. You can see how this site is made by viewing the public repo on [Github][gb].
 
@@ -51,4 +53,6 @@ Growing up, I enjoyed watching directors' commentaries of my favourite movies. I
 [ai]: {{ '/work/agent-inbox/' | absolute_url }}
 [de]: {{ '/projects/sprint/' | absolute_url }}
 [cct]: {{ '/work/cocoatech' | absolute_url }}
-[mp] {{ '/blog/myspace/' | absolute_url }}
+[mi]: http://makeit.com
+[cu]: http://cushionapp.com/
+[csu]: http://get.cushionapp.com/25845f7006

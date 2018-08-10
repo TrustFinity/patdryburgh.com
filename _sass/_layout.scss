@@ -64,6 +64,9 @@
       grid-row: row-3;
     }
   }
+  .call-to-action {
+    grid-column: right-col-start / right-col-end;
+  }
 }
 
 @media (min-width: $on-laptop) {

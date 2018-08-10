@@ -2,10 +2,8 @@
 layout: default
 ---
 
-{% include post.html %}
-
-{% unless page.categories contains 'design' %}
-  {% unless page.browser_title == 'Subscribe' %}
-    {% include newsletter.html %}
-  {% endunless %}
-{% endunless %}
+{% if page.photo %}
+  {% include photo_post.html %}
+{% else %}
+  {% include post.html %}
+{% endif %}
