@@ -1,5 +1,5 @@
 ---
-title: I led branding, design, and development for **The Focus Course**
+title: I helped Blanc Media launch **The Focus Course**, a 40-day course for finding focus in life
 browser_title: The Focus Course
 date: 2015-08-19 15:30:00 Z
 categories:
