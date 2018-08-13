@@ -11,7 +11,7 @@ I've been designing and building on the web for over 10 years. I've worked with 
 
 My work has been featured in Beautiful Pixels, TechCrunch, Gigaom, VentureBeat, and the iOS App Store.
 
-Originally from London, Ontario, I now live in Vancouver, British Columbia with my partner Andrea and a few plants. In my free time I write and record music, [take photos](http://instagram.com/patdryburgh), and explore the beautiful province I now call home.
+Originally from the small town of Dorchester, Ontario, I now live in Vancouver, British Columbia with my partner Andrea and a few plants. In my free time I write and record music, [take photos](http://instagram.com/patdryburgh), and explore the beautiful province I now call home.
 
 {% include image.html src="https://c2.staticflickr.com/8/7060/6904847186_8ed35bb470_h.jpg" alt="Pat with the late, great Samantha" %}
 
