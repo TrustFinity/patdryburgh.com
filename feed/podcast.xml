@@ -37,7 +37,7 @@ layout: null
             {% if post.title != "" %}
               <title>{{ post.title | xml_escape }}</title>
             {% else %}
-              <title>{{ post.excerpt | truncatewords: 5, "…" | xml_escape }}</title>
+              <title>{{ post.excerpt | strip_html | truncatewords: 5, "…" | xml_escape }}</title>
             {% endif %}
             <author>{{ site.email }} ({{ site.title }})</author>
             <description>
