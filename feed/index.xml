@@ -17,6 +17,11 @@ layout: null
         <itunes:category text="{{ 'Personal Journals' | xml_escape }}"></itunes:category>
       </itunes:category>
       <itunes:explicit>yes</itunes:explicit>   
+      <itunes:owner>
+        <itunes:name>{{ site.title }}</itunes:name>
+        <itunes:email>{{ site.email }}</itunes:email>
+      </itunes:owner>
+      <itunes:author>{{ site.title }}</itunes:author>
       <language>en</language>
     {% for post in site.posts limit: 15 %}
       {% unless post.draft %}
