@@ -32,7 +32,15 @@ permalink: /feed/index.json
             "date_modified": "{{ post.date | date_to_xmlschema }}",
             "author": {
                 "name": "{{ site.title }}"
+            {% if post.audio %}
+            },
+            "attachments": {
+                "url": "{{ post.audio | absolute_url }}",
+                "mime_type": "audio/mpeg"
             }
+            {% else %}
+                }
+            {% endif %}
         }{% if forloop.last == false %},{% endif %}{% endunless %}
     {% endfor %}
     ]
