@@ -34,13 +34,10 @@ layout: null
             {% endcapture %}
           {% endif %}
           <item>
-            {% if post.categories contains 'blog' %}
+            {% if post.title != "" %}
               <title>{{ post.title | xml_escape }}</title>
-            {% endif %}
-            {% if post.categories contains 'micro' %}
-              {% if post.link %}
-                <title>{{ post.title | xml_escape }} {{ '→' | xml_escape }}</title>
-              {% endif %}
+            {% else %}
+              <title>{{ post.excerpt | truncatewords: 5, "…" | xml_escape }}</title>
             {% endif %}
             <author>{{ site.email }} ({{ site.title }})</author>
             <description>
