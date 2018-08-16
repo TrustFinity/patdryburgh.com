@@ -5,7 +5,7 @@ layout: null
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
   <channel>
-    <title>{{ site.title | xml_escape }}</title>
+    <title>{{ 'A Podcast with ' | xml_escape }}{{ site.title | xml_escape }}</title>
     <author>{{ site.email | xml_escape }} ({{ site.title | xml_escape }})</author>
     <description>{{ site.description | xml_escape }}</description>
     <link>{{ site.url }}{{ site.baseurl }}/</link>
