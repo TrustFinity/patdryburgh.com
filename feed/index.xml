@@ -57,9 +57,9 @@ layout: null
           <category>{{ cat | xml_escape }}</category>
           {% endfor %}
           {% if post.audio %}
-            <itunes:subtitle>{{ post.content | xml_escape }}</itunes:subtitle>
-            <itunes:summary>{{ post.content | xml_escape }}</itunes:summary>
-            <enclosure url="{{ post.audio }}" type="audio/mpeg"></enclosure>
+            <itunes:subtitle>{{ post.content | strip_html | xml_escape | truncate: 255 }}</itunes:subtitle>
+            <itunes:summary>{{ post.content | strip_html | xml_escape }}</itunes:summary>
+            <enclosure url="{{ post.audio | absolute_url }}" type="audio/mpeg"></enclosure>
           {% endif %}
         </item>
         {% assign reference = '' %}
