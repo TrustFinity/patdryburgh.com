@@ -1,6 +1,6 @@
 ---
 title: Publishing a podcast from an iPhone using @Workflowhq, @WorkingCopyApp, @jekyllrb, and @github Pages
-date: 2018-08-16 09:07:05 +0700
+date: 2018-08-16 09:21:05 -0700
 categories:
 - blog
 layout: post
