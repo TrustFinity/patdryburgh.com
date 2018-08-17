@@ -28,3 +28,7 @@ Only the short-form microblog posts:
 
 - RSS: [{{ site.micro_rss }}]({{ site.micro_rss }})
 - JSON: [{{ site.micro_json }}]({{ site.micro_json }})
+
+### Podcast Feed
+
+- RSS: [{{ site.podcast_rss }}]({{ site.podcast_rss }})
