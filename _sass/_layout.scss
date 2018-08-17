@@ -79,7 +79,7 @@
 // Content
 
 .post {
-  @include m(top);
+  margin-top: 2em;
 }
 
 .post__subtitle {
@@ -240,9 +240,9 @@ figcaption {
   margin: auto;
   @include m(bottom);
   @include m(top);
-  max-width: 1600px;
+  max-width: 1400px;
   overflow: hidden;
-  @media (min-width: 1600px) {
+  @media (min-width: 1400px) {
     overflow: visible;
   }
 }
