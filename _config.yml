@@ -23,15 +23,15 @@ defaults:
       title: ""
     
 baseurl: 
-url: http://patdryburgh.com
-rss: http://feed.patdryburgh.com
-json: http://patdryburgh.com/feed/index.json
-blog_rss: http://feed.patdryburgh.com/blog
-blog_json: http://patdryburgh.com/feed/blog.json
-micro_rss: http://feed.patdryburgh.com/micro
-micro_json: http://patdryburgh.com/feed/micro.json
+url: https://patdryburgh.com
+rss: https://feed.patdryburgh.com
+json: https://patdryburgh.com/feed/index.json
+blog_rss: https://feed.patdryburgh.com/blog
+blog_json: https://patdryburgh.com/feed/blog.json
+micro_rss: https://feed.patdryburgh.com/micro
+micro_json: https://patdryburgh.com/feed/micro.json
 
-twitter: http://twitter.com/patdryburgh
+twitter: https://twitter.com/patdryburgh
 micro_blog: https://micro.blog/pat
 instagram: http://instagram.com/patdryburgh
 dribbble: http://dribbble.com/pat
