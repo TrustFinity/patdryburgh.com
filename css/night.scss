@@ -7,7 +7,7 @@
 $brand-color:         #fdcda0;
 $text-color:          lighten($brand-color, 18%);
 $heading-text-color:  lighten($brand-color, 30%);
-$grey-color:          rgba($text-color, .5);
+$grey-color:          rgba($text-color, .6);
 $background-color:    desaturate(darken($brand-color, 72%), 96%);
 $shadow-color:        rgba($brand-color, .3);
 $available-color:     rgba(#56E89A, .2);

@@ -1,18 +1,18 @@
-{% if page.date %}
-  {% unless page.categories contains 'design' %}
-    <div class="post__meta">
-        <a href="{{ post.url | absolute_url }}">
-          {{ page.date | date: "%b %-d, %Y" }}
-        </a>
-      {% if page.categories contains 'blog' %}
-        {% include read_time.html %}
-      {% endif %}
-    </div>
-  {% endunless %}
-{% endif %}
+{% assign date = page.date | date: "%Y-%m-%d" %}
 
-{% if page.title != "" %}
-  <header class="post__heading">
+
+<header class="post__heading">
+    {% if date and date != currentdate %}
+      {% unless page.categories contains 'design' %}
+        <div class="post__meta">
+          {{ page.date | date: "%b %-d, %Y" }}
+          {% if page.categories contains 'blog' %}
+            {% include read_time.html %}
+          {% endif %}
+        </div>
+      {% endunless %}
+    {% endif %}
+    {% if page.title != "" %}
       {% if page.link %}
         <a href="{{ page.link }}" class="post__link">{{ page.title }}&nbsp;&rarr;</a>
       {% elsif page.categories contains 'blog' %}
@@ -30,6 +30,7 @@
       {% elsif page.subtitle %}
         <h2 class="post__subtitle">{{ page.subtitle }}</h2>
       {% endif %}
+    {% endif %}
+</header>
 
-  </header>
-{% endif %}
+{% assign currentdate = page.date | date: "%Y-%m-%d" %}

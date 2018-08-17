@@ -69,8 +69,8 @@ h1 {
   font-size: 1.5rem;
   line-height: 1.5rem;
   @media (min-width: $on-tablet) {
-    font-size: 3rem;
-    line-height: 3rem;
+    font-size: 2rem;
+    line-height: 1.25;
   }
 }
 
@@ -79,11 +79,11 @@ h2 {
   line-height: 1.5rem;
   margin-top: 1.5rem;
   @media (min-width: $on-tablet) {
-    font-size: 2.25rem;
-    line-height: 2.5rem;
+    font-size: 1.5rem;
+    line-height: 1.25;
   }
   h1 + & {
-    margin-top: .75rem;
+    margin-top: 0;
   }
 }
 
@@ -109,46 +109,6 @@ em {
   font-style: italic;
 }
 
-// h1, h2, h3, h4, h5, h6,
-// p, blockquote, pre,
-// ul, ol, dl, figure {
-//   margin: $spacing-unit 0;
-// }
-
-// h1, h2, h3, h4, h5, h6 {
-//   color: $heading-text-color;
-//   font-family: $secondary-font-family;
-//   font-weight: 700;
-// }
-
-// h2, h3, h4, h5, h6 {
-//   margin-top: 1em;
-//   margin-bottom: .5em;
-// }
-
-// h2 {
-//   font-size: 1.5em;
-//   line-height: 1.25;
-// }
-
-// h4 {
-//   font-size: 1em;
-//   font-weight: 700;
-//   text-transform: uppercase;
-// }
-
-// h5 {
-//   font-size: .825em;
-//   font-weight: normal;
-//   text-transform: uppercase;
-// }
-
-// h6 {
-//   font-size: .75em;
-//   font-weight: normal;
-//   text-transform: uppercase;
-// }
-
 .year-heading {
   color: $grey-color;
   font-family: $base-font-family;
@@ -166,6 +126,77 @@ em {
 }
 
 // Blockquotes
+
+blockquote {
+  border: 0;
+  color: $text-color;
+  font-size: 1em;
+  font-style: italic;
+  margin: 2em 0;
+  padding-left: 2em;
+  padding-top: .5em;
+  position: relative;
+  &:first-child {
+    margin-top: 1em;
+  }
+  em,
+  cite {
+    font-style: normal;
+  }
+  cite {
+    font-family: $secondary-font-family;
+    font-size: .75em;
+    text-transform: uppercase;
+    color: $grey-color;
+    a {
+      color: $text-color;
+      font-weight: bold;
+    }
+  }
+  > :last-child {
+    margin-bottom: 0;
+  }
+  p:first-child {
+    margin-top: 0;
+  }
+  &::before {
+    position: absolute;
+    top: .325em;
+    left: 0;
+    content: "“";
+    quotes: '“';
+    font-size: 2.5em;
+    line-height: .5rem;
+    color: $brand-color;
+    background-position: 0 1.125em;
+    background-repeat: repeat-x;
+    background-size: 1px 4px;
+    text-decoration: none;
+    @include text-shadow(2px);
+    @media (min-width: $on-tablet) {
+      font-size: 3.5em;
+    }
+  }
+  @media (min-width: $on-tablet) {
+    font-size: 1.125em;
+    margin-left: -1.25em;
+    transform: rotate(-1.5deg);
+  }
+}
+
+.pull-out {
+  @media (min-width: $on-tablet) {
+    float: right;
+    margin: 0em -2rem 2rem 1rem;
+    width: 40%;
+    blockquote {
+      font-size: .825em;
+    }
+  }
+  @media (min-width: $on-desktop) {
+    margin-right: $spacing-unit * -2;
+  }
+}
 
 cite .title {
   display: block;

@@ -43,7 +43,7 @@
     align-self: end;
   }
   .post__heading {
-    grid-column: left-col-start / grid-end;
+    grid-column: right-col-start / grid-end;
     grid-row: row-1;
     align-self: end;
     .post__meta + & {
@@ -106,14 +106,8 @@
 }
 
 .post__meta > * + * {
-  @media (min-width: $on-laptop) {
-    display: block;
-  }
   &::before {
     content: " · ";
-    @media (min-width: $on-laptop) {
-      content: "";
-    }
   }
 }
 
@@ -152,29 +146,8 @@
   }
 }
 
-.post-title {
-  color: $heading-text-color;
-  font-weight: 700;
-  position: relative;
-  z-index: 99;
-  a {
-    background-position: 0 1.125em;
-    background-repeat: repeat-x;
-    background-size: 1px 2px;
-    color: $text-color;
-    &:hover,
-    &:focus {
-      color: $heading-text-color;
-      text-decoration: none;
-      @include shadow(2px);
-    }
-  }
-  & + h2 {
-    opacity: .7;
-    font-weight: 400;
-    margin-top: 0;
-    font-size: 1.5em;
-  }
+.post__heading .post__title:first-child {
+  
 }
 
 .project__title {
@@ -241,93 +214,7 @@ figcaption {
   }
 }
 
-// Misc
-
-blockquote {
-  border: 0;
-  border-left: 2px solid $brand-color;
-  color: $text-color;
-  font-size: 1em;
-  font-style: italic;
-  margin: 1em 0 1em $spacing-unit * -.5;
-  padding-left: $spacing-unit * .5;
-  position: relative;
-  p {
-    opacity: .7;
-    position: relative;
-    z-index: 2
-  }  
-  em {
-    font-style: normal;
-  }
-  > :last-child {
-    margin-bottom: 0;
-  }
-  p:first-child {
-    margin-top: 0;
-  }
-  
-  @media (min-width: $on-tablet) {
-    border-left-width: 4px;
-    margin-left: $spacing-unit * -1;
-    padding-left: $spacing-unit;
-  }
-}
-
-.pull-out blockquote {
-  border: 0;
-  margin: 2em 0;
-  padding-top: .5em;
-  &::before {
-    position: absolute;
-    top: 0;
-    left: 0;
-    content: "“";
-    quotes: '“';
-    font-size: 3em;
-    line-height: .5rem;
-    color: $brand-color;
-    background-position: 0 1.125em;
-    background-repeat: repeat-x;
-    background-size: 1px 4px;
-    text-decoration: none;
-    @include text-shadow(2px);
-    @media (min-width: $on-tablet) {
-      font-size: 4em;
-    }
-  }
-  @media (min-width: $on-tablet) {
-    transform: rotate(-1.5deg);
-  }
-}
-
-cite {
-  display: block;
-  font-size: .75em;
-  font-style: normal;
-  padding: .125em 1em .5em;
-  span {
-    display: block;
-    margin-left: 1.25em;
-  }
-  @media (min-width: $on-tablet) {
-    float: right;
-  }
-}
-
-.pull-out {
-  @media (min-width: $on-tablet) {
-    float: right;
-    margin: 0em -2rem 2rem 1rem;
-    width: 40%;
-    blockquote {
-      font-size: .825em;
-    }
-  }
-  @media (min-width: $on-desktop) {
-    margin-right: $spacing-unit * -2;
-  }
-}
+// Footnotes
 
 .footnotes {
   &::before {
@@ -342,13 +229,7 @@ cite {
   }
 }
 
-// .social-media-list > a > svg {
-//   fill: currentColor;
-//   vertical-align: baseline;
-// }
-
-
-// // Projects
+// Projects
 
 .project-heading {
   @include m(top);
