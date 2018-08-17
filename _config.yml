@@ -30,7 +30,7 @@ blog_rss: https://feed.patdryburgh.com/blog
 blog_json: https://patdryburgh.com/feed/blog.json
 micro_rss: https://feed.patdryburgh.com/micro
 micro_json: https://patdryburgh.com/feed/micro.json
-micro_json: https://patdryburgh.com/feed/podcast.xml
+podcast_rss: https://patdryburgh.com/feed/podcast.xml
 
 twitter: https://twitter.com/patdryburgh
 micro_blog: https://micro.blog/pat
