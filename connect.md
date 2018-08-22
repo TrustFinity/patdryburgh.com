@@ -1,6 +1,7 @@
 ---
 browser_title: Connect
-title: The internet was made for friends.
+title: It's a beautiful day for a neighbour.
+subtitle: Would you be mine?
 permalink: "/connect/"
 layout: post
 ---

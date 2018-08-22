@@ -1,5 +1,5 @@
 ---
-title: This redesigned brand and responsive website for **Tools &amp; Toys** generated 3x year-over-year growth in pageviews, unique visitors, and revenue
+title: The new branding and responsive website I designed for **Tools &amp; Toys** helped generate 3x year-over-year growth in pageviews, unique visitors, and revenue
 browser_title: Tools &amp; Toys
 date: 2014-08-19 15:30:00 Z
 categories:

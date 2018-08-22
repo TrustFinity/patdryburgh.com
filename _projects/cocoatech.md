@@ -1,5 +1,5 @@
 ---
-title: I designed and developed single-page site to promote Path Finder 6 for indie Mac developer **Cocoatech**
+title: I designed and developed a single-page site to promote Path Finder 6 for indie Mac developer **Cocoatech**
 browser_title: Cocoatech
 date: 2011-08-19 15:35:00 Z
 categories:

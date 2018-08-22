@@ -1,5 +1,5 @@
 ---
-title: I designed a responsive front-end for modern financing platform **Finstripe**
+title: In 6 weeks, I helped **Finstripe** design, build, and launch an MVP of their modern financing platform that had nearly _$1B in loans_ posted in the first year
 browser_title: Finstripe
 date: 2015-06-19 15:30:00 Z
 categories:
@@ -8,6 +8,16 @@ layout: post
 author: patdryburgh
 photo: "/images/work/hero-finstripe.jpg"
 ---
+
+<blockquote>
+  <p>
+    As a career-long technologist, multiple-time founder and investor in technology companies I've had the chance to work with many technology developers. I place Pat Dryburgh in the highest class of professionals. As a designer he combines strong technical capability with a keen aesthetic eye, and even more importantly with an insightful understanding of how the users interact with the products he touches. I look forward to the possibility of working with Pat again at the first opportunity.
+  </p>
+  <cite>
+    &mdash; <a href="https://twitter.com/berndpetak?lang=en">Bernd Petak</a>
+    <span class="title small">Co-founder of Finstripe</span>
+  </cite>
+</blockquote>
 
 Working with founders is always an exciting experience. You get to work with interesting people who are experts in their field and are also passionate about building something new.
 
@@ -20,16 +30,6 @@ I was working with [Viral Foundry][vf] on [Promo][pr] when Martin Pasek and Bern
   {% include image.html src="/images/work/finstripe-deal.jpg" alt="Finstripe Deal Views" extra_wide="false" class="shadowed" %}
 
 </figure>
-
-<blockquote>
-  <p>
-    As a career-long technologist, multiple-time founder and investor in technology companies I've had the chance to work with many technology developers. I place Pat Dryburgh in the highest class of professionals. As a designer he combines strong technical capability with a keen aesthetic eye, and even more importantly with an insightful understanding of how the users interact with the products he touches. I look forward to the possibility of working with Pat again at the first opportunity.
-  </p>
-  <cite>
-    &mdash; <a href="https://twitter.com/berndpetak?lang=en">Bernd Petak</a>
-    <span class="title small">Co-founder of Finstripe</span>
-  </cite>
-</blockquote>
 
 Professional profiles gave users confidence that they were dealing with experienced financiers and borrowers while the system's invite-only onboarding strategy ensured the quality of the deals available on Finstripe.
 

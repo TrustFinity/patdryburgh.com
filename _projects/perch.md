@@ -1,5 +1,5 @@
 ---
-title: I led branding and product design of a real-time hands-free communication platform used by teams like Slack, TripAdvisor, and Shopify called **Perch**
+title: I led branding and product design for **Perch**, a real-time hands-free communication tool used by teams like Slack, TripAdvisor, and Shopify
 browser_title: Perch
 date: 2013-09-30 15:25:00 Z
 categories:

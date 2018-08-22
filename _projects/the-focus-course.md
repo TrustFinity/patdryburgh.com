@@ -1,5 +1,5 @@
 ---
-title: I helped Blanc Media launch **The Focus Course**, a 40-day course for finding focus in life
+title: I helped Blanc Media successfully launch **The Focus Course**, a 40-day course for finding focus in life
 browser_title: The Focus Course
 date: 2015-08-19 15:30:00 Z
 layout: post
