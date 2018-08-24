@@ -9,7 +9,7 @@ categories:
 
 It has always baffled me when a company offers a lower salary to designers than to developers. My assumption is this derives from an inaccurate understanding of what design is and the role it plays in creating a product or system.
 
-A designer's role is not to make something “pretty” or to help a product “stand out.” It is to identify a problem, iterate on potential solutions, and bring product to market. Or, as [Steve Jobs famously put it](https://www.nytimes.com/2003/11/30/magazine/the-guts-of-a-new-machine.html):
+A designer's role is not to make something “pretty” or to help a product “stand out.” It is to identify a problem, iterate on potential solutions, and bring the resulting product to market. Or, as [Steve Jobs famously put it](https://www.nytimes.com/2003/11/30/magazine/the-guts-of-a-new-machine.html):
 
 >Most people make the mistake of thinking design is what it looks like. People think it's this veneer -- that the designers are handed this box and told, 'Make it look good!' That's not what we think design is. It's not just what it looks like and feels like. Design is how it works.
 
