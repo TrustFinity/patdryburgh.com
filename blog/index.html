@@ -14,7 +14,11 @@ layout: default
 
     {% unless page.draft %}
       
-      {% include post.html %}
+      {% if page.photo %}
+        {% include photo_post.html %}
+      {% else %}
+        {% include post.html %}
+      {% endif %}
 
     {% endunless %}
 
