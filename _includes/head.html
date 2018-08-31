@@ -6,7 +6,7 @@
   <title>
     {% if page.browser_title %}
       {{ page.browser_title }} &mdash;
-    {% elsif page.browser_title == "" and page.title != "" %}
+    {% elsif page.title != "" %}
       {{ page.title }} &mdash;
     {% endif %}
     {{ site.title }}
