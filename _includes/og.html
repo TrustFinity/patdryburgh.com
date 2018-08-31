@@ -17,7 +17,7 @@
   <meta property="og:site_name" content="{{ site.title }}" />
 {% endif %}
 
-{% elsif page.photo %}
+{% if page.photo %}
   <meta property="og:image" content="{{ page.photo | replace: 'gif', 'png' | absolute_url }}" />
 {% elsif post.photo %}
   <meta property="og:image" content="{{ post.photo | replace: 'gif', 'png' |absolute_url }}" />
