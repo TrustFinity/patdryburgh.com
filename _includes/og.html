@@ -5,18 +5,13 @@
       {% endif %}{{ site.title }}" />
 <meta property="og:url" 
       content="{{ page.url | replace:'index.html','' | absolute_url | absolute_url }}" />
-<meta property="og:description" 
+<meta property="og:description"
+      name="description"
       content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% elsif post.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}" />
 
 {% if page.home %}
   <meta property="og:type" content="website" />
-{% elsif page.categories contains 'photo' %}
-  <meta property="og:type" content="article" />
-{% elsif page.categories contains 'design' %}
-  <meta property="og:type" content="article" />
-  <meta property="article:author" content="https://www.facebook.com/patrick.dryburgh" />
-  <meta property="og:site_name" content="{{ site.title }}" />
-{% elsif page.categories contains 'blog' %}
+{% else %}
   <meta property="og:type" content="article" />
   <meta property="article:author" content="https://www.facebook.com/patrick.dryburgh" />
   <meta property="og:site_name" content="{{ site.title }}" />
@@ -27,7 +22,7 @@
 {% elsif post.photo %}
   <meta property="og:image" content="{{ post.photo | absolute_url }}" />
 {% else %}
-  <meta property="og:image" content="https://c2.staticflickr.com/8/7060/6904847186_8ed35bb470_h.jpg" />
+  <meta property="og:image" content="{{ '/images/site/pat.png' | absolute_url }}" />
 {% endif %}
 
 <link href="https://micro.blog/pat" rel="me" />
