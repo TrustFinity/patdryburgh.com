@@ -7,7 +7,7 @@
       content="{{ page.url | replace:'index.html','' | absolute_url | absolute_url }}" />
 <meta property="og:description"
       name="description"
-      content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% elsif post.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}" />
+      content="{% if page.home %}{{ site.description }}{% else %}{{ page.content | strip_html | strip_newlines | truncate: 160 }}{% endif %}" />
 
 {% if page.home %}
   <meta property="og:type" content="website" />
@@ -17,10 +17,10 @@
   <meta property="og:site_name" content="{{ site.title }}" />
 {% endif %}
 
-{% if page.photo %}
-  <meta property="og:image" content="{{ page.photo | absolute_url }}" />
+{% elsif page.photo %}
+  <meta property="og:image" content="{{ page.photo | replace: 'gif', 'png' | absolute_url }}" />
 {% elsif post.photo %}
-  <meta property="og:image" content="{{ post.photo | absolute_url }}" />
+  <meta property="og:image" content="{{ post.photo | replace: 'gif', 'png' |absolute_url }}" />
 {% else %}
   <meta property="og:image" content="{{ '/images/site/pat.png' | absolute_url }}" />
 {% endif %}

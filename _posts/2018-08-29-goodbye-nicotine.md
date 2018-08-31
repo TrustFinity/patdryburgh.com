@@ -88,4 +88,4 @@ It might just take a few tries to find it.
 
 ---
 
-_My thanks to Darren Case at [22shapes](https://www.22shapes.com/) for the cigarette animation. Thanks also to Chris Gonzales at [Stellar Edits](http://www.stellaredits.com) for his help editing this post and my partner, Andrea, for helping me with basic mathematics._
+_My thanks to [Darren Case](https://twitter.com/astro_case) at [22shapes](https://www.22shapes.com/) for the cigarette animation. Thanks also to [Chris Gonzales](https://twitter.com/Gromble) at [Stellar Edits](http://www.stellaredits.com) for his help editing this post and my partner, Andrea, for helping me with basic mathematics._
