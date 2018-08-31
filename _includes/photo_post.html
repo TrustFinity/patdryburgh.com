@@ -1,4 +1,7 @@
 {% assign words = content | number_of_words %}
+{% capture post_photo_class %}
+  post__photo--{{ page.photo | remove: "/images/uploads/" | replace: ".", "-" }}
+{% endcapture %}
 
 <article class="post">
 
@@ -9,7 +12,7 @@
   </div>
 
   {% if page.photo %}
-    <figure class="post__photo">
+    <figure class="post__photo {{ post_photo_class }}">
       <img src="{{ page.photo | absolute_url }}" alt="{{ page.title }}">
     </figure>
   {% endif %}

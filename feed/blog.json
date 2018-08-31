@@ -13,6 +13,7 @@ permalink: /feed/blog.json
     "expired": false,
     "items": [
     {% for post in site.categories.blog limit: 15 %}
+        {% unless post.draft %}
         {% capture spacer %} src="{{ '/images/site/spacer.gif' | absolute_url }}"{% endcapture %}
         {% capture content_text %}{{ post.content | replace: 'data-echo', 'src' | replace: spacer, '' | strip_html | strip_newlines }}{% endcapture %}
         {% capture content_html %}{% if post.subtitle %}{{ post.subtitle | prepend: '<h2>' | append: '</h2>' }}{% endif %}{{ post.content | replace: 'data-echo', 'src' | replace: spacer, '' | markdownify }}{% endcapture %}
@@ -29,7 +30,7 @@ permalink: /feed/blog.json
             "author": {
                 "name": "{{ site.title }}"
             }
-        }{% if forloop.last == false %},{% endif %}
+        }{% if forloop.last == false %},{% endif %}{% endunless %}
     {% endfor %}
     ]
 }
