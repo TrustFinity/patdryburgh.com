@@ -3,11 +3,16 @@
 <meta property="og:title" 
       content="{% if page.title %}{{ page.title }} &mdash; 
       {% endif %}{{ site.title }}" />
+<meta name="twitter:title"
+      content="{% if page.title %}{{ page.title }} &mdash; 
+      {% endif %}{{ site.title }}">
 <meta property="og:url" 
       content="{{ page.url | replace:'index.html','' | absolute_url | absolute_url }}" />
 <meta property="og:description"
       name="description"
       content="{% if page.home %}{{ site.description }}{% else %}{{ page.content | strip_html | strip_newlines | truncate: 160 }}{% endif %}" />
+<meta name="twitter:description"
+      content="{% if page.home %}{{ site.description }}{% else %}{{ page.content | strip_html | strip_newlines | truncate: 160 }}{% endif %}">
 
 {% if page.home %}
   <meta property="og:type" content="website" />
@@ -18,11 +23,19 @@
 {% endif %}
 
 {% if page.photo %}
+  <meta name="twitter:card" content="summary_large_image">
   <meta property="og:image" content="{{ page.photo | replace: 'gif', 'png' | absolute_url }}" />
+  <meta name="twitter:image" content="{{ page.photo | replace: 'gif', 'png' | absolute_url }}">
 {% elsif post.photo %}
+  <meta name="twitter:card" content="summary_large_image">
   <meta property="og:image" content="{{ post.photo | replace: 'gif', 'png' |absolute_url }}" />
+  <meta name="twitter:image" content="{{ post.photo | replace: 'gif', 'png' |absolute_url }}">
 {% else %}
+  <meta name="twitter:card" content="summary">
   <meta property="og:image" content="{{ '/images/site/pat.png' | absolute_url }}" />
 {% endif %}
+
+<meta name="twitter:site" content="@patdryburgh">
+<meta name="twitter:creator" content="@patdryburgh">
 
 <link href="https://micro.blog/pat" rel="me" />
