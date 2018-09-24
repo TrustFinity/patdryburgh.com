@@ -1,6 +1,6 @@
 ---
 title: Introducing “A Wonderful Shop of Wonderful Wonders”
-date: 2018-09-24 3:25:00 -0400
+date: 2018-09-24 3:29:00 -0400
 layout: post
 photo: /images/uploads/wonderful-shop.png
 categories:
