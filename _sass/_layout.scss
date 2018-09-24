@@ -50,7 +50,8 @@
       grid-column: right-col-start / grid-end;
     }
   }
-  .post__content {
+  .post__content,
+  .footer__content {
     grid-column: right-col-start / right-col-end;
     grid-row: row-1 / row-end;
     .post__heading + & {
@@ -344,7 +345,6 @@ $longer: 61.8034%;
 .footer {
   @include m(top);
   @include p(bottom);
-  max-width: $content-width;
   @media (max-width: $on-tablet) {
     br {
       display: none;

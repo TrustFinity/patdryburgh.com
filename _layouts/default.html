@@ -23,21 +23,25 @@
 
     </main>
     
-    <footer class="footer container">
+    <footer class="footer container wrapper">
 
-      {% unless page.categories contains 'design' %}
-        {% unless page.browser_title == 'Subscribe' %}
-          {% include newsletter.html %}
+      <div class="footer__content">
+
+        {% unless page.categories contains 'design' %}
+          {% unless page.browser_title == 'Subscribe' %}
+            {% include newsletter.html %}
+          {% endunless %}
         {% endunless %}
-      {% endunless %}
 
-      {% include navigation.html %}
+        {% include navigation.html %}
 
-      <p class="small">
-        If you enjoy <a href="{{ '/blog/' | absolute_url }}" >my writing</a>, you should <a href="{{ '/subscribe/' | absolute_url }}">subscribe</a> and <a href="{{ site.micro_blog }}">follow me on Micro.blog</a>. <br />If you prefer to take things slow, <a href="{{ '/about/' | absolute_url }}">get to know me</a> a bit better first.
-      </p>
+        <p class="small">
+          If you enjoy <a href="{{ '/blog/' | absolute_url }}" >my writing</a>, you should <a href="{{ '/subscribe/' | absolute_url }}">subscribe</a> and <a href="{{ site.micro_blog }}">follow me on Micro.blog</a>. <br />If you prefer to take things slow, <a href="{{ '/about/' | absolute_url }}">get to know me</a> a bit better first.
+        </p>
 
-      {% include search.html %}
+        {% include search.html %}
+
+      </div>
 
     </footer>
 
