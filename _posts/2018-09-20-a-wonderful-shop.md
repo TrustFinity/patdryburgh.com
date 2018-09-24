@@ -46,7 +46,7 @@ A few hours later and [the design was available for purchase][an].
 I just collect the money.
 
 <figure class="extra-wide">
-  <a href="https://awonderful.shop" title="Visit A Wonderful Shop of Wonderful Wonders">
+  <a href="http://awonderful.shop" title="Visit A Wonderful Shop of Wonderful Wonders">
     <img 
       src="{{ '/images/site/spacer.gif' | absolute_url }}"
       data-echo="{{ '/images/uploads/wonderful-products.jpg' | absolute_url }}"
