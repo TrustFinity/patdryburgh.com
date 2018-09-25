@@ -5,10 +5,10 @@ permalink: "/now/"
 layout: post
 ---
 
-- Living in Vancouver, BC and figuring out what's next
-- Reading *[Roughing it in the Bush](https://en.wikipedia.org/wiki/Roughing_it_in_the_Bush)* by Susanna Moodie
-- Saving quotes in my very first app, [Quotational][qu]
+- Living and freelancing in Vancouver, BC
+- Climbing lots of mountains
+- Reading *[Small Giants][sg]* by Bo Burlingham
+- Selling apparel, home decor, and accessories at [A Wonderful Shop of Wonderful Wonders][ww]
 
-[en]: http://ensibuuko.com
-[ku]: /blog/designing-in-uganda
-[qu]: http://quotation.al
+[sg]: https://www.amazon.com/gp/product/1591841496/
+[ww]: http://awonderful.shop
