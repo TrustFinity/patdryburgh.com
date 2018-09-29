@@ -45,7 +45,15 @@ A few hours later and [the design was available for purchase][an].
 
 I just collect the money.
 
----
+<figure class="extra-wide">
+  <a href="http://awonderful.shop" title="Visit A Wonderful Shop of Wonderful Wonders">
+    <img 
+      src="{{ '/images/site/spacer.gif' | absolute_url }}"
+      data-echo="{{ '/images/uploads/wonderful-products.jpg' | absolute_url }}"
+      alt="Visit A Wonderful Shop of Wonderful Wonders"
+    >
+  </a>
+</figure>
 
 To celebrate the launch of the shop, I'm offering a promotional discount on all products on the store. The promotional period will end when I remember to log into Threadless to turn it off.
 
