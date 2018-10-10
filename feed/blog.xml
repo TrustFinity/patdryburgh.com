@@ -29,9 +29,7 @@ layout:
               {% assign photo = '' %}
             {% endif %}
             {% if photo != '' %}
-              <figure>
-                <img src="{{ photo | absolute_url }}" alt="{{ post.content | replace: 'data-echo', 'src' | replace: spacer, '' | strip_html | strip_newlines | xml_escape | truncatewords: 15 }}"/>
-              </figure>
+              <img src="{{ photo | absolute_url }}" alt="{{ post.content | replace: 'data-echo', 'src' | replace: spacer, '' | strip_html | strip_newlines | xml_escape | truncatewords: 15 }}"/>
             {% endif %}
             {% assign photo = '' %}
             {{ post.content | replace: 'data-echo', 'src' | replace: spacer, '' | xml_escape }}
