@@ -34,6 +34,19 @@ layout: null
             {% if post.subtitle %}
               {{ post.subtitle | prepend: '<h2>' | append: '</h2>' | xml_escape }}
             {% endif %}
+            {% if post.mf-photo and post.mf-photo != "" %}
+              {% assign photo = post.mf-photo[0] %}
+            {% elsif post.photo %}
+              {% assign photo = post.photo %}
+            {% else %}
+              {% assign photo = '' %}
+            {% endif %}
+            {% if photo != '' %}
+              <figure>
+                <img src="{{ photo | absolute_url }}" alt="{{ post.content | replace: 'data-echo', 'src' | replace: spacer, '' | strip_html | strip_newlines | xml_escape | truncatewords: 15 }}"/>
+              </figure>
+            {% endif %}
+            {% assign photo = '' %}
             {{ post.content | replace: 'data-echo', 'src' | replace: spacer, '' | xml_escape }}
             {% if reference %}
               {{ reference | xml_escape }}

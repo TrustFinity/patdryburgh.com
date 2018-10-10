@@ -17,20 +17,27 @@ permalink: /feed/blog.json
         {% capture spacer %} src="{{ '/images/site/spacer.gif' | absolute_url }}"{% endcapture %}
         {% capture content_text %}{{ post.content | replace: 'data-echo', 'src' | replace: spacer, '' | strip_html | strip_newlines }}{% endcapture %}
         {% capture content_html %}{% if post.subtitle %}{{ post.subtitle | prepend: '<h2>' | append: '</h2>' }}{% endif %}{{ post.content | replace: 'data-echo', 'src' | replace: spacer, '' | markdownify }}{% endcapture %}
+        {% if post.mf-photo and post.mf-photo != "" %}
+          {% assign photo = post.mf-photo[0] %}
+        {% elsif post.photo %}
+          {% assign photo = post.photo %}
+        {% else %}
+          {% assign photo = '' %}
+        {% endif %}
         {
             "id": "{{ post.url | absolute_url | sha1 }}",
             "title": {{ post.title | jsonify }},
             "content_text": {{ content_text | jsonify }},
             "content_html": {{ content_html | jsonify }},
             "url": "{{ post.url | absolute_url }}",
-            {% if post.photo.size > 1 %}"image": "{{ post.photo | absolute_url }}",{% endif %}
+            {% if photo != '' %}"image": "{{ photo | absolute_url }}",{% endif %}
             {% if post.link.size > 1 %}"external_url": "{{ post.link }}",{% endif %}
             "date_published": "{{ post.date | date_to_xmlschema }}",
             "date_modified": "{{ post.date | date_to_xmlschema }}",
             "author": {
                 "name": "{{ site.title }}"
             }
-        }{% if forloop.last == false %},{% endif %}{% endunless %}
+        }{% if forloop.last == false %},{% endif %}{% assign photo = '' %}{% endunless %}
     {% endfor %}
     ]
 }

@@ -12,7 +12,7 @@ layout:
     <pubDate>{{ site.time | date_to_rfc822 }}</pubDate>
     <lastBuildDate>{{ site.time | date_to_rfc822 }}</lastBuildDate>
     <generator>Jekyll v{{ jekyll.version }}</generator>
-    {% for post in site.categories.micro %}
+    {% for post in site.categories.social %}
       {% unless post.draft %}
         {% capture spacer %}src="{{ '/images/site/spacer.gif' | absolute_url }}"{% endcapture %}
         {% if post.link %}
@@ -23,6 +23,19 @@ layout:
         <item>
           {% if post.link %}<title>{{ post.title | xml_escape }} {{ '→' | xml_escape }}</title>{% endif %}
           <description>
+            {% if post.mf-photo and post.mf-photo != "" %}
+              {% assign photo = post.mf-photo[0] %}
+            {% elsif post.photo %}
+              {% assign photo = post.photo %}
+            {% else %}
+              {% assign photo = '' %}
+            {% endif %}
+            {% if photo != '' %}
+              <figure>
+                <img src="{{ photo | absolute_url }}" alt="{{ post.content | replace: 'data-echo', 'src' | replace: spacer, '' | strip_html | strip_newlines | xml_escape | truncatewords: 15 }}"/>
+              </figure>
+            {% endif %}
+            {% assign photo = '' %}
             {{ post.content | replace: 'data-echo', 'src' | replace: spacer, '' | xml_escape }}
             {% if reference %}
               {{ reference | xml_escape }}
