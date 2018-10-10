@@ -42,8 +42,11 @@ layout: null
               {% assign photo = '' %}
             {% endif %}
             {% if photo != '' %}
-              <img src="{{ photo | absolute_url }}" alt="{{ post.content | replace: 'data-echo', 'src' | replace: spacer, '' | strip_html | strip_newlines | xml_escape | truncatewords: 15 }}"/>
+              {% capture img %}
+                <img src="{{ photo | absolute_url }}" alt="{{ post.content | replace: 'data-echo', 'src' | replace: spacer, '' | strip_html | strip_newlines | xml_escape | truncatewords: 15 }}"/>
+              {% endcapture %}
             {% endif %}
+            {{ img | xml_escape }}
             {% assign photo = '' %}
             {{ post.content | replace: 'data-echo', 'src' | replace: spacer, '' | xml_escape }}
             {% if reference %}
