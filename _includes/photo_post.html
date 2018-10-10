@@ -1,6 +1,6 @@
 {% assign words = content | number_of_words %}
 {% capture post_photo_class %}
-  post__photo--{{ page.photo | remove: "/images/uploads/" | replace: ".", "-" }}
+  post__photo--{{ include.photo | remove: "/images/uploads/" | replace: ".", "-" }}
 {% endcapture %}
 
 <article class="post">
@@ -11,9 +11,11 @@
 
   </div>
 
-  {% if page.photo %}
+  {% if include.photo %}
     <figure class="post__photo {{ post_photo_class }}">
-      <img src="{{ page.photo | absolute_url }}" alt="{{ page.title }}">
+      <a href="{{ page.url | absolute_url }}">
+        <img src="{{ include.photo | absolute_url }}" alt="{{ page.title }}">
+      </a>
     </figure>
   {% endif %}
   
@@ -21,7 +23,7 @@
   
     <section class="post__content">
       
-      {{ content | markdownify }}
+      {{ page.content | markdownify }}
 
       {% if page.categories contains 'design' %}
         {% include design_cta.html %}

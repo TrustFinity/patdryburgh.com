@@ -2,8 +2,16 @@
 layout: default
 ---
 
-{% if page.photo %}
-  {% include photo_post.html %}
+{% if page.mf-photo and page.mf-photo != '' %}
+  {% assign photo = page.mf-photo[0] %}
+{% elsif page.photo %}
+  {% assign photo = page.photo %}
+{% endif %}
+
+{% if photo %}
+  {% include photo_post.html photo=photo %}
 {% else %}
   {% include post.html %}
 {% endif %}
+
+{% assign photo = '' %}

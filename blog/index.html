@@ -12,16 +12,24 @@ title: Blog
     {% assign page = post %}
     {% assign content = post.content %}
     {% assign words = content | number_of_words %}
+    
+    {% if page.mf-photo and page.mf-photo != "" %}
+      {% assign photo = page.mf-photo[0] %}
+    {% elsif page.photo %}
+      {% assign photo = page.photo %}
+    {% endif %}
 
     {% unless page.draft %}
       
-      {% if page.photo %}
-        {% include photo_post.html %}
+      {% if photo != '' %}
+        {% include photo_post.html photo=photo %}
       {% else %}
         {% include post.html %}
       {% endif %}
 
     {% endunless %}
+
+    {% assign photo = '' %}
 
   {% endfor %}
 
