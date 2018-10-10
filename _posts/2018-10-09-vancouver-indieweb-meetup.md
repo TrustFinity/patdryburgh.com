@@ -12,7 +12,7 @@ category: blog
 5. Blogging is, was, and always will be fun.
 6. It really shouldn't be so difficult to own your own content.
 7. It would be really, really sweet if we can find a way to make owning your own content super simple and then take what we learn and apply it to the problem of distributing capital to those who need it most.
-8. We should consider changing the name from the “Vancouver Indieweb Meetup” to the “[Vancouver Homebrew Website Club][hwc]” to assimilate ourselves with the broader community and to make it easier for those in the IndieWeb community who are visiting Vancouver to find us.
+8. <del>We should consider changing the name from the “Vancouver Indieweb Meetup” to the “[Vancouver Homebrew Website Club][hwc]” to assimilate ourselves with the broader community and to make it easier for those in the IndieWeb community who are visiting Vancouver to find us.</del> According to Eddie Hinkle, [IndieWeb organizers are strongly considering rebranding Homebrew Website Club to IndieWeb Meetups][eh], which means we're on [the forefront of the future][ff]!
 9. We should also consider committing to meeting every other Wednesday night as prescribed in the IndieWeb wiki to encourage consistency within our community. Also because I thought it was just so friggin' awesome.
 
 Thanks to Boris for organizing and to [Milano Gastown][mg] for hosting us! Keep an [eye open][eo] for when the next meetup is announced.
@@ -28,3 +28,5 @@ Thanks to Boris for organizing and to [Milano Gastown][mg] for hosting us! Keep 
 [eo]: https://patdryburgh.com/subscribe/
 [ig]: https://patdryburgh.com/social/57970/
 [li]: https://shopify.github.io/liquid/
+[eh]: https://eddiehinkle.com/2018/10/10/6/reply/
+[ff]: https://eddiehinkle.com/2018/10/10/12/reply/
