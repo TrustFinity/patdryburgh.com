@@ -351,3 +351,43 @@ $longer: 61.8034%;
     }
   }
 }
+
+// Events
+
+.event-wrapper {
+  border: 1px solid $grey-color;
+  padding: $spacing-unit;
+}
+
+.event-intro {
+  color: $grey-color;
+  font-family: $secondary-font-family;
+  font-size: .75rem;
+  line-height: 1.25;
+  margin: 0 0 .225rem;
+  text-transform: uppercase;
+  font-variant-numeric: lining-nums;
+  -moz-font-feature-settings: "lnum";
+  -webkit-font-feature-settings: "lnum";
+  font-feature-settings: "lnum";
+}
+
+.event-title {
+  border-bottom: 1px solid rgba($grey-color, .2);
+  font-size: 1.25em;
+  font-weight: 700;
+  margin: 0 0 1rem;
+  padding-bottom: .5em;
+}
+
+.event-date {
+  font-weight: 700;
+}
+
+.event-venue {
+  margin-top: $spacing-unit / 2;
+}
+
+.event-venue [property="name"] {
+  font-weight: 700;
+}

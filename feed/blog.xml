@@ -32,8 +32,8 @@ layout:
               {% capture img %}
                 <img src="{{ photo | absolute_url }}" alt="{{ post.content | replace: 'data-echo', 'src' | replace: spacer, '' | strip_html | strip_newlines | xml_escape | truncatewords: 15 }}"/>
               {% endcapture %}
+              {{ img | xml_escape }}
             {% endif %}
-            {{ img | xml_escape }}
             {% assign photo = '' %}
             {{ post.content | replace: 'data-echo', 'src' | replace: spacer, '' | xml_escape }}
           </description>
