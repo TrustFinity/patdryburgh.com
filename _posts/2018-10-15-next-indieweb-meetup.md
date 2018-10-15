@@ -8,7 +8,7 @@ photo: /images/uploads/imv-18-10-24.jpg
 
 Shortly after posting [my thoughts about last week's inaugural IndieWeb Meetup](https://patdryburgh.com/blog/vancouver-indieweb-meetup/), Boris let me know that he will be traveling through November and December and that [the responsibility for organizing the next meetup would fall to me](https://micro.blog/boris/954100).
 
-I had such an amazing time at the first meet up that I was more than ok with that. And so without further adieu, I'm pleased to announce the second IndieWeb Meetup Vancouver.
+I had such an amazing time at the first meet up that I was more than ok with that. And so without further ado, I'm pleased to announce the second IndieWeb Meetup Vancouver.
 
 <div vocab="http://schema.org/" class="event-wrapper">
   <div class="event-intro">You're invited to attend the next</div>
