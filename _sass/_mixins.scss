@@ -28,7 +28,10 @@
 }
 
 @mixin p($side) {
-  padding-#{$side}: $spacing-unit;
+  padding-#{$side}: ($spacing-unit / 2);
+  @media (min-width: $on-bigphone) {
+    padding-#{$side}: $spacing-unit;
+  }
   @media (min-width: $on-tablet) {
     padding-#{$side}: $spacing-unit * 2;
   }
