@@ -16,7 +16,7 @@ categories:
 
 </style>
 
-It was at a pool party in my parents' backyard in the summer of 2012 when I first became addicted to nicotine. I was back in Ontario to visit friends and family for the first time since moving to British Columbia. The day began in an old floating chair with a bottle of Corona while waiting for my friends to arrive.
+It was at a pool party in my parents' backyard in the summer of 2012 when I first became addicted to nicotine. I was back in Ontario to visit friends and family for the first time since [moving to British Columbia](https://patdryburgh.com/blog/vancouver/). The day began in an old floating chair with a bottle of Corona while waiting for my friends to arrive.
 
 By this time, I'd lost my religion. It had been several years since my first time getting drunk. I'd finally come to understand why so many people were into the sexual revolution of the '60s. My language was chock-full of vulgarity that, on more than one occasion, raised the ire of my cool-tongued parents.
 
