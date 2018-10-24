@@ -65,7 +65,7 @@
     position: relative;
     text-decoration: none;
     z-index: 1;
-    &:before {
+    &::before {
       background: $brand-color;
       content: "";
       display: block;
@@ -79,12 +79,17 @@
       transform-origin: top left;
       transition: transform .125s ease-in-out;
     }
+    &.menu__listitem--active,
     &:hover {
       color: $background-color;
       text-decoration: none;
     }
-    &:hover:before {
+    &.menu__listitem--active::before,
+    &:hover::before {
       transform: scaleX(1) skew(-2.5deg) rotate(-.75deg);
+    }
+    &.menu__listitem--active::before {
+      background: rgba($brand-color, .5);
     }
   }
 }

@@ -16,13 +16,13 @@
 }
 
 .btn-bordered {
-  background-color: $background-color;
-  border: 1px solid $brand-color;
+  background-color: $brand-color;
+  color: $background-color;
   padding: .5em .75em;
   border-radius: .125em;
   &:hover,
   &:focus {
-    background-color: $brand-color !important;
+    background-color: darken($brand-color, 10%) !important;
     color: $background-color;
     text-shadow: none;
   }
