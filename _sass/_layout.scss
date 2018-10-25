@@ -391,3 +391,14 @@ $longer: 61.8034%;
 .event-venue [property="name"] {
   font-weight: 700;
 }
+
+.skip-navigation {
+  transition: top .125s ease-in-out;
+  position: absolute;
+  top: -2.625rem;
+  right: 1rem;
+  &:hover,
+  &:focus {
+    top: 1rem;
+  }
+}

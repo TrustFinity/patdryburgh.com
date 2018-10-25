@@ -234,8 +234,13 @@ a {
     color: lighten($text-color, 5%);
   }
 
-  &:hover {
+  &:hover,
+  &:focus {
     text-decoration: none;
+  }
+
+  &:focus {
+    outline: 1px dashed $brand-color;
   }
 
   .post__content &,

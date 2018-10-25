@@ -28,7 +28,11 @@
   }
   &:focus,
   &:active {
+    border-color: $brand-color;
     outline: none;
+    &::after {
+      background: $brand-color;
+    }
   }
 }
 

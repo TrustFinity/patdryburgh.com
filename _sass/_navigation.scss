@@ -80,12 +80,15 @@
       transition: transform .125s ease-in-out;
     }
     &.menu__listitem--active,
-    &:hover {
+    &:hover,
+    &:focus {
       color: $background-color;
       text-decoration: none;
+      outline: none;
     }
     &.menu__listitem--active::before,
-    &:hover::before {
+    &:hover::before,
+    &:focus::before {
       transform: scaleX(1) skew(-2.5deg) rotate(-.75deg);
     }
     &.menu__listitem--active::before {

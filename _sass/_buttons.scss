@@ -10,6 +10,8 @@
   &:hover,
   &:focus {
     color: $text-color;
+    outline: 1px dashed $brand-color;
+    outline-offset: 2px;
     text-decoration: none;
     @include text-shadow(2px);
   }

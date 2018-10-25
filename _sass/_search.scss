@@ -114,4 +114,11 @@ $search-button-size: 20px;
     margin-left: 2px; // account for border width
     transform: rotate(0);
   }
+  &:hover,
+  &:focus {
+    &::before,
+    &::after {
+      border-color: $brand-color;
+    }
+  }
 }
